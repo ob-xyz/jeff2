@@ -27,7 +27,7 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Jeffamazon - Thank God it's Morning.",
+  title: "Jeffamazon - Thank God it's Morning",
   description: "Jeffamazon is the front page of the internet, delivered to your email inbox.",
   viewport: "width=device-width,initial-scale=1",
 });
