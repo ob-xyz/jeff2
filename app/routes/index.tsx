@@ -25,7 +25,7 @@ export default function Index() {
       <div className="text">
          <p>Thank God it's Morning</p>
          <p>Jeffamazon is the front page of the internet,</p>
-         <p>delivered to your inbox.</p>
+         <p>conveniently delivered to you.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
