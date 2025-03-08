@@ -24,7 +24,7 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <p>Thank God it's Morning</p>
-         <p>Jeffamazon is the front page of the internet,</p>
+         <p>Get the front page of the internet,</p>
          <p>delivered to you.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
