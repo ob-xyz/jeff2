@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import logo from "~/../public/img/ja1.jpg";
+import logo from "~/../public/img/logo.png";
 
 export default function Index() {
   useEffect(() => {
@@ -23,13 +23,12 @@ export default function Index() {
       </div>
       <div className="inner-content">
       <div className="text">
-         <p>Thank God it's Here.</p>
-         <p>Get the front page of business and tech,</p>
-         <p>delivered to you.</p>
+         <h1>For the People.</h1>
+         <p>The leading publication for the real thinkers and doers in the world.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
-          <p><input className="submit" type="submit" value="Subscribe" /></p>
+          <p><input className="submit" type="submit" value="Get access" /></p>
           <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
           <input id="3a575" type="hidden" name="l" checked value="3a575627-dc5a-4d06-b627-05ca13da2e85" />
           <input type="hidden" name="nonce" />
