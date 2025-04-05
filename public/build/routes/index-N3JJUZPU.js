@@ -40,7 +40,7 @@ function Index() {
           lineNumber: 26,
           columnNumber: 10
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The leading publication top tech execs and entrepreneurs read daily." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The world's #1 publication top tech execs and entrepreneurs read daily." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
           columnNumber: 10
@@ -103,4 +103,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-Z23NEUAU.js.map
+//# sourceMappingURL=/build/routes/index-N3JJUZPU.js.map

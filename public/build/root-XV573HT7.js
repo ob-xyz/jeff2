@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-BJNIPPY6.css";
+var global_default = "/build/_assets/global-LT3PTDME.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "The leading publication top tech execs and entrepreneurs read daily.",
+  description: "The world's #1 publication top tech execs and entrepreneurs read daily.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-GGAM3SLH.js.map
+//# sourceMappingURL=/build/root-XV573HT7.js.map
