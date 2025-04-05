@@ -87,9 +87,6 @@
 }
 
 @media screen and (max-width: 655px) {
-  .container img {
-    width: 23.5rem;
-  }
   .container .inner-content .text h1 {
     font-size: 1.75rem;
   }
