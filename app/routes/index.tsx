@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import logo from "~/../public/img/logo.png";
+import logo from "~/../public/img/logo-sm.png";
 
 export default function Index() {
   useEffect(() => {

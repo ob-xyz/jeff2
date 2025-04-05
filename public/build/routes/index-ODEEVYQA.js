@@ -7,8 +7,8 @@ import {
 // app/routes/index.tsx
 var import_react = __toESM(require_react());
 
-// public/img/logo.png
-var logo_default = "/build/_assets/logo-TXIAB6UK.png";
+// public/img/logo-sm.png
+var logo_sm_default = "/build/_assets/logo-sm-IUBNROHF.png";
 
 // app/routes/index.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -24,7 +24,7 @@ function Index() {
     };
   }, []);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: logo_default }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: logo_sm_default }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 22,
       columnNumber: 9
@@ -103,4 +103,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-TU3HCF7G.js.map
+//# sourceMappingURL=/build/routes/index-ODEEVYQA.js.map

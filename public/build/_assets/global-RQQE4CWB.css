@@ -33,9 +33,9 @@
 }
 .container img {
   background: none;
-  margin: .5rem 0 3.5rem;
-  border-radius: .75rem;
-  width: 27.5rem;
+  margin: 1rem 0 2.5rem 0rem;
+  width: 3.5rem;
+  border-radius: .5rem;
 }
 .container .inner-content {
   display: flex;
