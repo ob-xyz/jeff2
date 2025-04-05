@@ -23,8 +23,8 @@ export default function Index() {
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>For the Doers.</h1>
-         <p>The leading newsletter results driven tech execs and founders read daily.</p>
+         <h1>To the Top.</h1>
+         <p>The leading newsletter high networth people read daily.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
