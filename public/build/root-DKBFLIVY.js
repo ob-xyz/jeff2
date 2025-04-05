@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-WORKSU4S.css";
+var global_default = "/build/_assets/global-UUCON73Q.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -31,8 +31,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "The Poast - For the People.",
-  description: "The leading publication for the real thinkers and doers in the world.",
+  title: "The Poast",
+  description: "The leading publication top tech execs and entrepreneurs read daily.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-4GK45ANB.js.map
+//# sourceMappingURL=/build/root-DKBFLIVY.js.map

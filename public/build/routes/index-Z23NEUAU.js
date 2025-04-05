@@ -8,7 +8,7 @@ import {
 var import_react = __toESM(require_react());
 
 // public/img/logo.png
-var logo_default = "/build/_assets/logo-DDUILBMA.png";
+var logo_default = "/build/_assets/logo-DKEFHECJ.png";
 
 // app/routes/index.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -35,12 +35,12 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "For the People." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Top of the Top." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 26,
           columnNumber: 10
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The leading publication for the real thinkers and doers in the world." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The leading publication top tech execs and entrepreneurs read daily." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
           columnNumber: 10
@@ -103,4 +103,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-WMTYTURH.js.map
+//# sourceMappingURL=/build/routes/index-Z23NEUAU.js.map

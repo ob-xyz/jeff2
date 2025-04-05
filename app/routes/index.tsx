@@ -23,7 +23,7 @@ export default function Index() {
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>To the Top.</h1>
+         <h1>Top of the Top.</h1>
          <p>The leading publication top tech execs and entrepreneurs read daily.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
