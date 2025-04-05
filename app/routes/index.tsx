@@ -23,7 +23,7 @@ export default function Index() {
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>For the Thinkers and Doers.</h1>
+         <h1>For the People.</h1>
          <p>The leading publication for the greatest thinkers and doers in the world.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
