@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "The Poast - Not Your Average Poast",
-  description: "The Poast is the best daily read for high-powered tech execs and founders.",
+  description: "The Poast is the best daily read for high-agency tech execs and founders.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-YGRWIPJN.js.map
+//# sourceMappingURL=/build/root-LAZCXQ2U.js.map
