@@ -40,7 +40,7 @@ function Index() {
           lineNumber: 26,
           columnNumber: 10
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The Poast is the best daily read for highly productive tech execs and founders." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The Poast is the best daily read for high-powered tech execs and founders." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
           columnNumber: 10
@@ -103,4 +103,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-YCSTBRTY.js.map
+//# sourceMappingURL=/build/routes/index-ZUCSAVTP.js.map

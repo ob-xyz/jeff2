@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-FWJGPBSU.css";
+var global_default = "/build/_assets/global-RTZG4HNA.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "The Poast - Not Your Average Poast",
-  description: "The Poast is the best daily read for highly productive tech execs and founders.",
+  description: "The Poast is the best daily read for high-powered tech execs and founders.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-SI7QF3YY.js.map
+//# sourceMappingURL=/build/root-YGRWIPJN.js.map
