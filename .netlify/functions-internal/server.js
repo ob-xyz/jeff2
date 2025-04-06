@@ -61,7 +61,7 @@ var global_default = "/build/_assets/global-3T77F5FH.css";
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
   {
     rel: "icon",
-    href: "/favicon.png",
+    href: "/favicon.ico",
     type: "image/png"
   },
   {
@@ -86,11 +86,6 @@ function App() {
         fileName: "app/root.tsx",
         lineNumber: 40,
         columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("link", { rel: "icon", href: "/favicon.ico" }, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 41,
-        columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
@@ -100,27 +95,27 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Outlet, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 44,
+        lineNumber: 43,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 45,
+        lineNumber: 44,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 46,
+        lineNumber: 45,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 47,
+        lineNumber: 46,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
-      lineNumber: 43,
+      lineNumber: 42,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
@@ -227,7 +222,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-37Q3XAD4.js", imports: ["/build/_shared/chunk-53DSXGTP.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-H7OSGAJG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-ODEEVYQA.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "6bcd8603", hmr: void 0, url: "/build/manifest-6BCD8603.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YJAMVEYY.js", imports: ["/build/_shared/chunk-JJ2U7BLG.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Q2EKKHF7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-ODEEVYQA.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "5d8265e4", hmr: void 0, url: "/build/manifest-5D8265E4.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
