@@ -24,7 +24,7 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <h1>World's #1 Poasts!</h1>
-         <p>Read daily by the most influential tech execs and entrepreneurs in the world.</p>
+         <p>The Poast is read daily by the most influential tech execs and entrepreneurs in the world.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
