@@ -38,7 +38,8 @@ export default function App() {
       <head>
         <Meta />
         <Links />
-      </head>
+        <link rel="icon" href="/favicon.ico" />
+        </head>
       <body>
         <Outlet />
         <ScrollRestoration />
