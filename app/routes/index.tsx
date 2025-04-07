@@ -24,7 +24,7 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <h1>The Latest News Posts.</h1>
-         <p>The Poast is the quickest way for you to get the latest daily news posts you can trust.</p>
+         <p>The Poast is the quickest way for you to get the daily global news posts you can trust.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
