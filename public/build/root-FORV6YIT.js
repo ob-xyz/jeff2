@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-G4LP67WN.css";
+var global_default = "/build/_assets/global-5I7O3YTM.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "The Poast - Business, Boiled Down.",
-  description: "We boil down and light up your inbox with easy-to-digest news, market insights, and hot take trends that matter more every day.",
+  description: "We boil down and light up your inbox with enjoyable business news, unmatched insights, and trending hot takes that matter more every day.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-4V46H7FR.js.map
+//# sourceMappingURL=/build/root-FORV6YIT.js.map
