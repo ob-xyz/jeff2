@@ -35,12 +35,12 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Get Smarter About the World." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Business, Boiled Down to 5 mins or less." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 26,
           columnNumber: 10
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The Poast lights up your inbox with easy-to-digest news, market insights, and hot take trends that matter more every day." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The Poast boils down and lights up your inbox with easy-to-digest news, market insights, and hot take trends that matter more every day." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
           columnNumber: 10
@@ -103,4 +103,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-BE6C3HCT.js.map
+//# sourceMappingURL=/build/routes/index-PMNAOCPI.js.map
