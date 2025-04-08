@@ -23,8 +23,8 @@ export default function Index() {
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>Business, Boiled Down to 5 minutes or less.</h1>
-         <p>The Poast lights up your inbox with enjoyable business news, unmatched insights, and boiling hot takes that matter more every day.</p>
+         <h1>FOR THE TRUE FANS.</h1>
+         <p>Every day The Poast lights up your inbox with enjoyable sports posts, unmatched insights, and big play hot takes that matter.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
