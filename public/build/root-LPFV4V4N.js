@@ -5,14 +5,14 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "/build/_shared/chunk-ALNUDS4S.js";
+} from "/build/_shared/chunk-C6F4WINO.js";
 import {
   __toESM,
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-W5IXJW27.css";
+var global_default = "/build/_assets/global-FBMVNRYJ.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Daily Sports Newsletter at The Poast",
-  description: "The Poast is the best newsletter for the next generation of true sports fans.",
+  description: "The Poast is the leading newsletter for the next generation of true sports fans.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-LKT2GRSG.js.map
+//# sourceMappingURL=/build/root-LPFV4V4N.js.map
