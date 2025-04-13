@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-NJWTB6TB.css";
+var global_default = "/build/_assets/global-G7EAJXD6.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "Your daily win or L? newsletter.",
+  description: "Know what's going on in Canada, The Poast is the leading newsletter for Canada business and policy news.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-IMVGSF5K.js.map
+//# sourceMappingURL=/build/root-GW4IZMMQ.js.map

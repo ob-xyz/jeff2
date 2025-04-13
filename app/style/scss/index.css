@@ -18,13 +18,12 @@
   font-weight: bold;
   font-size: 2.25rem;
   padding: 0 0 0.5rem 0;
-  width: 38%;
 }
 .container .inner-content .text p {
   text-align: center;
-  width: 55%;
+  width: 80%;
   font-size: 1.2rem;
-  line-height: 1.65rem;
+  line-height: 1.85rem;
 }
 .container .inner-content .text b {
   font-weight: bold;

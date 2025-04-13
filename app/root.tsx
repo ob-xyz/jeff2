@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "Your daily win or L? newsletter.",
+  description: "Know what's going on in Canada, The Poast is the leading newsletter for Canada business and policy news.",
   viewport: "width=device-width,initial-scale=1",
 });
 
