@@ -6,6 +6,7 @@
         margin:1rem 0 2.5rem 0rem;
         width: 3.5rem;
         border-radius:.5rem;
+        border: .2rem solid #000;
     }
 .inner-content{
         display: flex;
@@ -18,14 +19,17 @@
         font-size:2.25rem;
         padding:0 0 .5rem 0;
     }
-    p{
+    p, span{
         text-align: center;
         width:60%;
         font-size:1.2rem;
         line-height: 1.85rem;
     }
-    b{
-        font-weight:bold;
+    .red{
+        color: $red;
+    }
+    .blk{
+        color:$black;
     }
 }
 input{

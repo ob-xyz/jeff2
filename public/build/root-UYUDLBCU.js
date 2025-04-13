@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-L6WUAYSC.css";
+var global_default = "/build/_assets/global-XFRZ7F5Q.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -31,7 +31,7 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Weekly Canadian Newsletter on Business & Policy at The Poast",
+  title: "Weekly Canada Business Newsletter at The Poast",
   description: "The Poast helps people like me and you know what's going on in Canada.",
   viewport: "width=device-width,initial-scale=1"
 });
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-3QYKQVZK.js.map
+//# sourceMappingURL=/build/root-UYUDLBCU.js.map

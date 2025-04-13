@@ -8,7 +8,7 @@ import {
 var import_react = __toESM(require_react());
 
 // public/img/logo-sm.png
-var logo_sm_default = "/build/_assets/logo-sm-IUBNROHF.png";
+var logo_sm_default = "/build/_assets/logo-sm-OMUGKHNT.png";
 
 // app/routes/index.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -40,7 +40,19 @@ function Index() {
           lineNumber: 26,
           columnNumber: 10
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The Poast helps people like me and you know what's going on in Canada." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
+          "The Poast helps people like me and you know what's going on in ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("u", { className: "red", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "blk", children: "Canada" }, void 0, false, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 27,
+            columnNumber: 95
+          }, this) }, void 0, false, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 27,
+            columnNumber: 76
+          }, this),
+          "."
+        ] }, void 0, true, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
           columnNumber: 10
@@ -103,4 +115,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-B4QOF7TE.js.map
+//# sourceMappingURL=/build/routes/index-QPZCLV5H.js.map

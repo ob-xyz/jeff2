@@ -36,6 +36,7 @@
   margin: 1rem 0 2.5rem 0rem;
   width: 3.5rem;
   border-radius: 0.5rem;
+  border: 0.2rem solid #000;
 }
 .container .inner-content {
   display: flex;
@@ -48,14 +49,17 @@
   font-size: 2.25rem;
   padding: 0 0 0.5rem 0;
 }
-.container .inner-content .text p {
+.container .inner-content .text p, .container .inner-content .text span {
   text-align: center;
   width: 60%;
   font-size: 1.2rem;
   line-height: 1.85rem;
 }
-.container .inner-content .text b {
-  font-weight: bold;
+.container .inner-content .text .red {
+  color: #DB2128;
+}
+.container .inner-content .text .blk {
+  color: #000;
 }
 .container .inner-content input {
   width: 27rem;
@@ -113,7 +117,7 @@ body {
   margin: auto;
   width: 100%;
   height: 100vh;
-  background-color: #fafafa;
+  background-color: #F7EEE9;
 }
 
 body {
@@ -124,7 +128,7 @@ body {
 main {
   padding: 0;
   margin: 0;
-  background: #fafafa;
+  background: #F7EEE9;
 }
 
 img {
@@ -144,7 +148,7 @@ h1 {
   font-size: 1.35rem;
   font-family: book;
   font-weight: 100;
-  color: #121212;
+  color: #000;
   text-decoration: none;
   text-shadow: none;
 }
@@ -153,7 +157,7 @@ h2 {
   font-size: 0.8rem;
   font-family: medium;
   font-weight: 100;
-  color: #121212;
+  color: #000;
   text-decoration: none;
   text-shadow: none;
 }
@@ -163,14 +167,14 @@ h4,
 h5,
 h6 {
   font-family: "medium";
-  color: #121212;
+  color: #000;
   text-shadow: none;
 }
 
 p {
   font-family: "book";
   font-size: 1.1rem;
-  color: #121212;
+  color: #000;
   text-shadow: none;
 }
 
@@ -183,7 +187,7 @@ ol {
 span {
   font-family: bold;
   font-size: 4rem;
-  color: #121212;
+  color: #000;
 }
 
 button {
