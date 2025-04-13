@@ -40,7 +40,7 @@ function Index() {
           lineNumber: 26,
           columnNumber: 10
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The Poast helps you know what's going on in Canada." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The Poast helps people like me and you know what's going on in Canada." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
           columnNumber: 10
@@ -103,4 +103,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-76UJTX62.js.map
+//# sourceMappingURL=/build/routes/index-B4QOF7TE.js.map
