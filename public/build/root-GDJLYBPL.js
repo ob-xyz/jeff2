@@ -31,8 +31,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "#1 Newsletter on Sports & Culture at The Poast",
-  description: "All the top sports in 5 minutes or less. Don't start your day without The Poast.",
+  title: "#1 Newsletter on Sports at The Poast",
+  description: "All the top sports in 5 minutes or less. Don't start your day without it.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-JFJ4MH4S.js.map
+//# sourceMappingURL=/build/root-GDJLYBPL.js.map
