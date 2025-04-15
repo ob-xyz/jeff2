@@ -31,7 +31,7 @@ export default function Index() {
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
           <p><input className="submit" type="submit" value="Get access" /></p>
           <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
-          <input id="3a575" type="hidden" name="l" checked value="3a575627-dc5a-4d06-b627-05ca13da2e85" />
+          <input id="e54c6" type="hidden" name="l" checked value="e54c6f80-cc9f-4b6c-a8d5-4d67891437db" />
           <input type="hidden" name="nonce" />
       </form>
       </div>
