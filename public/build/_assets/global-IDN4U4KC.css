@@ -66,9 +66,6 @@
 .container .inner-content .text .red {
   color: #db2128;
 }
-.container .inner-content .text .blk {
-  color: #000;
-}
 .container .inner-content input {
   width: 27rem;
   padding: .85rem .75rem;
