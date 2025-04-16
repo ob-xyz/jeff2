@@ -25,7 +25,7 @@ export default function Index() {
       <div className="text">
          <h1>The Poast</h1>
          <h2>They don't want us to win!</h2>
-         <p>All the top <u><span>sports</span></u> in 5 minutes or less. Don't start your day without it.</p>
+         <p>All the <u><span>sports</span></u> in 5 minutes or less. Don't start your day without it.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
