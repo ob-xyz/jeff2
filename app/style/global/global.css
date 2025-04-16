@@ -97,13 +97,13 @@
 }
 
 @media screen and (max-width: 655px) {
-  .container .inner-content .text p {
+  .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
     line-height: 1.5rem;
-    width: 62.5%;
+    width: 67.5%;
   }
   .container .inner-content input {
-    width: 22rem;
+    width: 19rem;
   }
 }
 * {
