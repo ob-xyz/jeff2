@@ -4,9 +4,8 @@
     img{
         background:none;
         margin:1rem 0 2.5rem 0rem;
-        width: 3.5rem;
+        width: 4rem;
         border-radius:.5rem;
-        border: .2rem solid #000;
     }
 .inner-content{
         display: flex;
@@ -22,18 +21,18 @@
     h2{
         text-align: center;
         font-family: ku;
-        font-size:1.125rem;
+        font-size:1.25rem;
         padding:0 0 1.25rem 0;
         text-transform: uppercase;
     }
     p, span{
         text-align: center;
-        width:62.50%;
-        font-size:1.15rem;
+        width:65%;
+        font-size:1.1rem;
         line-height: 1.85rem;
     }
     u{
-        color: $red;
+        color: $blue;
     }
 }
 input{
@@ -76,10 +75,10 @@ input{
                 h1{
                     font-size:3.25rem;
                     line-height: 3rem;
-                    padding-bottom: .25rem;
+                    padding-bottom: .15rem;
                 }
                 h2{
-                    font-size:1.2rem;
+                    font-size:.9rem;
                 }
                 p, span{
                     font-size:1.05rem;
@@ -93,7 +92,7 @@ input{
         }
      }
     }
-@media screen and (min-width: 521px) and (max-width:630px) {
+@media screen and (min-width: 543px) and (max-width:630px) {
     .container{
         .inner-content{
             .text{
@@ -103,12 +102,12 @@ input{
                     padding-bottom: .15rem;
                 }
                 h2{
-                    font-size:.825rem;
+                    font-size:.9rem;
                 }
                 p, span{
                     font-size:1rem;
                     line-height:1.55rem;
-                    width:75%;
+                    width:67.5%;
                 }
             }
             input{
@@ -118,7 +117,7 @@ input{
      }
     }
     
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 542px) {
     .container{
         .inner-content{
             .text{
@@ -129,10 +128,10 @@ input{
                     padding-bottom: .25rem;
                 }
                 h2{
-                    font-size:.785rem;
+                    font-size:.9rem;
                 }
                 p, span{
-                    font-size:1.05rem;
+                    font-size:1rem;
                     line-height:1.6rem;
                     width:85%;
                 }

@@ -24,8 +24,8 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <h1>The Poast</h1>
-         <h2>Get every sports post that matters!</h2>
-         <p>Every <u><span>sports</span></u> post that matters in 5 minutes or less. Don't start your day without it.</p>
+         <h2>Every sports post that matters!</h2>
+         <p>Subscribe to  <u><span>The Poast</span></u>: Your 5-minute sports reel. Don't start your day without it.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
