@@ -26,7 +26,7 @@ export default function Index() {
          <h1>The Poast</h1>
          <h2>Always here for the best moments!</h2>
          <p>Subscribe to  <u><span>The Poast</span></u>: Your 5-minute brief of the best moments in sports.</p>
-         <p>It's the perfect way to end your day.</p>
+         <p>Add an easy win to your day.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
