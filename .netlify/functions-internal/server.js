@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-JLNZHP6P.css";
+var global_default = "/build/_assets/global-XOLHPAYS.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -132,8 +132,8 @@ __export(routes_exports, {
 });
 var import_react3 = require("react");
 
-// public/img/logo-sm.png
-var logo_sm_default = "/build/_assets/logo-sm-RO2IYZP6.png";
+// public/img/logo-sm2.png
+var logo_sm2_default = "/build/_assets/logo-sm2-MVDIHZT3.png";
 
 // app/routes/index.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime");
@@ -144,7 +144,7 @@ function Index() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: logo_sm_default }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: logo_sm2_default }, void 0, !1, {
       fileName: "app/routes/index.tsx",
       lineNumber: 22,
       columnNumber: 9
@@ -160,26 +160,31 @@ function Index() {
           lineNumber: 26,
           columnNumber: 10
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h2", { children: "Every sports post that matters!" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h2", { children: "Always here for the best moments!" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
           columnNumber: 10
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: [
-          "Don't start your day not knowing how last nights game ended. Subscribe to  ",
+          "Subscribe to  ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("u", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { children: "The Poast" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 28,
-            columnNumber: 91
+            columnNumber: 30
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 28,
-            columnNumber: 88
+            columnNumber: 27
           }, this),
-          ": Your 5-minute daily sports recap."
+          ": Your 5-minute brief of the best moments in sports."
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
           lineNumber: 28,
+          columnNumber: 10
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "It's the perfect way to end your day." }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 29,
           columnNumber: 10
         }, this)
       ] }, void 0, !0, {
@@ -190,40 +195,40 @@ function Index() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 31,
+          lineNumber: 32,
           columnNumber: 14
         }, this) }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 31,
+          lineNumber: 32,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "submit", type: "submit", value: "Get access" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 32,
+          lineNumber: 33,
           columnNumber: 14
         }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 32,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "db0e76a6-3d84-4378-abe6-88526faac9d2" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "e54c6", type: "hidden", name: "l", checked: !0, value: "e54c6f80-cc9f-4b6c-a8d5-4d67891437db" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "db0e76a6-3d84-4378-abe6-88526faac9d2" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 34,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "e54c6", type: "hidden", name: "l", checked: !0, value: "e54c6f80-cc9f-4b6c-a8d5-4d67891437db" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 35,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 36,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 30,
+        lineNumber: 31,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
@@ -239,7 +244,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-Y6MZXPQP.js", imports: ["/build/_shared/chunk-6267OFIW.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TFZNOIN6.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-4YA2MF6S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "61957dca", hmr: void 0, url: "/build/manifest-61957DCA.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-Y6MZXPQP.js", imports: ["/build/_shared/chunk-6267OFIW.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-67VTIEYP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-FYNDDASB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "d6283d85", hmr: void 0, url: "/build/manifest-D6283D85.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

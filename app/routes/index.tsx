@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import logo from "~/../public/img/logo-sm.png";
+import logo from "~/../public/img/logo-sm2.png";
 
 export default function Index() {
   useEffect(() => {
@@ -24,8 +24,9 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <h1>The Poast</h1>
-         <h2>Every sports post that matters!</h2>
-         <p>Don't start your day without knowing how last nights game ended. Subscribe to  <u><span>The Poast</span></u>: Your 5-minute daily sports recap.</p>
+         <h2>Always here for the best moments!</h2>
+         <p>Subscribe to  <u><span>The Poast</span></u>: Your 5-minute brief of the best moments in sports.</p>
+         <p>It's the perfect way to end your day.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>

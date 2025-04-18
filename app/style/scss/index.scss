@@ -13,15 +13,15 @@
 .text{
     h1{
         text-align: center;
-        font-family: ku;
+        font-family: kui;
         font-size: 4.5rem;
         line-height:3.75rem;
         text-transform: uppercase;
     }
     h2{
         text-align: center;
-        font-family: ku;
-        font-size:1.25rem;
+        font-family: kui;
+        font-size:1.15rem;
         padding:0 0 1.25rem 0;
         text-transform: uppercase;
     }
@@ -83,7 +83,7 @@ input{
                 p, span{
                     font-size:1.05rem;
                     line-height:1.6rem;
-                    width:65%;
+                    width:57.5%;
                 }
             }
             input{
@@ -92,7 +92,7 @@ input{
         }
      }
     }
-@media screen and (min-width: 543px) and (max-width:630px) {
+@media screen and (min-width: 600px) and (max-width:630px) {
     .container{
         .inner-content{
             .text{
@@ -107,7 +107,7 @@ input{
                 p, span{
                     font-size:1rem;
                     line-height:1.55rem;
-                    width:67.5%;
+                    width:57.5%;
                 }
             }
             input{
@@ -116,8 +116,82 @@ input{
         }
      }
     }
-    
-@media screen and (max-width: 542px) {
+    @media screen and (min-width: 543px) and (max-width:599px) {
+        .container{
+            .inner-content{
+                .text{
+                    h1{
+                        font-size:3.25rem;
+                        line-height: 3rem;
+                        padding-bottom: .15rem;
+                    }
+                    h2{
+                        font-size:.9rem;
+                    }
+                    p, span{
+                        font-size:1rem;
+                        line-height:1.55rem;
+                        width:57.5%;
+                    }
+                }
+                input{
+                    width:18.85rem;
+                }
+            }
+         }
+        }
+    @media screen and (min-width: 491px) and (max-width:542px) {
+        .container{
+            .inner-content{
+                .text{
+                    h1{
+                        font-size:3rem;
+                        width:50%;
+                        line-height: 2.75rem;
+                        padding-bottom: .25rem;
+                    }
+                    h2{
+                        font-size:.9rem;
+                    }
+                    p, span{
+                        font-size:1rem;
+                        line-height:1.6rem;
+                        width:57.5%;
+                    }
+                }
+                input{
+                    width:18.85rem;
+                }
+            }
+         }
+        }
+    @media screen and (min-width: 411px) and (max-width:490px) {
+        .container{
+            .inner-content{
+                .text{
+                    h1{
+                        font-size:3rem;
+                        width:50%;
+                        line-height: 2.75rem;
+                        padding-bottom: .25rem;
+                    }
+                    h2{
+                        font-size:.9rem;
+                    }
+                    p, span{
+                        font-size:1rem;
+                        line-height:1.6rem;
+                        width:70%;
+                    }
+                }
+                input{
+                    width:18.85rem;
+                }
+            }
+         }
+        }
+        
+@media screen and (max-width: 410px) {
     .container{
         .inner-content{
             .text{
@@ -133,7 +207,7 @@ input{
                 p, span{
                     font-size:1rem;
                     line-height:1.6rem;
-                    width:90%;
+                    width:77.5%;
                 }
             }
             input{

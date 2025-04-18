@@ -27,6 +27,10 @@
   font-family: "ku";
   src: url("../global/fonts/Kinetika-Ultra.woff2") format("woff2");
 }
+@font-face {
+  font-family: "kui";
+  src: url("../global/fonts/kinetika-ultra-italic.woff2") format("woff2");
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -43,15 +47,15 @@
 }
 .container .inner-content .text h1 {
   text-align: center;
-  font-family: ku;
+  font-family: kui;
   font-size: 4.5rem;
   line-height: 3.75rem;
   text-transform: uppercase;
 }
 .container .inner-content .text h2 {
   text-align: center;
-  font-family: ku;
-  font-size: 1.25rem;
+  font-family: kui;
+  font-size: 1.15rem;
   padding: 0 0 1.25rem 0;
   text-transform: uppercase;
 }
@@ -107,13 +111,13 @@
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1.05rem;
     line-height: 1.6rem;
-    width: 65%;
+    width: 57.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 543px) and (max-width: 630px) {
+@media screen and (min-width: 600px) and (max-width: 630px) {
   .container .inner-content .text h1 {
     font-size: 3.25rem;
     line-height: 3rem;
@@ -125,13 +129,31 @@
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
     line-height: 1.55rem;
-    width: 67.5%;
+    width: 57.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (max-width: 542px) {
+@media screen and (min-width: 543px) and (max-width: 599px) {
+  .container .inner-content .text h1 {
+    font-size: 3.25rem;
+    line-height: 3rem;
+    padding-bottom: 0.15rem;
+  }
+  .container .inner-content .text h2 {
+    font-size: 0.9rem;
+  }
+  .container .inner-content .text p, .container .inner-content .text span {
+    font-size: 1rem;
+    line-height: 1.55rem;
+    width: 57.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 491px) and (max-width: 542px) {
   .container .inner-content .text h1 {
     font-size: 3rem;
     width: 50%;
@@ -144,7 +166,45 @@
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
     line-height: 1.6rem;
-    width: 90%;
+    width: 57.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 411px) and (max-width: 490px) {
+  .container .inner-content .text h1 {
+    font-size: 3rem;
+    width: 50%;
+    line-height: 2.75rem;
+    padding-bottom: 0.25rem;
+  }
+  .container .inner-content .text h2 {
+    font-size: 0.9rem;
+  }
+  .container .inner-content .text p, .container .inner-content .text span {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 70%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (max-width: 410px) {
+  .container .inner-content .text h1 {
+    font-size: 3rem;
+    width: 50%;
+    line-height: 2.75rem;
+    padding-bottom: 0.25rem;
+  }
+  .container .inner-content .text h2 {
+    font-size: 0.9rem;
+  }
+  .container .inner-content .text p, .container .inner-content .text span {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 77.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
