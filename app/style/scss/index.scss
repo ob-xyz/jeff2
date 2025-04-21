@@ -107,7 +107,7 @@ input{
                 p, span{
                     font-size:1rem;
                     line-height:1.55rem;
-                    width:62.50%;
+                    width:61%;
                 }
             }
             input{
@@ -131,7 +131,7 @@ input{
                     p, span{
                         font-size:1rem;
                         line-height:1.55rem;
-                        width:67.5%;
+                        width:62.5%;
                     }
                 }
                 input{
@@ -140,7 +140,7 @@ input{
             }
          }
         }
-    @media screen and (min-width: 491px) and (max-width:542px) {
+    @media screen and (min-width: 506px) and (max-width:542px) {
         .container{
             .inner-content{
                 .text{
@@ -155,7 +155,7 @@ input{
                     p, span{
                         font-size:1rem;
                         line-height:1.6rem;
-                        width:57.5%;
+                        width:61%;
                     }
                 }
                 input{
@@ -164,18 +164,41 @@ input{
             }
          }
         }
+        @media screen and (min-width: 491px) and (max-width:507px) {
+            .container{
+                .inner-content{
+                    .text{
+                        h1{
+                            font-size:3.25rem;
+                            line-height: 3rem;
+                            padding-bottom: .15rem;
+                        }
+                        h2{
+                            font-size:.85rem;
+                        }
+                        p, span{
+                            font-size:1rem;
+                            line-height:1.6rem;
+                            width:63%;
+                        }
+                    }
+                    input{
+                        width:18.85rem;
+                    }
+                }
+             }
+            }
     @media screen and (min-width: 418px) and (max-width:490px) {
         .container{
             .inner-content{
                 .text{
                     h1{
                         font-size:3rem;
-                        width:50%;
                         line-height: 2.75rem;
                         padding-bottom: .25rem;
                     }
                     h2{
-                        font-size:.85rem;
+                        font-size:.775rem;
                     }
                     p, span{
                         font-size:1rem;
@@ -196,12 +219,11 @@ input{
             .text{
                 h1{
                     font-size:3rem;
-                    width:50%;
                     line-height: 2.75rem;
                     padding-bottom: .25rem;
                 }
                 h2{
-                    font-size:.85rem;
+                    font-size:.775rem;
                 }
                 p, span{
                     font-size:1rem;
