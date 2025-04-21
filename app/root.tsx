@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "#1 Sports Newsletter - The Poast",
-  description: "Sign up to the free 5-minute daily sports moments that matter.",
+  description: "Sign up to the free 5-minute brief on the sports moments that matter.",
   viewport: "width=device-width,initial-scale=1",
 });
 
