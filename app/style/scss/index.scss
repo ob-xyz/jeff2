@@ -13,21 +13,21 @@
 .text{
     h1{
         text-align: center;
-        font-family: kui;
+        font-family: ku;
         font-size: 4.5rem;
         line-height:3.75rem;
         text-transform: uppercase;
     }
     h2{
         text-align: center;
-        font-family: kui;
-        font-size:1.15rem;
+        font-family: ku;
+        font-size:1.17rem;
         padding:0 0 1.25rem 0;
         text-transform: uppercase;
     }
     p, span{
         text-align: center;
-        width:55%;
+        width:60%;
         font-size:1.1rem;
         line-height: 1.85rem;
     }
@@ -78,12 +78,12 @@ input{
                     padding-bottom: .15rem;
                 }
                 h2{
-                    font-size:.9rem;
+                    font-size:.85rem;
                 }
                 p, span{
                     font-size:1.05rem;
                     line-height:1.6rem;
-                    width:57.5%;
+                    width:61%;
                 }
             }
             input{
@@ -102,12 +102,12 @@ input{
                     padding-bottom: .15rem;
                 }
                 h2{
-                    font-size:.9rem;
+                    font-size:.85rem;
                 }
                 p, span{
                     font-size:1rem;
                     line-height:1.55rem;
-                    width:57.5%;
+                    width:62.50%;
                 }
             }
             input{
@@ -126,12 +126,12 @@ input{
                         padding-bottom: .15rem;
                     }
                     h2{
-                        font-size:.9rem;
+                        font-size:.85rem;
                     }
                     p, span{
                         font-size:1rem;
                         line-height:1.55rem;
-                        width:57.5%;
+                        width:67.5%;
                     }
                 }
                 input{
@@ -145,13 +145,12 @@ input{
             .inner-content{
                 .text{
                     h1{
-                        font-size:3rem;
-                        width:50%;
-                        line-height: 2.75rem;
-                        padding-bottom: .25rem;
+                        font-size:3.25rem;
+                        line-height: 3rem;
+                        padding-bottom: .15rem;
                     }
                     h2{
-                        font-size:.9rem;
+                        font-size:.85rem;
                     }
                     p, span{
                         font-size:1rem;
@@ -165,7 +164,7 @@ input{
             }
          }
         }
-    @media screen and (min-width: 411px) and (max-width:490px) {
+    @media screen and (min-width: 418px) and (max-width:490px) {
         .container{
             .inner-content{
                 .text{
@@ -176,12 +175,12 @@ input{
                         padding-bottom: .25rem;
                     }
                     h2{
-                        font-size:.9rem;
+                        font-size:.85rem;
                     }
                     p, span{
                         font-size:1rem;
                         line-height:1.6rem;
-                        width:70%;
+                        width:75%;
                     }
                 }
                 input{
@@ -191,7 +190,7 @@ input{
          }
         }
         
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 417px) {
     .container{
         .inner-content{
             .text{
@@ -202,12 +201,12 @@ input{
                     padding-bottom: .25rem;
                 }
                 h2{
-                    font-size:.9rem;
+                    font-size:.85rem;
                 }
                 p, span{
                     font-size:1rem;
                     line-height:1.6rem;
-                    width:77.5%;
+                    width:85%;
                 }
             }
             input{
