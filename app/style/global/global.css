@@ -49,13 +49,13 @@
   text-align: center;
   font-family: ku;
   font-size: 4.5rem;
-  line-height: 3.75rem;
+  line-height: 3.25rem;
   text-transform: uppercase;
 }
 .container .inner-content .text h2 {
   text-align: center;
   font-family: ku;
-  font-size: 1.1rem;
+  font-size: 1.45rem;
   padding: 0 0 1.25rem 0;
   text-transform: uppercase;
 }
@@ -102,11 +102,11 @@
 @media screen and (min-width: 620px) and (max-width: 700px) {
   .container .inner-content .text h1 {
     font-size: 3.25rem;
-    line-height: 3rem;
+    line-height: 2.25rem;
     padding-bottom: 0.15rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.8rem;
+    font-size: 1.05rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1.05rem;
@@ -120,11 +120,11 @@
 @media screen and (min-width: 600px) and (max-width: 619px) {
   .container .inner-content .text h1 {
     font-size: 3.25rem;
-    line-height: 3rem;
+    line-height: 2.25rem;
     padding-bottom: 0.15rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.8rem;
+    font-size: 1.05rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
@@ -135,14 +135,14 @@
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 555px) and (max-width: 599px) {
+@media screen and (min-width: 557px) and (max-width: 599px) {
   .container .inner-content .text h1 {
     font-size: 3.25rem;
-    line-height: 3rem;
+    line-height: 2.25rem;
     padding-bottom: 0.15rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.8rem;
+    font-size: 1.05rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
@@ -153,14 +153,14 @@
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 520px) and (max-width: 554px) {
+@media screen and (min-width: 520px) and (max-width: 556px) {
   .container .inner-content .text h1 {
     font-size: 3.25rem;
-    line-height: 3rem;
+    line-height: 2.25rem;
     padding-bottom: 0.15rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.8rem;
+    font-size: 1.05rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
@@ -174,11 +174,11 @@
 @media screen and (min-width: 491px) and (max-width: 519px) {
   .container .inner-content .text h1 {
     font-size: 3.25rem;
-    line-height: 3rem;
+    line-height: 2.25rem;
     padding-bottom: 0.15rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.8rem;
+    font-size: 1.05rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
@@ -192,11 +192,11 @@
 @media screen and (min-width: 449px) and (max-width: 490px) {
   .container .inner-content .text h1 {
     font-size: 3rem;
-    line-height: 2.75rem;
+    line-height: 2rem;
     padding-bottom: 0.25rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.725rem;
+    font-size: 0.97rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
@@ -210,11 +210,11 @@
 @media screen and (min-width: 405px) and (max-width: 448px) {
   .container .inner-content .text h1 {
     font-size: 3rem;
-    line-height: 2.75rem;
+    line-height: 2rem;
     padding-bottom: 0.25rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.725rem;
+    font-size: 0.97rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
@@ -228,11 +228,11 @@
 @media screen and (min-width: 390px) and (max-width: 404px) {
   .container .inner-content .text h1 {
     font-size: 3rem;
-    line-height: 2.75rem;
+    line-height: 2rem;
     padding-bottom: 0.25rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.725rem;
+    font-size: 0.97rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
@@ -246,11 +246,11 @@
 @media screen and (max-width: 389px) {
   .container .inner-content .text h1 {
     font-size: 3rem;
-    line-height: 2.75rem;
+    line-height: 2rem;
     padding-bottom: 0.25rem;
   }
   .container .inner-content .text h2 {
-    font-size: 0.725rem;
+    font-size: 0.97rem;
   }
   .container .inner-content .text p, .container .inner-content .text span {
     font-size: 1rem;
