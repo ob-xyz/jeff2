@@ -24,11 +24,12 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <h1>The Poast</h1>
-         <h2>Every moment that matters!</h2>
-         <p>Subscribe to  <u><span>The Poast</span></u>: Your 5-minute brief on every sports moment that matters.</p>
+         <h2>Sign up to stay informed</h2>
+         <p>Subscribe to  <u><span>The Poast</span></u>: Your 5-minute brief on every sports story that matters.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
-          <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
+          <p><input className="email" type="name" name="name" required placeholder="First Name *" /></p>
+          <p><input className="email" type="email" name="email" required placeholder="Email Address *" /></p>
           <p><input className="submit" type="submit" value="Get access" /></p>
           <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
           <input id="e54c6" type="hidden" name="l" checked value="e54c6f80-cc9f-4b6c-a8d5-4d67891437db" />
