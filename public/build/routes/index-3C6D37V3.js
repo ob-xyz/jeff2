@@ -47,7 +47,7 @@ function Index() {
             lineNumber: 27,
             columnNumber: 132
           }, this),
-          " newsletter to get only the best sports stories."
+          " newsletter to get the best sports stories happening now."
         ] }, void 0, true, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
@@ -120,4 +120,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-36JRXYIG.js.map
+//# sourceMappingURL=/build/routes/index-3C6D37V3.js.map
