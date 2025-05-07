@@ -1,45 +1,41 @@
 .container{
     display:flex;
     flex-direction: column;
+    padding-bottom:8rem;
     img{
         background:none;
-        margin:1rem 0 2.5rem 0rem;
+        margin:1rem 0 5rem 0rem;
         width: 4rem;
         border-radius:.5rem;
+        border: .175rem solid #000;
     }
     form{
-        margin-top:.5rem;
+        margin-top: .5rem;
     }
 .inner-content{
         display: flex;
         flex-direction: column;
 .text{
     h1{
+        padding-bottom:3rem;
         text-align: center;
         font-family: ku;
-        font-size: 4.5rem;
-        line-height:3.25rem;
-        text-transform: uppercase;
+        font-size: 3rem;
+        line-height:3.5rem;
+        width:45%;
     }
-    h2{
+    p{
         text-align: center;
-        font-family: ku;
-        padding:0 0 1.25rem 0;
-        text-transform: uppercase;
-        font-size:1.675rem;
-    }
-    p, span{
-        text-align: center;
-        width:55%;
-        font-size:1.1rem;
-        line-height: 1.85rem;
-    }
-    u{
-        color: $blue;
+        width:44%;
+        font-size:1.15rem;
+        line-height: 1.65rem;
+        b{
+            font-family:bold;
+        }
     }
 }
 input{
-    width:24.5rem;
+    width:23rem;
     padding:.85rem .75rem;
     font-family: arial;
     color:black;
@@ -70,220 +66,148 @@ input{
 }  
   }
 }
-
-@media screen and (min-width: 620px) and (max-width:700px) {
+@media screen and (min-width: 1074px) and (max-width:1124px) {
     .container{
-        .inner-content{
-            .text{
-                h1{
-                    font-size:3.25rem;
-                    line-height: 2.25rem;
-                    padding-bottom: .15rem;
-                }
-                h2{
-                    font-size:1.225rem;
-                }
-                p, span{
-                    font-size:1.05rem;
-                    line-height:1.6rem;
-                    width:55%;
-                }
+    .inner-content{
+        .text{
+            h1{
+                width:50%;
             }
-            input{
-                width:18.85rem;
+            p{
+                width:47.5%;
             }
         }
-     }
     }
-@media screen and (min-width: 600px) and (max-width:619px) {
+ }
+}
+@media screen and (min-width: 901px) and (max-width:1073px) {
     .container{
-        .inner-content{
-            .text{
-                h1{
-                    font-size:3.25rem;
-                    line-height: 2.25rem;
-                    padding-bottom: .15rem;
-                }
-                h2{
-                    font-size:1.225rem;
-                }
-                p, span{
-                    font-size:1rem;
-                    line-height:1.55rem;
-                    width:55%;
-                }
+    .inner-content{
+        .text{
+            h1{
+                width:52.5%;
             }
-            input{
-                width:18.85rem;
+            p{
+                width:51%;
             }
         }
-     }
     }
-    @media screen and (min-width: 557px) and (max-width:599px) {
-        .container{
-            .inner-content{
-                .text{
-                    h1{
-                        font-size:3.25rem;
-                        line-height: 2.25rem;
-                        padding-bottom: .15rem;
-                    }
-                    h2{
-                        font-size:1.225rem;
-                    }
-                    p, span{
-                        font-size:1rem;
-                        line-height:1.55rem;
-                        width:57%;
-                    }
-                }
-                input{
-                    width:18.85rem;
-                }
-            }
-         }
-        }
-    @media screen and (min-width: 520px) and (max-width:556px) {
-        .container{
-            .inner-content{
-                .text{
-                    h1{
-                        font-size:3.25rem;
-                        line-height: 2.25rem;
-                        padding-bottom: .15rem;
-                    }
-                    h2{
-                        font-size:1.225rem;
-                    }
-                    p, span{
-                        font-size:1rem;
-                        line-height:1.6rem;
-                        width:61.5%;
-                    }
-                }
-                input{
-                    width:18.85rem;
-                }
-            }
-         }
-        }
-        @media screen and (min-width: 491px) and (max-width:519px) {
-            .container{
-                .inner-content{
-                    .text{
-                        h1{
-                            font-size:3.25rem;
-                            line-height: 2.25rem;
-                            padding-bottom: .15rem;
-                        }
-                        h2{
-                            font-size:1.225rem;
-                        }
-                        p, span{
-                            font-size:1rem;
-                            line-height:1.6rem;
-                            width:65%;
-                        }
-                    }
-                    input{
-                        width:18.85rem;
-                    }
-                }
-             }
-            }
-    @media screen and (min-width: 449px) and (max-width:490px) {
-        .container{
-            .inner-content{
-                .text{
-                    h1{
-                        font-size:3rem;
-                        line-height: 2rem;
-                        padding-bottom: .25rem;
-                    }
-                    h2{
-                        font-size:1.125rem;
-                    }
-                    p, span{
-                        font-size:1rem;
-                        line-height:1.6rem;
-                        width:71%;
-                    }
-                }
-                input{
-                    width:18.85rem;
-                }
-            }
-         }
-        }
-@media screen and (min-width: 405px) and (max-width:448px) {
+ }
+}
+@media screen and (min-width: 615px) and (max-width:900px) {
     .container{
-        .inner-content{
-            .text{
-                h1{
-                    font-size:3rem;
-                    line-height: 2rem;
-                    padding-bottom: .25rem;
-                }
-                h2{
-                    font-size:1.125rem;
-                }
-                p, span{
-                    font-size:1rem;
-                    line-height:1.6rem;
-                    width:80%;
-                }
+    .inner-content{
+        .text{
+            h1{
+                width:50%;
+                font-size: 2.5rem;
+                line-height:3rem;
             }
-            input{
-                width:18.85rem;
+            p{
+                width:47.5%;
             }
         }
-     }
     }
-    @media screen and (min-width: 390px) and (max-width:404px) {
-        .container{
-            .inner-content{
-                .text{
-                    h1{
-                        font-size:3rem;
-                        line-height: 2rem;
-                        padding-bottom: .25rem;
-                    }
-                    h2{
-                        font-size:1.125rem;
-                    }
-                    p, span{
-                        font-size:1rem;
-                        line-height:1.6rem;
-                        width:84%;
-                    }
-                }
-                input{
-                    width:18.85rem;
-                }
-            }
-         }
-        }
-@media screen and (max-width: 389px) {
+ }
+}
+@media screen and (min-width: 530px) and (max-width:614px) {
     .container{
-        .inner-content{
-            .text{
-                h1{
-                    font-size:3rem;
-                    line-height: 2rem;
-                    padding-bottom: .25rem;
-                }
-                h2{
-                    font-size:1.125rem;
-                }
-                p, span{
-                    font-size:1rem;
-                    line-height:1.6rem;
-                    width:87.5%;
-                }
+    .inner-content{
+        .text{
+            h1{
+                width:70%;
+                font-size: 2.5rem;
+                line-height:3rem;
             }
-            input{
-                width:18.85rem;
+            p{
+                width:70%;
             }
         }
-     }
+        input{
+            width:18.85rem;
+        }
     }
+ }
+}
+@media screen and (min-width: 464px) and (max-width:529px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                width:85%;
+                font-size: 2.5rem;
+                line-height:3rem;
+            }
+            p{
+                width:80%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 431px) and (max-width:463px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                width:60%;
+                font-size: 1.5rem;
+                line-height:1.75rem;
+            }
+            p{
+                font-size:1.1rem;
+                line-height:1.25rem;
+                width:87.5%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 372px) and (max-width:430px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                width:70%;
+                font-size: 1.5rem;
+                line-height:1.75rem;
+            }
+            p{
+                font-size:1.1rem;
+                line-height:1.25rem;
+                width:90%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (max-width: 371px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                width:70%;
+                font-size: 1.5rem;
+                line-height:1.75rem;
+            }
+            p{
+                font-size:1rem;
+                line-height:1.15rem;
+                width:92.5%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}

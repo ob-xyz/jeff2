@@ -35,31 +35,22 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "The Poast" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Know what's happening in sports." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 26,
-          columnNumber: 10
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: "Sign up to stay informed" }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 27,
-          columnNumber: 10
+          columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          "Subscribe to  ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("u", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "The Poast" }, void 0, false, {
+          "Every day there are hundreds of sports stories that get posted. Its makes spotting the best ones a challenge. Join our ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "free" }, void 0, false, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 28,
-            columnNumber: 30
-          }, this) }, void 0, false, {
-            fileName: "app/routes/index.tsx",
-            lineNumber: 28,
-            columnNumber: 27
+            lineNumber: 27,
+            columnNumber: 132
           }, this),
-          ": Your 5-minute brief on every sports story that matters."
+          " newsletter to get only the best sports stories."
         ] }, void 0, true, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 28,
+          lineNumber: 27,
           columnNumber: 10
         }, this)
       ] }, void 0, true, {
@@ -86,7 +77,7 @@ function Index() {
           lineNumber: 32,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "submit", type: "submit", value: "Get access" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "submit", type: "submit", value: "Subscribe" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 14
@@ -100,7 +91,7 @@ function Index() {
           lineNumber: 34,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { id: "e54c6", type: "hidden", name: "l", checked: true, value: "e54c6f80-cc9f-4b6c-a8d5-4d67891437db" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { id: "f854f", type: "hidden", name: "l", checked: true, value: "f854f96d-e421-4c68-8abf-4e6d451b9b9a" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 35,
           columnNumber: 11
@@ -112,7 +103,7 @@ function Index() {
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 30,
+        lineNumber: 29,
         columnNumber: 7
       }, this)
     ] }, void 0, true, {
@@ -129,4 +120,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-N2J7LZMH.js.map
+//# sourceMappingURL=/build/routes/index-36JRXYIG.js.map

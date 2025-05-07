@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-BNJ4Y6FV.css";
+var global_default = "/build/_assets/global-MGEBUGHZ.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -31,8 +31,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "#1 Sports Newsletter - The Poast",
-  description: "The Poast is the #1 Newsletter for the next generation of sports fans.",
+  title: "The Poast : #1 Sports Newsletter",
+  description: "The Poast helps the next generation of sports fans know what's happening.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-PG6WUZ76.js.map
+//# sourceMappingURL=/build/root-5EHVLZBH.js.map
