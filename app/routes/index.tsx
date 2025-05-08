@@ -23,8 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-        <h1>Know what's happening in sports.</h1>
-         <p>Every day there are hundreds of sports stories that get posted. Its makes spotting the best ones a challenge. Join our <b>free</b> newsletter to get the best sports stories happening now.</p>
+        <h1>Get the latest and grestest in sports.</h1>
+         <p>Every day there are hundreds of sports stories getting posted. Spotting the best ones can be a challenge. Join our free newsletter to <b>get all the best sports stories</b>.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}

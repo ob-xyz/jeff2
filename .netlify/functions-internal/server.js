@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-I74O3FMK.css";
+var global_default = "/build/_assets/global-KMTGHUQQ.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -71,7 +71,7 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
 ], meta = () => ({
   charset: "utf-8",
   title: "The Poast : #1 Sports Newsletter",
-  description: "The Poast helps the next generation of sports fans know what's happening.",
+  description: "The Poast helps sports fans get all the best sports stories.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -155,19 +155,19 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Know what's happening in sports." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Get the latest and grestest in sports." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 26,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: [
-          "Every day there are hundreds of sports stories that get posted. Its makes spotting the best ones a challenge. Join our ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("b", { children: "free" }, void 0, !1, {
+          "Every day there are hundreds of sports stories getting posted. Spotting the best ones can be a challenge. Join our free newsletter to ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("b", { children: "get all the best sports stories" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 27,
-            columnNumber: 132
+            columnNumber: 147
           }, this),
-          " newsletter to get the best sports stories happening now."
+          "."
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
@@ -239,7 +239,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-Y6MZXPQP.js", imports: ["/build/_shared/chunk-6267OFIW.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-47UV2FBX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-3C6D37V3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "81de0848", hmr: void 0, url: "/build/manifest-81DE0848.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-Y6MZXPQP.js", imports: ["/build/_shared/chunk-6267OFIW.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-T77VS4GC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-3CA5VGQV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "80d0e29f", hmr: void 0, url: "/build/manifest-80D0E29F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
