@@ -115,10 +115,10 @@ export default function Index() {
       </div>
 
       <input
-        id="6d48f"
+        id="bcd05"
         type="hidden"
         name="l"
-        value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
+        value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa"
       />
       <input type="hidden" name="nonce" />
     </form>
@@ -257,10 +257,10 @@ export default function Index() {
       </div>
 
       <input
-        id="6d48f"
+        id="bcd05"
         type="hidden"
         name="l"
-        value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
+        value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa"
       />
       <input type="hidden" name="nonce" />
     </form>

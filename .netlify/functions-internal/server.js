@@ -307,10 +307,10 @@ function Index() {
               /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
                 "input",
                 {
-                  id: "6d48f",
+                  id: "bcd05",
                   type: "hidden",
                   name: "l",
-                  value: "6d48fffe-7d37-4c14-b317-3e4cda33a647"
+                  value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa"
                 },
                 void 0,
                 !1,
@@ -789,10 +789,10 @@ function Index() {
                 /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
                   "input",
                   {
-                    id: "6d48f",
+                    id: "bcd05",
                     type: "hidden",
                     name: "l",
-                    value: "6d48fffe-7d37-4c14-b317-3e4cda33a647"
+                    value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa"
                   },
                   void 0,
                   !1,
@@ -1063,7 +1063,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3XYKJ3ZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-IYY54SH2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "0afcf48b", hmr: void 0, url: "/build/manifest-0AFCF48B.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3XYKJ3ZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-GPQHERCQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "de1c8e15", hmr: void 0, url: "/build/manifest-DE1C8E15.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
