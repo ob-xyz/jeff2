@@ -290,7 +290,7 @@ export default function Index() {
           <div className="column">
             <h4>Community</h4>
             <Link to="#">Advertise with Us</Link>
-            <Link to="#">Jeffamzn for Enterprise</Link>
+            <Link to="#">The Poast for Enterprise</Link>
             <Link to="#">Enterprise Case Studies</Link>
           </div>
           <div className="column">
@@ -300,7 +300,7 @@ export default function Index() {
             <Link to="#">Contact</Link>
           </div>
           <div className="column">
-            <h4>Jeffamzn</h4>
+            <h4>The Poast</h4>
             <Link to="#">Start a campaign</Link>
             <Link to="#">Case Studies</Link>
             <Link to="#">Sign up</Link>

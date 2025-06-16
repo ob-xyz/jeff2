@@ -799,7 +799,7 @@ function Index() {
               lineNumber: 292,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "Jeffamzn for Enterprise" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "The Poast for Enterprise" }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 293,
               columnNumber: 13
@@ -841,7 +841,7 @@ function Index() {
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "column", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "Jeffamzn" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "The Poast" }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 303,
               columnNumber: 13
@@ -954,4 +954,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-GPQHERCQ.js.map
+//# sourceMappingURL=/build/routes/index-3TBYKJVE.js.map
