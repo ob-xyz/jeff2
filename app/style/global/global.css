@@ -49,7 +49,7 @@
 .container h1, .container h2, .container h3, .container span {
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .container h2 {
   font-size: 4.5rem;
@@ -78,25 +78,22 @@
   top: 19rem;
   left: 50rem;
   width: 20rem;
+  display: none;
 }
 .container .content .inner-content {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
-  margin-top: 14rem;
+  margin-top: 12rem;
 }
 .container .content .inner-content .text h1 {
-  line-height: 4.25rem;
   margin-left: 0;
-  width: 70%;
-}
-.container .content .inner-content .text span {
-  line-height: 4.25rem;
+  max-width: 70%;
 }
 .container .content .inner-content .text p {
   text-align: left;
   line-height: 1.65rem;
-  padding: 1rem 0rem 0.75rem 0;
+  padding: 1rem 0rem 0.5rem 0;
   margin-left: 0;
 }
 .container .content .inner-content form {
@@ -152,6 +149,7 @@
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
+  width: 87.5%;
 }
 .container .inner-content2 span {
   font-size: 4.5rem;
@@ -238,9 +236,9 @@
   height: auto;
 }
 .container .inner-content5 .box h1 {
-  padding-top: 1rem;
-  padding-bottom: 0.75rem;
   font-size: 1.25rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
   margin: 0;
   font-family: bold;
 }
@@ -316,17 +314,17 @@
   border-radius: 2.75rem;
 }
 .container .ads-carousel .box h1 {
-  padding-top: 1rem;
-  padding-bottom: 0.75rem;
   text-align: center;
   font-size: 1.25rem;
-  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 0.75rem;
+  margin: 0;
   font-family: bold;
 }
 .container .ads-carousel .box p {
   text-align: center;
   color: #71717A;
-  margin: 0 auto;
+  margin: 0;
   flex-grow: 1;
 }
 .container .ads-carousel .carousel-button {
@@ -707,7 +705,13 @@
   }
 }
 
-@media (min-width: 846px) and (max-width: 1100px) {
+@media (min-width: 1101px) and (max-width: 1224px) {
+  .content .inner-content .text h1, .content .inner-content .text span {
+    font-size: 3.25rem;
+    width: 100%;
+  }
+}
+@media (min-width: 875px) and (max-width: 1100px) {
   .container h3 {
     font-size: 2.75rem;
     line-height: 3.25rem;
@@ -716,14 +720,13 @@
     font-size: 1rem;
   }
   .container .logo {
-    margin-left: 1rem;
+    margin-left: 2.5rem;
   }
   .container .content {
     margin-top: 8rem;
     margin-bottom: 3.5rem;
   }
   .container .content img {
-    display: none;
     position: relative;
     top: -12.5rem;
     left: -19rem;
@@ -731,10 +734,11 @@
   }
   .container .content .inner-content {
     margin-top: 5rem;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
   }
-  .container .content .inner-content .text h1 {
-    width: 70%;
+  .container .content .inner-content .text h1, .container .content .inner-content .text span {
+    font-size: 2.895rem;
+    width: 75%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
@@ -744,9 +748,8 @@
     width: 22rem;
   }
   .container .inner-content2 {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 2rem;
+    margin: 0 auto;
+    padding: 0 2.5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
@@ -764,10 +767,10 @@
     width: 100%;
   }
   .container .inner-content3 {
-    margin: 0 1rem;
+    margin: 0 2.5rem;
   }
   .container .inner-content4 {
-    margin: 8rem 1rem 0rem 1rem;
+    margin: 11rem 2.5rem 0 2.5rem;
     flex-direction: column;
   }
   .container .inner-content4 p {
@@ -776,31 +779,29 @@
     width: 100%;
   }
   .container .inner-content5 {
-    margin: 2rem 1rem 0rem 1rem;
+    margin: 0rem 2.5rem 0rem 2.5rem;
   }
   .container .inner-content5 .box {
+    padding-top: 2.5rem;
     text-align: center;
   }
   .container .inner-content5 .box h1 {
     text-align: center;
   }
   .container .btn {
-    margin: 2rem 1rem;
+    margin: 2rem auto;
   }
   .container .inner-content7 {
-    margin: 5rem 1rem 0 1rem;
+    margin: 5rem 2.5rem 0 2.5rem;
     flex-direction: column;
     padding-bottom: 2rem;
   }
-  .container .inner-content7 .text h3 {
-    width: 70%;
-  }
   .container .inner-content7 p {
     margin-left: 0;
-    width: 60%;
+    width: 100%;
   }
   .container .ads-carousel {
-    margin: 0 18rem;
+    margin: 0 auto;
     width: 40%;
   }
   .container .ads-carousel .box img {
@@ -810,10 +811,10 @@
     top: 40%;
   }
   .container .inner-content10 {
-    margin: 0rem 1rem 0 1rem;
+    margin: 0 2.5rem 0 2.5rem;
   }
   .container .inner-content10 .header {
-    margin: 5rem 0rem 1.5rem 0rem;
+    margin: 5rem 0 1.5rem 0;
   }
   .container .inner-content10 .header h4 {
     padding-bottom: 0.25rem;
@@ -826,7 +827,7 @@
     display: none;
   }
   .container .inner-content12 {
-    margin: 7rem 1rem 0 1rem;
+    margin: 7rem 2.5rem 0 2.5rem;
   }
   .container .inner-content12 .header {
     margin-bottom: 1.5rem;
@@ -866,7 +867,7 @@
     width: 1.15rem;
   }
 }
-@media (min-width: 587px) and (max-width: 845px) {
+@media (min-width: 660px) and (max-width: 874px) {
   .container h3 {
     font-size: 2.75rem;
     line-height: 3.25rem;
@@ -875,14 +876,13 @@
     font-size: 1rem;
   }
   .container .logo {
-    margin-left: 1rem;
+    margin-left: 2.5rem;
   }
   .container .content {
     margin-top: 8rem;
     margin-bottom: 3.5rem;
   }
   .container .content img {
-    display: none;
     position: relative;
     top: -12.5rem;
     left: -19rem;
@@ -890,15 +890,12 @@
   }
   .container .content .inner-content {
     margin-top: 5rem;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 2.75rem;
-    line-height: 3.25rem;
-  }
-  .container .content .inner-content .text h1 {
-    width: 70%;
+    font-size: 2.25rem;
+    width: 100%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
@@ -908,21 +905,17 @@
     width: 22rem;
   }
   .container .inner-content2 {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 2rem;
+    padding: 0 2.5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 2.25rem;
-    line-height: 3rem;
+    font-size: 1.75rem;
     width: 100%;
   }
   .container .inner-content2 span {
-    font-size: 2.25rem;
-    line-height: 3rem;
+    font-size: 1.75rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
@@ -931,10 +924,10 @@
     width: 100%;
   }
   .container .inner-content3 {
-    margin: 0 1rem;
+    margin: 0 2.5rem;
   }
   .container .inner-content4 {
-    margin: 5rem 1rem 0 1rem;
+    margin: 5rem 2.5rem 0 2.5rem;
     flex-direction: column;
   }
   .container .inner-content4 p {
@@ -943,21 +936,23 @@
     width: 100%;
   }
   .container .inner-content5 {
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0 auto;
     grid-template-columns: repeat(1, 1fr);
+    width: 68.5%;
   }
   .container .inner-content5 .box {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     text-align: center;
   }
   .container .inner-content5 .box h1 {
     text-align: center;
+    padding-top: 1rem;
   }
   .container .btn {
-    margin: 2rem 1rem;
+    margin: 2rem auto;
   }
   .container .inner-content7 {
-    margin: 5rem 1rem 0 1rem;
+    margin: 5rem 2.5rem 0 2.5rem;
     flex-direction: column;
     padding-bottom: 2rem;
   }
@@ -969,8 +964,8 @@
     width: 100%;
   }
   .container .ads-carousel {
-    margin: 0 10rem;
-    width: 52.5%;
+    margin: 0 auto;
+    width: 50%;
   }
   .container .ads-carousel .box img {
     border-radius: 1rem;
@@ -979,7 +974,7 @@
     top: 40%;
   }
   .container .inner-content10 {
-    margin: 0rem 1rem 0 1rem;
+    margin: 0rem 2.5rem 0 2.5rem;
   }
   .container .inner-content10 .header {
     margin: 5rem 0rem 1.5rem 0rem;
@@ -989,14 +984,13 @@
   }
   .container .inner-content10 .grid {
     grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-    margin: 0 0;
+    width: 77%;
   }
   .container .inner-content11 {
     display: none;
   }
   .container .inner-content12 {
-    margin: 7rem 1rem 0 1rem;
+    margin: 9rem 2.5rem 0 2.5rem;
   }
   .container .inner-content12 .header {
     margin-bottom: 1.5rem;
@@ -1007,9 +1001,10 @@
   }
   .container .inner-content12 .grid {
     grid-template-columns: repeat(1, 1fr);
+    width: 75%;
   }
   .container .inner-content12 .grid .box form .input-wrapper {
-    width: 28.5rem;
+    width: 32rem;
   }
   .container .footer {
     margin: 9rem 0.25rem 0 0.25rem;
@@ -1039,7 +1034,7 @@
     width: 1.15rem;
   }
 }
-@media (max-width: 586px) {
+@media (max-width: 659px) {
   .container h3 {
     font-size: 2.25rem;
     line-height: 2.75rem;
@@ -1055,7 +1050,6 @@
     margin-bottom: 4rem;
   }
   .container .content img {
-    display: none;
     position: relative;
     top: -12.5rem;
     left: -19rem;
@@ -1067,8 +1061,7 @@
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 2.25rem;
-    line-height: 2.75rem;
+    font-size: 1.5975rem;
   }
   .container .content .inner-content .text h1 {
     width: 100%;
@@ -1141,7 +1134,7 @@
     width: 100%;
   }
   .container .ads-carousel {
-    margin: 0 2.75rem;
+    margin: 0 auto;
     width: 75%;
   }
   .container .ads-carousel .box img {

@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-7YZYU5LX.css";
+var global_default = "/build/_assets/global-EKBG3CON.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -193,7 +193,7 @@ var x_default = "/build/_assets/x-J2PMTTZT.png";
 var email_default = "/build/_assets/email-KANKX45L.png";
 
 // app/routes/index.tsx
-var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["NFL", "NBA", "UFC", "PGA", "NHL"], ads = [
+var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["NFL.", "NBA.", "UFC.", "PGA.", "NHL."], ads = [
   {
     image: promoted_ads_default,
     title: "Promoted Ads",
@@ -241,17 +241,17 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "DON'T START YOUR DAY WITHOUT KNOWING" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "THE POAST" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 93,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: [
-            "what's happening in the ",
+            "Don't start your day without knowing what's happening in the ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: `${fadeOut ? "fade-out" : "fade-in"}`, children: rotatingWords[index] }, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 95,
-              columnNumber: 37
+              columnNumber: 74
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
@@ -1063,7 +1063,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BFYMN3BT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VYYRV6WH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "c782472b", hmr: void 0, url: "/build/manifest-C782472B.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-KQ4WERHT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-JAD5LP5C.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "6f72610e", hmr: void 0, url: "/build/manifest-6F72610E.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

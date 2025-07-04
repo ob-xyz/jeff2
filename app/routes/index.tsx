@@ -21,7 +21,7 @@ import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
-const rotatingWords = ["NFL", "NBA", "UFC", "PGA", "NHL"]
+const rotatingWords = ["NFL.", "NBA.", "UFC.", "PGA.", "NHL."]
 const ads = [
   {
     image: promoads,
@@ -90,9 +90,9 @@ export default function Index() {
       <div className="content">
       <div className="inner-content">
         <div className="text">
-          <h4>DON'T START YOUR DAY WITHOUT KNOWING</h4>
+          <h4>THE POAST</h4>
           <h1>
-            what's happening in the <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
+            Don't start your day without knowing what's happening in the <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
           </h1>
           <p>Subscribe to The Poast for free.</p>
         </div>
