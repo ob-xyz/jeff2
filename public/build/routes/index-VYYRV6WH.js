@@ -131,13 +131,13 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "THE POAST" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "DON'T START YOUR DAY WITHOUT KNOWING" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 93,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: [
-            "What's happening in the ",
+            "what's happening in the ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: `${fadeOut ? "fade-out" : "fade-in"}`, children: rotatingWords[index] }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 95,
@@ -148,7 +148,7 @@ function Index() {
             lineNumber: 94,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Don't start your day without knowing what's happening in sports." }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to The Poast for free." }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 97,
             columnNumber: 11
@@ -954,4 +954,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-3TBYKJVE.js.map
+//# sourceMappingURL=/build/routes/index-VYYRV6WH.js.map

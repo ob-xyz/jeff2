@@ -90,11 +90,11 @@ export default function Index() {
       <div className="content">
       <div className="inner-content">
         <div className="text">
-          <h4>THE POAST</h4>
+          <h4>DON'T START YOUR DAY WITHOUT KNOWING</h4>
           <h1>
-            What's happening in the <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
+            what's happening in the <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
           </h1>
-          <p>Don't start your day without knowing what's happening in sports.</p>
+          <p>Subscribe to The Poast for free.</p>
         </div>
     <form
       method="post"
