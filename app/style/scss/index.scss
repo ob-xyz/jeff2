@@ -593,7 +593,6 @@ button.submit {
   width: 100%;
   padding: 10rem 5rem 3rem 5rem;
   box-sizing: border-box;
-
   .footer-top {
     display: flex;
     flex-wrap: nowrap;
@@ -858,35 +857,6 @@ form {
 
 }
 }
-.footer {
-  margin: 9rem .25rem 0 .25rem;
-  .footer-top {
-    flex-direction:column;
-    .footer-logo {
-      padding-right:0rem;
-      img {
-        display:none;
-        margin-top:-6.5rem;
-        margin-left:2rem;
-      }
-    }
-    .footer-links {
-      .column {
-        padding: 0 .5rem;
-      }
-   }
-  }
-    .footer-bottom {
-      padding-bottom:1.5rem;
-      margin-left: .75rem;
-    .footer-social {
-      margin-right:1rem;
-      img {
-        width:1.15rem;
-      }
-    }
-  }
- }
 }
 }
 @media (min-width: 660px) and (max-width: 874px) {
@@ -1043,7 +1013,7 @@ form {
 }
 }
 .footer {
-  padding: 5rem 1.25rem;
+  padding: 9rem 1.25rem 5rem 1.25rem;
   .footer-top {
     flex-direction:column;
     .footer-logo {
