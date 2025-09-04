@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
-import type { LinksFunction } from "@remix-run/node"; // or cloudflare/deno
+import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
