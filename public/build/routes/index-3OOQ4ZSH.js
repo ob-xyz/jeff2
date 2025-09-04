@@ -11,14 +11,14 @@ var import_react = __toESM(require_react());
 // public/img/ja1.png
 var ja1_default = "/build/_assets/ja1-T6WB4D3A.png";
 
-// public/img/samae.jpg
-var samae_default = "/build/_assets/samae-QLCDMFQL.jpg";
+// public/img/chill.jpg
+var chill_default = "/build/_assets/chill-TZU6SYAK.jpg";
 
 // public/img/tobic.jpg
 var tobic_default = "/build/_assets/tobic-6YGHSOL4.jpg";
 
-// public/img/jensene.jpg
-var jensene_default = "/build/_assets/jensene-US5BOCKK.jpg";
+// public/img/roast.jpg
+var roast_default = "/build/_assets/roast-NE64XGMA.jpg";
 
 // public/img/trump.jpeg
 var trump_default = "/build/_assets/trump-36S6F5RK.jpeg";
@@ -248,7 +248,7 @@ function Index() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: samae_default }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: roast_default }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 102,
           columnNumber: 11
@@ -269,7 +269,7 @@ function Index() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: jensene_default }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: chill_default }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 107,
           columnNumber: 11
@@ -484,4 +484,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-MUL7MFZH.js.map
+//# sourceMappingURL=/build/routes/index-3OOQ4ZSH.js.map

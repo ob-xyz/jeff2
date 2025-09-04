@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import sama from "~/../public/img/samae.jpg";
+import chill from "~/../public/img/chill.jpg";
 import tobi from "~/../public/img/tobic.jpg";
-import jensen from "~/../public/img/jensene.jpg";
+import roast from "~/../public/img/roast.jpg";
 import handcoin from "~/../public/img/trump.jpeg";
 import dd from "~/../public/img/rocket.jpeg";
 import trump from "~/../public/img/handcoin.jpeg";
@@ -99,12 +99,12 @@ export default function Index() {
           <p>The internet moves fast so we move slow.</p>
         </div>
         <div className="box">
-          <img src={sama} />
+          <img src={roast} />
           <h1>Poasts that roast</h1>
           <p>We don't make the rules, we just break'm.</p>
         </div>
         <div className="box">
-          <img src={jensen} />
+          <img src={chill} />
           <h1>No bad vibes</h1>
           <p>Hot steaks and scroll-stopping takes.</p>
         </div>
