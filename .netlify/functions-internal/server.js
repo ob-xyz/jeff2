@@ -136,22 +136,22 @@ var import_react3 = require("react"), import_react4 = require("@remix-run/react"
 var ja1_default = "/build/_assets/ja1-T6WB4D3A.png";
 
 // public/img/samae.jpg
-var samae_default = "/build/_assets/samae-CWPSNLTO.jpg";
+var samae_default = "/build/_assets/samae-QLCDMFQL.jpg";
 
 // public/img/tobic.jpg
-var tobic_default = "/build/_assets/tobic-6TILYHMG.jpg";
+var tobic_default = "/build/_assets/tobic-6YGHSOL4.jpg";
 
 // public/img/jensene.jpg
-var jensene_default = "/build/_assets/jensene-YYPH47ZK.jpg";
+var jensene_default = "/build/_assets/jensene-US5BOCKK.jpg";
 
-// public/img/trump.webp
-var trump_default = "/build/_assets/trump-BMRPD2H4.webp";
+// public/img/trump.jpeg
+var trump_default = "/build/_assets/trump-36S6F5RK.jpeg";
 
-// public/img/rocket.jpg
-var rocket_default = "/build/_assets/rocket-42E6OGTB.jpg";
+// public/img/rocket.jpeg
+var rocket_default = "/build/_assets/rocket-HK2KYFZB.jpeg";
 
-// public/img/handcoin.jpg
-var handcoin_default = "/build/_assets/handcoin-T7BQUMTT.jpg";
+// public/img/handcoin.jpeg
+var handcoin_default = "/build/_assets/handcoin-DJHV4JRN.jpeg";
 
 // public/img/in.png
 var in_default = "/build/_assets/in-4S25RRTW.png";
@@ -166,7 +166,7 @@ var x_default = "/build/_assets/x-J2PMTTZT.png";
 var email_default = "/build/_assets/email-KANKX45L.png";
 
 // app/routes/index.tsx
-var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["Hot steaks.", "Big takes."];
+var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["Top takes.", "Hot steaks."];
 function Index() {
   let [index, setIndex] = (0, import_react3.useState)(0), [fadeOut, setFadeOut] = (0, import_react3.useState)(!1);
   return (0, import_react3.useEffect)(() => {
@@ -276,7 +276,7 @@ function Index() {
         lineNumber: 77,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "The Poast sends you news from the internets perspective, there's really nothing else like it." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "The Poast sends you a recap of the weekly news from the internets perspective. There's really nothing else like it in the world." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 78,
         columnNumber: 22
@@ -300,7 +300,7 @@ function Index() {
         lineNumber: 81,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: handcoin_default }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: rocket_default }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 85,
         columnNumber: 11
@@ -309,7 +309,7 @@ function Index() {
         lineNumber: 84,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: rocket_default }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: handcoin_default }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 88,
         columnNumber: 11
@@ -341,7 +341,7 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content5", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: samae_default }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: tobic_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 97,
           columnNumber: 11
@@ -362,7 +362,7 @@ function Index() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: tobic_default }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: samae_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 102,
           columnNumber: 11
@@ -538,7 +538,7 @@ function Index() {
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-social", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://instagram.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: ig_default, alt: "Instagram" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://instagram.com/thepoast", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: ig_default, alt: "Instagram" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 157,
             columnNumber: 5
@@ -547,7 +547,7 @@ function Index() {
             lineNumber: 156,
             columnNumber: 3
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://x.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://x.com/thepoast", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 160,
             columnNumber: 5
@@ -556,7 +556,7 @@ function Index() {
             lineNumber: 159,
             columnNumber: 3
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://linkedin.com/company/thepoast", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 163,
             columnNumber: 5
@@ -565,7 +565,7 @@ function Index() {
             lineNumber: 162,
             columnNumber: 3
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@thepoast.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 166,
             columnNumber: 5
@@ -597,7 +597,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZFKY3LH7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-3HV5ENYS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "d4cad79f", hmr: void 0, url: "/build/manifest-D4CAD79F.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZFKY3LH7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-MUL7MFZH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "0b6a3762", hmr: void 0, url: "/build/manifest-0B6A3762.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

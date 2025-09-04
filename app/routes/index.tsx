@@ -5,16 +5,16 @@ import logo from "~/../public/img/ja1.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
-import trump from "~/../public/img/trump.webp";
-import dd from "~/../public/img/rocket.jpg";
-import handcoin from "~/../public/img/handcoin.jpg";
+import handcoin from "~/../public/img/trump.jpeg";
+import dd from "~/../public/img/rocket.jpeg";
+import trump from "~/../public/img/handcoin.jpeg";
 import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
 
-const rotatingWords = ["Hot steaks.", "Big takes."];
+const rotatingWords = ["Top takes.", "Hot steaks."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -75,17 +75,17 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>Enjoy our <span>free newsletter</span></h2>
-        <Link to="#"><p>The Poast sends you news from the internets perspective, there's really nothing else like it.</p></Link>
+        <Link to="#"><p>The Poast sends you a recap of the weekly news from the internets perspective. There's really nothing else like it in the world.</p></Link>
       </div>
       <div className="inner-content3">
-        <div className="box">
-          <img src={trump} />
-        </div>
         <div className="box">
           <img src={handcoin} />
         </div>
         <div className="box">
           <img src={dd} />
+        </div>
+        <div className="box">
+          <img src={trump} />
         </div>
       </div>
       <div className="inner-content4">
@@ -94,12 +94,12 @@ export default function Index() {
       </div>
       <div className="inner-content5">
         <div className="box">
-          <img src={sama} />
+          <img src={tobi} />
           <h1>One weekly newsletter</h1>
           <p>The internet moves fast so we move slow.</p>
         </div>
         <div className="box">
-          <img src={tobi} />
+          <img src={sama} />
           <h1>Poasts that roast</h1>
           <p>We don't make the rules, we just break'm.</p>
         </div>
