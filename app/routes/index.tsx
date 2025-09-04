@@ -75,7 +75,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>Enjoy our <span>free newsletter</span></h2>
-        <Link to="#"><p>The Poast sends you a recap of the weekly news from the internets perspective. There's really nothing else like it in the world.</p></Link>
+        <Link to="#"><p>The Poast delivers the weekly news from the internets perspective. There's really nothing else like it in the world. Subscribe to see for yourself.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
