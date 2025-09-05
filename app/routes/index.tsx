@@ -14,7 +14,7 @@ import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
 
-const rotatingWords = ["Hot takes.", "Top steaks."];
+const rotatingWords = ["Hot takes.", "Big steaks."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
