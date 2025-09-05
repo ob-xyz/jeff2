@@ -22,7 +22,6 @@
 }
 .container h3 {
   font-size: 2.75rem;
-  line-height: 3.5rem;
 }
 .container h4 {
   font-family: kl;
@@ -52,7 +51,6 @@
 }
 .container .content .inner-content .text p {
   text-align: left;
-  line-height: 1.65rem;
   font-size: 1.15rem;
   padding: 1rem 0rem 0.5rem 0;
   margin-left: 0;
@@ -255,7 +253,6 @@
 }
 .container .footer .footer-top .footer-signup p {
   margin: 0;
-  line-height: 0;
   padding-top: 2rem;
   padding-bottom: 0.5rem;
   font-family: "ku";
@@ -346,6 +343,7 @@
   flex-wrap: wrap;
   gap: 1.25rem;
   margin-left: 0;
+  margin-top: 0;
 }
 .container .footer .footer-bottom .footer-meta a {
   font-size: 0.825rem;
@@ -398,10 +396,6 @@
   }
 }
 @media (min-width: 875px) and (max-width: 1100px) {
-  .container h3 {
-    font-size: 2.75rem;
-    line-height: 3.25rem;
-  }
   .container h4 {
     font-size: 1rem;
   }
@@ -435,16 +429,17 @@
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     width: 100%;
   }
   .container .inner-content2 span {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     width: 100%;
+    font-size: 2rem;
   }
   .container .inner-content3 {
     margin: 0 2.5rem;
@@ -473,10 +468,6 @@
   }
 }
 @media (min-width: 660px) and (max-width: 874px) {
-  .container h3 {
-    font-size: 2.75rem;
-    line-height: 3.25rem;
-  }
   .container h4 {
     font-size: 1rem;
   }
@@ -499,6 +490,7 @@
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
+    font-size: 1rem;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
@@ -510,16 +502,16 @@
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     width: 100%;
   }
   .container .inner-content2 span {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 100%;
   }
   .container .inner-content3 {
@@ -529,7 +521,11 @@
     margin: 5rem 2.5rem 0 2.5rem;
     flex-direction: column;
   }
+  .container .inner-content4 h3 {
+    font-size: 2rem;
+  }
   .container .inner-content4 p {
+    font-size: 1.25rem;
     padding-top: 0.5rem;
     margin-left: 0;
     width: 100%;
@@ -551,8 +547,12 @@
     margin: 2rem auto;
   }
   .container .footer {
+    padding-top: 2.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+  .container .footer img {
+    padding-bottom: 1rem;
   }
   .container .footer .footer-top {
     flex-direction: column-reverse;
@@ -590,10 +590,6 @@
   }
 }
 @media (max-width: 659px) {
-  .container h3 {
-    font-size: 2.25rem;
-    line-height: 2.75rem;
-  }
   .container h4 {
     font-size: 1rem;
   }
@@ -610,7 +606,7 @@
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 1.5975rem;
+    font-size: 2.5rem;
   }
   .container .content .inner-content .text h1 {
     width: 100%;
@@ -618,6 +614,7 @@
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
+    font-size: 1rem;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
@@ -631,16 +628,15 @@
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 1.75rem;
-    width: 100%;
+    font-size: 1.5rem;
   }
   .container .inner-content2 span {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     width: 100%;
   }
   .container .inner-content3 {
@@ -650,7 +646,11 @@
     margin: 5rem 1rem 0 1rem;
     flex-direction: column;
   }
+  .container .inner-content4 h3 {
+    font-size: 2rem;
+  }
   .container .inner-content4 p {
+    font-size: 1.25rem;
     padding-top: 0.5rem;
     margin-left: 0;
     width: 100%;
@@ -671,8 +671,12 @@
     margin: 2rem 1rem;
   }
   .container .footer {
+    padding-top: 2.5rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+  .container .footer img {
+    padding-bottom: 1rem;
   }
   .container .footer .footer-top {
     flex-direction: column-reverse;

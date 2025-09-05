@@ -21,7 +21,6 @@
     }
     h3 {
         font-size:2.75rem;
-        line-height:3.5rem;
     }
     h4{
       font-family: kl;
@@ -48,7 +47,6 @@
     }
     p{
         text-align: left;
-        line-height:1.65rem;
         font-size:1.15rem;
         padding:1rem 0rem .5rem 0;
         margin-left:0;
@@ -258,7 +256,6 @@ p {
     margin:0;
       p{
         margin:0;
-        line-height: 0;
         padding-top:2rem;
         padding-bottom:.5rem;
         font-family: 'ku';
@@ -358,6 +355,7 @@ font-size: 0.825rem;
       flex-wrap: wrap;
       gap: 1.25rem;
       margin-left:0;
+      margin-top:0;
       a {
         font-size:.825rem;
         color: #000;
@@ -420,10 +418,6 @@ font-size: 0.825rem;
 }
 @media (min-width: 875px) and (max-width: 1100px) {
 .container{
-  h3{
-      font-size:2.75rem;
-      line-height:3.25rem;
-  }
   h4{
       font-size:1rem;
     }
@@ -460,16 +454,17 @@ form {
   border-top-right-radius:1.5rem;
   h2{
     padding-top:3.5rem;
-    font-size:3.5rem;
+    font-size:3rem;
     width:100%;
     }
     span{
-    font-size:3.5rem;
+    font-size:3rem;
     }
   p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     width:100%;
+    font-size:2rem;
   }
 }
 .inner-content3 {
@@ -501,10 +496,6 @@ form {
 }
 @media (min-width: 660px) and (max-width: 874px) {
 .container{
-  h3{
-      font-size:2.75rem;
-      line-height:3.25rem;
-  }
   h4{
       font-size:1rem;
     }
@@ -526,6 +517,7 @@ form {
       p{
         padding-top:2.5rem;
         padding-bottom:.5rem;
+        font-size: 1rem;
       }
     }
 form {
@@ -541,16 +533,16 @@ form {
   border-top-right-radius:1.5rem;
   h2{
     padding-top:3.5rem;
-    font-size:1.75rem;
+    font-size:2.5rem;
     width:100%;
     }
     span{
-      font-size:1.75rem;
+      font-size:2.5rem;
     }
   p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size:1.5rem;
+    font-size:2rem;
     width:100%;
   }
 }
@@ -560,7 +552,11 @@ form {
 .inner-content4 {
     margin: 5rem 2.5rem 0 2.5rem;
     flex-direction: column;
+    h3{
+      font-size:2rem;
+    }
     p{
+        font-size:1.25rem;
         padding-top:.5rem;
         margin-left:0;
         width:100%;
@@ -584,8 +580,12 @@ form {
 }
 
 .footer {
+  padding-top:2.5rem;
   padding-left:2.5rem;
   padding-right:2.5rem;
+  img{
+    padding-bottom: 1rem;
+  }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
@@ -627,10 +627,6 @@ form {
 }
 @media (max-width: 659px) {
 .container{
-  h3{
-      font-size:2.25rem;
-      line-height:2.75rem;
-  }
   h4{
       font-size:1rem;
     }
@@ -646,7 +642,7 @@ form {
     .text{
       h1, 
       span{
-          font-size:1.5975rem;
+          font-size:2.5rem;
       }
       h1{
         width:100%;
@@ -654,6 +650,7 @@ form {
       p{
         padding-top:2.5rem;
         padding-bottom:.5rem;
+        font-size:1rem;
       }
     }
 form {
@@ -671,16 +668,15 @@ form {
   border-top-right-radius:1.5rem;
   h2{
     padding-top:3.5rem;
-    font-size:1.75rem;
-    width:100%;
-    }
+    font-size:1.5rem;
+  }
     span{
-      font-size:1.75rem;
+      font-size:1.5rem;
     }
   p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size:1.5rem;
+    font-size:1.25rem;
     width:100%;
   }
 }
@@ -690,7 +686,11 @@ form {
 .inner-content4 {
     margin: 5rem 1rem 0 1rem;
     flex-direction: column;
+    h3{
+      font-size:2rem;
+    }
     p{
+        font-size:1.25rem;
         padding-top:.5rem;
         margin-left:0;
         width:100%;
@@ -712,8 +712,12 @@ form {
     margin: 2rem 1rem;
 }
 .footer {
+  padding-top:2.5rem;
   padding-left:1.25rem;
   padding-right:1.25rem;
+  img{
+    padding-bottom: 1rem;
+  }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
