@@ -353,7 +353,7 @@ font-size: 0.825rem;
     .footer-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: .5rem;
+      gap: 1.25rem;
       margin-left:0;
       margin-top:0;
       a {
@@ -614,6 +614,9 @@ form {
 }
 .footer-bottom {
       padding-bottom:1.25rem;
+    .footer-meta {
+      gap: .75rem;
+    }
     .footer-social {
       gap:1.25rem;
       img {
@@ -746,6 +749,9 @@ form {
 }
 .footer-bottom {
       padding-bottom:1.25rem;
+    .footer-meta {
+      gap: .75rem;
+    }
     .footer-social {
       gap:1.25rem;
       img {
