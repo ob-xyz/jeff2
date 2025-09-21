@@ -68,7 +68,7 @@ export default function Index() {
           <button className="submit" type="submit">Subscribe</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
         <input type="hidden" name="nonce" />
       </form>
         </div>
