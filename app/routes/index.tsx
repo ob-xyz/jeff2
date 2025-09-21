@@ -14,7 +14,7 @@ import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
 
-const rotatingWords = ["Hot takes.", "Big steaks."];
+const rotatingWords = ["Hot takes.", "Big steaks.", "Empire State."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -60,7 +60,7 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-            <p>Sign up for news from the internets perspective.</p>
+            <p>Sign up to get news from the greatest city in the world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -75,7 +75,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>Enjoy our <span>free newsletter</span></h2>
-        <Link to="#"><p>The Poast delivers the weekly news from the internets perspective. There's really nothing else like it in the world. Subscribe to see for yourself.</p></Link>
+        <Link to="#"><p>We write headlines that make headlines. Get our free weekly newsletter that tells it like it is in the greatest city in the world. Subscribe for free.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -90,23 +90,24 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Read by people who usually don't take themselves too seriously.</p>
+            <p>Read by people who actually love New York.</p>
       </div>
       <div className="inner-content5">
-        <div className="box">
-          <img src={tobi} />
-          <h1>One weekly newsletter</h1>
-          <p>The internet moves fast so we move slow.</p>
-        </div>
+
         <div className="box">
           <img src={roast} />
           <h1>Poasts that roast</h1>
-          <p>We don't make the rules, we just break'm.</p>
+          <p>We write headlines that make headlines.</p>
         </div>
         <div className="box">
           <img src={chill} />
           <h1>No bad vibes</h1>
-          <p>Hot steaks and scroll-stopping takes.</p>
+          <p>Hot takes, big steaks, all from the empire state.</p>
+        </div>
+          <div className="box">
+          <img src={tobi} />
+          <h1>Once a week</h1>
+          <p>Know what's happening in the greatest city in the world.</p>
         </div>
       </div>
       <div className="btn">
