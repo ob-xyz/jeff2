@@ -14,7 +14,7 @@ import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
 
-const rotatingWords = ["Hot takes.", "Big steaks.", "Empire State."];
+const rotatingWords = [" choas.", " traffic.", " noise."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -55,12 +55,12 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>THE POAST</h4>
-            <h1>
+            <h1>Mostly sunny with a chance of 
                <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
               </span>
             </h1>
-            <p>Sign up to get news from the greatest city in the world.</p>
+            <p>Sign up to know what's happening in the greatest city in the world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">

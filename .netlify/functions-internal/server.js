@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-X35XNB43.css";
+var global_default = "/build/_assets/global-BDSCAMWC.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -71,7 +71,7 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
 ], meta = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "It's mostly sunny in New York with a slight chance of chaos.",
+  description: "Welcome to New York where it's mostly sunny with a slight chance of chaos.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -166,7 +166,7 @@ var x_default = "/build/_assets/x-J2PMTTZT.png";
 var email_default = "/build/_assets/email-KANKX45L.png";
 
 // app/routes/index.tsx
-var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["Hot takes.", "Big steaks.", "Empire State."];
+var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = [" choas.", " traffic.", " noise."];
 function Index() {
   let [index, setIndex] = (0, import_react3.useState)(0), [fadeOut, setFadeOut] = (0, import_react3.useState)(!1);
   return (0, import_react3.useEffect)(() => {
@@ -198,16 +198,19 @@ function Index() {
           lineNumber: 57,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: `${fadeOut ? "fade-out" : "fade-in"}`, children: rotatingWords[index] }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 59,
-          columnNumber: 16
-        }, this) }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: [
+          "Mostly sunny with a chance of",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: `${fadeOut ? "fade-out" : "fade-in"}`, children: rotatingWords[index] }, void 0, !1, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 59,
+            columnNumber: 16
+          }, this)
+        ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Sign up to get news from the greatest city in the world." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Sign up to know what's happening in the greatest city in the world." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 63,
           columnNumber: 13
@@ -239,7 +242,7 @@ function Index() {
           lineNumber: 70,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 71,
           columnNumber: 9
@@ -597,7 +600,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-XTESPSWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-FR5WSZ7U.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "c3ff1317", hmr: void 0, url: "/build/manifest-C3FF1317.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-LZWCJ3JD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-QEONWLPZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "9ac8fe19", hmr: void 0, url: "/build/manifest-9AC8FE19.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

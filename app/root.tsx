@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "It's mostly sunny in New York with a slight chance of chaos.",
+  description: "Welcome to New York where it's mostly sunny with a slight chance of chaos.",
   viewport: "width=device-width,initial-scale=1",
 });
 
