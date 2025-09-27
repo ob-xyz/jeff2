@@ -1068,8 +1068,7 @@
     padding-top: 1rem;
   }
   .footer .footer-top .footer-signup p {
-    font-size: 1.75rem;
-    padding-bottom: .25rem;
+    font-size: 1.2rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
     width: 31.25rem;
@@ -1112,11 +1111,10 @@
     padding-top: 1rem;
   }
   .footer .footer-top .footer-signup p {
-    font-size: 1.6rem;
-    padding-bottom: .25rem;
+    font-size: .925rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 19rem;
+    width: 24rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
