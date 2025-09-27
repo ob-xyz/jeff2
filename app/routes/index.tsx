@@ -112,7 +112,7 @@ export default function Index() {
       </div>
       <div className="btn">
         <Link to="#" className="pricebtn">
-            Sign up for free
+            Let's do it
       </Link>
       </div>
 <div className="footer">
