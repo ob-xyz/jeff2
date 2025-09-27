@@ -81,7 +81,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  max-width: 72.5%;
+  max-width: 70%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -100,7 +100,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 28rem;
+  width: 32rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -123,16 +123,16 @@
   top: 2px;
   right: 2px;
   bottom: 2px;
-  padding: 0 1rem;
-  background-color: #fafafa;
-  color: black;
+  padding: 0 2rem;
+  background-color: #000;
+  color: #fafafa;
   border: none;
-  border-left: 0.12rem solid #02090A;
+  border-left: 0.1rem solid #02090A;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
 .container .content .inner-content form button.submit:hover {
-  background-color: #F5F5F5;
+  background-color: #2d2d2d;
   cursor: pointer;
 }
 .container .inner-content2 {
@@ -643,10 +643,10 @@
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .container .content .inner-content .text h1 {
-    width: 100%;
+    max-width: 72.5%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;

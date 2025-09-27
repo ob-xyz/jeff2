@@ -14,7 +14,7 @@ import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
 
-const rotatingWords = [" choas.", " traffic.", " noise."];
+const rotatingWords = [" gridlock", " cabbies.", " construction.", " choas."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -60,12 +60,12 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-            <p>Sign up to know what's happening in the greatest city in the world.</p>
+            <p>Sign up to know what's really going on in the greatest city in the world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Subscribe</button>
+          <button className="submit" type="submit">Let's do it</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
         <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
@@ -74,8 +74,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>Enjoy our <span>free newsletter</span></h2>
-        <Link to="#"><p>We write headlines that make headlines. Get our free weekly newsletter that tells it like it is in the greatest city in the world. Subscribe for free.</p></Link>
+        <h2>Enjoy our <span>free</span> newsletter</h2>
+        <Link to="#"><p>We writes headlines that make headlines. And our weekly scoop tells it like it is for the greatest city in the world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
