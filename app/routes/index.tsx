@@ -70,7 +70,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>Enjoy our <span>free</span> newsletter</h2>
-        <Link to="#"><p>We writes headlines that make headlines. And our weekly scoop tells it like it is for the greatest city in the world.</p></Link>
+        <Link to="#"><p>We writes headlines that make headlines. Enjoy our free weekly newsletter that tells it like it is in the greatest city in the world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
