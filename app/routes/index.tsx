@@ -9,7 +9,7 @@ import handcoin from "~/../public/img/trump.jpeg";
 import dd from "~/../public/img/rocket.jpeg";
 import trump from "~/../public/img/handcoin.jpeg";
 
-const rotatingWords = [" gridlock.", " cabbies.", " choas."];
+const rotatingWords = [" choas.", " cabbies.", " gridlock."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
