@@ -234,7 +234,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-SYMYFHQM.css";
+var global_default = "/build/_assets/global-A7C72B7O.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -254,7 +254,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "Welcome to New York where it's mostly sunny with a slight chance of chaos.",
+  description: "We're the newsletters for New Yorkers who fucking hate newsletters.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -317,4 +317,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-3S3H5JSR.js.map
+//# sourceMappingURL=/build/root-T3YJHHD2.js.map

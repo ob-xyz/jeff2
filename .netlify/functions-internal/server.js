@@ -272,7 +272,7 @@ function Footer() {
 var import_react4 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-SYMYFHQM.css";
+var global_default = "/build/_assets/global-A7C72B7O.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
@@ -288,7 +288,7 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
 ], meta = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "Welcome to New York where it's mostly sunny with a slight chance of chaos.",
+  description: "We're the newsletters for New Yorkers who fucking hate newsletters.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -1254,11 +1254,11 @@ function Index4() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: [
-        "The ",
+        "We're the ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "newsletter for New Yorkers" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 72,
-          columnNumber: 17
+          columnNumber: 23
         }, this),
         " who fucking hate newsletters."
       ] }, void 0, !0, {
@@ -1336,7 +1336,7 @@ function Index4() {
           lineNumber: 93,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "We like to tell it like it is" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "We tell it like it is" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 94,
           columnNumber: 11
@@ -1362,7 +1362,7 @@ function Index4() {
           lineNumber: 99,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Get every news story that matters to people living in one of the five boroughs." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Get every news story that matters to people in the five boroughs." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 100,
           columnNumber: 11
@@ -1383,7 +1383,7 @@ function Index4() {
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Because we know real New Yorkers fucking hate newsletters." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Cause real New Yorkers fucking hate newsletters." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 105,
           columnNumber: 11
@@ -1415,7 +1415,7 @@ function Index4() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3S3H5JSR.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-4YZ4AS2M.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-SOD7DOG5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b71ee665", hmr: void 0, url: "/build/manifest-B71EE665.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-T3YJHHD2.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-4YZ4AS2M.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VPUCF42P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "5972c0f9", hmr: void 0, url: "/build/manifest-5972C0F9.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

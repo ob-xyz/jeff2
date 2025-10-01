@@ -69,7 +69,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>The <span>newsletter for New Yorkers</span> who fucking hate newsletters.</h2>
+        <h2>We're the <span>newsletter for New Yorkers</span> who fucking hate newsletters.</h2>
         <Link to="#"><p>At The Poast it's mostly sunny with a chance of chaos. And to help get you through it—a newsletter for New Yorkers who fucking hate newsletters.</p></Link>
       </div>
       <div className="inner-content3">
@@ -91,18 +91,18 @@ export default function Index() {
 
         <div className="box">
           <img src={roast} />
-          <h1>We like to tell it like it is</h1>
+          <h1>We tell it like it is</h1>
           <p>Join New Yorkers who arn't afraid to burn bridges just to tell it like it is.</p>
         </div>
         <div className="box">
           <img src={chill} />
           <h1>Get every story that matters</h1>
-          <p>Get every news story that matters to people living in one of the five boroughs.</p>
+          <p>Get every news story that matters to people in the five boroughs.</p>
         </div>
           <div className="box">
           <img src={tobi} />
           <h1>Once a week</h1>
-          <p>Because we know real New Yorkers fucking hate newsletters.</p>
+          <p>Cause real New Yorkers fucking hate newsletters.</p>
         </div>
       </div>
       <div className="btn">

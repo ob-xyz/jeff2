@@ -144,11 +144,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "The ",
+        "We're the ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "newsletter for New Yorkers" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 72,
-          columnNumber: 17
+          columnNumber: 23
         }, this),
         " who fucking hate newsletters."
       ] }, void 0, true, {
@@ -226,7 +226,7 @@ function Index() {
           lineNumber: 93,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "We like to tell it like it is" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "We tell it like it is" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 94,
           columnNumber: 11
@@ -252,7 +252,7 @@ function Index() {
           lineNumber: 99,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get every news story that matters to people living in one of the five boroughs." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get every news story that matters to people in the five boroughs." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 100,
           columnNumber: 11
@@ -273,7 +273,7 @@ function Index() {
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Because we know real New Yorkers fucking hate newsletters." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Cause real New Yorkers fucking hate newsletters." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 105,
           columnNumber: 11
@@ -306,4 +306,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-SOD7DOG5.js.map
+//# sourceMappingURL=/build/routes/index-VPUCF42P.js.map
