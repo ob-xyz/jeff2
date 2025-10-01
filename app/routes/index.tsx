@@ -55,7 +55,7 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-            <p>Sign up to know what's going on in the greatest city in the world</p>
+            <p>Sign up to know what's happening in the five boroughs.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -69,8 +69,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>Enjoy our <span>free</span> newsletter</h2>
-        <Link to="#"><p>We writes headlines that make headlines. Enjoy our free weekly newsletter that tells it like it is in the greatest city in the world.</p></Link>
+        <h2>The <span>newsletter for New Yorkers</span> who fucking hate newsletters.</h2>
+        <Link to="#"><p>At The Poast it's mostly sunny with a chance of chaos. And to help get you through it—a newsletter for New Yorkers who fucking hate newsletters.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -85,24 +85,24 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Read by people who actually love New York.</p>
+            <p>Read by New Yorkers who fucking hate newsletters.</p>
       </div>
       <div className="inner-content5">
 
         <div className="box">
           <img src={roast} />
-          <h1>Poasts that roast</h1>
-          <p>We write headlines that make headlines.</p>
+          <h1>We like to tell it like it is</h1>
+          <p>Join New Yorkers who arn't afraid to burn bridges just to tell it like it is.</p>
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>No bad vibes</h1>
-          <p>Hot takes, big steaks, all from the empire state.</p>
+          <h1>Get every story that matters</h1>
+          <p>Get every news story that matters to people living in one of the five boroughs.</p>
         </div>
           <div className="box">
           <img src={tobi} />
           <h1>Once a week</h1>
-          <p>Know what's happening in the greatest city in the world.</p>
+          <p>Because we know real New Yorkers fucking hate newsletters.</p>
         </div>
       </div>
       <div className="btn">

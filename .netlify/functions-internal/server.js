@@ -92,7 +92,7 @@ function Footer() {
           lineNumber: 30,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Sign up to know what's really happening in The Big Apple" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Sign up to know what's happening in the five boroughs." }, void 0, !1, {
           fileName: "app/components/footer.tsx",
           lineNumber: 31,
           columnNumber: 5
@@ -272,7 +272,7 @@ function Footer() {
 var import_react4 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-TNNCTHAL.css";
+var global_default = "/build/_assets/global-SYMYFHQM.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
@@ -1109,7 +1109,7 @@ function Index3() {
         lineNumber: 9,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: "The Poast is a daily newsletter for people in the greatest city in the world." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: "The Poast is a newsletter for New Yorkers who fucking hate newsletters." }, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 9
@@ -1152,7 +1152,7 @@ var rocket_default = "/build/_assets/rocket-HK2KYFZB.jpeg";
 var handcoin_default = "/build/_assets/handcoin-DJHV4JRN.jpeg";
 
 // app/routes/index.tsx
-var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), rotatingWords = [" gridlock.", " cabbies.", " choas."];
+var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), rotatingWords = [" choas.", " cabbies.", " gridlock."];
 function Index4() {
   let [index, setIndex] = (0, import_react5.useState)(0), [fadeOut, setFadeOut] = (0, import_react5.useState)(!1);
   return (0, import_react5.useEffect)(() => {
@@ -1196,7 +1196,7 @@ function Index4() {
           lineNumber: 53,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Sign up to know what's going on in the greatest city in the world" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Sign up to know what's happening in the five boroughs." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
           columnNumber: 13
@@ -1254,19 +1254,19 @@ function Index4() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: [
-        "Enjoy our ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "free" }, void 0, !1, {
+        "The ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "newsletter for New Yorkers" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 72,
-          columnNumber: 23
+          columnNumber: 17
         }, this),
-        " newsletter"
+        " who fucking hate newsletters."
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
         lineNumber: 72,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "We writes headlines that make headlines. Enjoy our free weekly newsletter that tells it like it is in the greatest city in the world." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "At The Poast it's mostly sunny with a chance of chaos. And to help get you through it\u2014a newsletter for New Yorkers who fucking hate newsletters." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 73,
         columnNumber: 22
@@ -1319,7 +1319,7 @@ function Index4() {
         lineNumber: 87,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Read by people who actually love New York." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Read by New Yorkers who fucking hate newsletters." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 88,
         columnNumber: 13
@@ -1336,12 +1336,12 @@ function Index4() {
           lineNumber: 93,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Poasts that roast" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "We like to tell it like it is" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 94,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "We write headlines that make headlines." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Join New Yorkers who arn't afraid to burn bridges just to tell it like it is." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 95,
           columnNumber: 11
@@ -1357,12 +1357,12 @@ function Index4() {
           lineNumber: 98,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "No bad vibes" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Get every story that matters" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 99,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Hot takes, big steaks, all from the empire state." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Get every news story that matters to people living in one of the five boroughs." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 100,
           columnNumber: 11
@@ -1383,7 +1383,7 @@ function Index4() {
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Know what's happening in the greatest city in the world." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Because we know real New Yorkers fucking hate newsletters." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 105,
           columnNumber: 11
@@ -1415,7 +1415,7 @@ function Index4() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-PWVO4TR4.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-OIZYI7XQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-7JQRS2XT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "5e715e8f", hmr: void 0, url: "/build/manifest-5E715E8F.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3S3H5JSR.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-4YZ4AS2M.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-SOD7DOG5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b71ee665", hmr: void 0, url: "/build/manifest-B71EE665.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

@@ -63,7 +63,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 33.25rem;
+  width: 29rem;
 }
 input.email {
   width: 100%;
@@ -87,13 +87,13 @@ button.submit {
   position: absolute;
   top: 2px;
   right: 2px;
-  bottom: 2px;
+  bottom: 1px;
   padding: 0 2rem;
   background-color: #000;
   color: #fafafa;
   border: none;
   border-left: .1rem solid #02090A;
-  border-radius: 0 0.2rem 0.2rem 0;
+  border-radius: 0;
   font-size: 1rem;
   &:hover {
     background-color: #2d2d2d;
@@ -115,7 +115,7 @@ button.submit {
       color:#fff;
     }
   span{
-      font-size:4.5rem;
+      font-size:4.25rem;
       font-family:ku;
   }
 p {
