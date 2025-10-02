@@ -70,7 +70,8 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>We're the <span>newsletter for New Yorkers</span> who fucking hate newsletters.</h2>
-        <Link to="#"><p>At The Poast it's mostly sunny with a chance of chaos. And to help get you through it—a newsletter for New Yorkers who fucking hate newsletters.</p></Link>
+        <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
+        <p>At The Poast it's mostly sunny with a chance of chaos. And to help get you through it—a newsletter for New Yorkers who fucking hate newsletters.</p></a>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -106,9 +107,9 @@ export default function Index() {
         </div>
       </div>
       <div className="btn">
-        <Link to="#" className="pricebtn">
+            <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer" className="pricebtn">
             Sign up for free
-      </Link>
+      </a>
       </div>
     </div>
   );
