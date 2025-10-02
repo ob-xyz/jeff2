@@ -108,7 +108,7 @@ export default function Index() {
       </div>
       <div className="btn">
             <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer" className="pricebtn">
-            Sign up for free
+            Subscribe for free
       </a>
       </div>
     </div>
