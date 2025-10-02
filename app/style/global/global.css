@@ -464,10 +464,10 @@
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
   .container .content .inner-content .text h1 {
-    max-width: 72.5%;
+    max-width: 100%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
