@@ -195,9 +195,7 @@ font-size: 0.825rem;
 }
 @media (max-width: 659px) {
 .footer {
-  padding-left:1.25rem;
-  padding-right:1.25rem;
-  padding-top:2.5rem;
+  padding:1.25rem 2.5rem 1.25rem .5rem;
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
@@ -215,16 +213,17 @@ font-size: 0.825rem;
       }
       }
   }
-}
+
 .footer-links {
       flex-direction: column;
-      padding-top:1.5rem;
+      padding-top:1.25rem;
 .column {
     margin:0;
     padding:0;
 }
 .column:nth-child(2){
-  padding-top:.75rem;
+  padding-top:.5rem;
+}
 }
 }
 .footer-bottom {
@@ -241,4 +240,3 @@ font-size: 0.825rem;
   }
 }
 }
-
