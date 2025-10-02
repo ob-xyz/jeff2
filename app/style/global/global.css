@@ -472,7 +472,7 @@
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
@@ -1109,7 +1109,7 @@
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
-    padding-top: 0.75rem;
+    padding-top: 1rem;
   }
   .footer .footer-top .footer-links .column {
     margin: 0;
