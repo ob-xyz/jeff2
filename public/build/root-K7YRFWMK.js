@@ -172,7 +172,7 @@ function Footer() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://policies.google.com/terms?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Terms of Service" }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 61,
-          columnNumber: 3
+          columnNumber: 4
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/footer.tsx",
@@ -234,7 +234,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-H5SIXNGY.css";
+var global_default = "/build/_assets/global-IYDYHPJF.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -317,4 +317,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-SAP5STDQ.js.map
+//# sourceMappingURL=/build/root-K7YRFWMK.js.map

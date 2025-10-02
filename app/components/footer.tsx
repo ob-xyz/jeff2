@@ -58,7 +58,7 @@ export default function Footer() {
 <div className="footer-bottom">
   <div className="footer-meta">
     <Link to="/policies/privacy">Privacy Policy</Link>
-  <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
+   <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
     Terms of Service
   </a>
   </div>

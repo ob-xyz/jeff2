@@ -1140,6 +1140,12 @@
     padding-left: 0;
     margin-left: 0;
   }
+  .footer .footer-top .footer-bottom .footer-meta a {
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
   .footer .footer-top .footer-bottom .footer-social {
     gap: 1.25rem;
   }
