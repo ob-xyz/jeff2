@@ -1109,7 +1109,7 @@
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
   .footer .footer-top .footer-links .column {
     margin: 0;
