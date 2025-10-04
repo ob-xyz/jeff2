@@ -29,8 +29,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "One Minute Friday Newsletter : The Poast",
-  description: "We're the newsletter for New Yorkers who fucking hate newsletters.",
+  title: "One Minute Newsletter : The Poast",
+  description: "Sign up for the free, one minute newsletter keeping 10,000+ New Yorkers updated about the city.",
   viewport: "width=device-width,initial-scale=1",
 });
 
