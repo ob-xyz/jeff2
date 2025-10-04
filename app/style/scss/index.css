@@ -52,7 +52,7 @@
 }
 .container .content .inner-content .text p {
   text-align: left;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   padding: 1rem 0rem 0.5rem 0;
   margin-left: 0;
 }
@@ -67,7 +67,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 29rem;
+  width: 27rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -286,7 +286,7 @@
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 29rem;
+    width: 27rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -357,10 +357,10 @@
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 25rem;
+    width: 27rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
