@@ -85,7 +85,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Once-a-week we deliver The Poast to over ten thousand people who love NY.</p>
+            <p>Enjoy our free, one minute weekly newsletter that helps 10,000+ people who love NY stay informed.</p>
       </div>
       <div className="inner-content5">
 
