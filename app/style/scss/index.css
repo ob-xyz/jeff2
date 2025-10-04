@@ -434,15 +434,15 @@
     font-size: 2rem;
   }
   .container .content .inner-content .text h1 {
-    max-width: 70%;
+    max-width: 100%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    font-size: 0.95rem;
+    font-size: 0.925rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 24rem;
+    width: 22rem;
   }
   .container .inner-content2 {
     margin-left: 0;
@@ -453,10 +453,10 @@
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 1.65rem;
+    font-size: 1.25rem;
   }
   .container .inner-content2 span {
-    font-size: 1.65rem;
+    font-size: 1.25rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
