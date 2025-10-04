@@ -7,7 +7,7 @@ export default function Index() {
       </div>
       <div className="content-aboutus2">
         <h2>Mostly sunny with a chance of <span>chaos.</span></h2>
-        <p>Once-a-week The Poast delivers a free one minute newsletter for New Yorkers who hate newsletters.</p>
+        <p>Once-a-week The Poast delivers a one minute newsletter for New Yorkers who hate newsletters.</p>
       </div>
   </div>
   );

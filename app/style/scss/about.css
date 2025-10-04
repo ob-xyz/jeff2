@@ -14,11 +14,14 @@
 .content-aboutus h1, .content-aboutus h2, .content-aboutus h3, .content-aboutus span {
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
-.content-aboutus h2 {
-  font-size: 4rem;
+.content-aboutus h2, .content-aboutus span {
   font-family: kl;
+}
+.content-aboutus h2 span {
+  font-size: 4rem;
+  font-family: ku;
 }
 .content-aboutus h3 {
   font-size: 2.75rem;
@@ -42,10 +45,6 @@
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
-}
-.content-aboutus .content-aboutus2 span {
-  font-size: 4.5rem;
-  font-family: ku;
 }
 .content-aboutus .content-aboutus2 p {
   padding-top: 1.5rem;

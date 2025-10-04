@@ -100,7 +100,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 27rem;
+  width: 28.5rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -319,7 +319,7 @@
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 27rem;
+    width: 28.5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -393,7 +393,7 @@
     font-size: 1.2rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 27rem;
+    width: 28.5rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -486,7 +486,7 @@
   }
   .container .inner-content2 h2, .container .inner-content2 span {
     padding-top: 3.5rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
@@ -542,11 +542,14 @@
 .content-aboutus h1, .content-aboutus h2, .content-aboutus h3, .content-aboutus span {
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
-.content-aboutus h2 {
-  font-size: 4rem;
+.content-aboutus h2, .content-aboutus span {
   font-family: kl;
+}
+.content-aboutus h2 span {
+  font-size: 4rem;
+  font-family: ku;
 }
 .content-aboutus h3 {
   font-size: 2.75rem;
@@ -570,10 +573,6 @@
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
-}
-.content-aboutus .content-aboutus2 span {
-  font-size: 4.5rem;
-  font-family: ku;
 }
 .content-aboutus .content-aboutus2 p {
   padding-top: 1.5rem;
@@ -946,7 +945,7 @@
 }
 .footer .footer-top .footer-signup form .input-wrapper {
   position: relative;
-  width: 27.75rem;
+  width: 28.5rem;
 }
 .footer .footer-top .footer-signup form input.email {
   width: 100%;
@@ -1056,7 +1055,7 @@
     font-size: 1.2rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 27.75rem;
+    width: 28.5rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
@@ -1097,7 +1096,7 @@
     font-size: 2rem;
   }
   .footer .footer-top .footer-signup p {
-    font-size: 0.925rem;
+    font-size: 0.95rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
     width: 22.5rem;

@@ -48,13 +48,13 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>ONE MINUTE NEWSLETTER</h4>
+            <h4>ONE MINUTE NEWSLETTER FOR NY</h4>
             <h1>Mostly sunny with a chance of 
                <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to The Poast's free one minute newsletter.</p>
+          <p>Sign up to The Poast's one minute newsletter for NY.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -70,7 +70,7 @@ export default function Index() {
       <div className="inner-content2">
         <h2>We're the <span>one minute newsletter</span> for New Yorkers who hate newsletters.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>At The Poast it's mostly sunny with a chance of chaos and our free one minute newsletter delivered every Friday is the perfect way to kick off your weekend.</p></a>
+        <p>At The Poast it's mostly sunny with a chance of chaos and our free one minute newsletter is the perfect way to kick off your weekend.</p></a>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -84,25 +84,25 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content4">
-            <h3>Delivered straight to your Friday inbox.</h3>
-            <p>Read by New Yorkers who actually have plans this weekend.</p>
+            <h3>Delivered straight to your inbox.</h3>
+            <p>Once-a-week we deliver The Poast to over ten thousand people who love NY.</p>
       </div>
       <div className="inner-content5">
 
         <div className="box">
           <img src={roast} />
           <h1>We tell it like it is</h1>
-          <p>Join New Yorkers who arn't afraid to burn bridges just to tell it like it is.</p>
+          <p>Join the city who isn't ever afraid to tell it like it is.</p>
         </div>
         <div className="box">
           <img src={chill} />
           <h1>Get every story that matters</h1>
-          <p>Get every news story that matters to people in the five boroughs.</p>
+          <p>Our stories cover what's happening across NY.</p>
         </div>
           <div className="box">
           <img src={tobi} />
-          <h1>Once a week</h1>
-          <p>It's the perfect amount of newsletter.</p>
+          <h1>Once-a-week</h1>
+          <p>It's the perfect once-a-week, free newsletter.</p>
         </div>
       </div>
       <div className="btn">
