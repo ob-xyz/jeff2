@@ -100,7 +100,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 29rem;
+  width: 27.75rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -319,7 +319,7 @@
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 22rem;
+    width: 27.5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -393,7 +393,7 @@
     font-size: 1rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 22rem;
+    width: 24rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -472,10 +472,10 @@
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    font-size: 0.875rem;
+    font-size: 0.925rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 22rem;
+    width: 22.25rem;
   }
   .container .inner-content2 {
     margin-left: 0;
@@ -949,7 +949,7 @@
 }
 .footer .footer-top .footer-signup form .input-wrapper {
   position: relative;
-  width: 30rem;
+  width: 25rem;
 }
 .footer .footer-top .footer-signup form input.email {
   width: 100%;
@@ -1059,7 +1059,7 @@
     font-size: 1.2rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 31.25rem;
+    width: 25rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
@@ -1100,10 +1100,10 @@
     font-size: 2rem;
   }
   .footer .footer-top .footer-signup p {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 22.5rem;
+    width: 21rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
