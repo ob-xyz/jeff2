@@ -70,7 +70,7 @@ export default function Index() {
       <div className="inner-content2">
         <h2>We're the <span>one minute newsletter</span> for New Yorkers who hate newsletters.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>At The Poast it's mostly sunny with a chance of chaos and our one minute weekly newsletter is the perfect way to kick off your weekend.</p></a>
+        <p>At The Poast it's mostly sunny with a chance of chaos, and our one minute weekly newsletter for NY is the safest way to get through it.</p></a>
       </div>
       <div className="inner-content3">
         <div className="box">
