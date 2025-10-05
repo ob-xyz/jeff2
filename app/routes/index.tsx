@@ -48,13 +48,13 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>KEEP THE METER RUNNING</h4>
-            <h1>Don't start your weekend without knowing what's happening in 
+            <h4>u see this?</h4>
+            <h1>Don't start your weekend without seeing what's happening in 
                <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to The Poast weekly newsletter.</p>
+          <p>Subscribe to The Poast weekly newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -68,9 +68,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>Keep the meter running. We're the <span>newsletter for NewYorkers</span> who hate newsletters.</h2>
+        <h2>u see this? we're the <span>newsletter for newyorkers</span> who hate newsletters.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Every week The Poast delivers a quick updated on the latest, and greatest stories happening in NY—with extra eyes on special conversations, features, and stories. We're the <span>newsletter for NewYorkers</span> who hate newsletters.</p></a>
+        <p>Every week The Poast delivers a quick updated on the latest, and greatest stories happening in NY—with extra eyes on special conversations, features, and stories. We're the <span>newsletter for newyorkers</span> who hate newsletters.</p></a>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -85,7 +85,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, one minute weekly newsletter that helps 10,000+ real NewYorkers stay informed.</p>
+            <p>Enjoy our free, one minute weekly newsletter that helps 10,000+ real newyorkers stay informed.</p>
       </div>
       <div className="inner-content5">
 
@@ -96,13 +96,13 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>Stories from real New Yorkers</h1>
+          <h1>Stories from real newyorkers</h1>
           <p>Get the latest and greatest stories and events happening in NY.</p>
         </div>
           <div className="box">
           <img src={tobi} />
           <h1>Don't start your weekend without it</h1>
-          <p>We're the once-a-week newsletter for New Yorkers who hate newsletters.</p>
+          <p>We're the once-a-week newsletter for newyorkers who hate newsletters.</p>
         </div>
       </div>
       <div className="btn">
