@@ -32,7 +32,15 @@ function Index() {
         lineNumber: 9,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Once-a-week The Poast delivers a one minute newsletter for New Yorkers who hate newsletters." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
+        "But that won't stop The Poast from delivering you the latest, and greatest stories happening in NY\u2014with extra eyes on special events, sports, and entertainment. We're the ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "one minute newsletter" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 10,
+          columnNumber: 183
+        }, this),
+        " for New Yorkers who hate newsletters."
+      ] }, void 0, true, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 9
@@ -51,4 +59,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-SNQSE5TG.js.map
+//# sourceMappingURL=/build/routes/about-NIVHP4SP.js.map
