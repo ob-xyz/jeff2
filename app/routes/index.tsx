@@ -8,7 +8,7 @@ import handcoin from "~/../public/img/trump.jpeg";
 import dd from "~/../public/img/rocket.jpeg";
 import trump from "~/../public/img/handcoin.jpeg";
 
-const rotatingWords = [" choas.", " cabbies.", " gridlock."];
+const rotatingWords = [" Brooklyn.", " Manhattan.", " Queens.", " the Bronx.", " Staten Island."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -49,12 +49,12 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ONE MINUTE NEWSLETTER FOR NY</h4>
-            <h1>Mostly sunny with a chance of 
+            <h1>Don't start your weekend without knowing what's happening in 
                <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to The Poast's one minute newsletter for NY.</p>
+          <p>Sign up to The Poast's weekly one minute newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -68,9 +68,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>We're the <span>one minute newsletter</span> for New Yorkers who hate newsletters.</h2>
+        <h2>Mostly sunny with a chance of <span>chaos.</span></h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>At The Poast it's mostly sunny with a chance of chaos, and our one minute weekly newsletter for NY is the safest way to get through it.</p></a>
+        <p>But that won't stop The Poast from delivering you the latest, and greatest stories happening in NY—with extra eyes on special events, sports, and entertainment. We're the one minute newsletter for New Yorkers who hate newsletters.</p></a>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -91,18 +91,18 @@ export default function Index() {
 
         <div className="box">
           <img src={roast} />
-          <h1>We tell it like it is</h1>
-          <p>Join the city who isn't ever afraid to tell it like it is.</p>
+          <h1>Find out what's really going on</h1>
+          <p>Start to know what's really going on in the city that never sleeps.</p>
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>Get every story that matters</h1>
-          <p>Our stories cover what's happening across NY.</p>
+          <h1>Stories from real New Yorkers</h1>
+          <p>Get the latest and greatest stories and events happening in NY.</p>
         </div>
           <div className="box">
           <img src={tobi} />
-          <h1>Once-a-week</h1>
-          <p>It's the perfect once-a-week, free newsletter.</p>
+          <h1>Don't start your weekend without it</h1>
+          <p>We're the once-a-week newsletter for New Yorkers who hate newsletters.</p>
         </div>
       </div>
       <div className="btn">
