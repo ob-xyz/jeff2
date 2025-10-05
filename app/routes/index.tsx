@@ -48,13 +48,13 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>NY IN A MINUTE</h4>
+            <h4>KEEP THE METER RUNNING</h4>
             <h1>Don't start your weekend without knowing what's happening in 
                <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to The Poast's weekly one minute newsletter.</p>
+          <p>Sign up to The Poast weekly newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -68,9 +68,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>The <span>one minute newsletter</span> for NY.</h2>
+        <h2>Keep the meter running. We're the <span>newsletter for NewYorkers</span> who hate newsletters.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>The Poast delivers the latest, and greatest stories happening in NY—with extra eyes on breaking news, features, and more. We're the <span>one minute newsletter</span> for New Yorkers who hate newsletters.</p></a>
+        <p>Every week The Poast delivers a quick updated on the latest, and greatest stories happening in NY—with extra eyes on special conversations, features, and stories. We're the <span>newsletter for NewYorkers</span> who hate newsletters.</p></a>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -85,7 +85,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, one minute weekly newsletter that helps 10,000+ people who love NY stay informed.</p>
+            <p>Enjoy our free, one minute weekly newsletter that helps 10,000+ real NewYorkers stay informed.</p>
       </div>
       <div className="inner-content5">
 
