@@ -48,7 +48,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>ONE MINUTE NEWSLETTER FOR NY</h4>
+            <h4>NY IN A MINUTE</h4>
             <h1>Don't start your weekend without knowing what's happening in 
                <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
@@ -68,7 +68,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>NY in a <span>minute.</span></h2>
+        <h2>The <span>one minute newsletter</span> for NY.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
         <p>The Poast delivers the latest, and greatest stories happening in NY—with extra eyes on breaking news, features, and more. We're the <span>one minute newsletter</span> for New Yorkers who hate newsletters.</p></a>
       </div>
