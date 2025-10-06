@@ -1093,26 +1093,25 @@ function Index3() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "content-aboutus2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { children: [
-        "u see this? we're the ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "newsletter for newyorkers" }, void 0, !1, {
+        "so what's your story? we're the newsletter ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "for people who fucking hate new york." }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 9,
-          columnNumber: 35
-        }, this),
-        " who hate newsletters."
+          columnNumber: 56
+        }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
         lineNumber: 9,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: [
-        "Every week The Poast delivers a quick updated on the latest, and greatest stories happening in NY\u2014with extra eyes on special conversations, features, and stories. We're the ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "newsletter for newyorkers" }, void 0, !1, {
+        "so what's your story? Every week The Poast delivers a quick update on the latest, and greatest stories happening in NY\u2014with extra eyes on ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "main conversations, features, and characters." }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 10,
-          columnNumber: 185
+          columnNumber: 150
         }, this),
-        " who hate newsletters."
+        " We're the newsletter for people who  hate new york."
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
@@ -1183,26 +1182,19 @@ function Index4() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { children: "u see this?" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { children: "so what's your story?" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 51,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: [
-          "Don't start your weekend without seeing what's happening in",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { className: `${fadeOut ? "fade-out" : "fade-in"}`, children: rotatingWords[index] }, void 0, !1, {
-            fileName: "app/routes/index.tsx",
-            lineNumber: 53,
-            columnNumber: 16
-          }, this)
-        ] }, void 0, !0, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Stay informed about the world in just 1 minute." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 52,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Subscribe to The Poast weekly newsletter." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Subscribe to The Poast Friday newsletter." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 57,
+          lineNumber: 53,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
@@ -1214,37 +1206,37 @@ function Index4() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "input-wrapper", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 61,
+            lineNumber: 57,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { className: "submit", type: "submit", children: "Let's do it" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 62,
+            lineNumber: 58,
             columnNumber: 11
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 60,
+          lineNumber: 56,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "7e96e6a6-eef8-4624-be9c-e468b5a8b230" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 64,
+          lineNumber: 60,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 65,
+          lineNumber: 61,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 66,
+          lineNumber: 62,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 59,
+        lineNumber: 55,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
@@ -1257,43 +1249,43 @@ function Index4() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: [
-        "u see this? we're the ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "newsletter for newyorkers" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 71,
-          columnNumber: 35
-        }, this),
-        " who hate newsletters."
-      ] }, void 0, !0, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: "we're the newsletter for people who fucking hate new york." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 71,
+        lineNumber: 67,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: [
-        "Every week The Poast delivers a quick updated on the latest, and greatest stories happening in NY\u2014with extra eyes on special conversations, features, and stories. We're the ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "newsletter for newyorkers" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "so what's your story?" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 73,
-          columnNumber: 185
+          lineNumber: 69,
+          columnNumber: 12
         }, this),
-        " who hate newsletters."
+        " Every week The Poast delivers a one minute update about the latest, and greatest stories happening in NY\u2014with extra eyes on main conversations, features, and characters. We're the newsletter for people who hate new york."
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 73,
+        lineNumber: 69,
         columnNumber: 9
       }, this) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 72,
+        lineNumber: 68,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 70,
+      lineNumber: 66,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content3", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: trump_default }, void 0, !1, {
+        fileName: "app/routes/index.tsx",
+        lineNumber: 74,
+        columnNumber: 11
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/index.tsx",
+        lineNumber: 73,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: rocket_default }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 77,
         columnNumber: 11
@@ -1302,7 +1294,7 @@ function Index4() {
         lineNumber: 76,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: rocket_default }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: handcoin_default }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 80,
         columnNumber: 11
@@ -1310,113 +1302,104 @@ function Index4() {
         fileName: "app/routes/index.tsx",
         lineNumber: 79,
         columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: handcoin_default }, void 0, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 83,
-        columnNumber: 11
-      }, this) }, void 0, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 82,
-        columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 75,
+      lineNumber: 72,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content4", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h3", { children: "Delivered straight to your inbox." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 87,
+        lineNumber: 84,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Enjoy our free, one minute weekly newsletter that helps 10,000+ real newyorkers stay informed." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Enjoy our free, Friday newsletter that helps 10,000+ new yorkers stay informed." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 88,
+        lineNumber: 85,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 86,
+      lineNumber: 83,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content5", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: roast_default }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: tobic_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 93,
+          lineNumber: 90,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Find out what's really going on" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Find out what's happening" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 94,
+          lineNumber: 91,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Start to know what's really going on in the city that never sleeps." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Don't start your weekend without knowing what's happening in NY." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 95,
+          lineNumber: 92,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 92,
+        lineNumber: 89,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: chill_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 98,
+          lineNumber: 95,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Stories from real newyorkers" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Get every event that matters" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 99,
+          lineNumber: 96,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Get the latest and greatest stories and events happening in NY." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Get every event that matters to people living in the five boroughs." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 100,
+          lineNumber: 97,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 97,
+        lineNumber: 94,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: tobic_default }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: roast_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 103,
+          lineNumber: 100,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Don't start your weekend without it" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 104,
+          lineNumber: 101,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "We're the once-a-week newsletter for newyorkers who hate newsletters." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Our Friday newsletter that's the perfect way to start your weekend." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 105,
+          lineNumber: 102,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 102,
+        lineNumber: 99,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 90,
+      lineNumber: 87,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", className: "pricebtn", children: "Subscribe for free" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 109,
+      lineNumber: 106,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 108,
+      lineNumber: 105,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
@@ -1427,7 +1410,7 @@ function Index4() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MDAFXWMS.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-2LO7B5NU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-LXRQETEK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "2681b4f0", hmr: void 0, url: "/build/manifest-2681B4F0.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MDAFXWMS.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-E2XUAKRK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-AUETA3BV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "98797dfe", hmr: void 0, url: "/build/manifest-98797DFE.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
