@@ -89,17 +89,17 @@ export default function Index() {
         <div className="box">
           <img src={tobi} />
           <h1>Don't start your weekend without it</h1>
-          <p>Don't start your weekend without knowing what's happening in NY.</p>
+          <p>Don't start your weekend without knowing what's happening in New York.</p>
         </div>
         <div className="box">
           <img src={chill} />
           <h1>Get every story that matters</h1>
-          <p>Get every story that matters delivered to you.</p>
+          <p>Get every story that matters delivered straight to your email inbox.</p>
         </div>
           <div className="box">
           <img src={roast} />
           <h1>Find out about weekend events</h1>
-          <p>Know what events are going on this weekend.</p>
+          <p>Get every main event going on this weekend.</p>
         </div>
       </div>
       <div className="btn">
