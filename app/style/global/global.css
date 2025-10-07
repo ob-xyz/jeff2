@@ -49,9 +49,12 @@
   font-family: ku;
   font-size: 4rem;
 }
-.container h2 {
+.container h2, .container h2 span {
   font-size: 3.75rem;
   font-family: kl;
+}
+.container h2 span {
+  font-family: ku;
 }
 .container h3 {
   font-size: 2.75rem;
@@ -81,7 +84,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  max-width: 85%;
+  max-width: 60%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -100,7 +103,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 28.5rem;
+  width: 26.5rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -146,10 +149,6 @@
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
-}
-.container .inner-content2 span {
-  font-size: 3.75rem;
-  font-family: ku;
 }
 .container .inner-content2 p {
   padding-top: 1.5rem;
@@ -262,39 +261,7 @@
   color: #000;
   cursor: pointer;
 }
-.container .fade-in {
-  animation: scrollFadeIn 0.55s ease-in-out forwards;
-}
-.container .fade-out {
-  animation: scrollFadeOut 10s ease-out forwards;
-}
-@keyframes scrollFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(40%) scale(1.02);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0%) scale(1);
-  }
-}
-@keyframes scrollFadeOut {
-  from {
-    opacity: 1;
-    transform: translateY(0%) scale(1);
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-40%) scale(0.98);
-  }
-}
 
-@media (min-width: 1101px) and (max-width: 1224px) {
-  .content .inner-content .text h1, .content .inner-content .text span {
-    font-size: 3.5rem;
-    width: 100%;
-  }
-}
 @media (min-width: 875px) and (max-width: 1100px) {
   .container h4 {
     font-size: 1rem;
@@ -311,7 +278,7 @@
     margin-left: 2.5rem;
   }
   .container .content .inner-content .text h1, .container .content .inner-content .text span {
-    font-size: 2.895rem;
+    font-size: 3rem;
     width: 100%;
   }
   .container .content .inner-content .text p {
@@ -319,7 +286,7 @@
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 28.5rem;
+    width: 26.5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -384,7 +351,7 @@
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 2.25rem;
+    font-size: 3rem;
     width: 100%;
   }
   .container .content .inner-content .text p {
@@ -393,7 +360,7 @@
     font-size: 1.2rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 28.5rem;
+    width: 26.5rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -464,13 +431,13 @@
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 1.3rem;
+    font-size: 3rem;
     width: 100%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    font-size: 0.925rem;
+    font-size: 1rem;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
@@ -947,7 +914,7 @@
 }
 .footer .footer-top .footer-signup form .input-wrapper {
   position: relative;
-  width: 28.5rem;
+  width: 26.5rem;
 }
 .footer .footer-top .footer-signup form input.email {
   width: 100%;
@@ -1057,7 +1024,7 @@
     font-size: 1.2rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 28.5rem;
+    width: 26.5rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
@@ -1098,7 +1065,7 @@
     font-size: 2rem;
   }
   .footer .footer-top .footer-signup p {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
     width: 22.5rem;

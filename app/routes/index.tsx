@@ -48,9 +48,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>so what's your story?</h4>
-            <h1>Stay informed about the world in just 1 minute.</h1>
-          <p>Subscribe to The Poast Friday newsletter.</p>
+            <h4>NEW YORK'S FAVE NEWSLETTER</h4>
+            <h1>Become NY street smart.</h1>
+          <p>Subscribe to The Poast for our Friday newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -64,9 +64,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>we're the newsletter for people who fucking hate new york.</h2>
+        <h2>We are <span>New York's fave newsletter.</span></h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p><span>so what's your story?</span> Every week The Poast delivers a one minute update about the latest, and greatest stories happening in NY—with extra eyes on main conversations, features, and characters. We're the newsletter for people who hate new york.</p>
+        <p>Every day The Poast delivers a quick update on the latest, and greatest stories happening in NY—with extra eyes on conversations, features, and the weather.</p>
         </a>
       </div>
       <div className="inner-content3">
@@ -82,7 +82,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, Friday newsletter that helps 10,000+ new yorkers stay informed.</p>
+            <p>Enjoy our free, Friday newsletter that helps 10,000+ street smart New Yorker's stay informed.</p>
       </div>
       <div className="inner-content5">
 

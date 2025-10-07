@@ -92,7 +92,7 @@ function Footer() {
           lineNumber: 30,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Subscribe to The Poast weekly newsletter." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Subscribe to The Poast for our Friday newsletter." }, void 0, !1, {
           fileName: "app/components/footer.tsx",
           lineNumber: 31,
           columnNumber: 5
@@ -272,7 +272,7 @@ function Footer() {
 var import_react4 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-ASFSD5SU.css";
+var global_default = "/build/_assets/global-4JN6ICJO.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
@@ -287,8 +287,8 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
   }
 ], meta = () => ({
   charset: "utf-8",
-  title: "Subscribe to The Poast Weekly Newsletter - The Poast",
-  description: "Sign up for the free, weekly newsletter keeping 10,000+ newyorkers informed about the city.",
+  title: "Subscribe to The Poast Friday Newsletter - The Poast",
+  description: "Sign up for the free, Friday newsletter keeping 10,000+ New Yorker's informed about what's going on in the city.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -1093,26 +1093,18 @@ function Index3() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "content-aboutus2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { children: [
-        "so what's your story? we're the newsletter ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "for people who fucking hate new york." }, void 0, !1, {
+        "We are ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "New York's fave newsletter." }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 9,
-          columnNumber: 56
+          columnNumber: 20
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
         lineNumber: 9,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: [
-        "so what's your story? Every week The Poast delivers a quick update on the latest, and greatest stories happening in NY\u2014with extra eyes on ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "main conversations, features, and characters." }, void 0, !1, {
-          fileName: "app/routes/about.tsx",
-          lineNumber: 10,
-          columnNumber: 150
-        }, this),
-        " We're the newsletter for people who  hate new york."
-      ] }, void 0, !0, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: "Every day The Poast delivers a quick update on the latest, and greatest stories happening in NY\u2014with extra eyes on conversations, features, and the weather." }, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 9
@@ -1182,17 +1174,17 @@ function Index4() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { children: "so what's your story?" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { children: "NEW YORK'S FAVE NEWSLETTER" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 51,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Stay informed about the world in just 1 minute." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { children: "Become NY street smart." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 52,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Subscribe to The Poast Friday newsletter." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Subscribe to The Poast for our Friday newsletter." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 53,
           columnNumber: 11
@@ -1249,19 +1241,19 @@ function Index4() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "inner-content2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: "we're the newsletter for people who fucking hate new york." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: [
+        "We are ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "New York's fave newsletter." }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 67,
+          columnNumber: 20
+        }, this)
+      ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
         lineNumber: 67,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "so what's your story?" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 69,
-          columnNumber: 12
-        }, this),
-        " Every week The Poast delivers a one minute update about the latest, and greatest stories happening in NY\u2014with extra eyes on main conversations, features, and characters. We're the newsletter for people who hate new york."
-      ] }, void 0, !0, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Every day The Poast delivers a quick update on the latest, and greatest stories happening in NY\u2014with extra eyes on conversations, features, and the weather." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 69,
         columnNumber: 9
@@ -1314,7 +1306,7 @@ function Index4() {
         lineNumber: 84,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Enjoy our free, Friday newsletter that helps 10,000+ new yorkers stay informed." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Enjoy our free, Friday newsletter that helps 10,000+ street smart New Yorker's stay informed." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 85,
         columnNumber: 13
@@ -1410,7 +1402,7 @@ function Index4() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MDAFXWMS.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-E2XUAKRK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-AUETA3BV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "98797dfe", hmr: void 0, url: "/build/manifest-98797DFE.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-PG6F3IVK.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-ABFBFDAY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-6KCEQ2FU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "46f13929", hmr: void 0, url: "/build/manifest-46F13929.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
