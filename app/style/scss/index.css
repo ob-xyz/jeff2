@@ -12,6 +12,7 @@
   width: 5rem;
 }
 .container h1, .container h2, .container h3, .container span {
+  font-style: normal;
   text-align: left;
   font-family: ku;
   font-size: 4rem;

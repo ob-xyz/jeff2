@@ -6,8 +6,8 @@ export default function Index() {
         <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content-aboutus2">
-        <h2>We are <span>New York's fave newsletter.</span></h2>
-        <p>Every day <span>The Poast</span> delivers a quick update on the latest, and greatest stories happening in NY—with extra eyes on conversations, features, and the weather.</p>
+        <h2>We are <span>New York's fave</span> newsletter.</h2>
+        <p>Every Friday of the week The Poast delivers a quick update on the latest, and greatest stories happening in NY—with extra eyes on conversations, features, and the weather.</p>
       </div>
   </div>
   );

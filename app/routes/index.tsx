@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import logo from "~/../public/img/ja1.png";
 import chill from "~/../public/img/chill.jpg";
 import tobi from "~/../public/img/tobic.jpg";
-import roast from "~/../public/img/roast.jpg";
+import roast from "~/../public/img/samae.jpg";
 import handcoin from "~/../public/img/trump.jpeg";
 import dd from "~/../public/img/rocket.jpeg";
 import trump from "~/../public/img/handcoin.jpeg";
@@ -64,9 +64,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>We are <span>New York's fave newsletter.</span></h2>
+        <h2>We are <span>New York's fave</span> newsletter.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Every day <span>The Poast</span> delivers a quick update on the latest, and greatest stories happening in NY—with extra eyes on conversations, features, and the weather.</p>
+        <p>Every Friday of the week The Poast delivers a quick update on the latest, and greatest stories happening in NY—with extra eyes on conversations, features, and the weather.</p>
         </a>
       </div>
       <div className="inner-content3">
@@ -82,24 +82,24 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, Friday newsletter that helps 10,000+ street smart New Yorker's stay informed.</p>
+            <p>Enjoy our free, Friday newsletter that helps 10,000+ New Yorker's <i>at least</i> know this weekend's weather report.</p>
       </div>
       <div className="inner-content5">
 
         <div className="box">
           <img src={tobi} />
-          <h1>Don't start your weekend without it</h1>
+          <h1>Always here for New York</h1>
           <p>Don't start your weekend without knowing what's happening in New York.</p>
         </div>
         <div className="box">
-          <img src={chill} />
-          <h1>Get every story that matters</h1>
-          <p>Get every story that matters delivered straight to your email inbox.</p>
+          <img src={roast} />
+          <h1>We pay attention to what matters</h1>
+          <p>We love to give extra attention to cool events, conversations, and stories.</p>
         </div>
           <div className="box">
-          <img src={roast} />
-          <h1>Find out about weekend events</h1>
-          <p>Get every main event going on this weekend.</p>
+          <img src={chill} />
+          <h1>New York's fave newsletter</h1>
+          <p>We're the only newsletter real New Yorker's read every Friday.</p>
         </div>
       </div>
       <div className="btn">
