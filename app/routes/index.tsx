@@ -82,7 +82,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, Friday newsletter that helps 10,000+ New Yorker's <i>at least</i> know this weekend's weather report.</p>
+            <p>Enjoy our free, Friday newsletter that helps 10,000+ New Yorker's stay informed about all the good stuff happening in New York this weekend.</p>
       </div>
       <div className="inner-content5">
 

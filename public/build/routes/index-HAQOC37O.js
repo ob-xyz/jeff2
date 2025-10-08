@@ -199,15 +199,7 @@ function Index() {
         lineNumber: 84,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-        "Enjoy our free, Friday newsletter that helps 10,000+ New Yorker's ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("i", { children: "at least" }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 85,
-          columnNumber: 82
-        }, this),
-        " know this weekend's weather report."
-      ] }, void 0, true, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our free, Friday newsletter that helps 10,000+ New Yorker's stay informed about all the good stuff happening in New York this weekend." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 85,
         columnNumber: 13
@@ -304,4 +296,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-MPBAGJWO.js.map
+//# sourceMappingURL=/build/routes/index-HAQOC37O.js.map
