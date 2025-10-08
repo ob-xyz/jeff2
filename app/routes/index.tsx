@@ -88,18 +88,18 @@ export default function Index() {
 
         <div className="box">
           <img src={tobi} />
-          <h1>Always here for New York</h1>
-          <p>Don't start your weekend without knowing what's happening in New York.</p>
+          <h1>Every Friday</h1>
+          <p>Get one email of good stuff happening in NY this weekend.</p>
         </div>
         <div className="box">
           <img src={roast} />
-          <h1>We pay attention to what matters</h1>
-          <p>We love to give extra attention to cool events, conversations, and stories.</p>
+          <h1>Stay informed</h1>
+          <p>Dive into cool events, conversations, and stories.</p>
         </div>
           <div className="box">
           <img src={chill} />
-          <h1>New York's fave newsletter</h1>
-          <p>We're the only newsletter real New Yorker's read every Friday.</p>
+          <h1>Your fave way</h1>
+          <p>It's your new fave way to start your weekend.</p>
         </div>
       </div>
       <div className="btn">

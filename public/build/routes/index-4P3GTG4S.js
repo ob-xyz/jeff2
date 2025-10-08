@@ -216,12 +216,12 @@ function Index() {
           lineNumber: 90,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Always here for New York" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Every Friday" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 91,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Don't start your weekend without knowing what's happening in New York." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get one email of good stuff happening in NY this weekend." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 92,
           columnNumber: 11
@@ -237,12 +237,12 @@ function Index() {
           lineNumber: 95,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "We pay attention to what matters" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay informed" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 96,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We love to give extra attention to cool events, conversations, and stories." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Dive into cool events, conversations, and stories." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 97,
           columnNumber: 11
@@ -258,12 +258,12 @@ function Index() {
           lineNumber: 100,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "New York's fave newsletter" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Your fave way" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 101,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the only newsletter real New Yorker's read every Friday." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "It's your new fave way to start your weekend." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 102,
           columnNumber: 11
@@ -296,4 +296,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-HAQOC37O.js.map
+//# sourceMappingURL=/build/routes/index-4P3GTG4S.js.map
