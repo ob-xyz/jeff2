@@ -49,7 +49,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>NEW YORK'S FAVE NEWSLETTER</h4>
-            <h1>Become NY street smart.</h1>
+            <h1>Become informed in just 1 minute.</h1>
           <p>Subscribe to The Poast for our Friday newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -66,7 +66,7 @@ export default function Index() {
       <div className="inner-content2">
         <h2>We are <span>New York's</span> fave newsletter.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>The Poast delivers a Friday email of good stuff for you to know about this weekend, like happening conversations, features—and most importantly—the weather.</p>
+        <p>Got a minute? We'll make your Friday's better with one email of good stuff happening in NY this weekend.</p>
         </a>
       </div>
       <div className="inner-content3">
