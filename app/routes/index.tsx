@@ -48,9 +48,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>NEW YORK'S FAVE NEWSLETTER</h4>
-            <h1>Become informed in just 1 minute.</h1>
-          <p>Subscribe to The Poast for our Friday newsletter.</p>
+            <h4>NEW YORK'S FAVE EMAIL</h4>
+            <h1>Stay informed in just 1 minute.</h1>
+          <p>Subscribe to The Poast for our Friday email.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -64,9 +64,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>We are <span>New York's</span> fave newsletter.</h2>
+        <h2>We are <span>New York's</span> fave email.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Got a minute? We'll make the start of your weekend better with one email of good stuff happening in NY.</p>
+        <p>Got a minute? We'll help you stay informed about what's driving the good stuff happening in NY this weekend.</p>
         </a>
       </div>
       <div className="inner-content3">
@@ -82,24 +82,24 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, Friday newsletter that helps 10,000+ New Yorker's stay informed about all the good stuff happening in New York this weekend.</p>
+            <p>Enjoy our free, Friday email that helps 10,000+ New Yorker's stay informed about the good stuff happening this weekend.</p>
       </div>
       <div className="inner-content5">
-
-        <div className="box">
-          <img src={tobi} />
-          <h1>Every Friday</h1>
-          <p>Get one email of good stuff happening in NY this weekend.</p>
-        </div>
         <div className="box">
           <img src={roast} />
-          <h1>Stay informed</h1>
-          <p>Dive into cool events, conversations, and stories.</p>
+          <h1>Drivers of the world</h1>
+          <p>Read what some of the most prolific people driving the world do.</p>
         </div>
+        <div className="box">
+          <img src={tobi} />
+          <h1>One weekly email</h1>
+          <p>Get a weekly email of good stuff happening in around the city.</p>
+        </div>
+
           <div className="box">
           <img src={chill} />
-          <h1>Your fave way</h1>
-          <p>It's your new fave way to start your weekend.</p>
+          <h1>Just perfect</h1>
+          <p>It's the perfect way to start your weekend.</p>
         </div>
       </div>
       <div className="btn">

@@ -33,7 +33,7 @@ function Index() {
         lineNumber: 9,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Got a minute? We'll make your Friday's better with one email of good stuff happening in NY this weekend." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Got a minute? We'll help you stay informed about what's driving the good stuff happening in NY this weekend." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 9
@@ -52,4 +52,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-YEIOVDHX.js.map
+//# sourceMappingURL=/build/routes/about-J53YF6RC.js.map

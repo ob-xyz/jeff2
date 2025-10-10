@@ -57,7 +57,7 @@ function Footer() {
           lineNumber: 30,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to The Poast for our Friday newsletter." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to The Poast for our Friday email." }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 31,
           columnNumber: 5
@@ -253,8 +253,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Subscribe to The Poast Friday Newsletter - The Poast",
-  description: "Sign up for the free, Friday newsletter keeping 10,000+ New Yorker's more informed about New York.",
+  title: "Subscribe to The Poast Friday Email - The Poast",
+  description: "Sign up for the free, Friday email helping 10,000+ New Yorker's stay informed about the good stuff happening this weekend.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -317,4 +317,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-TT5TMW2D.js.map
+//# sourceMappingURL=/build/root-QAXO64VI.js.map
