@@ -66,7 +66,7 @@ export default function Index() {
       <div className="inner-content2">
         <h2>We are <span>New York's</span> fave newsletter.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Got a minute? We'll make your Friday's better with one email of good stuff happening in NY this weekend.</p>
+        <p>Got a minute? We'll make the start of your weekend better with one email of good stuff happening in NY.</p>
         </a>
       </div>
       <div className="inner-content3">
