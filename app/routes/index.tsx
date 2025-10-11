@@ -82,25 +82,25 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, Friday email that helps 10,000+ New Yorker's stay informed about the conversations, places, and stories happening this weekend.</p>
+            <p>Enjoy our free, Friday email that helps 10,000+ New Yorker's stay informed about what's happening in the city this weekend.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={roast} />
-          <h1>Stories every weekend</h1>
-          <p>Make good stories a happening thing every weekend.</p>
+          <h1>The good stuff</h1>
+          <p>Get the good stuff happening this weekend.</p>
+        </div>
+        <div className="box">
+          <img src={chill} />
+          <h1>One quick read</h1>
+          <p>Enjoy our one minute Friday email.</p>
         </div>
         <div className="box">
           <img src={tobi} />
           <h1>Real conversations</h1>
-          <p>Get real posts from real people living in the best city.</p>
+          <p>Know what's moving traffic across the city.</p>
         </div>
 
-          <div className="box">
-          <img src={chill} />
-          <h1>One quick email</h1>
-          <p>Enjoy a quick scrollable email with all the details.</p>
-        </div>
       </div>
       <div className="btn">
             <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer" className="pricebtn">
