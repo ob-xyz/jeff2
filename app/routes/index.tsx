@@ -66,7 +66,7 @@ export default function Index() {
       <div className="inner-content2">
         <h2>We are <span>New York's</span> fave email.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Got a minute? We'll help you stay informed about what's driving the good stuff happening in NY this weekend.</p>
+        <p>Got a minute? We'll help you catch the good stuff happening this weekend.</p>
         </a>
       </div>
       <div className="inner-content3">
@@ -82,24 +82,24 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, Friday email that helps 10,000+ New Yorker's stay informed about the good stuff happening this weekend.</p>
+            <p>Enjoy our free, Friday email that helps 10,000+ New Yorker's stay informed about the conversations, places, and stories happening this weekend.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={roast} />
-          <h1>Drivers of the world</h1>
-          <p>Read what some of the most prolific people driving the world do.</p>
+          <h1>Stories every weekend</h1>
+          <p>Make good stories a happening thing every weekend.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>One weekly email</h1>
-          <p>Get a weekly email of good stuff happening in around the city.</p>
+          <h1>Real conversations</h1>
+          <p>Get real posts from real people living in the best city.</p>
         </div>
 
           <div className="box">
           <img src={chill} />
-          <h1>Just perfect</h1>
-          <p>It's the perfect way to start your weekend.</p>
+          <h1>One quick email</h1>
+          <p>Enjoy a quick scrollable email with all the details.</p>
         </div>
       </div>
       <div className="btn">

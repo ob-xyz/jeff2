@@ -30,7 +30,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Subscribe to The Poast Friday Email - The Poast",
-  description: "Sign up for the free, Friday email helping 10,000+ New Yorker's stay informed about the good stuff happening this weekend.",
+  description: "Sign up for the free, Friday email helping 10,000+ New Yorker's catch the good stuff happening this weekend.",
   viewport: "width=device-width,initial-scale=1",
 });
 
