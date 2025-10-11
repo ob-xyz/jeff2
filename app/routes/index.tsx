@@ -87,18 +87,18 @@ export default function Index() {
       <div className="inner-content5">
         <div className="box">
           <img src={roast} />
-          <h1>The good stuff</h1>
+          <h1>Know what's happening</h1>
           <p>Get the good stuff happening this weekend.</p>
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>One quick read</h1>
-          <p>Enjoy our one minute Friday email.</p>
+          <h1>One quick email</h1>
+          <p>Get our one minute Friday email.</p>
         </div>
         <div className="box">
           <img src={tobi} />
           <h1>Real conversations</h1>
-          <p>Know what's moving traffic across the city.</p>
+          <p>Enjoy knowing what's moving traffic and people.</p>
         </div>
 
       </div>
