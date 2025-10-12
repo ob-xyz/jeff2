@@ -67,7 +67,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 26.5rem;
+  width: 31.5rem;
 }
 input.email {
   width: 100%;
@@ -149,27 +149,9 @@ p {
   }
 }
 }
-.inner-content3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 0 5rem;
-  align-items: stretch;
-  .box {
-    display: flex;
-    flex-direction: column;
-    background: transparent;
-    text-align: left;
-    img {
-      border-radius: 0.5rem;
-      width: 100%;
-      height: auto;
-    }
-  }
-}
 .inner-content4 {
         display:flex;
-        margin:9rem 5rem 5rem 5rem;
+        margin:6rem 5rem 5rem 5rem;
         h3{
             margin-left: 0;
         }
@@ -287,9 +269,6 @@ form {
     font-size:2rem;
   }
 }
-.inner-content3 {
-    margin: 0 2.5rem;
-}
 .inner-content4 {
     margin: 11rem 2.5rem 0 2.5rem;
     flex-direction: column;
@@ -366,9 +345,6 @@ form {
     width:100%;
   }
 }
-.inner-content3 {
-    margin: 0 2.5rem;
-}
 .inner-content4 {
     margin: 5rem 2.5rem 0 2.5rem;
     flex-direction: column;
@@ -416,8 +392,8 @@ form {
         margin-left:1rem;
     .text{
       h1{
-        font-size:2rem;
-        width:100%;
+        font-size:2.25rem;
+        width:80%;
       }
       p{
         padding-top:2.5rem;
@@ -440,7 +416,7 @@ form {
   border-top-right-radius:1.5rem;
   h2, span{
     padding-top:3.5rem;
-    font-size:1.65rem;
+    font-size:2.25rem;
   }
   p {
     margin-bottom: 3.5rem;
@@ -448,9 +424,6 @@ form {
     font-size:1.5rem;
     width:100%;
   }
-}
-.inner-content3 {
-    margin: 0 1rem;
 }
 .inner-content4 {
     margin: 5rem 1rem 0 1rem;

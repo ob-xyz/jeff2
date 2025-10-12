@@ -4,9 +4,6 @@ import logo from "~/../public/img/ja1.png";
 import chill from "~/../public/img/chill.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import roast from "~/../public/img/samae.jpg";
-import handcoin from "~/../public/img/trump.jpeg";
-import dd from "~/../public/img/rocket.jpeg";
-import trump from "~/../public/img/handcoin.jpeg";
 
 const rotatingWords = [" Brooklyn.", " Manhattan.", " Queens.", " the Bronx.", " Staten Island."];
 export default function Index() {
@@ -68,17 +65,6 @@ export default function Index() {
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
         <p>Got a minute? We'll help you catch the good stuff happening this weekend.</p>
         </a>
-      </div>
-      <div className="inner-content3">
-        <div className="box">
-          <img src={handcoin} />
-        </div>
-        <div className="box">
-          <img src={dd} />
-        </div>
-        <div className="box">
-          <img src={trump} />
-        </div>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
