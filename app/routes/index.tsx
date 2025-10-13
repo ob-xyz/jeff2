@@ -5,24 +5,7 @@ import chill from "~/../public/img/chill.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import roast from "~/../public/img/samae.jpg";
 
-const rotatingWords = [" Brooklyn.", " Manhattan.", " Queens.", " the Bronx.", " Staten Island."];
 export default function Index() {
-  const [index, setIndex] = useState(0);
-  const [fadeOut, setFadeOut] = useState(false);
-
-
-  // Word rotation effect (unchanged)
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFadeOut(true);
-      setTimeout(() => {
-        setIndex((prev) => (prev + 1) % rotatingWords.length);
-        setFadeOut(false);
-      }, 300);
-    }, 2500);
-    return () => clearInterval(interval);
-  }, []);
-
     useEffect(() => {
     // Dynamically load the hCaptcha script
     const script = document.createElement("script");
@@ -45,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>NEW YORK'S FAVE EMAIL</h4>
+            <h4>NEW YORK'S FAVE NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute.</h1>
-          <p>Subscribe to The Poast for our Friday email.</p>
+          <p>Every Friday, The Poast delivers hot takes and real stories from the hottest people in the hottest city.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -61,30 +44,30 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>We are <span>New York's</span> fave email.</h2>
+        <h2>We are <span>New York's</span> fave newsletter.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Got a minute? We'll help you catch the good stuff happening this weekend.</p>
+        <p>Every Friday, The Poast delivers the latest conversations and stories that actually matter to the people of New York.</p>
         </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy our free, Friday email that helps 10,000+ New Yorker's stay informed about what's happening in the city this weekend.</p>
+            <p>Enjoy budding conversations and good stories from hottest people in the hottest city in the world.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={roast} />
-          <h1>Know what's happening</h1>
-          <p>Get the good stuff happening this weekend.</p>
+          <h1>Real conversations</h1>
+          <p>Get real conversations from real people.</p>
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>One quick email</h1>
-          <p>Get our one minute Friday email.</p>
+          <h1>Quick update</h1>
+          <p>Get one minute of quick updates.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Real conversations</h1>
-          <p>Enjoy knowing what's moving traffic and people.</p>
+          <h1>Every Friday</h1>
+          <p>Just in time to start your wonderful weekend.</p>
         </div>
 
       </div>
