@@ -72,7 +72,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 31.5rem;
+  width: 29rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -237,7 +237,7 @@
     width: 60%;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 26.5rem;
+    width: 29rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -380,7 +380,7 @@
   }
   .container .content .inner-content .text h1 {
     font-size: 1.75rem;
-    width: 67.5%;
+    width: 65%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
