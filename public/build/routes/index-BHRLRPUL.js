@@ -54,10 +54,10 @@ function Index() {
           lineNumber: 32,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every Friday, The Poast delivers hot takes and real stories from the hottest people in the hottest city." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every week, The Poast delivers hot takes and real stories from the hottest people in the hottest city in America." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
-          columnNumber: 11
+          columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -124,7 +124,7 @@ function Index() {
         lineNumber: 47,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every Friday, The Poast delivers the latest conversations and stories that actually matter to the people of New York." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Once a week, The Poast delivers the latest conversations and stories that actually matter to the people of New York." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 49,
         columnNumber: 9
@@ -166,7 +166,7 @@ function Index() {
           lineNumber: 59,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get real conversations from real people." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Read real conversations from people." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 60,
           columnNumber: 11
@@ -203,12 +203,12 @@ function Index() {
           lineNumber: 68,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Every Friday" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Every week" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 69,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Just in time to start your wonderful weekend." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "It's the perfect amount of newsletter." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 70,
           columnNumber: 11
@@ -241,4 +241,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-7ODPGAMA.js.map
+//# sourceMappingURL=/build/routes/index-BHRLRPUL.js.map

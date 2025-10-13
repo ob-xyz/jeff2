@@ -33,7 +33,7 @@ function Index() {
         lineNumber: 9,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Got a minute? We'll help you catch the good stuff happening this weekend." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Once a week, The Poast delivers the latest conversations and stories that actually matter to the people of New York." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 9
@@ -52,4 +52,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-V4RHA3A7.js.map
+//# sourceMappingURL=/build/routes/about-ZDOQ7MR7.js.map

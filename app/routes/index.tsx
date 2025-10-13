@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>NEW YORK'S FAVE NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute.</h1>
-          <p>Every Friday, The Poast delivers hot takes and real stories from the hottest people in the hottest city.</p>
+            <p>Every week, The Poast delivers hot takes and real stories from the hottest people in the hottest city in America.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -46,7 +46,7 @@ export default function Index() {
       <div className="inner-content2">
         <h2>We are <span>New York's</span> fave newsletter.</h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Every Friday, The Poast delivers the latest conversations and stories that actually matter to the people of New York.</p>
+        <p>Once a week, The Poast delivers the latest conversations and stories that actually matter to the people of New York.</p>
         </a>
       </div>
       <div className="inner-content4">
@@ -57,7 +57,7 @@ export default function Index() {
         <div className="box">
           <img src={roast} />
           <h1>Real conversations</h1>
-          <p>Get real conversations from real people.</p>
+          <p>Read real conversations from people.</p>
         </div>
         <div className="box">
           <img src={chill} />
@@ -66,8 +66,8 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Every Friday</h1>
-          <p>Just in time to start your wonderful weekend.</p>
+          <h1>Every week</h1>
+          <p>It's the perfect amount of newsletter.</p>
         </div>
 
       </div>

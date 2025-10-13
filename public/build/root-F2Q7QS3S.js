@@ -234,7 +234,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-KFU6HXAF.css";
+var global_default = "/build/_assets/global-FWKYATNT.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -253,8 +253,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Subscribe to The Poast Friday Email - The Poast",
-  description: "Sign up for the free, Friday email helping 10,000+ New Yorker's catch the good stuff happening this weekend.",
+  title: "Subscribe to The Poast Weekly Newsletter - The Poast",
+  description: "Sign up for the free, weekly newsletter for the people in the hottest city in America.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -317,4 +317,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-WI4SVE4C.js.map
+//# sourceMappingURL=/build/root-F2Q7QS3S.js.map
