@@ -61,7 +61,7 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>Quick update</h1>
+          <h1>Quick updates</h1>
           <p>Get one minute of quick updates.</p>
         </div>
         <div className="box">
