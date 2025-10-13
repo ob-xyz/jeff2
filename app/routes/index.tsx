@@ -29,7 +29,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>NEW YORK'S FAVE NEWSLETTER</h4>
-            <h1>Stay informed in just 1 minute.</h1>
+            <h1>Stay informed in just 1 minute</h1>
             <p>Every week, The Poast delivers hot takes and real stories from the hottest people in the hottest city in America.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
