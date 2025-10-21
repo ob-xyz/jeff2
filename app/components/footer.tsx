@@ -24,7 +24,8 @@ export default function Footer() {
 
   return (
 <footer className="footer">
-  <img src={logo} alt="Logo" />
+  <h1>THE POAST</h1>
+  
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>

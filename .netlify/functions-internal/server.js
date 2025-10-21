@@ -56,9 +56,6 @@ __export(root_exports, {
 // app/components/footer.tsx
 var import_react2 = require("react"), import_react3 = require("@remix-run/react");
 
-// public/img/ja1.png
-var ja1_default = "/build/_assets/ja1-T6WB4D3A.png";
-
 // public/img/in.png
 var in_default = "/build/_assets/in-4S25RRTW.png";
 
@@ -80,7 +77,7 @@ function Footer() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("footer", { className: "footer", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: ja1_default, alt: "Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "THE POAST" }, void 0, !1, {
       fileName: "app/components/footer.tsx",
       lineNumber: 27,
       columnNumber: 3
@@ -89,176 +86,176 @@ function Footer() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "footer-signup", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "Screw it, let's do it." }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 30,
+          lineNumber: 31,
           columnNumber: 5
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Subscribe to The Poast for our Friday email." }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 31,
+          lineNumber: 32,
           columnNumber: 5
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "input-wrapper", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }, void 0, !1, {
               fileName: "app/components/footer.tsx",
-              lineNumber: 34,
+              lineNumber: 35,
               columnNumber: 9
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("button", { className: "submit", type: "submit", children: "Let's do it" }, void 0, !1, {
               fileName: "app/components/footer.tsx",
-              lineNumber: 35,
+              lineNumber: 36,
               columnNumber: 9
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 33,
+            lineNumber: 34,
             columnNumber: 7
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "7e96e6a6-eef8-4624-be9c-e468b5a8b230" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 37,
+            lineNumber: 38,
             columnNumber: 7
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 38,
+            lineNumber: 39,
             columnNumber: 7
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 39,
+            lineNumber: 40,
             columnNumber: 7
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 32,
+          lineNumber: 33,
           columnNumber: 5
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 3
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "footer-links", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "column", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h4", { children: "Company" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 45,
+            lineNumber: 46,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react3.Link, { to: "/", children: "Home" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 46,
+            lineNumber: 47,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react3.Link, { to: "/about", children: "About" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 47,
+            lineNumber: 48,
             columnNumber: 5
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "column", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h4", { children: "Support" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 50,
+            lineNumber: 51,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "mailto:chris@thepoast.com", children: "Contact" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 51,
+            lineNumber: 52,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "mailto:press@thepoast.com", children: "Press" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 52,
+            lineNumber: 53,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: "Subscribe" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 53,
+            lineNumber: 54,
             columnNumber: 5
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 49,
+          lineNumber: 50,
           columnNumber: 3
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 1
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/footer.tsx",
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 1
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "footer-bottom", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "footer-meta", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react3.Link, { to: "/policies/privacy", children: "Privacy Policy" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 60,
+          lineNumber: 61,
           columnNumber: 5
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://policies.google.com/terms?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Terms of Service" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 61,
+          lineNumber: 62,
           columnNumber: 4
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 59,
+        lineNumber: 60,
         columnNumber: 3
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "footer-social", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://instagram.com/thepoast", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: ig_default, alt: "Instagram" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 67,
+          lineNumber: 68,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 66,
+          lineNumber: 67,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://x.com/thepoast", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 70,
+          lineNumber: 71,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 69,
+          lineNumber: 70,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://linkedin.com/company/thepoast", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 73,
+          lineNumber: 74,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 72,
+          lineNumber: 73,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "mailto:chris@thepoast.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 76,
+          lineNumber: 77,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 75,
+          lineNumber: 76,
           columnNumber: 3
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 65,
+        lineNumber: 66,
         columnNumber: 3
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/footer.tsx",
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 1
     }, this)
   ] }, void 0, !0, {
@@ -272,7 +269,7 @@ function Footer() {
 var import_react4 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-PTUOHC5R.css";
+var global_default = "/build/_assets/global-2JGMZGMK.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
@@ -352,6 +349,11 @@ var privacy_exports = {};
 __export(privacy_exports, {
   default: () => Index
 });
+
+// public/img/ja1.png
+var ja1_default = "/build/_assets/ja1-T6WB4D3A.png";
+
+// app/routes/policies/privacy.tsx
 var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime");
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "content-privacy", children: [
@@ -1354,7 +1356,7 @@ function Index4() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-7I2ZJDMI.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-ZDOQ7MR7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-OETNMKRG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "323fa93c", hmr: void 0, url: "/build/manifest-323FA93C.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-MHBDWL7T.js", imports: ["/build/_shared/chunk-MRRK4OAK.js", "/build/_shared/chunk-SBNNL67F.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-B332I7M4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-ZDOQ7MR7.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-OETNMKRG.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-P4NAMTA4.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-Y5PAWNOQ.js", imports: ["/build/_shared/chunk-IFBMNJUC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "72192bcd", hmr: void 0, url: "/build/manifest-72192BCD.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
