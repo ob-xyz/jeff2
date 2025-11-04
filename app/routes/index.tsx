@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>NEW YORK'S FAVE NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>Every week, The Poast delivers hot takes and real stories from the hottest people in the hottest city in America.</p>
+            <p>New York is changing dramatically—from Mamdani's victory to free bus lines. The Poast cuts through the noise with real stories from New Yorkers, empowering you to stay connected to the city.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,30 +44,30 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>We are <span>New York's</span> fave newsletter.</h2>
+        <h2>Start your weekend with <span>The Poast</span></h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Once a week, The Poast delivers the latest conversations and stories that actually matter to the people of New York.</p>
+        <p>Every Friday, Jeffamzn delivers a quick newsletter that helps you know what's happening in (and around) New York City.</p>
         </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Enjoy budding conversations and good stories from hottest people in the hottest city in the world.</p>
+            <p>Join thousands who start their weekend by knowing what's going on in New York.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={roast} />
-          <h1>Real conversations</h1>
-          <p>Read real conversations from people.</p>
+          <h1>Stories that matter</h1>
+          <p>Get real stories that matter to you.</p>
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>Quick updates</h1>
-          <p>Get one minute of quick updates.</p>
+          <h1>Know what's happening</h1>
+          <p>Know what's happening around New York.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Every week</h1>
-          <p>It's the perfect amount of newsletter.</p>
+          <h1>Start your weekend right</h1>
+          <p>Stay connected to the city.</p>
         </div>
 
       </div>
