@@ -28,7 +28,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>NEW YORK'S FAVE NEWSLETTER</h4>
+            <h4>MAMDANI'S FAVE NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
             <p>New York is changing dramatically—from Mamdani's victory to free bus lines. The Poast cuts through the noise with the inside scoop, empowering you to stay connected to your city.</p>
           </div>
@@ -46,7 +46,7 @@ export default function Index() {
       <div className="inner-content2">
         <h2>Start your weekend right with <span>The Poast</span></h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every Friday, The Poast delivers quick and insightful updates, helping you make sense of stories, news, and actual stuff happening in New York City.</p>
+      <p>Every Friday, The Poast delivers quick and insightful updates, helping you make sense of stories, news, and actual stuff happening in New York.</p>
         </a>
       </div>
       <div className="inner-content4">

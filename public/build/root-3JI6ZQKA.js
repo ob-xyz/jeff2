@@ -251,7 +251,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "Jeffamzn delivers New York news and updates that help you start your weekend right.",
+  description: "Jeffamzn delivers stories, news, and updates that help you start your weekend right in New York.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -314,4 +314,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-VSQKP3FK.js.map
+//# sourceMappingURL=/build/root-3JI6ZQKA.js.map
