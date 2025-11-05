@@ -250,8 +250,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Subscribe to The Poast Weekly Newsletter - The Poast",
-  description: "Sign up for the free, weekly newsletter for the people in the hottest city in America.",
+  title: "The Poast",
+  description: "Jeffamzn delivers New York news and updates that help you start your weekend right.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -314,4 +314,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-B332I7M4.js.map
+//# sourceMappingURL=/build/root-5C5HZQAC.js.map

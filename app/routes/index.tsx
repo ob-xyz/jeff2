@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>NEW YORK'S FAVE NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>New York is changing dramatically—from Mamdani's victory to free bus lines. The Poast cuts through the noise with real stories from New Yorkers, empowering you to stay connected to the city.</p>
+            <p>New York is changing dramatically—from Mamdani's victory to free bus lines. The Poast cuts through the noise with the inside scoop, empowering you to stay connected to your city.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,30 +44,30 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>Start your weekend with <span>The Poast</span></h2>
+        <h2>Start your weekend right with <span>The Poast</span></h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-        <p>Every Friday, Jeffamzn delivers a quick newsletter that helps you know what's happening in (and around) New York City.</p>
+      <p>Every Friday, The Poast delivers quick and insightful updates, helping you make sense of stories, news, and actual stuff happening in New York City.</p>
         </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join thousands who start their weekend by knowing what's going on in New York.</p>
+            <p>Join thousands who start their weekend knowing what's going on in New York.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={roast} />
-          <h1>Stories that matter</h1>
-          <p>Get real stories that matter to you.</p>
+          <h1>Stories from citizens</h1>
+          <p>Know every story that matters.</p>
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>Know what's happening</h1>
-          <p>Know what's happening around New York.</p>
+          <h1>News that's happening</h1>
+          <p>Get news that's happening right now in New York.</p>
         </div>
         <div className="box">
           <img src={tobi} />
           <h1>Start your weekend right</h1>
-          <p>Stay connected to the city.</p>
+          <p>Start every weekend right with The Poast.</p>
         </div>
 
       </div>
