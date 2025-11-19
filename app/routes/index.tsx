@@ -44,7 +44,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>Start your weekend right with <span>The Poast</span></h2>
+        <h2>Stay informed with <span>The Poast</span></h2>
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>The Poast delivers quick and insightful updates, helping you make sense of news, stories, and stuff happening right now in New York.</p>
         </a>
