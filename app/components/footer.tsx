@@ -45,13 +45,10 @@ export default function Footer() {
   <div className="column">
     <h4>Company</h4>
     <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
   </div>
   <div className="column">
     <h4>Support</h4>
     <a href="mailto:chris@thepoast.com">Contact</a>
-    <a href="mailto:press@thepoast.com">Press</a>
-    <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">Subscribe</a>
   </div>
 </div>
 </div>
