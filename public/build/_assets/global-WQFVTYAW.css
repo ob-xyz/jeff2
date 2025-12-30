@@ -414,7 +414,7 @@
   .container .content .inner-content .text p {
     padding-top: 1.5rem;
     padding-bottom: .5rem;
-    width: 87.5%;
+    width: 82.5%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
@@ -1057,7 +1057,7 @@
     padding: 1.25rem .5rem;
   }
   .footer h1 {
-    font-size: 5.75rem;
+    font-size: 4.5rem;
   }
   .footer .footer-top {
     flex-direction: column-reverse;
@@ -1068,9 +1068,6 @@
   }
   .footer .footer-top .footer-signup h1 {
     font-size: 2rem;
-  }
-  .footer .footer-top .footer-signup p {
-    font-size: 1rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
     width: 22.5rem;

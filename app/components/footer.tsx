@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "@remix-run/react";
 
-import logo from "~/../public/img/ja1.png";
 import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
@@ -24,9 +23,7 @@ export default function Footer() {
 
   return (
 <footer className="footer">
-
   <h1>The Poast</h1>
-
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
@@ -46,16 +43,8 @@ export default function Footer() {
   <div className="column">
     <h4>Company</h4>
     <Link to="/">Home</Link>
-    <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
-    <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample issue</a>
-    <a title="get in touch" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">Get in touch</a>
-  </div>
-  <div className="column">
-    <h4>Business</h4>
-    <Link to="/ads/advertise">Advertise</Link>
-    <Link to="/ads/ad-formats">Ad formats</Link>
-      <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media kit</a>
-      <a title="rate card" href="https://jeffamazon.com/rate-card"  rel="noopener noreferrer">Rate card</a>
+    <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
+    <a title="get in touch" href="mailto:chris@thepoast.com"  rel="noopener noreferrer">Get in touch</a>
   </div>
 </div>
 </div>
@@ -69,16 +58,16 @@ export default function Footer() {
   </a>
   </div>
   <div className="footer-social">
-  <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
+  <a href="https://instagram.com/thepoast" target="_blank" rel="noopener noreferrer">
     <img src={ig} alt="Instagram" />
   </a>
-  <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
+  <a href="https://x.com/thepoast" target="_blank" rel="noopener noreferrer">
     <img src={x} alt="X (formerly Twitter)" />
   </a>
-  <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+  <a href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:chris@jeffamazon.com">
+  <a href="mailto:chris@thepoast.com">
     <img src={email} alt="Email us" />
   </a>
   </div>
