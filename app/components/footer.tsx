@@ -24,13 +24,14 @@ export default function Footer() {
 
   return (
 <footer className="footer">
-  <h1>THE POAST</h1>
-  
+
+  <h1>The Poast</h1>
+
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
-    <p>Subscribe to The Poast for our Friday email.</p>
-    <form method="post" action="https://app.jeffamzn.com/subscription/form">
+          <p>Stay informed with The Poast</p>
+    <form method="post" action="https://app.thepoast.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
         <button className="submit" type="submit">Let's do it</button>
@@ -40,37 +41,44 @@ export default function Footer() {
       <input type="hidden" name="nonce" />
     </form>
   </div>
-  
+
 <div className="footer-links">
   <div className="column">
     <h4>Company</h4>
     <Link to="/">Home</Link>
+    <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
+    <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample issue</a>
+    <a title="get in touch" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">Get in touch</a>
   </div>
   <div className="column">
-    <h4>Support</h4>
-    <a href="mailto:chris@thepoast.com">Contact</a>
+    <h4>Business</h4>
+    <Link to="/ads/advertise">Advertise</Link>
+    <Link to="/ads/ad-formats">Ad formats</Link>
+      <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media kit</a>
+      <a title="rate card" href="https://jeffamazon.com/rate-card"  rel="noopener noreferrer">Rate card</a>
   </div>
 </div>
 </div>
 
 <div className="footer-bottom">
+
   <div className="footer-meta">
     <Link to="/policies/privacy">Privacy Policy</Link>
-   <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
+  <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
     Terms of Service
   </a>
   </div>
   <div className="footer-social">
-  <a href="https://instagram.com/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={ig} alt="Instagram" />
   </a>
-  <a href="https://x.com/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={x} alt="X (formerly Twitter)" />
   </a>
-  <a href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:chris@thepoast.com">
+  <a href="mailto:chris@jeffamazon.com">
     <img src={email} alt="Email us" />
   </a>
   </div>

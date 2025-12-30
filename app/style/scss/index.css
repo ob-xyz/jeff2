@@ -6,22 +6,22 @@
   font-family: "bold";
 }
 .container .logo {
-  display: flex;
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 5rem;
+  width: 3.5rem;
 }
 .container h1, .container h2, .container h3, .container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
-.container h2, .container h2 span {
-  font-size: 3.75rem;
+.container h2 {
+  font-size: 3.5rem;
   font-family: kl;
 }
 .container h2 span {
+  font-size: 4rem;
   font-family: ku;
 }
 .container h3 {
@@ -29,7 +29,7 @@
 }
 .container h4 {
   font-family: kl;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
 }
 .container p {
   font-family: kl;
@@ -39,27 +39,21 @@
   display: flex;
   flex-direction: row;
   margin-left: 0;
-  margin-bottom: 3.5rem;
 }
 .container .content .inner-content {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
-  margin-top: 8rem;
-}
-.container .content .inner-content .text {
-  margin-left: 0;
+  margin-top: 2.5rem;
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 45%;
+  width: 100%;
 }
 .container .content .inner-content .text p {
   text-align: left;
-  font-size: 1.2rem;
-  padding: 1rem 0rem 0.5rem 0;
+  padding: 2rem 0rem 0.5rem 0;
   margin-left: 0;
-  width: 55%;
 }
 .container .content .inner-content form {
   display: flex;
@@ -72,7 +66,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 29rem;
+  width: 35.5rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -94,40 +88,44 @@
   position: absolute;
   top: 2px;
   right: 2px;
-  bottom: 1px;
+  bottom: 2px;
   padding: 0 2rem;
-  background-color: #000;
-  color: #fafafa;
+  background-color: #fafafa;
+  color: black;
   border: none;
-  border-left: 0.1rem solid #02090A;
-  border-radius: 0;
+  border-left: 0.12rem solid #02090A;
+  border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
 .container .content .inner-content form button.submit:hover {
-  background-color: #2d2d2d;
+  background-color: #F5F5F5;
   cursor: pointer;
 }
+.container .content .inner-content1 img {
+  margin-left: 3.5rem;
+  width: 70%;
+}
 .container .inner-content2 {
-  margin-top: 2.5rem;
   background: #02090A;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
   padding: 0 5rem;
 }
-.container .inner-content2 h2, .container .inner-content2 span {
+.container .inner-content2 h2, .container .inner-content2 h2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
 }
 .container .inner-content2 p {
+  width: 90%;
   padding-top: 1.5rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-left: 0;
   margin-bottom: 5rem;
-  color: #71717A;
-  background: #71717A;
-  transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00e1ff, #7237fc);
+  color: #7a7a7a;
+  background: #7a7a7a;
+  transition: all 0.5s ease-in-out;
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -150,15 +148,26 @@
 }
 .container .inner-content4 {
   display: flex;
-  margin: 6rem 5rem 5rem 5rem;
+  margin: 10rem 5rem 5rem 5rem;
 }
 .container .inner-content4 h3 {
   margin-left: 0;
+  margin-top: 0;
 }
 .container .inner-content4 p {
   margin-bottom: 0.4rem;
-  color: #71717A;
+  color: #7a7a7a;
   width: 67.5%;
+}
+.container .inner-content4 p a {
+  font-family: kl;
+  color: rgb(205, 27, 27);
+  text-decoration: underline;
+}
+.container .inner-content4 p b {
+  color: #000;
+  font-family: bold;
+  font-weight: 400;
 }
 .container .inner-content5 {
   display: grid;
@@ -187,7 +196,7 @@
   margin: 0;
 }
 .container .inner-content5 .box p {
-  color: #71717A;
+  color: #7a7a7a;
   margin: 0;
   flex-grow: 1;
 }
@@ -207,37 +216,34 @@
   font-family: bold;
 }
 .container .btn .pricebtn:hover {
-  background-color: #F5F5F5;
+  background-color: #fafafa;
   color: #000;
-  cursor: pointer;
 }
 
-@media (min-width: 875px) and (max-width: 1100px) {
-  .container h4 {
-    font-size: 1rem;
+@media (min-width: 875px) and (max-width: 1283px) {
+  .container h3 {
+    font-size: 2.75rem;
   }
   .container .logo {
     margin-left: 2.5rem;
   }
-  .container .content {
-    margin-top: 8rem;
-    margin-bottom: 3.5rem;
-  }
   .container .content .inner-content {
-    margin-top: 5rem;
     margin-left: 2.5rem;
   }
   .container .content .inner-content .text h1, .container .content .inner-content .text span {
     font-size: 3rem;
-    width: 45%;
+    width: 100%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    width: 60%;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 29rem;
+    width: 36rem;
+  }
+  .container .content .inner-content1 {
+    width: 100%;
+    margin-left: 5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -245,22 +251,17 @@
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .container .inner-content2 h2 {
+  .container .inner-content2 h2, .container .inner-content2 h2 span {
     padding-top: 3.5rem;
-    font-size: 3rem;
-    width: 100%;
-  }
-  .container .inner-content2 span {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     width: 100%;
-    font-size: 2rem;
   }
   .container .inner-content4 {
-    margin: 11rem 2.5rem 0 2.5rem;
+    margin: 4rem 2.5rem 0 2.5rem;
     flex-direction: column;
   }
   .container .inner-content4 p {
@@ -283,33 +284,32 @@
   }
 }
 @media (min-width: 660px) and (max-width: 874px) {
+  .container h3 {
+    font-size: 2.75rem;
+  }
   .container h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .container .logo {
     margin-left: 2.5rem;
   }
-  .container .content {
-    margin-top: 8rem;
-    margin-bottom: 3.5rem;
-  }
   .container .content .inner-content {
-    margin-top: 5rem;
     margin-left: 2.5rem;
   }
-  .container .content .inner-content .text h1,
-  .container .content .inner-content .text span {
-    font-size: 3rem;
-    width: 55%;
+  .container .content .inner-content .text h1 {
+    font-size: 3.5rem;
+    width: 85%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    font-size: 1.2rem;
-    width: 70%;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 26.5rem;
+    width: 28rem;
+  }
+  .container .content .inner-content1 img {
+    width: 100%;
+    margin-bottom: -10rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -318,11 +318,11 @@
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
     width: 100%;
   }
   .container .inner-content2 span {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
@@ -331,14 +331,10 @@
     width: 100%;
   }
   .container .inner-content4 {
-    margin: 5rem 2.5rem 0 2.5rem;
+    margin: 4rem 2.5rem 0 2.5rem;
     flex-direction: column;
   }
-  .container .inner-content4 h3 {
-    font-size: 2rem;
-  }
   .container .inner-content4 p {
-    font-size: 1.25rem;
     padding-top: 0.5rem;
     margin-left: 0;
     width: 100%;
@@ -361,35 +357,42 @@
   }
 }
 @media (max-width: 659px) {
+  .container h3 {
+    font-size: 2.25rem;
+  }
   .container h4 {
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
   .container .logo {
     margin-left: 1rem;
   }
   .container .content {
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
+    flex-direction: column;
   }
   .container .content .inner-content {
-    margin-top: 0rem;
     margin-left: 1rem;
-  }
-  .container .content .inner-content .text h4 {
-    font-size: 0.825rem;
+    margin-top: 1rem;
   }
   .container .content .inner-content .text h1 {
-    font-size: 1.75rem;
-    width: 60%;
+    font-size: 3.5rem;
+    width: 100%;
   }
   .container .content .inner-content .text p {
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
     padding-bottom: 0.5rem;
-    font-size: 1.1rem;
-    width: 85%;
+    width: 87.5%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
+  }
+  .container .content .inner-content1 {
+    margin-top: 2.5rem;
+  }
+  .container .content .inner-content1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
   .container .inner-content2 {
     margin-left: 0;
@@ -400,26 +403,25 @@
   }
   .container .inner-content2 h2, .container .inner-content2 span {
     padding-top: 3.5rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     width: 100%;
   }
   .container .inner-content4 {
-    margin: 5rem 1rem 0 1rem;
+    margin: 3rem 1rem 0 1rem;
     flex-direction: column;
   }
-  .container .inner-content4 h3 {
-    font-size: 1.5rem;
-  }
   .container .inner-content4 p {
-    font-size: 1.1rem;
     padding-top: 0.5rem;
     margin-left: 0;
     width: 100%;
+  }
+  .container .inner-content4 h3 {
+    font-size: 2rem;
   }
   .container .inner-content5 {
     margin: 0rem 1rem 0rem 1rem;
@@ -432,11 +434,8 @@
   .container .inner-content5 .box h1 {
     text-align: center;
     padding-top: 0.65rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding-bottom: 0.35rem;
-  }
-  .container .inner-content5 .box p {
-    font-size: 1.1rem;
   }
   .container .btn {
     margin: 2rem 1rem;

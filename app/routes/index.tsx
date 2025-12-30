@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import logo from "~/../public/img/ja1.png";
+import header from "~/../public/img/ja3.png";
 import chill from "~/../public/img/chill.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import roast from "~/../public/img/samae.jpg";
+
 
 export default function Index() {
     useEffect(() => {
@@ -28,51 +30,52 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>THE POAST NEWSLETTER</h4>
-            <h1>Stay informed in just 1 minute</h1>
-            <p>New York is changing dramatically—from Mamdani's victory to Torrisi. The Poast cuts through the noise with the inside scoop, empowering you to stay connected to the city.</p>
+            <h4>THE POAST WEEKLY NEWSLETTER</h4>
+            <h1>Stay informed about NY in just 1 minute</h1>
+            <p>Subscribe for your daily dose of New York news that feels good 🚀</p>
           </div>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+      <form method="post" action="https://app.thepoast.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Let's do it</button>
+          <button className="submit" type="submit">Send it</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
         </div>
+        <div className="inner-content1">
+            <img src={header} alt="Jeffamazon newsletter image" />
+        </div>
       </div>
       <div className="inner-content2">
-        <h2>Stay informed with <span>The Poast</span></h2>
-        <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>The Poast delivers quick and insightful updates, helping you make sense of news, stories, and stuff happening right now in New York.</p>
-        </a>
+      <h2>Stay informed with <span>The Poast</span></h2>
+      <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">
+      <p>Every day The Poast delivers a quick and insightful newsletter that helps you know what's happening across New York.</p>
+      </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join thousands who start their weekend knowing what's going on in New York.</p>
-      </div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>The Poast is the antidote</b>. It's our 1-minute newsletter that actually feels good to read. Join <b>10,000+ wickedly smart people</b> who never sleep. Never sleep on NYC with <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">The Poast →</a></p></div>
       <div className="inner-content5">
+         <div className="box">
+          <img src={tobi} />
+          <h1>Weekly news</h1>
+          <p>All the ideas and trends happening right now, without the noise. It's New York City news that feels good to read.</p>
+        </div>
         <div className="box">
           <img src={roast} />
-          <h1>Stories from citizens</h1>
-          <p>Know every story that matters.</p>
+          <h1>60 seconds or less</h1>
+          <p>Real conversations and insights from the actual people who live and breath NY, delivered in 60 seconds or less.</p>
         </div>
         <div className="box">
           <img src={chill} />
-          <h1>News that's happening</h1>
-          <p>Get news that's happening right now in New York.</p>
-        </div>
-        <div className="box">
-          <img src={tobi} />
           <h1>Start your weekend right</h1>
-          <p>Start every weekend right with The Poast.</p>
+          <p>Start your weekend with all the info you need to enjoy life in the big city.</p>
         </div>
-
       </div>
       <div className="btn">
-            <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer" className="pricebtn">
+        <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
             Subscribe for free
       </a>
       </div>

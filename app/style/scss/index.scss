@@ -5,22 +5,22 @@
         font-family:'bold';
     }
     .logo{
-        display:flex;
         background:none;
         margin:1.25rem 0 1.25rem 5rem;
-        width: 5rem;
+        width: 3.5rem;
     }
     h1, h2, h3, span{
         font-style: normal;
         text-align: left;
         font-family: ku;
-        font-size:4rem;
+        font-size:4.5rem;
     }
-    h2, h2 span {
-        font-size:3.75rem;
+    h2 {
+        font-size:3.5rem;
         font-family: kl;
     }
     h2 span{
+      font-size:4rem;
       font-family: ku;
     }
     h3 {
@@ -28,7 +28,7 @@
     }
     h4{
       font-family: kl;
-      font-size:1.4rem;
+      font-size:1.25rem;
       }
     p{
         font-family:kl;
@@ -38,24 +38,20 @@
   display:flex;
   flex-direction:row;
   margin-left:0;
-  margin-bottom:3.5rem;
 .inner-content{
       display: flex;
       flex-direction: column;
       margin-left:5rem;
-      margin-top:8rem;
+      margin-top:2.5rem;
 .text{
-  margin-left:0;
     h1{
         margin-left:0;
-        width:45%;
+        width:100%;
     }
     p{
         text-align: left;
-        font-size:1.2rem;
-        padding:1rem 0rem .5rem 0;
+        padding:2rem 0rem .5rem 0;
         margin-left:0;
-        width:55%;
     }
 }
 form {
@@ -68,7 +64,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 29rem;
+  width: 35.5rem;
 }
 input.email {
   width: 100%;
@@ -92,42 +88,49 @@ button.submit {
   position: absolute;
   top: 2px;
   right: 2px;
-  bottom: 1px;
+  bottom: 2px;
   padding: 0 2rem;
-  background-color: #000;
-  color: #fafafa;
+  background-color: #fafafa;
+  color: black;
   border: none;
-  border-left: .1rem solid #02090A;
-  border-radius: 0;
+  border-left: .12rem solid #02090A;
+  border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
+
   &:hover {
-    background-color: #2d2d2d;
+    background-color: #F5F5F5;
     cursor: pointer;
   }
 }
 }
   }
+.inner-content1{
+    img{
+      margin-left:3.5rem;
+      width: 70%;
+    }
+  }
 }
 .inner-content2{
-  margin-top:2.5rem;
   background:#02090A;
   border-top-left-radius:3rem;
   border-top-right-radius:3rem;
   padding:0 5rem;
-  h2, span{
+  h2, h2 span{
       padding-top:6rem;
       margin-left:0;
       color:#fff;
     }
 p {
+  width:90%;
   padding-top: 1.5rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-left: 0;
   margin-bottom: 5rem;
-  color: #71717A; //fb
-  background:#71717A;
-  transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00e1ff, #7237fc);
+  color: #7a7a7a; //fb
+  background:#7a7a7a;
+  transition: all 0.5s ease-in-out;
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -140,7 +143,6 @@ p {
       animation: shimmer 1.5s linear infinite;
   }
 }
-
 @keyframes shimmer {
   0% {
       background-position: -100% 0;
@@ -152,14 +154,25 @@ p {
 }
 .inner-content4 {
         display:flex;
-        margin:6rem 5rem 5rem 5rem;
+        margin:10rem 5rem 5rem 5rem;
         h3{
             margin-left: 0;
+            margin-top: 0;
         }
         p{
             margin-bottom:.4rem;
-            color: #71717A;
+            color: #7a7a7a;
             width:67.5%;
+            a{
+              font-family:kl;
+              color:rgb(205, 27, 27);
+              text-decoration: underline;
+              }
+              b{
+                color:#000;
+                font-family: bold;
+                font-weight: 400;
+              }
         }
 }
 .inner-content5 {
@@ -189,7 +202,7 @@ p {
       margin: 0;
     }
     p {
-      color: #71717A;
+      color: #7a7a7a;
       margin: 0;
       flex-grow: 1;
     }
@@ -210,44 +223,42 @@ p {
     font-family:bold;
 
     &:hover {
-      background-color: #F5F5F5;
+      background-color: #fafafa;
       color: #000;
-      cursor: pointer;
     }
   }
 }
 }
-
-@media (min-width: 875px) and (max-width: 1100px) {
+@media (min-width: 875px) and (max-width: 1283px) {
 .container{
-  h4{
-      font-size:1rem;
-    }
+  h3{
+      font-size:2.75rem;
+  }
   .logo{
     margin-left:2.5rem;
   }
 .content{
-  margin-top:8rem;
-  margin-bottom:3.5rem;
 .inner-content{
-        margin-top:5rem;
         margin-left:2.5rem;
     .text{
       h1, span{
         font-size:3rem;
-        width:45%;
+        width:100%;
       }
       p{
         padding-top:2.5rem;
         padding-bottom:.5rem;
-        width:60%;
       }
     }
 form {
 .input-wrapper {
-  width: 29rem;
+  width: 36rem;
   }
     }
+  }
+  .inner-content1{
+    width: 100%;
+    margin-left: 5rem;
   }
 }
 .inner-content2{
@@ -255,23 +266,18 @@ form {
   padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
-  h2{
+  h2, h2 span{
     padding-top:3.5rem;
-    font-size:3rem;
-    width:100%;
-    }
-    span{
-    font-size:3rem;
+    font-size:3.5rem;
     }
   p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     width:100%;
-    font-size:2rem;
   }
 }
 .inner-content4 {
-    margin: 11rem 2.5rem 0 2.5rem;
+    margin: 4rem 2.5rem 0 2.5rem;
     flex-direction: column;
     p{
         padding-top:.5rem;
@@ -296,37 +302,40 @@ form {
 }
 @media (min-width: 660px) and (max-width: 874px) {
 .container{
+  h3{
+      font-size:2.75rem;
+  }
   h4{
-      font-size:1rem;
+      font-size:1.1rem;
     }
   .logo{
     margin-left:2.5rem;
   }
 .content{
-  margin-top:8rem;
-  margin-bottom:3.5rem;
 .inner-content{
-        margin-top:5rem;
         margin-left:2.5rem;
     .text{
-      h1, 
-      span{
-        font-size:3rem;
-        width:55%;
+      h1{
+        font-size:3.5rem;
+        width:85%;
       }
       p{
         padding-top:2.5rem;
         padding-bottom:.5rem;
-        font-size: 1.2rem;
-        width:70%;
       }
     }
 form {
 .input-wrapper {
-  width: 26.5rem;
+  width: 28rem;
   }
     }
   }
+ .inner-content1{
+  img{
+    width: 100%;
+    margin-bottom: -10rem;
+  }
+ }
 }
 .inner-content2{
   padding:0 2.5rem;
@@ -334,11 +343,11 @@ form {
   border-top-right-radius:1.5rem;
   h2{
     padding-top:3.5rem;
-    font-size:2.5rem;
+    font-size:3rem;
     width:100%;
     }
     span{
-      font-size:2.5rem;
+      font-size:3rem;
     }
   p {
     margin-bottom: 3.5rem;
@@ -348,13 +357,9 @@ form {
   }
 }
 .inner-content4 {
-    margin: 5rem 2.5rem 0 2.5rem;
+    margin: 4rem 2.5rem 0 2.5rem;
     flex-direction: column;
-    h3{
-      font-size:2rem;
-    }
     p{
-        font-size:1.25rem;
         padding-top:.5rem;
         margin-left:0;
         width:100%;
@@ -380,31 +385,29 @@ form {
 }
 @media (max-width: 659px) {
 .container{
+  h3{
+      font-size:2.25rem;
+  }
   h4{
-      font-size:1rem;
-    }
+    font-size:1.15rem;
+  }
   .logo{
     margin-left:1rem;
   }
 .content{
-  margin-top:2.5rem;
-  margin-bottom:4rem;
+  flex-direction: column;
 .inner-content{
-        margin-top:0rem;
         margin-left:1rem;
+        margin-top: 1rem;
     .text{
-        h4{
-          font-size:.825rem;
-        }
       h1{
-        font-size:1.75rem;
-        width:60%;
+        font-size:3.5rem;
+        width:100%;
       }
       p{
-        padding-top:2.5rem;
+        padding-top:1.5rem;
         padding-bottom:.5rem;
-        font-size:1.1rem;
-        width:85%;
+        width:87.5%;
       }
     }
 form {
@@ -413,6 +416,15 @@ form {
   }
     }
   }
+.inner-content1 {
+  margin-top: 2.5rem;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
 }
 .inner-content2{
   margin-left:0;
@@ -422,27 +434,26 @@ form {
   border-top-right-radius:1.5rem;
   h2, span{
     padding-top:3.5rem;
-    font-size:1.5rem;
-  }
+    font-size:2.5rem;
+    }
   p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size:1.25rem;
+    font-size:1.5rem;
     width:100%;
   }
 }
 .inner-content4 {
-    margin: 5rem 1rem 0 1rem;
+    margin: 3rem 1rem 0 1rem;
     flex-direction: column;
-    h3{
-      font-size:1.5rem;
-    }
     p{
-        font-size:1.1rem;
         padding-top:.5rem;
         margin-left:0;
         width:100%;
     }
+  h3{
+    font-size:2rem;
+  }
 }
 .inner-content5 {
   margin: 0rem 1rem 0rem 1rem;
@@ -453,16 +464,13 @@ form {
     h1{
       text-align: center;
       padding-top: .65rem;
-      font-size:1.1rem;
+      font-size:1.5rem;
       padding-bottom: 0.35rem;
-    }
-    p{
-      font-size: 1.1rem;
     }
   }
 }
 .btn{
-    margin: 2rem 1rem;
+    margin: 2rem 1rem
 }
 }
 }
