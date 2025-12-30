@@ -30,7 +30,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>THE POAST WEEKLY NEWSLETTER</h4>
+            <h4>The Poast Weekly Newsletter</h4>
             <h1>Stay informed about NY in just 1 minute</h1>
             <p>Subscribe for your daily dose of New York news that feels good 🚀</p>
           </div>
