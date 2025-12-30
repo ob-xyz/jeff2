@@ -209,7 +209,7 @@ function Index() {
         columnNumber: 10
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: samae_default }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: chill_default }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 67,
           columnNumber: 11
@@ -230,7 +230,7 @@ function Index() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: chill_default }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: samae_default }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 72,
           columnNumber: 11
@@ -273,4 +273,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-T6KPRXVZ.js.map
+//# sourceMappingURL=/build/routes/index-JDVZCFD4.js.map

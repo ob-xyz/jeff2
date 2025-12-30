@@ -64,12 +64,12 @@ export default function Index() {
           <p>All the ideas and trends happening right now, without the noise. It's New York City news that feels good to read.</p>
         </div>
         <div className="box">
-          <img src={roast} />
+          <img src={chill} />
           <h1>60 seconds or less</h1>
           <p>Real conversations and insights from the actual people who live and breath NY, delivered in 60 seconds or less.</p>
         </div>
         <div className="box">
-          <img src={chill} />
+          <img src={roast} />
           <h1>Start your weekend right</h1>
           <p>Start your weekend with all the info you need to enjoy life in the big city.</p>
         </div>
