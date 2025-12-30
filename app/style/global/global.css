@@ -62,11 +62,11 @@
 }
 .container h4 {
   font-family: kl;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 .container p {
   font-family: kl;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
 }
 .container .content {
   display: flex;
@@ -81,7 +81,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 100%;
+  width: 92.5%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -99,7 +99,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 35.5rem;
+  width: 36.5rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -136,6 +136,7 @@
 }
 .container .content .inner-content1 img {
   margin-left: 3.5rem;
+  margin-bottom: -1.5rem;
   width: 70%;
 }
 .container .inner-content2 {
@@ -253,7 +254,7 @@
   color: #000;
 }
 
-@media (min-width: 875px) and (max-width: 1283px) {
+@media (min-width: 875px) and (max-width: 1264px) {
   .container h3 {
     font-size: 2.75rem;
   }
@@ -272,11 +273,12 @@
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 36rem;
+    width: 36.5rem;
   }
   .container .content .inner-content1 {
     width: 100%;
     margin-left: 5rem;
+    margin-bottom: -1.5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -996,6 +998,11 @@
   margin-left: 0;
 }
 
+@media (min-width: 875px) and (max-width: 1162px) {
+  .footer h1 {
+    font-size: 8.5rem;
+  }
+}
 @media (min-width: 660px) and (max-width: 874px) {
   .footer {
     padding-left: 2.5rem;

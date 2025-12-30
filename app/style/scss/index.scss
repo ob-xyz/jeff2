@@ -28,11 +28,11 @@
     }
     h4{
       font-family: kl;
-      font-size:1.25rem;
+      font-size:1.35rem;
       }
     p{
         font-family:kl;
-        font-size:1.2rem;
+        font-size:1.35rem;
     }
 .content{
   display:flex;
@@ -46,7 +46,7 @@
 .text{
     h1{
         margin-left:0;
-        width:100%;
+        width:92.50%;
     }
     p{
         text-align: left;
@@ -64,7 +64,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 35.5rem;
+  width: 36.5rem;
 }
 input.email {
   width: 100%;
@@ -107,6 +107,7 @@ button.submit {
 .inner-content1{
     img{
       margin-left:3.5rem;
+      margin-bottom: -1.5rem;
       width: 70%;
     }
   }
@@ -229,7 +230,7 @@ p {
   }
 }
 }
-@media (min-width: 875px) and (max-width: 1283px) {
+@media (min-width: 875px) and (max-width: 1264px) {
 .container{
   h3{
       font-size:2.75rem;
@@ -252,13 +253,14 @@ p {
     }
 form {
 .input-wrapper {
-  width: 36rem;
+  width: 36.5rem;
   }
     }
   }
   .inner-content1{
     width: 100%;
     margin-left: 5rem;
+    margin-bottom: -1.5rem;
   }
 }
 .inner-content2{
