@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/about.tsx"],
-  "sourcesContent": ["import logo from \"~/../public/img/ja1.png\";\nexport default function Index() {\n  return (\n    <div className=\"content-aboutus\">\n      <div className=\"logo\">\n        <img src={logo} alt=\"The Poast Logo\" />\n      </div>\n      <div className=\"content-aboutus2\">\n        <h2>We are <span>New York's</span> fave email.</h2>\n        <p>Once a week, The Poast delivers the latest conversations and stories that actually matter to the people of New York.</p>\n      </div>\n  </div>\n  );\n}"],
-  "mappings": ";;;;;;;;;AAKQ;AAJO,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,mBACb;AAAA,uDAAC,SAAI,WAAU,QACb,6DAAC,SAAI,KAAK,aAAM,KAAI,oBAApB;AAAA;AAAA;AAAA;AAAA,WAAqC,KADvC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,mDAAC,SAAI,WAAU,oBACb;AAAA,yDAAC,QAAG;AAAA;AAAA,QAAO,mDAAC,UAAK,0BAAN;AAAA;AAAA;AAAA;AAAA,eAAgB;AAAA,QAAO;AAAA,WAAlC;AAAA;AAAA;AAAA;AAAA,aAA8C;AAAA,MAC9C,mDAAC,OAAE,oIAAH;AAAA;AAAA;AAAA;AAAA,aAAuH;AAAA,SAFzH;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,OAPF;AAAA;AAAA;AAAA;AAAA,SAQF;AAEF;",
-  "names": []
-}
