@@ -45,7 +45,7 @@ export default function Index() {
       </form>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
@@ -56,7 +56,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter that helps you know what's happening <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>The Poast is the antidote.</b> It's our 1-minute newsletter that helps you know what's happening <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />

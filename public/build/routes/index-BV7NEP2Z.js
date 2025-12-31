@@ -110,7 +110,7 @@ function Index() {
         lineNumber: 31,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja3_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja3_default, alt: "The Poast newsletter image" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 48,
         columnNumber: 13
@@ -159,7 +159,7 @@ function Index() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
         "Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "Jeffamazon is the antidote." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "The Poast is the antidote." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 59,
           columnNumber: 108
@@ -168,7 +168,7 @@ function Index() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://thepoast.com/subscribe", rel: "noopener noreferrer", children: "right here \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 59,
-          columnNumber: 209
+          columnNumber: 208
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -267,4 +267,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-F2KO7FZP.js.map
+//# sourceMappingURL=/build/routes/index-BV7NEP2Z.js.map
