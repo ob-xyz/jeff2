@@ -32,7 +32,7 @@ export default function Index() {
           <div className="text">
             <h4>Know what's happening in New York</h4>
             <h1>Scroll Less. Know More.</h1>
-            <p>Subscribe for your daily dose of news that actually slaps 🚀</p>
+            <p>Subscribe for your 1-minute daily dose of news 🚀</p>
           </div>
       <form method="post" action="https://app.thepoast.com/subscription/form">
         <div className="input-wrapper">
@@ -49,29 +49,29 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Stay informed with <span>The Poast</span></h2>
+      <h2>Know what's happening with <span>The Poast</span></h2>
       <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day The Poast delivers a quick and insightful newsletter that helps you get breaking news, interesting events, and cultural trends happening across the city.</p>
+      <p>Every day The Poast delivers a quick and insightful newsletter that helps you get breaking news, interesting events, and trends happening across New York.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that actually slaps. Join <b>10,000+ serious New Yorkers</b> who scroll less and know more with our 1-minute weekly newsletter available for free <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter that helps you know what's happening <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
-          <h1>Your weekly news</h1>
-          <p>Know everything that's happening right now, without all the noise. It's NY news that actually slaps.</p>
+          <h1>Know what's happening</h1>
+          <p>Know what's happening, without the noise. It's news that feels good to read.</p>
         </div>
         <div className="box">
           <img src={chill} />
           <h1>60 seconds or less</h1>
-          <p>Real conversations and insights from locals who actually live in New York, delivered in 60 seconds or less.</p>
+          <p>Get a weekly 60 seconds or less update of everything that matter, delivered to your inbox.</p>
         </div>
         <div className="box">
           <img src={roast} />
-          <h1>Elevate your life</h1>
-          <p>Start your weekend right with all the info you need to elevate your life in the big city.</p>
+          <h1>Know more</h1>
+          <p>Start your weekend right with New York City in the palm of your hand.</p>
         </div>
       </div>
       <div className="btn">
