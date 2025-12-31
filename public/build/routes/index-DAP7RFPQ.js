@@ -164,11 +164,11 @@ function Index() {
           lineNumber: 59,
           columnNumber: 108
         }, this),
-        " It's our 1-minute newsletter that helps you know what's happening ",
+        " It's our 1-minute newsletter that helps you know what's happening. Sign up for free ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://thepoast.com/subscribe", rel: "noopener noreferrer", children: "right here \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 59,
-          columnNumber: 208
+          columnNumber: 226
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -267,4 +267,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-BV7NEP2Z.js.map
+//# sourceMappingURL=/build/routes/index-DAP7RFPQ.js.map
