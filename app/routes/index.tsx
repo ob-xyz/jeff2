@@ -1,11 +1,12 @@
 import { useEffect } from "react";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja3.png";
-import chill from "~/../public/img/chill.jpg";
-import tobi from "~/../public/img/tobic.jpg";
-import roast from "~/../public/img/samae.jpg";
-
+import header from "~/../public/img/thepoast.png";
+import header2 from "~/../public/img/thepoast.png";
+import nyc1 from "~/../public/img/nyc1.jpg";
+import nyc2 from "~/../public/img/nyc2.jpg";
+import nyc3 from "~/../public/img/nyc3.jpg";
+import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {
     useEffect(() => {
@@ -25,16 +26,16 @@ export default function Index() {
   return (
     <div className="container">
       <div className="logo">
-        <img src={logo} alt="The Poast Logo" />
+        <img src={logo} alt="Jeffamazon Logo" />
       </div>
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Know what's happening in New York</h4>
+            <h4>THE POAST WEEKLY NEWSLETTER</h4>
             <h1>Scroll Less. Know More.</h1>
-            <p>Subscribe for your 1-minute daily dose of news 🚀</p>
+            <p>Start your weekend with a 1-minute dose of what matters 🚀</p>
           </div>
-      <form method="post" action="https://app.thepoast.com/subscription/form">
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
           <button className="submit" type="submit">Send it</button>
@@ -45,40 +46,98 @@ export default function Index() {
       </form>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="The Poast newsletter image" />
+            <img src={header} alt="Jeffamazon newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Know what's happening with <span>The Poast</span></h2>
+      <h2>Start your weekend right with <span>The Poast</span></h2>
       <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day The Poast delivers a quick and insightful newsletter that helps you get breaking news, interesting events, and trends happening across New York.</p>
+      <p>Don't waste your weekends scrolling to stay informed. <span>The Poast is the antidote keeping 11,000+ people in the loop</span> about what matters in New York.</p>
       </a>
       </div>
-      <div className="inner-content4">
-            <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>The Poast is the antidote.</b> It's our 1-minute newsletter that helps you know what's happening. Sign up for free <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
-      <div className="inner-content5">
-         <div className="box">
-          <img src={tobi} />
-          <h1>Know what's happening</h1>
-          <p>Know what's happening, without the noise. It's news that feels good to read.</p>
-        </div>
-        <div className="box">
-          <img src={chill} />
-          <h1>60 seconds or less</h1>
-          <p>Get a weekly 60 seconds or less update of everything that matter, delivered to your inbox.</p>
-        </div>
-        <div className="box">
-          <img src={roast} />
-          <h1>Know more</h1>
-          <p>Start your weekend right with New York City in the palm of your hand.</p>
-        </div>
+      <div className="floatimg">
+          <img src={nyc1} alt="Jeffamazon newsletter image" />
       </div>
+      <div className="inner-content25sm">
+       <h2><span>Weekly news</span></h2>
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>Get the biggest stories happening every week.</p>
+      </a>
+      </div>
+      <div className="floatimg">
+            <img src={nyc2} alt="The Poast newsletter image" />
+        </div>
+      <div className="inner-content25sm">
+       <h2><span>What matters</span></h2>
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>Enjoy a quick update about what matters to the boroughs.</p>
+      </a>
+      </div>
+      <div className="floatimg">
+          <img src={nyc3} alt="The Poast newsletter image" />
+      </div>
+      <div className="inner-content25sm">
+       <h2><span>Weather update</span></h2>
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>We give you the small, and big details you wanna know.</p>
+      </a>
+      </div>
+            <div className="floatimg">
+            <img src={header2} alt="The Poast newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>The Poast</span></h2>
+      <a title="The Poast home page" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>The Poast is an informative and insightful 1-minute weekly newsletter that updates you on interesting events, trends, and things happening across the five boroughs.</p>
+      </a>
       <div className="btn">
         <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
             Subscribe for free
-      </a>
+        </a>
       </div>
+      </div>
+      <div className="inner-content255">
+        <div className="side1">
+       <h2><span>LEADERSHIP</span></h2>
+      <p className="noclick">Founder</p>
+      <p className="noclick">Chris Signore</p>
+      <div className="btn">
+        <a title="subscription form" href="https://thepoast.com/"  rel="noopener noreferrer" className="pricebtn">
+            About
+        </a>
+      </div>
+        </div>
+        <div className="side2">
+          <img src={cs} alt="Founder image" />
+        </div>
+      </div>
+      <div className="inner-content2555">
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>" It's the one thing that actually lets me know what matters.</p>
+      </a>
+      <div className="tag">
+      <p>
+        CHRIS SIGNORE
+      </p>
+      <p>
+        Founder
+      </p>
+      </div>
+      </div>
+       <div className="inner-content3">
+      <div className="grid">
+      <div className="box">
+        <h1>Subscribe</h1>
+        <p>Want to know what matters?</p>
+        <a title="subscribe today" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">Subscribe →</a>
+      </div>
+      <div className="box">
+        <h1>Advertise</h1>
+        <p>Want to post? We're looking for new advertisers.</p>
+        <a title="get in touch" href="mailto:ads@thepoast.com"  rel="noopener noreferrer">Get in touch →</a>
+      </div>
+      </div>
+    </div>
     </div>
   );
 }
