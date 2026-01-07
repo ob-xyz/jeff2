@@ -50,9 +50,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Start your weekend right with <span>The Poast</span></h2>
+      <h2>Start your weekend with <span>The Poast</span></h2>
       <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">
-      <p>Don't waste your weekends scrolling to stay informed. <span>The Poast is the antidote keeping 11,000+ people in the loop</span> about what matters in New York.</p>
+      <p>Don't waste your weekends scrolling to stay informed. <span>The Poast is the antidote keeping 11,000+ people in the loop</span> about what matters across the five boroughs.</p>
       </a>
       </div>
       <div className="floatimg">
@@ -68,9 +68,9 @@ export default function Index() {
             <img src={nyc2} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25sm">
-       <h2><span>What matters</span></h2>
+       <h2><span>Know more</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Enjoy a quick update about what matters to the boroughs.</p>
+      <p>Enjoy a quick update about what's happening in New York.</p>
       </a>
       </div>
       <div className="floatimg">

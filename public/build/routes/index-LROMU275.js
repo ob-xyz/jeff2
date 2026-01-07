@@ -129,11 +129,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Start your weekend right with ",
+        "Start your weekend with ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "The Poast" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 53,
-          columnNumber: 41
+          columnNumber: 35
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -147,7 +147,7 @@ function Index() {
           lineNumber: 55,
           columnNumber: 64
         }, this),
-        " about what matters in New York."
+        " about what matters across the five boroughs."
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
         lineNumber: 55,
@@ -205,7 +205,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "What matters" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Know more" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 71,
         columnNumber: 12
@@ -214,7 +214,7 @@ function Index() {
         lineNumber: 71,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "the poast home", href: "https://thepoast.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy a quick update about what matters to the boroughs." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "the poast home", href: "https://thepoast.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy a quick update about what's happening in New York." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 73,
         columnNumber: 7
@@ -444,4 +444,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-DULSQY5X.js.map
+//# sourceMappingURL=/build/routes/index-LROMU275.js.map
