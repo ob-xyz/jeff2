@@ -24,7 +24,7 @@ export default function Index() {
   return (
     <div className="about-container">
       <div className="logo">
-        <img src={logo} alt="Jeffamazon Logo" />
+        <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content">
         <div className="inner-content">
@@ -39,12 +39,12 @@ export default function Index() {
           <button className="submit" type="submit">Send it</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
         <input type="hidden" name="nonce" />
       </form>
         </div>
         <div className="inner-content1">
-            <img src={cs} alt="Jeffamazon newsletter image" />
+            <img src={cs} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
@@ -62,19 +62,7 @@ export default function Index() {
       </div>
       <div className="inner-content3sm">
       <div className="grid">
-      <div className="boxmat">
-         <div className="floatimg">
-          <img src={header2} alt="Jeffamazon newsletter image" />
-      </div>
-      <div className="box">
-        <h1>Jeffamazon</h1>
-        <p>Daily business news</p>
-      <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
-      </div>
-      </div>
-      </div>
-            <div className="boxmat">
+        <div className="boxmat">
         <div className="floatimg">
             <img src={thepoast} alt="The Poast newsletter image" />
         </div>
@@ -86,6 +74,18 @@ export default function Index() {
       </div>
       </div>
      </div>
+      <div className="boxmat">
+         <div className="floatimg">
+          <img src={header2} alt="The Poast newsletter image" />
+      </div>
+      <div className="box">
+        <h1>Jeffamazon</h1>
+        <p>Daily business news</p>
+      <div className="btn">
+          <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
+      </div>
+      </div>
+      </div>
       </div>
     </div>
       <div className="inner-content25">

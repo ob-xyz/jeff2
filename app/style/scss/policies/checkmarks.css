@@ -9,10 +9,7 @@
 .content-verification .logo {
   background: none;
   margin: 1.25rem 0 0 0;
-  width: 3.5rem;
-}
-.content-verification .logo img {
-  border-radius: 10rem;
+  width: 6rem;
 }
 .content-verification h1, .content-verification h2, .content-verification h3, .content-verification span {
   text-align: left;

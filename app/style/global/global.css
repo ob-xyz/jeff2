@@ -37,10 +37,7 @@
 .container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .container h1, .container h2, .container h3, .container span {
   font-style: normal;
@@ -833,10 +830,7 @@
 .about-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.about-container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .about-container h1, .about-container h2, .about-container h3, .about-container span {
   font-style: normal;
@@ -1458,10 +1452,7 @@
 .subscribe-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.subscribe-container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .subscribe-container h1, .subscribe-container h2, .subscribe-container h3, .subscribe-container span {
   font-style: normal;
@@ -5398,10 +5389,7 @@
 .content-verification .logo {
   background: none;
   margin: 1.25rem 0 0 0;
-  width: 3.5rem;
-}
-.content-verification .logo img {
-  border-radius: 10rem;
+  width: 6rem;
 }
 .content-verification h1, .content-verification h2, .content-verification h3, .content-verification span {
   text-align: left;

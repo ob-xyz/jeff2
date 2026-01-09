@@ -24,11 +24,11 @@ export default function Index() {
   return (
     <div className="content-verification">
       <div className="logo">
-        <img src={logo} alt="Jeffamazon Logo" />
+        <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content-verification2">
-        <h1>About checkmarks in the Jeffamazon newsletter.</h1>
-        <p>Jeffamazon applies checkmarks as visual identity signals on account profiles to provide more context about—and help distinguish—different types of profiles. All of these indicators are applied by Jeffamazon, not the profile holder.</p>
+        <h1>About checkmarks in the The Poast newsletter.</h1>
+        <p>The Poast applies checkmarks as visual identity signals on account profiles to provide more context about—and help distinguish—different types of profiles. All of these indicators are applied by The Poast, not the profile holder.</p>
         <div className="box">
         <h2>Blue checkmark</h2>
         <p>The blue checkmark means that a account is a real person who meets our eligibility requirements. These accounts typically always represent an individual and have under gone review and confirmation that confirms they meet the authentic content and people standards we ahere to.</p>
