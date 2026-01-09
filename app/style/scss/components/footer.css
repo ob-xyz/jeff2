@@ -3,15 +3,14 @@
   padding: 10rem 5rem 3rem 5rem;
   box-sizing: border-box;
 }
+.footer h1 {
+  font-size: 11.2rem;
+  font-family: ku;
+}
 .footer p {
   font-family: kl;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   margin-left: 0;
-}
-.footer h1 {
-  font-size: 12.4rem;
-  width: 100%;
-  font-family: ku;
 }
 .footer .footer-top {
   display: flex;
@@ -46,7 +45,7 @@
 }
 .footer .footer-top .footer-signup form .input-wrapper {
   position: relative;
-  width: 26.5rem;
+  width: 25rem;
 }
 .footer .footer-top .footer-signup form input.email {
   width: 100%;
@@ -65,19 +64,19 @@
 }
 .footer .footer-top .footer-signup form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0px;
   right: 2px;
-  bottom: 2px;
+  bottom: 0px;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
+  background-color: #02090A;
+  color: #fafafa;
   border: none;
-  border-left: 0.12rem solid #02090A;
+  border-left: 0.15rem solid #02090a;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
 .footer .footer-top .footer-signup form button.submit:hover {
-  background-color: #F5F5F5;
+  opacity: 0.85;
   cursor: pointer;
 }
 .footer .footer-top .footer-links {
@@ -148,14 +147,14 @@
     font-size: 8.5rem;
   }
 }
-@media (min-width: 660px) and (max-width: 874px) {
+@media (min-width: 660px) and (max-width: 930px) {
   .footer {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     padding-top: 2.5rem;
   }
   .footer h1 {
-    font-size: 6.75rem;
+    font-size: 6rem;
   }
   .footer .footer-top {
     flex-direction: column-reverse;
@@ -164,11 +163,8 @@
   .footer .footer-top .footer-signup {
     padding-top: 1rem;
   }
-  .footer .footer-top .footer-signup p {
-    font-size: 1.2rem;
-  }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 26.5rem;
+    width: 25rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
@@ -199,7 +195,7 @@
     padding: 1.25rem 0.5rem 1.25rem 0.5rem;
   }
   .footer h1 {
-    font-size: 4.5rem;
+    font-size: 3.65rem;
   }
   .footer .footer-top {
     flex-direction: column-reverse;
@@ -210,6 +206,9 @@
   }
   .footer .footer-top .footer-signup h1 {
     font-size: 2rem;
+  }
+  .footer .footer-top .footer-signup p {
+    font-size: 1.25rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
     width: 22.5rem;

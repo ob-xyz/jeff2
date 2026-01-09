@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Link } from "@remix-run/react";
 
 import linkedin from "~/../public/img/in.png";
@@ -7,28 +6,16 @@ import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
 export default function Footer() {
-      useEffect(() => {
-    // Dynamically load the hCaptcha script
-    const script = document.createElement("script");
-    script.src = "https://js.hcaptcha.com/1/api.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-
-    // Clean up script on component unmount
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
 <footer className="footer">
+
   <h1>The Poast</h1>
+
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
-          <p>Start your weekend right with The Poast</p>
-    <form method="post" action="https://app.thepoast.com/subscription/form">
+          <p>Start your weekend with The Poast</p>
+    <form method="post" action="https://app.jeffamzn.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
         <button className="submit" type="submit">Let's do it</button>
@@ -43,8 +30,8 @@ export default function Footer() {
   <div className="column">
     <h4>Company</h4>
     <Link to="/">Home</Link>
-    <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
-    <a title="get in touch" href="mailto:chris@thepoast.com"  rel="noopener noreferrer">Get in touch</a>
+    <Link to="/about">About</Link>
+    <Link to="/subscribe">Subscribe</Link>
   </div>
 </div>
 </div>
@@ -58,16 +45,16 @@ export default function Footer() {
   </a>
   </div>
   <div className="footer-social">
-  <a href="https://instagram.com/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={ig} alt="Instagram" />
   </a>
-  <a href="https://x.com/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={x} alt="X (formerly Twitter)" />
   </a>
-  <a href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:chris@thepoast.com">
+  <a href="mailto:chris@jeffamazon.com">
     <img src={email} alt="Email us" />
   </a>
   </div>

@@ -29,9 +29,9 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Subscribe to The Poast Weekly Newsletter - The Poast",
-  description: "Subscribe to the free, 1-minute weekly newsletter keeping 10K+ people i the know about what's happening in New York City.",
-  viewport: "width=device-width,initial-scale=1",
+  title: "Subscribe to Jeffamazon 1-Minute Newsletter - Jeffamazon",
+  description: "Subscribe to the free, 1-minute daily newsletter keeping 32K+ decisive people in the know about what matters.",
+  viewport: "width=device-width,initial-scale=1"
 });
 
 export default function App() {
@@ -40,7 +40,7 @@ export default function App() {
       <head>
         <Meta />
         <Links />
-        </head>
+      </head>
       <body>
         <Outlet />
         <Footer />

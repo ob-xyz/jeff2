@@ -3,16 +3,15 @@
   width: 100%;
   padding: 10rem 5rem 3rem 5rem;
   box-sizing: border-box;
+    h1{
+      font-size:11.2rem;
+      font-family: ku;
+    }
     p{
         font-family:kl;
-        font-size:1.2rem;
+        font-size:1.35rem;
         margin-left:0;
     }
-  h1 {
-        font-size:12.4rem;
-        width:100%;
-        font-family:ku;
-      }
   .footer-top {
     display: flex;
     flex-wrap: nowrap;
@@ -44,7 +43,7 @@
 }
 .input-wrapper {
   position: relative;
-  width: 26.5rem;
+  width: 25rem;
 }
 input.email {
   width: 100%;
@@ -65,19 +64,19 @@ input.email {
 
 button.submit {
   position: absolute;
-  top: 2px;
+  top: 0px;
   right: 2px;
-  bottom: 2px;
+  bottom: 0px;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
+  background-color: #02090A;
+  color: #fafafa;
   border: none;
-  border-left: .12rem solid #02090A;
+  border-left: .15rem solid #02090a;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 
   &:hover {
-    background-color: #F5F5F5;
+    opacity: .85;
     cursor: pointer;
   }
 }
@@ -87,6 +86,7 @@ button.submit {
   display: flex;
   margin:0 0;
   padding-top:3.75rem;
+
 .column {
 display: flex;
 flex-direction: column;
@@ -159,25 +159,22 @@ font-size: 0.825rem;
   }
 }
 }
-@media (min-width: 660px) and (max-width: 874px) {
+@media (min-width: 660px) and (max-width: 930px) {
 .footer {
   padding-left:2.5rem;
   padding-right:2.5rem;
   padding-top:2.5rem;
-  h1{
-    font-size: 6.75rem;
-  }
+    h1{
+      font-size:6rem;
+    }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
     .footer-signup {
       padding-top:1rem;
-   p{
-        font-size:1.2rem;
-      }
       form{
       .input-wrapper{
-          width: 26.5rem;
+          width: 25rem;
       }
       }
   }
@@ -210,10 +207,9 @@ font-size: 0.825rem;
 @media (max-width: 659px) {
 .footer {
   padding:1.25rem .5rem 1.25rem .5rem;
-  h1{
-    font-size: 4.5rem;
-  }
-  
+      h1{
+      font-size:3.65rem;
+    }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
@@ -221,6 +217,9 @@ font-size: 0.825rem;
       padding-top:1rem;
       h1{
         font-size:2rem;
+      }
+      p{
+        font-size:1.25rem;
       }
       form{
       .input-wrapper{
@@ -255,3 +254,4 @@ font-size: 0.825rem;
   }
 }
 }
+

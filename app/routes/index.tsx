@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/thepoast.png";
@@ -31,9 +32,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>THE POAST WEEKLY NEWSLETTER</h4>
+            <h4>THE POAST 1-MINUTE NEWSLETTER</h4>
             <h1>Scroll Less. Know More.</h1>
-            <p>Start your weekend with a 1-minute dose of what matters 🚀</p>
+            <p>Subscribe for your daily dose of what matters 🗽</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -41,59 +42,47 @@ export default function Index() {
           <button className="submit" type="submit">Send it</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
         <input type="hidden" name="nonce" />
       </form>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
       <h2>Start your weekend with <span>The Poast</span></h2>
-      <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">
-      <p>Don't waste your weekends scrolling to stay informed. <span>The Poast is the antidote keeping 11,000+ people in the loop</span> about what matters across the five boroughs.</p>
-      </a>
+        <Link className="text" to="/subscribe">Don't waste your weekends scrolling to stay ahead. <span>Jeffamazon is the antidote keeping 12,000+ new yorkers in the loop</span> about what matters across the city.</Link>
       </div>
       <div className="floatimg">
-          <img src={nyc1} alt="Jeffamazon newsletter image" />
+          <img src={nyc1} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Weekly news</span></h2>
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Get the biggest stories happening every week.</p>
-      </a>
+          <Link className="text" to="/subscribe">Get the biggest stories happening every week.</Link>
       </div>
       <div className="floatimg">
             <img src={nyc2} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25sm">
-       <h2><span>Know more</span></h2>
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Enjoy a quick update about what's happening in New York.</p>
-      </a>
+       <h2><span>1 min or less</span></h2>
+             <Link className="text" to="/subscribe">Enjoy a quick update that's all things New York.</Link>
       </div>
       <div className="floatimg">
           <img src={nyc3} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Weather update</span></h2>
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>We give you the small, and big details you wanna know.</p>
-      </a>
+       <h2><span>Stay ahead</span></h2>
+      <Link className="text" to="/subscribe">We uncover every inch of the city and deliver it to you for free.</Link>
       </div>
-            <div className="floatimg">
-            <img src={header2} alt="The Poast newsletter image" />
-        </div>
+      <div className="floatimg">
+          <img src={header2} alt="The Poast newsletter image" />
+      </div>
       <div className="inner-content25">
        <h2><span>The Poast</span></h2>
-      <a title="The Poast home page" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>The Poast is an informative and insightful 1-minute weekly newsletter that updates you on interesting events, trends, and things happening across the five boroughs.</p>
-      </a>
+            <Link className="text" to="/subscribe">The Poast is a quick and insightful weekly newsletter that helps you make sense of interesting things happening in the greatest city in the world.</Link>
       <div className="btn">
-        <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
-            Subscribe for free
-        </a>
+          <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
       </div>
       <div className="inner-content255">
@@ -102,9 +91,7 @@ export default function Index() {
       <p className="noclick">Founder</p>
       <p className="noclick">Chris Signore</p>
       <div className="btn">
-        <a title="subscription form" href="https://thepoast.com/"  rel="noopener noreferrer" className="pricebtn">
-            About
-        </a>
+          <Link className="pricebtn" to="/about">About</Link>
       </div>
         </div>
         <div className="side2">
@@ -112,9 +99,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>" It's the one thing that actually lets me know what matters.</p>
-      </a>
+          <Link className="text" to="/about">" It's the one thing that lets me know what's happening in New York.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
@@ -128,16 +113,56 @@ export default function Index() {
       <div className="grid">
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Want to know what matters?</p>
-        <a title="subscribe today" href="https://thepoast.com/subscribe"  rel="noopener noreferrer">Subscribe →</a>
+        <p>Get what matters delivered straight to your inbox.</p>
+          <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       <div className="box">
         <h1>Advertise</h1>
         <p>Want to post? We're looking for new advertisers.</p>
-        <a title="get in touch" href="mailto:ads@thepoast.com"  rel="noopener noreferrer">Get in touch →</a>
+          <Link className="text" to="/ads/ad-form">Get in touch →</Link>
       </div>
       </div>
     </div>
+{/* <div className="inner-blog">
+    <div className="header">
+          <h4>JEFFAMAZON NEWS</h4>
+          <h3>The latest and greatest.</h3>
+    </div>
+    <ul className="grid">
+    {campaigns.length === 0 ? (
+      <li>No campaigns available yet.</li>
+    ) : (
+      campaigns.slice(0, 6).map((c) => (
+        <li key={c.id} className="box">
+          <a href={c.url} target="_blank" rel="noopener noreferrer">
+            <img src="https://jeffamazn.com/GsidegWXwAECEUs.jpeg" alt="You gotta see this" />
+            <h2>{c.subject}</h2>
+            <p>{new Date(c.send_at).toLocaleDateString()}</p> 
+          </a>
+        </li>
+      ))
+    )}
+  </ul>
+</div> */}
+{/* 
+<div className="inner-blog">
+      <div className="header">
+          <h4>JEFFAMAZON NEWS</h4>
+          <h3>The latest and greatest.</h3>
+      </div>
+  <ul className="grid">
+    <li className="box">
+      <a
+        href="http://app.jeffamzn.com/campaign/ba97f2f9-a8c7-46a7-b183-ccffbc3b6891/6716369b-5785-4c74-be76-73af2558eebb"
+        rel="noopener noreferrer"
+      >
+        <img src="https://jeffamazn.com/Screen-Shot-2025-06-03-at-5.09.08-PM.png" alt="Test Campaign Preview" />
+        <h2>Test Campaign — Preview</h2>
+        <p>June 29, 2025</p>
+      </a>
+    </li>
+  </ul>
+</div> */}
     </div>
   );
 }

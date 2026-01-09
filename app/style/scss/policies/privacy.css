@@ -8,8 +8,11 @@
 }
 .content-privacy .logo {
   background: none;
-  margin: 1.25rem 0 0 5rem;
-  width: 5rem;
+  margin: 1.25rem 0 0 0;
+  width: 3.5rem;
+}
+.content-privacy .logo img {
+  border-radius: 10rem;
 }
 .content-privacy h1, .content-privacy h2, .content-privacy h3, .content-privacy span {
   text-align: left;
