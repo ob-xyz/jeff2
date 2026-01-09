@@ -33,15 +33,9 @@ export default function Index() {
             <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
             <p>But I'm best known for my weekly newsletter - The Poast 🗽</p>
           </div>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Send it</button>
-        </div>
-        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
-        <input type="hidden" name="nonce" />
-      </form>
+      <div className="btn">
+            <Link className="pricebtn" to="/ads/ad-form">Request quote</Link>
+      </div>
         </div>
         <div className="inner-content1">
             <img src={cs} alt="The Poast newsletter image" />
