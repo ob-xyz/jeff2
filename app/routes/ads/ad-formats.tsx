@@ -21,8 +21,8 @@ return (
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ decision-makers who like knowing what matters</h1>
-            <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
+            <h1>Reach 12K+ decisive people who make decisions</h1>
+            <p>We're the daily newsletter helping businesses do more 🚀</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/ads/ad-form">Request quote</Link>
@@ -33,8 +33,8 @@ return (
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-          <Link className="text" to="/ads/ad-form">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
+      <h2>Connect with your next customers on <span>The Poast</span></h2>
+          <Link className="text" to="/ads/ad-form">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, The Poast has an ad format that'll help you reach our audience.</Link>
       </div>
         <div className="floatimg">
             <img src={imageads} alt="The Poast newsletter image" />
@@ -128,7 +128,7 @@ return (
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
             <h1>Reach 12K+ of the world's most decisive people</h1>
-            <p>We're the 1-minute newsletter helping businesses do more.</p>
+            <p>We're the daily newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">
       <form method="post" action="https://app.jeffamzn.com/subscription/form">

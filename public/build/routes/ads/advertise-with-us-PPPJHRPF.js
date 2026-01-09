@@ -47,7 +47,7 @@ function Index() {
             lineNumber: 24,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the 1-minute newsletter helping businesses do more \u{1F680}" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the daily newsletter helping businesses do more \u{1F680}" }, void 0, false, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
             lineNumber: 25,
             columnNumber: 13
@@ -475,7 +475,7 @@ function Index() {
           lineNumber: 154,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the 1-minute newsletter helping businesses do more." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the daily newsletter helping businesses do more." }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 155,
           columnNumber: 13
@@ -566,4 +566,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-IHN5AWJV.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-PPPJHRPF.js.map

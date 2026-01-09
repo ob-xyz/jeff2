@@ -42,12 +42,12 @@ function Index() {
             lineNumber: 23,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 12K+ decision-makers who like knowing what matters" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 12K+ decisive people who make decisions" }, void 0, false, {
             fileName: "app/routes/ads/ad-formats.tsx",
             lineNumber: 24,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the 1-minute newsletter helping businesses do more \u{1F680}" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the daily newsletter helping businesses do more \u{1F680}" }, void 0, false, {
             fileName: "app/routes/ads/ad-formats.tsx",
             lineNumber: 25,
             columnNumber: 13
@@ -88,7 +88,7 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
         "Connect with your next customers on ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "The Poast" }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 36,
           columnNumber: 47
@@ -98,7 +98,7 @@ function Index() {
         lineNumber: 36,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, The Poast has an ad format that'll help you reach our audience." }, void 0, false, {
         fileName: "app/routes/ads/ad-formats.tsx",
         lineNumber: 37,
         columnNumber: 11
@@ -433,7 +433,7 @@ function Index() {
           lineNumber: 130,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the 1-minute newsletter helping businesses do more." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the daily newsletter helping businesses do more." }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 131,
           columnNumber: 13
@@ -524,4 +524,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-M5NTTELG.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-6U4JJ5QV.js.map

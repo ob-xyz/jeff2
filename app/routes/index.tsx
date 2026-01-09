@@ -58,7 +58,7 @@ return (
       </div>
       <div className="inner-content25sm">
        <h2><span>Stay ahead</span></h2>
-      <Link className="text" to="/subscribe">We uncover every inch of the city and deliver it to you for free.</Link>
+      <Link className="text" to="/subscribe">We uncover every inch of the city.</Link>
       </div>
       <div className="floatimg">
           <img src={header2} alt="The Poast newsletter image" />

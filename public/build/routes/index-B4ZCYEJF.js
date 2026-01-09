@@ -224,7 +224,7 @@ function Index() {
         lineNumber: 60,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "We uncover every inch of the city and deliver it to you for free." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "We uncover every inch of the city." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 61,
         columnNumber: 7
@@ -409,4 +409,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-CC7PPC7A.js.map
+//# sourceMappingURL=/build/routes/index-B4ZCYEJF.js.map
