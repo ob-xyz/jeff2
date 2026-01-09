@@ -21,7 +21,7 @@ return (
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+ decision-makers who like knowing what matters</h1>
+            <h1>Reach 12K+ decision-makers who like knowing what matters</h1>
             <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
           </div>
       <div className="btn">
@@ -127,7 +127,7 @@ return (
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+ of the world's most decisive people</h1>
+            <h1>Reach 12K+ of the world's most decisive people</h1>
             <p>We're the 1-minute newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">

@@ -19,7 +19,7 @@ return (
           <div className="text">
             <h4>THE POAST 1-MINUTE NEWSLETTER</h4>
             <h1>Scroll Less. Know More.</h1>
-            <p>Subscribe for your daily dose of what matters 🗽</p>
+            <p>Subscribe for your weekly dose of what matters 🗽</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -37,7 +37,7 @@ return (
       </div>
       <div className="inner-content2">
       <h2>Start your weekend smarter with <span>The Poast</span></h2>
-        <Link className="text" to="/subscribe">Don't waste your weekends scrolling to stay ahead. <span>Jeffamazon is the antidote keeping 12,000+ new yorkers in the loop</span> about what matters across the city.</Link>
+        <Link className="text" to="/subscribe">Don't waste your weekends scrolling to stay ahead. <span>The Poast is the 1 min antidote keeping 12,000+ new yorkers in the loop</span> about what matters across the city.</Link>
       </div>
       <div className="floatimg">
           <img src={nyc1} alt="The Poast newsletter image" />
