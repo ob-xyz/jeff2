@@ -34,7 +34,7 @@ export default function Index() {
             <p>But I'm best known for my weekly newsletter - The Poast 🗽</p>
           </div>
       <div className="btn">
-            <Link className="pricebtn" to="/ads/ad-form">Subscribe</Link>
+            <Link className="pricebtn" to="/subscribe">Subscribe</Link>
       </div>
         </div>
         <div className="inner-content1">
