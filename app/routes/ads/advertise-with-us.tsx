@@ -3,7 +3,7 @@ import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja3.png";
-import header2 from "~/../public/img/ja4.png";
+import header2 from "~/../public/img/ja5.png";
 
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
@@ -39,15 +39,9 @@ export default function Index() {
             <h1>Reach 32K+ of the world's most decisive people</h1>
             <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
           </div>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
-          <button className="submit" type="submit">Request Quote</button>
-        </div>
-        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-        <input type="hidden" name="nonce" />
-      </form>
+      <div className="btn">
+            <Link className="pricebtn" to="/ads/ad-form">Request quote</Link>
+      </div>
         </div>
         <div className="inner-content1">
             <img src={header} alt="Jeffamazon newsletter image" />
@@ -182,13 +176,13 @@ export default function Index() {
           <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
           <input className="email" type="text" name="company" required placeholder="Company *" />
           <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
-          <button className="submit" type="submit">Get in touch</button>
+          <button className="submit" type="submit">Request quote</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
         <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
         <input type="hidden" name="nonce" />
       </form>
-            <img src={imageads} alt="Jeffamazon newsletter image" />
+            <img src={header2} alt="Jeffamazon newsletter image" />
         </div>
       </div>
         </div>
