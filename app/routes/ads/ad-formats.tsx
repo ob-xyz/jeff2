@@ -29,7 +29,7 @@ return (
       </div>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
@@ -37,7 +37,7 @@ return (
           <Link className="text" to="/ads/ad-form">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
       </div>
         <div className="floatimg">
-            <img src={imageads} alt="Jeffamazon newsletter image" />
+            <img src={imageads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Image Ads</span></h2>
@@ -47,7 +47,7 @@ return (
       </div>
       </div>
       <div className="floatimg">
-            <img src={videoads} alt="Jeffamazon newsletter image" />
+            <img src={videoads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Video Ads</span></h2>
@@ -57,7 +57,7 @@ return (
       </div>
       </div>
      <div className="floatimg">
-            <img src={carouselads} alt="Jeffamazon newsletter image" />
+            <img src={carouselads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Carousel Ads</span></h2>
@@ -67,7 +67,7 @@ return (
       </div>
       </div>
       <div className="floatimg">
-            <img src={textads} alt="Jeffamazon newsletter image" />
+            <img src={textads} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Text Ads</span></h2>
@@ -77,7 +77,7 @@ return (
       </div>
       </div>
       <div className="floatimg">
-            <img src={newsads} alt="Jeffamazon newsletter image" />
+            <img src={newsads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Mini Ads</span></h2>
@@ -87,7 +87,7 @@ return (
       </div>
       </div>
       <div className="floatimg">
-            <img src={takeoverads} alt="Jeffamazon newsletter image" />
+            <img src={takeoverads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Takeover Ads</span></h2>
@@ -140,10 +140,10 @@ return (
           <button className="submit" type="submit">Request quote</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
+        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
         <input type="hidden" name="nonce" />
       </form>
-            <img src={header2} alt="Jeffamazon newsletter image" />
+            <img src={header2} alt="The Poast newsletter image" />
         </div>
       </div>
         </div>

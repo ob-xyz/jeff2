@@ -10,7 +10,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  useLocation
+  useLocation,
 } from "@remix-run/react";
 
 import globalStyles from "~/style/global/global.css";

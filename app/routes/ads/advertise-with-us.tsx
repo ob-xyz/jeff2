@@ -29,7 +29,7 @@ return (
       </div>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
@@ -40,7 +40,7 @@ return (
       <div className="grid">
       <div className="boxmat">
          <div className="floatimg">
-          <img src={imageads} alt="Jeffamazon newsletter image" />
+          <img src={imageads} alt="The Poast newsletter image" />
       </div>
       <div className="box">
         <h1>Image Ads</h1>
@@ -52,7 +52,7 @@ return (
       </div>
             <div className="boxmat">
         <div className="floatimg">
-            <img src={videoads} alt="Jeffamazon newsletter image" />
+            <img src={videoads} alt="The Poast newsletter image" />
         </div>
       <div className="box">
         <h1>Video Ads</h1>
@@ -68,7 +68,7 @@ return (
       <div className="grid">
       <div className="boxmat">
          <div className="floatimg">
-          <img src={carouselads} alt="Jeffamazon newsletter image" />
+          <img src={carouselads} alt="The Poast newsletter image" />
       </div>
       <div className="box">
         <h1>Carousel Ads</h1>
@@ -80,7 +80,7 @@ return (
       </div>
      <div className="boxmat">
         <div className="floatimg">
-            <img src={textads} alt="Jeffamazon newsletter image" />
+            <img src={textads} alt="The Poast newsletter image" />
         </div>
         <div className="box">
         <h1>Text Ads</h1>
@@ -96,7 +96,7 @@ return (
       <div className="grid">
       <div className="boxmat">
          <div className="floatimg">
-          <img src={newsads} alt="Jeffamazon newsletter image" />
+          <img src={newsads} alt="The Poast newsletter image" />
       </div>
       <div className="box">
         <h1>Mini Ads</h1>
@@ -108,7 +108,7 @@ return (
       </div>
      <div className="boxmat">
         <div className="floatimg">
-            <img src={takeoverads} alt="Jeffamazon newsletter image" />
+            <img src={takeoverads} alt="The Poast newsletter image" />
         </div>
       <div className="box">
         <h1>Takeover Ads</h1>
@@ -164,10 +164,10 @@ return (
           <button className="submit" type="submit">Request quote</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
+        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
         <input type="hidden" name="nonce" />
       </form>
-            <img src={header2} alt="Jeffamazon newsletter image" />
+            <img src={header2} alt="The Poast newsletter image" />
         </div>
       </div>
         </div>

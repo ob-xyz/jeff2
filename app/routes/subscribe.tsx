@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja3.png";
+import header from "~/../public/img/thepoast.png";
 
 export default function Index() {
   return (
@@ -12,8 +12,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>SIGN UP FOR JEFFAMAZON</h4>
-            <h1>Join 32K+</h1>
+            <h4>SIGN UP FOR THE POAST</h4>
+            <h1>Join 12K+</h1>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -28,7 +28,7 @@ export default function Index() {
       </form>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
