@@ -118,11 +118,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Start your weekend with ",
+        "Start your weekend smarter with ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "The Poast" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 39,
-          columnNumber: 35
+          columnNumber: 43
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -409,4 +409,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-76SSUNXX.js.map
+//# sourceMappingURL=/build/routes/index-PKYGJ2TS.js.map

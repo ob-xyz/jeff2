@@ -111,11 +111,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Start your day with ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon" }, void 0, false, {
+        "Start your weekend smarter with ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "The Poast" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 35,
-          columnNumber: 31
+          columnNumber: 43
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/subscribe.tsx",
@@ -123,13 +123,13 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
-        "Don't waste good mornings scrolling to stay ahead. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the antidote keeping 32,000+ people in the loop" }, void 0, false, {
+        "Don't waste your weekends scrolling to stay ahead. ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the antidote keeping 12,000+ new yorkers in the loop" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 36,
           columnNumber: 99
         }, this),
-        " about what matters in the business world."
+        " about what matters across the city."
       ] }, void 0, true, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 36,
@@ -149,4 +149,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-OLWC6FEF.js.map
+//# sourceMappingURL=/build/routes/subscribe-THLFAU5Z.js.map
