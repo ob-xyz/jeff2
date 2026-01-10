@@ -84,10 +84,9 @@
   }
 .inner-content1{
     img{
-      margin-left:-4.5rem;
-      margin-bottom:-8rem;
+      margin-left:-7.5rem;
+      margin-bottom:-5rem;
       width: 100%;
-
     }
   }
 }
@@ -113,7 +112,7 @@ p, .text{
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.5s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -138,7 +137,8 @@ p span, .text span{
   }
 }
 }
-.floatimg{
+.floatimg,
+.floatimg2{
   margin-top: 8rem;
   img{
     margin: 0 auto;
@@ -170,7 +170,7 @@ p, .text{
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -310,10 +310,11 @@ p, .text{
   }
 }
 }
-.inner-content3sm{
+.inner-content3sm,
+.inner-content3smm{
   .boxmat{
     width:100%;
-    height:auto;
+    height:100%;
   }
   .grid{
   margin-left:5rem;
@@ -321,13 +322,11 @@ p, .text{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  width: auto;
   .box {
     display: flex;
     flex-direction: column;
     background: transparent;
     text-align: left;
-    height: 100%;
     width: 100%;
     background:#000;
     padding:2rem 1rem 2rem 1rem;
@@ -369,6 +368,16 @@ p, .text{
 }
   }
 }
+}
+.floatimg2{
+  width: 50%;
+}
+.inner-content3smm{
+  .grid{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  width: auto;
+  }
 }
 .ad-form{
   margin-left:5rem;
@@ -446,9 +455,9 @@ button.submit {
 }
 }
     img{
-      margin-top: -2rem;
+      margin-top: -2.5rem;
       margin-left:2rem;
-      width: 27.5%;
+      width: 25%;
     }
 }
 
@@ -491,8 +500,8 @@ button.submit {
   }
   .inner-content1{
     width: 100%;
-    margin-left: 5rem;
-    margin-bottom:-8rem;
+    margin-left: 15rem;
+    margin-bottom:0rem;
   }
 }
 .inner-content2{
@@ -515,6 +524,14 @@ button.submit {
   }
 }
 .floatimg{
+  img{
+    width: 65%;
+  }
+}
+.floatimg2{
+  display: flex;
+  justify-content: center;
+  margin-top:8rem;
   img{
     width: 65%;
   }
@@ -545,12 +562,12 @@ button.submit {
     }
   }
  .inner-content1{
-  margin-top: 2.5rem;
+    margin-top: 2.5rem;
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     margin-bottom:-6.5rem;
   }
  }
@@ -583,6 +600,14 @@ button.submit {
     width: 65%;
   }
 }
+.floatimg2{
+  display: flex;
+  justify-content: center;
+  margin-top:8rem;
+  img{
+    width: 130%;
+  }
+}
 .inner-content25{
   margin-top:8rem;
   margin-bottom:6rem;
@@ -602,7 +627,8 @@ button.submit {
   }
 }
 .inner-content3,
-.inner-content3sm{
+.inner-content3sm,
+.inner-content3smm{
   margin-top:0rem;
   margin-bottom:-2rem;
 .grid{
@@ -631,10 +657,7 @@ button.submit {
     }
 }
 .inner-content{
-  margin-left: 0;
   form {
-      margin-left: 0;
-
 .input-wrapper {
   width: 35rem;
 }
@@ -675,13 +698,12 @@ button.submit {
   }
 .inner-content1 {
     margin-top: 2.5rem;
-
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-bottom:-10rem;
+    margin-bottom:-8rem;
   }
 }
 }
@@ -714,6 +736,14 @@ button.submit {
   margin-top:6rem;
   img{
     width: 74%;
+  }
+}
+.floatimg2{
+  display: flex;
+  justify-content: center;
+  margin-top:2rem;
+  img{
+    width: 147%;
   }
 }
 .inner-content25{
@@ -758,7 +788,8 @@ p, .text{
   }
 }
 .inner-content3,
-.inner-content3sm{
+.inner-content3sm,
+.inner-content3smm{
   margin-top:1rem;
   margin-bottom:5rem;
   padding:0 2rem;
@@ -784,10 +815,13 @@ p, .text{
 .inner-content3sm{
   margin-top:-4rem; 
 }
+.inner-content3smm{
+  margin-top:0rem;
+}
 .ad-form{
   margin-left:1.5rem;
   margin-right:1.5rem;
-  margin-top: 6rem;
+  margin-top: 0;
   margin-bottom: 4rem;
   .inner-form{
     padding:2rem 1.5rem 2rem 1.5rem;

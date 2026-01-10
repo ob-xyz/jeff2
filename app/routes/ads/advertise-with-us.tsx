@@ -1,18 +1,20 @@
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja4.png";
+import header from "~/../public/img/ja3.png";
 import header2 from "~/../public/img/ja5.png";
 
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
 import imageads from "~/../public/img/ads/imageads.png";
+import imageads2 from "~/../public/img/ads/imageads2.png";
 import textads from "~/../public/img/ads/textads.png";
 import newsads from "~/../public/img/ads/quickads.png";
+import recads from "~/../public/img/ads/recads.png";
 import takeoverads from "~/../public/img/ads/takeoverads.png";
 
 export default function Index() {
-return (
+  return (
     <div className="ads-container">
       <div className="logo">
         <img src={logo} alt="Jeffamazon Logo" />
@@ -21,7 +23,7 @@ return (
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ of New York's most decisive people</h1>
+            <h1>Reach 32K+ of the world's most decisive people</h1>
             <p>We're the daily newsletter helping businesses do more 🚀</p>
           </div>
       <div className="btn">
@@ -29,7 +31,7 @@ return (
       </div>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="The Poast newsletter image" />
+            <img src={header} alt="Jeffamazon newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
@@ -40,7 +42,7 @@ return (
       <div className="grid">
       <div className="boxmat">
          <div className="floatimg">
-          <img src={imageads} alt="The Poast newsletter image" />
+          <img src={imageads} alt="Jeffamazon newsletter image" />
       </div>
       <div className="box">
         <h1>Image Ads</h1>
@@ -52,7 +54,7 @@ return (
       </div>
             <div className="boxmat">
         <div className="floatimg">
-            <img src={videoads} alt="The Poast newsletter image" />
+            <img src={videoads} alt="Jeffamazon newsletter image" />
         </div>
       <div className="box">
         <h1>Video Ads</h1>
@@ -68,7 +70,7 @@ return (
       <div className="grid">
       <div className="boxmat">
          <div className="floatimg">
-          <img src={carouselads} alt="The Poast newsletter image" />
+          <img src={carouselads} alt="Jeffamazon newsletter image" />
       </div>
       <div className="box">
         <h1>Carousel Ads</h1>
@@ -80,7 +82,7 @@ return (
       </div>
      <div className="boxmat">
         <div className="floatimg">
-            <img src={textads} alt="The Poast newsletter image" />
+            <img src={textads} alt="Jeffamazon newsletter image" />
         </div>
         <div className="box">
         <h1>Text Ads</h1>
@@ -96,7 +98,7 @@ return (
       <div className="grid">
       <div className="boxmat">
          <div className="floatimg">
-          <img src={newsads} alt="The Poast newsletter image" />
+          <img src={newsads} alt="Jeffamazon newsletter image" />
       </div>
       <div className="box">
         <h1>Mini Ads</h1>
@@ -108,7 +110,23 @@ return (
       </div>
      <div className="boxmat">
         <div className="floatimg">
-            <img src={takeoverads} alt="The Poast newsletter image" />
+            <img src={recads} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="box">
+        <h1>Rec Ads</h1>
+        <p>Rec ads give you a widescreen image and a CTA button to maximizes your.</p>
+      <div className="btn">
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
+      </div>
+      </div>
+     </div>
+      </div>
+    </div>
+    <div className="inner-content3smm">
+      <div className="grid">
+     <div className="boxmat">
+        <div className="floatimg2">
+            <img src={takeoverads} alt="Jeffamazon newsletter image" />
         </div>
       <div className="box">
         <h1>Takeover Ads</h1>
@@ -120,6 +138,7 @@ return (
      </div>
       </div>
     </div>
+
        <div className="inner-content3">
       <div className="grid">
       <div className="box">
@@ -151,7 +170,7 @@ return (
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ of New York's most decisive people</h1>
+            <h1>Reach 32K+ of the world's most decisive people</h1>
             <p>We're the daily newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">
@@ -164,10 +183,10 @@ return (
           <button className="submit" type="submit">Request quote</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+        <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
         <input type="hidden" name="nonce" />
       </form>
-            <img src={header2} alt="The Poast newsletter image" />
+            <img src={recads} alt="Jeffamazon newsletter image" />
         </div>
       </div>
         </div>
