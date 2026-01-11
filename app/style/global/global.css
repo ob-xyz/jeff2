@@ -37,7 +37,10 @@
 .container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 4rem;
+  width: 3.5rem;
+}
+.container .logo img {
+  border-radius: 10rem;
 }
 .container h1, .container h2, .container h3, .container span {
   font-style: normal;
@@ -81,7 +84,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 77.5%;
+  width: 70%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -162,7 +165,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.5s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -235,7 +238,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -423,7 +426,7 @@
   color: #a0a0a0;
   background: #a0a0a0;
   transition: all 0.2s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -561,6 +564,7 @@
   }
   .container .content {
     flex-direction: column;
+    margin-top: -2rem;
   }
   .container .content .inner-content {
     margin-left: 2.5rem;
@@ -660,6 +664,8 @@
   .container .inner-content3 {
     margin-top: 12rem;
     margin-bottom: 8rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   .container .inner-content3 .grid {
     margin: 1.25rem;
@@ -681,10 +687,10 @@
   }
   .container .content {
     flex-direction: column;
+    margin-top: -2.5rem;
   }
   .container .content .inner-content {
     margin-left: 1rem;
-    margin-top: 1rem;
   }
   .container .content .inner-content .text h1 {
     font-size: 3rem;
@@ -807,9 +813,10 @@
     padding-top: 0.35rem;
   }
   .container .inner-content3 {
+    margin: 0 0;
     margin-top: 7rem;
     margin-bottom: 6rem;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .container .inner-content3 .grid {
     grid-template-columns: repeat(1, 1fr);
@@ -834,7 +841,10 @@
 .about-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 4rem;
+  width: 3.5rem;
+}
+.about-container .logo img {
+  border-radius: 10rem;
 }
 .about-container h1, .about-container h2, .about-container h3, .about-container span {
   font-style: normal;
@@ -938,7 +948,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.5s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -992,7 +1002,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -1081,13 +1091,14 @@
   margin-bottom: 0;
   text-align: center;
 }
+.about-container .inner-content3sm {
+  margin: 0 5rem;
+}
 .about-container .inner-content3sm .boxmat {
   width: 100%;
   height: auto;
 }
 .about-container .inner-content3sm .grid {
-  margin-left: 5rem;
-  margin-right: 5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
@@ -1256,6 +1267,8 @@
   .about-container .inner-content3sm {
     margin-top: 7rem;
     margin-bottom: -2rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   .about-container .inner-content3sm .grid {
     margin: 1.25rem;
@@ -1391,9 +1404,10 @@
     margin-bottom: 1rem;
   }
   .about-container .inner-content3sm {
+    margin: 0 0;
     margin-top: -3rem;
     margin-bottom: 6rem;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .about-container .inner-content3sm .grid {
     grid-template-columns: repeat(1, 1fr);
@@ -2930,7 +2944,10 @@
 .adformats-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 4rem;
+  width: 3.5rem;
+}
+.adformats-container .logo img {
+  border-radius: 10rem;
 }
 .adformats-container h1, .adformats-container h2, .adformats-container h3, .adformats-container span {
   font-style: normal;
@@ -3029,7 +3046,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.5s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -3091,7 +3108,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -3214,7 +3231,7 @@
   color: #a0a0a0;
   background: #a0a0a0;
   transition: all 0.2s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -3310,7 +3327,7 @@
   cursor: pointer;
 }
 .adformats-container .ad-form .inner-form .inner-content img {
-  margin-top: -7.5rem;
+  margin-top: -2.5rem;
   margin-left: 2rem;
   width: 25%;
 }
@@ -3465,6 +3482,8 @@
   .adformats-container .inner-content3 {
     margin-top: 12rem;
     margin-bottom: 8rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   .adformats-container .inner-content3 .grid {
     margin: 1.25rem;
@@ -3595,9 +3614,10 @@
     padding-top: 0.35rem;
   }
   .adformats-container .inner-content3 {
+    margin: 0 0;
     margin-top: 6rem;
     margin-bottom: 4rem;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .adformats-container .inner-content3 .grid {
     grid-template-columns: repeat(1, 1fr);
@@ -3642,7 +3662,10 @@
 .ads-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 4rem;
+  width: 3.5rem;
+}
+.ads-container .logo img {
+  border-radius: 10rem;
 }
 .ads-container h1, .ads-container h2, .ads-container h3, .ads-container span {
   font-style: normal;
@@ -3714,8 +3737,8 @@
   cursor: pointer;
 }
 .ads-container .content .inner-content1 img {
-  margin-left: -7.5rem;
-  width: 100%;
+  margin-left: -15rem;
+  width: 150%;
 }
 .ads-container .inner-content2 {
   background: #02090A;
@@ -3740,7 +3763,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.5s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -3799,7 +3822,7 @@
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -3916,7 +3939,7 @@
   color: #a0a0a0;
   background: #a0a0a0;
   transition: all 0.2s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -4084,7 +4107,7 @@
   cursor: pointer;
 }
 .ads-container .ad-form .inner-form .inner-content img {
-  margin-top: -7.5rem;
+  margin-top: -2.5rem;
   margin-left: 2rem;
   width: 25%;
 }
@@ -4113,7 +4136,7 @@
     padding-bottom: 0.5rem;
   }
   .ads-container .content .inner-content1 {
-    width: 100%;
+    width: 40%;
     margin-left: 15rem;
     margin-bottom: 0rem;
   }
@@ -4230,6 +4253,8 @@
   .ads-container .inner-content3smm {
     margin-top: 0rem;
     margin-bottom: -2rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   .ads-container .inner-content3 .grid,
   .ads-container .inner-content3sm .grid,
@@ -4373,9 +4398,10 @@
   .ads-container .inner-content3,
   .ads-container .inner-content3sm,
   .ads-container .inner-content3smm {
+    margin: 0 0;
     margin-top: 1rem;
     margin-bottom: 5rem;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .ads-container .inner-content3 .grid,
   .ads-container .inner-content3sm .grid,

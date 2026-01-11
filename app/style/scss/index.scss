@@ -7,7 +7,10 @@
     .logo{
         background:none;
         margin:1.25rem 0 1.25rem 5rem;
-        width: 4rem;
+        width: 3.5rem;
+        img{
+        border-radius: 10rem;
+        }
     }
     h1, h2, h3, span{
         font-style: normal;
@@ -50,7 +53,7 @@
 .text{
     h1{
         margin-left:0;
-        width:77.5%;
+        width:70%;
     }
     p{
         text-align: left;
@@ -138,7 +141,7 @@ p, .text {
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.5s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -199,7 +202,7 @@ p, .text {
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -370,7 +373,7 @@ p, .text {
       color: #a0a0a0;
       background:#a0a0a0;
       transition: all .2s ease-in-out;
-      background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+      background-image: linear-gradient(90deg, #ff8738, #ff0044);
       background-size: 0% 100%;
       background-repeat: no-repeat;
       background-position: left;
@@ -526,6 +529,7 @@ form {
   }
 .content{
   flex-direction: column;
+  margin-top: -2rem;
 .inner-content{
         margin-left:2.5rem;
     .text{
@@ -635,6 +639,8 @@ form {
 .inner-content3{
   margin-top:12rem;
   margin-bottom:8rem;
+  margin-left: .25rem;
+  margin-right: .25rem;
 .grid{
   margin:1.25rem;
   grid-template-columns: repeat(1, 1fr);
@@ -660,9 +666,9 @@ form {
   }
 .content{
   flex-direction: column;
+    margin-top: -2.5rem;
 .inner-content{
         margin-left:1rem;
-        margin-top: 1rem;
     .text{
       h1{
         font-size:3rem;
@@ -792,9 +798,10 @@ p, .text {
   }
 }
 .inner-content3{
+  margin:0 0;
   margin-top:7rem;
   margin-bottom:6rem;
-  padding:0 2rem;
+  padding:0 1.5rem;
 .grid{
   grid-template-columns: repeat(1, 1fr);
   margin-left: 0;
