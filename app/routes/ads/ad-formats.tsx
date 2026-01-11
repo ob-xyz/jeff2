@@ -47,26 +47,6 @@ export default function Index() {
       </div>
       </div>
       <div className="floatimg">
-            <img src={videoads} alt="Jeffamazon newsletter image" />
-        </div>
-      <div className="inner-content25">
-       <h2><span>Video Ads</span></h2>
-            <Link className="text" to="/ads/ad-form">Video ads are short clips that turn your offer into content people are more likely to engage in.</Link>
-      <div className="btn">
-            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
-      </div>
-      </div>
-     <div className="floatimg">
-            <img src={carouselads} alt="Jeffamazon newsletter image" />
-        </div>
-      <div className="inner-content25">
-       <h2><span>Carousel Ads</span></h2>
-            <Link className="text" to="/ads/ad-form">Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</Link>
-      <div className="btn">
-            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
-      </div>
-      </div>
-      <div className="floatimg">
             <img src={textads} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">

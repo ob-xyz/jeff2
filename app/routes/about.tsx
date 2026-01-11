@@ -61,7 +61,7 @@ export default function Index() {
         <h1>Jeffamazon</h1>
         <p>Daily business news</p>
       <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
+          <a className="pricebtn" href="https://jeffamazon.com/subscribe">Subscribe for free</a>
       </div>
       </div>
       </div>

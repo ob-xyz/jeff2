@@ -50,7 +50,7 @@
   font-family: kl;
 }
 .container h2 span {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-family: ku;
 }
 .container h3 {
@@ -175,7 +175,7 @@
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.container .inner-content2 p span {
+.container .inner-content2 p span, .container .inner-content2 .text span {
   font-size: 3.5rem;
 }
 @keyframes shimmer {
@@ -2240,7 +2240,7 @@
 .adform-container .content .inner-content {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-left: 5rem;
 }
 .adform-container .content .inner-content .text {
@@ -2579,7 +2579,7 @@
   color: #a0a0a0;
   background: #a0a0a0;
   transition: all 0.2s ease-in-out;
-  background-image: linear-gradient(90deg, #ff8738, #ff0044);
+  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -2926,10 +2926,7 @@
 .adformats-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.adformats-container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .adformats-container h1, .adformats-container h2, .adformats-container h3, .adformats-container span {
   font-style: normal;
@@ -3001,8 +2998,8 @@
   cursor: pointer;
 }
 .adformats-container .content .inner-content1 img {
-  margin-left: -4.5rem;
-  margin-bottom: -16rem;
+  margin-left: -7.5rem;
+  margin-bottom: -5rem;
   width: 100%;
 }
 .adformats-container .inner-content2 {
@@ -3214,7 +3211,7 @@
   color: #a0a0a0;
   background: #a0a0a0;
   transition: all 0.2s ease-in-out;
-  background-image: linear-gradient(90deg, #ff8738, #ff0044);
+  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -3310,9 +3307,9 @@
   cursor: pointer;
 }
 .adformats-container .ad-form .inner-form .inner-content img {
-  margin-top: -2rem;
+  margin-top: -2.5rem;
   margin-left: 2rem;
-  width: 27.5%;
+  width: 25%;
 }
 
 @media (max-width: 1175px) {
@@ -3332,16 +3329,16 @@
   }
   .adformats-container .content .inner-content .text h1, .adformats-container .content .inner-content .text span {
     font-size: 3.5rem;
-    width: 75%;
+    width: 100%;
   }
   .adformats-container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
   .adformats-container .content .inner-content1 {
-    width: 80%;
-    margin-left: 5rem;
-    margin-bottom: 14rem;
+    width: 100%;
+    margin-left: 15rem;
+    margin-bottom: 0rem;
   }
   .adformats-container .inner-content2 {
     margin: 0 auto;
@@ -3394,8 +3391,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-bottom: 0;
+    width: 60%;
+    margin-bottom: -6.5rem;
   }
   .adformats-container .inner-content2 {
     padding: 0 2.5rem;
@@ -3533,7 +3530,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-bottom: 0;
+    margin-bottom: -8rem;
   }
   .adformats-container .inner-content2 {
     margin-left: 0;
@@ -3627,6 +3624,7 @@
   }
   .adformats-container .ad-form .inner-form {
     padding: 2rem 1.5rem 2rem 1.5rem;
+    margin: 0 auto;
   }
   .adformats-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
@@ -3634,10 +3632,8 @@
   .adformats-container .ad-form .inner-form .inner-content {
     margin-left: 0;
   }
-  .adformats-container .ad-form .inner-form .inner-content form {
-    margin-left: 0;
-  }
   .adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
+    margin-left: 0;
     width: 17.5rem;
   }
 }
@@ -3651,10 +3647,7 @@
 .ads-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.ads-container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .ads-container h1, .ads-container h2, .ads-container h3, .ads-container span {
   font-style: normal;
@@ -3726,8 +3719,8 @@
   cursor: pointer;
 }
 .ads-container .content .inner-content1 img {
-  margin-left: -4.5rem;
-  margin-bottom: -16rem;
+  margin-left: -7.5rem;
+  margin-bottom: -5rem;
   width: 100%;
 }
 .ads-container .inner-content2 {
@@ -3777,10 +3770,12 @@
     background-position: 200% 0;
   }
 }
-.ads-container .floatimg {
+.ads-container .floatimg,
+.ads-container .floatimg2 {
   margin-top: 8rem;
 }
-.ads-container .floatimg img {
+.ads-container .floatimg img,
+.ads-container .floatimg2 img {
   margin: 0 auto;
   width: 55%;
   border-top-left-radius: 2rem;
@@ -3927,7 +3922,7 @@
   color: #a0a0a0;
   background: #a0a0a0;
   transition: all 0.2s ease-in-out;
-  background-image: linear-gradient(90deg, #ff8738, #ff0044);
+  background-image: linear-gradient(90deg, #00b3ff, #9900ff);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -3948,37 +3943,40 @@
     background-position: 200% 0;
   }
 }
-.ads-container .inner-content3sm .boxmat {
+.ads-container .inner-content3sm .boxmat,
+.ads-container .inner-content3smm .boxmat {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
-.ads-container .inner-content3sm .grid {
+.ads-container .inner-content3sm .grid,
+.ads-container .inner-content3smm .grid {
   margin-left: 5rem;
   margin-right: 5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  width: auto;
 }
-.ads-container .inner-content3sm .grid .box {
+.ads-container .inner-content3sm .grid .box,
+.ads-container .inner-content3smm .grid .box {
   display: flex;
   flex-direction: column;
   background: transparent;
   text-align: left;
-  height: 100%;
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
   border-radius: 2rem;
 }
-.ads-container .inner-content3sm .grid .box h1 {
+.ads-container .inner-content3sm .grid .box h1,
+.ads-container .inner-content3smm .grid .box h1 {
   padding-top: 1rem;
   padding-bottom: 0.75rem;
   font-family: ku;
   color: #7a7a7a;
   text-align: center;
 }
-.ads-container .inner-content3sm .grid .box p {
+.ads-container .inner-content3sm .grid .box p,
+.ads-container .inner-content3smm .grid .box p {
   padding-bottom: 0rem;
   color: #fafafa;
   flex-grow: 1;
@@ -3986,12 +3984,14 @@
   font-size: 2.5rem;
   width: 100%;
 }
-.ads-container .inner-content3sm .grid .box .btn {
+.ads-container .inner-content3sm .grid .box .btn,
+.ads-container .inner-content3smm .grid .box .btn {
   display: flex;
   margin: 3rem auto 3rem auto;
   color: #fafafa;
 }
-.ads-container .inner-content3sm .grid .box .btn .pricebtn {
+.ads-container .inner-content3sm .grid .box .btn .pricebtn,
+.ads-container .inner-content3smm .grid .box .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
   border: 0.2rem solid #fafafa;
@@ -4002,9 +4002,18 @@
   cursor: pointer;
   font-family: bold;
 }
-.ads-container .inner-content3sm .grid .box .btn .pricebtn:hover {
+.ads-container .inner-content3sm .grid .box .btn .pricebtn:hover,
+.ads-container .inner-content3smm .grid .box .btn .pricebtn:hover {
   background-color: #3a3a3a;
   color: #fafafa;
+}
+.ads-container .floatimg2 {
+  width: 50%;
+}
+.ads-container .inner-content3smm .grid {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  width: auto;
 }
 .ads-container .ad-form {
   margin-left: 5rem;
@@ -4081,9 +4090,9 @@
   cursor: pointer;
 }
 .ads-container .ad-form .inner-form .inner-content img {
-  margin-top: -2rem;
+  margin-top: -2.5rem;
   margin-left: 2rem;
-  width: 27.5%;
+  width: 25%;
 }
 
 @media (max-width: 1175px) {
@@ -4103,16 +4112,16 @@
   }
   .ads-container .content .inner-content .text h1, .ads-container .content .inner-content .text span {
     font-size: 3.5rem;
-    width: 75%;
+    width: 100%;
   }
   .ads-container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
   .ads-container .content .inner-content1 {
-    width: 80%;
-    margin-left: 5rem;
-    margin-bottom: 14rem;
+    width: 100%;
+    margin-left: 15rem;
+    margin-bottom: 0rem;
   }
   .ads-container .inner-content2 {
     margin: 0 auto;
@@ -4134,6 +4143,14 @@
     width: 100%;
   }
   .ads-container .floatimg img {
+    width: 65%;
+  }
+  .ads-container .floatimg2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+  }
+  .ads-container .floatimg2 img {
     width: 65%;
   }
 }
@@ -4165,8 +4182,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-bottom: 0;
+    width: 60%;
+    margin-bottom: -6.5rem;
   }
   .ads-container .inner-content2 {
     padding: 0 2.5rem;
@@ -4194,6 +4211,14 @@
   .ads-container .floatimg img {
     width: 65%;
   }
+  .ads-container .floatimg2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+  }
+  .ads-container .floatimg2 img {
+    width: 130%;
+  }
   .ads-container .inner-content25 {
     margin-top: 8rem;
     margin-bottom: 6rem;
@@ -4211,18 +4236,22 @@
     padding-top: 0.35rem;
   }
   .ads-container .inner-content3,
-  .ads-container .inner-content3sm {
+  .ads-container .inner-content3sm,
+  .ads-container .inner-content3smm {
     margin-top: 0rem;
     margin-bottom: -2rem;
   }
   .ads-container .inner-content3 .grid,
-  .ads-container .inner-content3sm .grid {
+  .ads-container .inner-content3sm .grid,
+  .ads-container .inner-content3smm .grid {
     margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
   }
   .ads-container .inner-content3 .grid .box p, .ads-container .inner-content3 .grid .box .text,
   .ads-container .inner-content3sm .grid .box p,
-  .ads-container .inner-content3sm .grid .box .text {
+  .ads-container .inner-content3sm .grid .box .text,
+  .ads-container .inner-content3smm .grid .box p,
+  .ads-container .inner-content3smm .grid .box .text {
     width: 92.5%;
   }
   .ads-container .inner-content3 {
@@ -4239,12 +4268,6 @@
   }
   .ads-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
-  }
-  .ads-container .ad-form .inner-form .inner-content {
-    margin-left: 0;
-  }
-  .ads-container .ad-form .inner-form .inner-content form {
-    margin-left: 0;
   }
   .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
     width: 35rem;
@@ -4284,7 +4307,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-bottom: 0;
+    margin-bottom: -8rem;
   }
   .ads-container .inner-content2 {
     margin-left: 0;
@@ -4316,6 +4339,14 @@
   }
   .ads-container .floatimg img {
     width: 74%;
+  }
+  .ads-container .floatimg2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .ads-container .floatimg2 img {
+    width: 147%;
   }
   .ads-container .inner-content25 {
     margin-left: 1.5rem;
@@ -4354,34 +4385,43 @@
     padding-top: 0.35rem;
   }
   .ads-container .inner-content3,
-  .ads-container .inner-content3sm {
+  .ads-container .inner-content3sm,
+  .ads-container .inner-content3smm {
     margin-top: 1rem;
     margin-bottom: 5rem;
     padding: 0 2rem;
   }
   .ads-container .inner-content3 .grid,
-  .ads-container .inner-content3sm .grid {
+  .ads-container .inner-content3sm .grid,
+  .ads-container .inner-content3smm .grid {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 0;
     margin-right: 0;
   }
   .ads-container .inner-content3 .grid .box h1,
-  .ads-container .inner-content3sm .grid .box h1 {
+  .ads-container .inner-content3sm .grid .box h1,
+  .ads-container .inner-content3smm .grid .box h1 {
     font-size: 2.25rem;
   }
   .ads-container .inner-content3 .grid .box p, .ads-container .inner-content3 .grid .box .text,
   .ads-container .inner-content3sm .grid .box p,
-  .ads-container .inner-content3sm .grid .box .text {
+  .ads-container .inner-content3sm .grid .box .text,
+  .ads-container .inner-content3smm .grid .box p,
+  .ads-container .inner-content3smm .grid .box .text {
     width: 92.5%;
     font-size: 1.75rem;
   }
   .ads-container .inner-content3 .grid .box .btn,
-  .ads-container .inner-content3sm .grid .box .btn {
+  .ads-container .inner-content3sm .grid .box .btn,
+  .ads-container .inner-content3smm .grid .box .btn {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
   .ads-container .inner-content3sm {
     margin-top: -4rem;
+  }
+  .ads-container .inner-content3smm {
+    margin-top: 0rem;
   }
   .ads-container .ad-form {
     margin-left: 1.5rem;
@@ -4391,6 +4431,7 @@
   }
   .ads-container .ad-form .inner-form {
     padding: 2rem 1.5rem 2rem 1.5rem;
+    margin: 0 auto;
   }
   .ads-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
@@ -4398,10 +4439,8 @@
   .ads-container .ad-form .inner-form .inner-content {
     margin-left: 0;
   }
-  .ads-container .ad-form .inner-form .inner-content form {
-    margin-left: 0;
-  }
   .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
+    margin-left: 0;
     width: 17.5rem;
   }
 }

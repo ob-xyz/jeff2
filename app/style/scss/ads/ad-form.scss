@@ -7,10 +7,7 @@
     .logo{
         background:none;
         margin:1.25rem 0 1.25rem 5rem;
-        width: 3.5rem;
-        img{
-        border-radius: 10rem;
-        }
+        width: 4rem;
     }
     h1, h2, h3, span{
         font-style: normal;
@@ -133,7 +130,7 @@ p, .text {
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.5s ease-in-out;
-  background-image: linear-gradient(90deg, #ff6600, #ff0044);
+background-image: linear-gradient(90deg, #00b3ff, #9900ff);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -194,7 +191,7 @@ p, .text {
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(90deg, #ff6600, #ff0044);
+background-image: linear-gradient(90deg, #00b3ff, #9900ff);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -365,7 +362,7 @@ p, .text {
       color: #a0a0a0;
       background:#a0a0a0;
       transition: all .2s ease-in-out;
-      background-image: linear-gradient(90deg, #ff8738, #ff0044);
+      background-image: linear-gradient(90deg, #00b3ff, #9900ff);
       background-size: 0% 100%;
       background-repeat: no-repeat;
       background-position: left;

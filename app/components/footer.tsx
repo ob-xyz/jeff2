@@ -35,7 +35,9 @@ export default function Footer() {
   </div>
   <div className="column">
     <h4>Business</h4>
-    <Link to="/policies/checkmarks">Content vetting</Link>
+      <Link to="/ads/advertise-with-us">Advertise with us</Link>
+      <Link to="/ads/ad-formats">Ad formats</Link>
+      {/* <Link to="/policies/checkmarks">Content vetting</Link> */}
       <a href="mailto:chris@thepoast.com">Get in touch</a>
   </div>
 </div>
