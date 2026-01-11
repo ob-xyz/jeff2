@@ -37,10 +37,7 @@
 .container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .container h1, .container h2, .container h3, .container span {
   font-style: normal;
@@ -841,10 +838,7 @@
 .about-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.about-container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .about-container h1, .about-container h2, .about-container h3, .about-container span {
   font-style: normal;
@@ -2944,10 +2938,7 @@
 .adformats-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.adformats-container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .adformats-container h1, .adformats-container h2, .adformats-container h3, .adformats-container span {
   font-style: normal;
@@ -3662,10 +3653,7 @@
 .ads-container .logo {
   background: none;
   margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.ads-container .logo img {
-  border-radius: 10rem;
+  width: 4rem;
 }
 .ads-container h1, .ads-container h2, .ads-container h3, .ads-container span {
   font-style: normal;

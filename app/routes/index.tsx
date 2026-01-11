@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja7.png";
-import header2 from "~/../public/img/ja6.png";
+import header2 from "~/../public/img/ja5.png";
 import nyc1 from "~/../public/img/nyc1.jpg";
 import nyc2 from "~/../public/img/nyc2.jpg";
 import nyc3 from "~/../public/img/nyc3.jpg";
@@ -98,7 +98,7 @@ return (
       <div className="grid">
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Get what matters delivered straight to your inbox.</p>
+        <p>Stay informed about what's going on at Shilll.</p>
           <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       <div className="box">
@@ -108,46 +108,6 @@ return (
       </div>
       </div>
     </div>
-{/* <div className="inner-blog">
-    <div className="header">
-          <h4>JEFFAMAZON NEWS</h4>
-          <h3>The latest and greatest.</h3>
-    </div>
-    <ul className="grid">
-    {campaigns.length === 0 ? (
-      <li>No campaigns available yet.</li>
-    ) : (
-      campaigns.slice(0, 6).map((c) => (
-        <li key={c.id} className="box">
-          <a href={c.url} target="_blank" rel="noopener noreferrer">
-            <img src="https://jeffamazn.com/GsidegWXwAECEUs.jpeg" alt="You gotta see this" />
-            <h2>{c.subject}</h2>
-            <p>{new Date(c.send_at).toLocaleDateString()}</p> 
-          </a>
-        </li>
-      ))
-    )}
-  </ul>
-</div> */}
-{/* 
-<div className="inner-blog">
-      <div className="header">
-          <h4>JEFFAMAZON NEWS</h4>
-          <h3>The latest and greatest.</h3>
-      </div>
-  <ul className="grid">
-    <li className="box">
-      <a
-        href="http://app.jeffamzn.com/campaign/ba97f2f9-a8c7-46a7-b183-ccffbc3b6891/6716369b-5785-4c74-be76-73af2558eebb"
-        rel="noopener noreferrer"
-      >
-        <img src="https://jeffamazn.com/Screen-Shot-2025-06-03-at-5.09.08-PM.png" alt="Test Campaign Preview" />
-        <h2>Test Campaign — Preview</h2>
-        <p>June 29, 2025</p>
-      </a>
-    </li>
-  </ul>
-</div> */}
     </div>
   );
 }
