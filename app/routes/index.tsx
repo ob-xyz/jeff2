@@ -1,8 +1,8 @@
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/thepoast.png";
-import header2 from "~/../public/img/thepoast.png";
+import header from "~/../public/img/ja7.png";
+import header2 from "~/../public/img/ja6.png";
 import nyc1 from "~/../public/img/nyc1.jpg";
 import nyc2 from "~/../public/img/nyc2.jpg";
 import nyc3 from "~/../public/img/nyc3.jpg";

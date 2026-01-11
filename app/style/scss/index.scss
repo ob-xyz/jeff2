@@ -110,9 +110,9 @@ button.submit {
   }
 .inner-content1{
     img{
-      margin-left:3.5rem;
-      margin-bottom:-1.5rem;
-      width: 70%;
+      margin-left:-7rem;
+      margin-bottom:0rem; 
+      width: 80%;
     }
   }
 }
@@ -486,8 +486,8 @@ form {
   }
   .inner-content1{
     width: 100%;
-    margin-left: 2.5rem;
-    margin-bottom:-1.5rem;
+    margin-left: 20rem;
+    margin-bottom:0rem;
   }
 }
 .inner-content2{
@@ -546,11 +546,13 @@ form {
   }
  .inner-content1{
   margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     margin-bottom:0;
   }
  }
@@ -680,11 +682,13 @@ form {
   }
 .inner-content1 {
   margin-top: 2.5rem;
+      margin-left: auto;
+    margin-right: auto;
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 70%;
     margin-bottom:0;
   }
 }

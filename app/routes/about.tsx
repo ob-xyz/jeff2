@@ -1,8 +1,8 @@
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import thepoast from "~/../public/img/thepoast.png";
-import header2 from "~/../public/img/ja3.png";
+import header3 from "~/../public/img/ja7.png";
+import header4 from "~/../public/img/ja6.png";
 import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {
@@ -28,22 +28,22 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Hey I'm <span>Chris Signore</span></h2>
-          <Link className="text" to="/subscribe">I'm best known for my weekly newsletter The Poast.</Link>
+          <Link className="text" to="/subscribe">I'm best known for my daily newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products I can share with YOU.</Link>
+          <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products mostly from scratch.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">A big joy in my life has been building things I can open source and freely share with others.</Link>
+          <Link className="text" to="/subscribe">A big joy in my life is building things I can easily share with others.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">So if you ever want your money back, the best way to reach me is <span>chris@thepoast.com</span></Link>
+          <Link className="text" to="/subscribe">So thank you for just being here.</Link>
       </div>
       <div className="inner-content251">
-          <Link className="text" to="/subscribe">My first products.</Link>
+          <Link className="text" to="/subscribe">My newsletters.</Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
         <div className="boxmat">
         <div className="floatimg">
-            <img src={thepoast} alt="The Poast newsletter image" />
+            <img src={header3} alt="The Poast newsletter image" />
         </div>
       <div className="box">
         <h1>The Poast</h1>
@@ -55,7 +55,7 @@ export default function Index() {
      </div>
       <div className="boxmat">
          <div className="floatimg">
-          <img src={header2} alt="The Poast newsletter image" />
+          <img src={header4} alt="The Poast newsletter image" />
       </div>
       <div className="box">
         <h1>Jeffamazon</h1>

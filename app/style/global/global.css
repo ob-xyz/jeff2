@@ -135,9 +135,9 @@
   cursor: pointer;
 }
 .container .content .inner-content1 img {
-  margin-left: 3.5rem;
-  margin-bottom: -1.5rem;
-  width: 70%;
+  margin-left: -7rem;
+  margin-bottom: 0rem;
+  width: 80%;
 }
 .container .inner-content2 {
   background: #02090A;
@@ -526,8 +526,8 @@
   }
   .container .content .inner-content1 {
     width: 100%;
-    margin-left: 2.5rem;
-    margin-bottom: -1.5rem;
+    margin-left: 20rem;
+    margin-bottom: 0rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -578,12 +578,14 @@
   }
   .container .content .inner-content1 {
     margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     margin-bottom: 0;
   }
   .container .inner-content2 {
@@ -698,12 +700,14 @@
   }
   .container .content .inner-content1 {
     margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 70%;
     margin-bottom: 0;
   }
   .container .inner-content2 {
@@ -2999,7 +3003,6 @@
 }
 .adformats-container .content .inner-content1 img {
   margin-left: -7.5rem;
-  margin-bottom: -5rem;
   width: 100%;
 }
 .adformats-container .inner-content2 {
@@ -3307,7 +3310,7 @@
   cursor: pointer;
 }
 .adformats-container .ad-form .inner-form .inner-content img {
-  margin-top: -2.5rem;
+  margin-top: -7.5rem;
   margin-left: 2rem;
   width: 25%;
 }
@@ -3384,15 +3387,11 @@
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
-  .adformats-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .adformats-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    margin-bottom: -6.5rem;
+    width: 70%;
   }
   .adformats-container .inner-content2 {
     padding: 0 2.5rem;
@@ -3522,15 +3521,11 @@
     padding-bottom: 0.5rem;
     width: 87.5%;
   }
-  .adformats-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .adformats-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    margin-bottom: -8rem;
+    width: 70%;
   }
   .adformats-container .inner-content2 {
     margin-left: 0;
@@ -3720,7 +3715,6 @@
 }
 .ads-container .content .inner-content1 img {
   margin-left: -7.5rem;
-  margin-bottom: -5rem;
   width: 100%;
 }
 .ads-container .inner-content2 {
@@ -4090,7 +4084,7 @@
   cursor: pointer;
 }
 .ads-container .ad-form .inner-form .inner-content img {
-  margin-top: -2.5rem;
+  margin-top: -7.5rem;
   margin-left: 2rem;
   width: 25%;
 }
@@ -4175,15 +4169,11 @@
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
-  .ads-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .ads-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    margin-bottom: -6.5rem;
+    width: 70%;
   }
   .ads-container .inner-content2 {
     padding: 0 2.5rem;
@@ -4299,15 +4289,11 @@
     padding-bottom: 0.5rem;
     width: 87.5%;
   }
-  .ads-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .ads-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    margin-bottom: -8rem;
+    width: 70%;
   }
   .ads-container .inner-content2 {
     margin-left: 0;
