@@ -16,7 +16,7 @@ export default function Index() {
           <div className="text">
             <h4>Hey, I'm Chris</h4>
             <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
-            <p>But I'm best known for my weekly newsletter The Poast 🗽</p>
+            <p>But I'm best known for my newsletter The Poast 🗽</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/subscribe">Subscribe</Link>
@@ -27,17 +27,18 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Hey I'm <span>Chris Signore</span></h2>
-          <Link className="text" to="/subscribe">I'm best known for my daily newsletter The Poast.</Link>
+      <h2>Good time to brag?</h2>
+          <Link className="text" to="/subscribe">I'm best known for my newsletter The Poast.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products mostly from scratch.</Link>
+          <Link className="text" to="/subscribe">But I'm also a bootstrapped founder just learning how to build a company that'll design and engineer the things I want to exist in the world.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">A big joy in my life is building things I can easily share with others.</Link>
+          <Link className="text" to="/subscribe">Born and raised in a samll town. Commerce university grad. First job lasted 5 years working for Rick Hunter at ProSlide before I leaped.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">So thank you for just being here.</Link>
-      </div>
-      <div className="inner-content251">
-          <Link className="text" to="/subscribe">My newsletters.</Link>
+          <Link className="text" to="/subscribe">Landed head first in email newsletters. Slowly built my list. Vetted everyone. Re-taught myself how to code so I could design and build a newsletter content format I actually liked.</Link>
+          <br /><br /><br />
+          <Link className="text" to="/subscribe">Made it my thing. Doubled down. Iterated a million more times. And nowadays that's still pretty much all I do.</Link>
+          <br /><br /><br />
+          <Link className="text" to="/subscribe">Voted most likely to never sell a course or write a book. But my newsletters will always be free. If you have feedback or just want to talk the best way to reach me is <span>chris@thepoast.com</span></Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
@@ -53,18 +54,6 @@ export default function Index() {
       </div>
       </div>
      </div>
-      <div className="boxmat">
-         <div className="floatimg">
-          <img src={header4} alt="The Poast newsletter image" />
-      </div>
-      <div className="box">
-        <h1>Jeffamazon</h1>
-        <p>Daily business news</p>
-      <div className="btn">
-          <a className="pricebtn" href="https://jeffamazon.com/subscribe">Subscribe for free</a>
-      </div>
-      </div>
-      </div>
       </div>
     </div>
       <div className="inner-content25">
