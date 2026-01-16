@@ -8,6 +8,7 @@ import imageads from "~/../public/img/ads/imageads.png";
 import textads from "~/../public/img/ads/textads.png";
 import newsads from "~/../public/img/ads/quickads.png";
 import takeoverads from "~/../public/img/ads/takeoverads.png";
+import recads from "~/../public/img/ads/recads.png";
 
 export default function Index() {
   return (
@@ -60,6 +61,16 @@ export default function Index() {
       <div className="inner-content25">
        <h2><span>Mini Ads</span></h2>
             <Link className="text" to="/ads/ad-form">Mini ads appear above our feed, giving you an early chance to promote your product or service.</Link>
+      <div className="btn">
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
+      </div>
+      </div>
+                  <div className="floatimg">
+            <img src={recads} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>Podcast Ads</span></h2>
+            <Link className="text" to="/ads/ad-form">Podcast ads give you a widescreen image and a CTA button to maximizes your</Link>
       <div className="btn">
             <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
