@@ -3,6 +3,7 @@ import Altcha from '../components/altcha'
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja7.png";
+import header3 from "~/../public/img/ads/recads.png";
 import header2 from "~/../public/img/ja5.png";
 import nyc1 from "~/../public/img/nyc1.jpg";
 import nyc2 from "~/../public/img/nyc2.jpg";
@@ -62,7 +63,7 @@ return (
       <Link className="text" to="/subscribe">We uncover every inch of the city.</Link>
       </div>
       <div className="floatimg">
-          <img src={header2} alt="The Poast newsletter image" />
+          <img src={header3} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>The Poast</span></h2>
