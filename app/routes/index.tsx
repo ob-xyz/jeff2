@@ -4,7 +4,6 @@ import Altcha from '../components/altcha'
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja7.png";
 import header3 from "~/../public/img/ads/recads.png";
-import header2 from "~/../public/img/ja5.png";
 import nyc1 from "~/../public/img/nyc1.jpg";
 import nyc2 from "~/../public/img/nyc2.jpg";
 import nyc3 from "~/../public/img/nyc3.jpg";
