@@ -28,17 +28,17 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Is there ever a good time to brag?</h2>
-          <Link className="text" to="/subscribe">I'm best known for my newsletter Jeffamazon.</Link>
+          <Link className="text" to="/subscribe">I'm best known for my newsletter The Poast.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">But I'm also a bootstrapped founder building a company that designs and engineers things from scratch.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">Born and raised in a samll town. Commerce university grad. First job was a 5 year stint at ProSlide before leaping.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Landed head first in email newsletters. Started posting every day to build a list. Then vetted everyone to see who's who in the Jeffamazon zoo.</Link>
+          <Link className="text" to="/subscribe">Landed head first in email newsletters. Started posting every day to build a list. Then vetted everyone to see who's who in The Poast zoo.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">Turns out it's a lot of people like me and you.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Have feedback? best way to reach me is <span>chris@jeffamazon.com</span></Link>
+          <Link className="text" to="/subscribe">Have feedback? best way to reach me is <span>chris@thepoast.com</span></Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
