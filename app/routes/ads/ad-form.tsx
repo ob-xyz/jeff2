@@ -1,14 +1,15 @@
 import { Link } from "@remix-run/react";
-import Altcha from '../../components/altcha'
+import Altcha from "../../components/altcha";
+
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/thepoast.png";
+import header from "~/../public/img/ja3.png";
 
 export default function Index() {
   return (
     <div className="adform-container">
       <div className="logo">
-        <img src={logo} alt="Jeffamazon Logo" />
+        <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content">
         <div className="inner-content">
@@ -30,14 +31,14 @@ export default function Index() {
           </form>
         </div>
         <div className="inner-content1">
-          <img src={header} alt="Jeffamazon newsletter image" />
+          <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
         <h2>Connect with your next customers on <span>The Poast</span></h2>
-        <Link className="text" to="/subscribe">
-          Our audience is highly vetted, decisive, and always looking for what's new. 
-          So whether you want to use videos, images, or words, The Poast has an 
+        <Link className="text" to="/ads/ad-form">
+          Our audience is highly vetted, ambitious, and always looking for what's new. 
+          So whether you want to use videos, images, or words, there's a The Poast 
           ad format that'll help you reach our audience.
         </Link>
       </div>

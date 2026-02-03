@@ -7,7 +7,10 @@
     .logo{
         background:none;
         margin:1.25rem 0 1.25rem 5rem;
-        width: 4rem;
+        width: 3.5rem;
+        img{
+        border-radius: 10rem;
+        }
     }
     h1, h2, h3, span{
         font-style: normal;
@@ -50,23 +53,12 @@
 
 .text{
     margin-left:0;
-    h1{
-    }
 }
 form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
 altcha-widget {
-  position: relative;
-  margin-left:0;
-  margin-top:.1rem;
-  max-width: 200px;
-  --altcha-max-width: 200px;
-  --altcha-border-radius: 0.5rem;
-  border-radius: 0.5rem;
-  font-size: 1.1rem;
-  font-family: kl;
 }
 .input-wrapper {
   position: relative;
@@ -137,7 +129,7 @@ p, .text {
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.5s ease-in-out;
-background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -167,8 +159,8 @@ p span{
   img{
     margin: 0 auto;
     width: 55%;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
   }
 }
 .inner-content25,
@@ -198,7 +190,7 @@ p, .text {
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.4s ease-in-out;
-background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -284,7 +276,7 @@ background-image: linear-gradient(90deg, #00b3ff, #9900ff);
   }
   img{
     width:100%;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -346,7 +338,7 @@ background-image: linear-gradient(90deg, #00b3ff, #9900ff);
     width: 100%;
     background:#000;
     padding:2rem 1rem 2rem 1rem;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     h1 {
       padding-top: 1rem;
       padding-bottom: 0.75rem;
@@ -369,7 +361,7 @@ background-image: linear-gradient(90deg, #00b3ff, #9900ff);
       color: #a0a0a0;
       background:#a0a0a0;
       transition: all .2s ease-in-out;
-      background-image: linear-gradient(90deg, #00b3ff, #9900ff);
+      background-image: linear-gradient(90deg, #ff8738, #ff0044);
       background-size: 0% 100%;
       background-repeat: no-repeat;
       background-position: left;
@@ -544,7 +536,7 @@ form {
   }
   }
   img{
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -701,7 +693,7 @@ p, .text {
     }
   }
   img{
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }

@@ -49,28 +49,15 @@
       display: flex;
       flex-direction: column;
       margin-top:5rem;
-      margin-left:5rem;
+      margin-left:15rem; 
 
 .text{
     margin-left:0;
-    h1{
-    }
 }
 form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
-altcha-widget {
-  position: relative;
-  margin-left:0;
-  margin-top:.1rem;
-  max-width: 200px;
-  --altcha-max-width: 200px;
-  --altcha-border-radius: 0.5rem;
-  border-radius: 0.5rem;
-  font-size: 1.1rem;
-  font-family: kl;
-}
 .input-wrapper {
   position: relative;
   width: 29.5rem;
@@ -112,8 +99,8 @@ button.submit {
   }
 .inner-content1{
     img{
-      margin-left:6rem;
-      width: 50%;
+      margin-left:5rem;
+      width:60%;
     }
   }
 }
@@ -123,13 +110,14 @@ button.submit {
   border-top-right-radius:2rem;
   padding:0 5rem;
   padding-bottom: 5rem;
+  margin-top:2.5rem;
   h2, h2 span{
       padding-top:6rem;
       margin-left:0;
       color:#fafafa;
     }
   h2 span{
-    font-size:4.5rem;
+    font-size:5rem;
   }
 p, .text {
   width:95%;
@@ -152,7 +140,7 @@ p, .text {
       animation: shimmer 1.5s linear infinite;
   }
 }
-p span{
+p span, .text span{
   font-size:3.5rem;
 }
 @keyframes shimmer {
@@ -260,7 +248,8 @@ form {
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
   padding-bottom:3rem;
-  h2{
+  margin-top:0;
+  h2{ 
     padding-top:3.5rem;
     font-size:3rem;
     width:100%;
@@ -299,7 +288,6 @@ form {
     .text{
       h1{
         font-size:3rem;
-        width:190%;
       }
       p{
         padding-top:1.5rem;
@@ -319,14 +307,16 @@ form {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
     margin-bottom:0;
+    width: 90%;
   }
 }
 }
 .inner-content2{
   margin-left:0;
   margin-right:0;
+  margin-bottom:5rem;
+  margin-top:0;
   padding:0 2rem;
   padding-bottom:4rem;
   border-top-left-radius:1.5rem;

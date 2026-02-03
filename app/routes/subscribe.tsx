@@ -1,14 +1,14 @@
 import { Link } from "@remix-run/react";
-import Altcha from '../components/altcha'
+import Altcha from "../components/altcha";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/thepoast.png";
+import header from "~/../public/img/ja5.png";
 
 export default function Index() {
   return (
     <div className="subscribe-container">
       <div className="logo">
-        <img src={logo} alt="Jeffamazon Logo" />
+        <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content">
         <div className="inner-content">
@@ -21,10 +21,10 @@ export default function Index() {
           <input className="email" type="text" name="firstName" placeholder="First Name *" />
           <input className="email" type="text" name="lastName" placeholder="Last Name *" />
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Send it</button>
+          <button className="submit" type="submit">Let's do it</button>
         </div>
         <Altcha />
-        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
         </div>
@@ -33,8 +33,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Start your weekend smarter with <span>The Poast</span></h2>
-        <Link className="text" to="/subscribe">Don't waste your weekends scrolling to stay ahead. <span>Jeffamazon is the antidote keeping 12,000+ new yorkers in the loop</span> about what matters across the city.</Link>
+      <h2>Start your day with <span>The Poast</span></h2>
+        <Link className="text" to="/subscribe">Don't waste your time scrolling Toronto's latest news. The Poast is the <span>1 minute antidote that keeps 12,000+ people in the loop</span> about what matters in the most ambitious city in the world.</Link>
       </div>
     </div>
   );

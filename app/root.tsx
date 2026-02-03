@@ -1,6 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
 import type { LinksFunction } from "@remix-run/node";
-import { useEffect } from "react";
 import Footer from "./components/footer";
 
 import {
@@ -9,8 +8,7 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration,
-  useLocation,
+  ScrollRestoration
 } from "@remix-run/react";
 
 import globalStyles from "~/style/global/global.css";
@@ -31,39 +29,14 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Subscribe to The Poast 1-Minute Newsletter - The Poast",
-  description: "Subscribe to the free, 1-minute weekly newsletter keeping 12K+ decisive people in the know about what matters in New York.",
+  title: "The Poast : 1-Minute Daily Newsletter",
+  description: "Subscribe to the free, 1-minute daily newsletter keeping 12K+ people in the know about what matters in Toronto.",
   viewport: "width=device-width,initial-scale=1"
 });
 
 export default function App() {
-  const location = useLocation();
 
-  useEffect(() => {
-    const renderCaptchas = () => {
-      if (window.hcaptcha) {
-        const captchaElements = document.querySelectorAll(".h-captcha");
-        captchaElements.forEach((el) => {
-          if (el.innerHTML === "") {
-            window.hcaptcha.render(el);
-          }
-        });
-      }
-    };
-
-    let script = document.querySelector('script[src="https://js.hcaptcha.com/1/api.js"]');
-    
-    if (!script) {
-      script = document.createElement("script");
-      script.src = "https://js.hcaptcha.com/1/api.js";
-      script.async = true;
-      script.defer = true;
-      script.onload = renderCaptchas;
-      document.body.appendChild(script);
-    } else {
-      renderCaptchas();
-    }
-  }, [location.key]);
+  
   return (
     <html lang="en">
       <head>

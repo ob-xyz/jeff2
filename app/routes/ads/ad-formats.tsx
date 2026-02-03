@@ -1,42 +1,44 @@
 import { Link } from "@remix-run/react";
-import Altcha from '../../components/altcha'
+import Altcha from "../../components/altcha";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja7.png";
 
+import carouselads from "~/../public/img/ads/carouselads.gif";
+import videoads from "~/../public/img/ads/videoads.gif";
 import imageads from "~/../public/img/ads/imageads.png";
+import recads from "~/../public/img/ads/recads.png";
 import textads from "~/../public/img/ads/textads.png";
 import newsads from "~/../public/img/ads/quickads.png";
 import takeoverads from "~/../public/img/ads/takeoverads.png";
-import recads from "~/../public/img/ads/recads.png";
 
 export default function Index() {
   return (
     <div className="adformats-container">
       <div className="logo">
-        <img src={logo} alt="Jeffamazon Logo" />
+        <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content">
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ of New York's most decisive people</h1>
-            <p>We're the weekly newsletter helping businesses do more 🚀</p>
+            <h1>Reach 12K+ of the world's most ambitious people</h1>
+            <p>We're the daily newsletter helping businesses do more 🚀</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/ads/ad-form">Request quote</Link>
       </div>
         </div>
         <div className="inner-content1">
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>The Poast</span></h2>
-          <Link className="text" to="/ads/ad-form">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, The Poast has an ad format that'll help you reach our audience.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is bold, ambitious, and always looking for what's new. So whether you want to use videos, images, or words, there's a The Poast ad format that'll help you reach our audience.</Link>
       </div>
         <div className="floatimg">
-            <img src={imageads} alt="Jeffamazon newsletter image" />
+            <img src={imageads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Image Ads</span></h2>
@@ -46,7 +48,27 @@ export default function Index() {
       </div>
       </div>
       <div className="floatimg">
-            <img src={textads} alt="Jeffamazon newsletter image" />
+            <img src={videoads} alt="The Poast newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>Video Ads</span></h2>
+            <Link className="text" to="/ads/ad-form">Video ads are short clips that turn your offer into content people are more likely to engage in.</Link>
+      <div className="btn">
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
+      </div>
+      </div>
+     <div className="floatimg">
+            <img src={carouselads} alt="The Poast newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>Carousel Ads</span></h2>
+            <Link className="text" to="/ads/ad-form">Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</Link>
+      <div className="btn">
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
+      </div>
+      </div>
+      <div className="floatimg">
+            <img src={textads} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Text Ads</span></h2>
@@ -56,7 +78,7 @@ export default function Index() {
       </div>
       </div>
       <div className="floatimg">
-            <img src={newsads} alt="Jeffamazon newsletter image" />
+            <img src={newsads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Mini Ads</span></h2>
@@ -65,8 +87,8 @@ export default function Index() {
             <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
-                  <div className="floatimg">
-            <img src={recads} alt="Jeffamazon newsletter image" />
+            <div className="floatimg">
+            <img src={recads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Podcast Ads</span></h2>
@@ -76,7 +98,7 @@ export default function Index() {
       </div>
       </div>
       <div className="floatimg">
-            <img src={takeoverads} alt="Jeffamazon newsletter image" />
+            <img src={takeoverads} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Takeover Ads</span></h2>
@@ -97,7 +119,7 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>5X</h1>
-        <p>More likely to click Jeffamazon ads over social media ads.</p>
+        <p>More likely to click The Poast ads over social media ads.</p>
       </div>
       </div>
     </div>
@@ -116,8 +138,8 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ of New York's most decisive people</h1>
-            <p>We're the weekly newsletter helping businesses do more.</p>
+            <h1>Reach 12K+ of the world's most ambitious people</h1>
+            <p>We're the daily newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -132,7 +154,7 @@ export default function Index() {
         <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
         <input type="hidden" name="nonce" />
       </form>
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
         </div>

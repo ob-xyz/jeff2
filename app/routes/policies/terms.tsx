@@ -1,8 +1,8 @@
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import bg from "~/../public/img/bg.jpg";
 import bg1 from "~/../public/img/bg1.jpg";
 export default function Index() {
-   return (
+  return (
     <div className="content-aboutus">
       <div className="logo">
         <img src={logo} alt="Jeffamazon Logo" />
@@ -29,7 +29,7 @@ export default function Index() {
           <button className="submit" type="submit">Sign up</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
       </div>

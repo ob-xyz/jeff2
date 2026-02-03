@@ -15,16 +15,16 @@ export default function Footer() {
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
-          <p>Start your weekend with The Poast</p>
-    <form method="post" action="https://app.jeffamzn.com/subscription/form">
-      <div className="input-wrapper">
-        <input className="email" type="email" name="email" required placeholder="Email Address *" />
-        <button className="submit" type="submit">Let's do it</button>
-      </div>
+          <p>Start your day with The Poast</p>
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+        <div className="input-wrapper">
+          <input className="email" type="email" name="email" required placeholder="Email Address *" />
+          <button className="submit" type="submit">Let's do it</button>
+        </div>
         <Altcha />
-        <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
-      <input type="hidden" name="nonce" />
-    </form>
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input type="hidden" name="nonce" />
+      </form>
   </div>
 
 <div className="footer-links">
@@ -38,7 +38,6 @@ export default function Footer() {
 </div>
 
 <div className="footer-bottom">
-
   <div className="footer-meta">
     <Link to="/policies/privacy">Privacy Policy</Link>
   <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
@@ -46,16 +45,16 @@ export default function Footer() {
   </a>
   </div>
   <div className="footer-social">
-  <a href="https://instagram.com/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={ig} alt="Instagram" />
   </a>
-  <a href="https://x.com/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={x} alt="X (formerly Twitter)" />
   </a>
-  <a href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
+  <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:chris@thepoast.com">
+  <a href="mailto:chris@jeffamazon.com">
     <img src={email} alt="Email us" />
   </a>
   </div>
