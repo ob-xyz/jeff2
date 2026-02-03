@@ -44,7 +44,7 @@ export default function Index() {
           <img src={to1} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Stay ahead</span></h2>
+       <h2><span>Stay informed</span></h2>
           <Link className="text" to="/subscribe">Get the biggest stories happening every day of the week.</Link>
       </div>
       <div className="floatimg">
@@ -58,7 +58,7 @@ export default function Index() {
           <img src={to3} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>The city is yours</span></h2>
+       <h2><span>Always here</span></h2>
       <Link className="text" to="/subscribe">We're putting the the city in the palm of your hands.</Link>
       </div>
       <div className="floatimg">
