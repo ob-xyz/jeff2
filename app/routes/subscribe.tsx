@@ -13,28 +13,28 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>SIGN UP FOR THE POAST</h4>
+            <h4>SIGN UP FOR The Poast</h4>
             <h1>Join 12K+</h1>
           </div>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="text" name="firstName" placeholder="First Name *" />
-          <input className="email" type="text" name="lastName" placeholder="Last Name *" />
-          <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Let's do it</button>
-        </div>
-        <Altcha />
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-        <input type="hidden" name="nonce" />
-      </form>
+            <form method="post" action="https://app.jeffamzn.com/subscription/form">
+                <input className="email mb" type="text" name="firstName" placeholder="First Name *" />
+                <input className="email mb" type="text" name="lastName" placeholder="Last Name *" />
+              <div className="input-wrapper">
+                <input className="email" type="email" name="email" required placeholder="Email Address *" />
+                <button className="submit" type="submit">Let's do it</button>
+              </div>
+              <Altcha />
+              <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+              <input type="hidden" name="nonce" />
+            </form>
         </div>
         <div className="inner-content1">
             <img src={header} alt="The Poast newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Start your day with <span>The Poast</span></h2>
-        <Link className="text" to="/subscribe">Don't waste your time scrolling Toronto's latest news. The Poast is the <span>1 minute antidote that keeps 12,000+ people in the loop</span> about what matters in the most ambitious city in the world.</Link>
+      <h2>Start winning with <span>The Poast</span></h2>
+        <Link className="text" to="/subscribe">Don't waste your time scrolling to stay ahead. The Poast is the <span>1 minute antidote that keeps 12,000+ people in the loop</span> about what matters across the world.</Link>
       </div>
     </div>
   );
