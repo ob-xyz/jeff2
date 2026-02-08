@@ -15,7 +15,7 @@ export default function Index() {
           <div className="text">
             <h4>Hey, I'm Chris</h4>
             <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
-            <p>But I'm best known for my newsletter The Poast 🍁</p>
+            <p>But I'm best known for my newsletter The Poast</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/subscribe">Subscribe</Link>
@@ -26,12 +26,12 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Is it time to spill the beans?</h2>
+      <h2>Time to spill the beans?</h2>
           <Link className="text" to="/about">I'm best known for my newsletter The Poast.</Link>
           <br /><br /><br />
-          <Link className="text" to="/about">But I'm actually just a bootstrapped solopreneur trying to build things I want to exist in the world.</Link>
+          <Link className="text" to="/about">But I'm actually just a bootstrapped entrepreneur building all kinds of different things.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@The Poast.com</span></Link>
+          <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@thepoast.com</span></Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
@@ -50,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" It's the one thing that lets me know what matters.</Link>
+          <Link className="text" to="/subscribe">" It's the one thing that lets me know what matters in New York.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE

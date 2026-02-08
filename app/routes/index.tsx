@@ -4,9 +4,9 @@ import Altcha from "../components/altcha";
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ads/recads.png";
 import header3 from "~/../public/img/ja7.png";
-import to1 from "~/../public/img/toronto3.jpg";
-import to2 from "~/../public/img/toronto2.jpg";
-import to3 from "~/../public/img/toronto1.jpg";
+import to1 from "~/../public/img/nyc1.jpg";
+import to2 from "~/../public/img/nyc2.jpg";
+import to3 from "~/../public/img/nyc3.jpg";
 import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {
@@ -20,7 +20,7 @@ export default function Index() {
           <div className="text">
             <h4>1-MINUTE DAILY NEWSLETTER</h4>
             <h1>Scroll Less. Know More.</h1>
-            <p>Subscribe for your daily dose of Toronto 🍁</p>
+            <p>Subscribe for your daily dose of New York 🗽</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -85,7 +85,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the one thing that lets me know what matters in Toronto.</Link>
+          <Link className="text" to="/about">" It's the one thing that lets me know what matters in New York.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
