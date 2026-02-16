@@ -1,12 +1,13 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../../components/altcha";
 
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import header from "~/../public/img/ja7.png";
 
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
 import imageads from "~/../public/img/ads/imageads.png";
+import imageads2 from "~/../public/img/ads/imageads2.png";
 import recads from "~/../public/img/ads/recads.png";
 import textads from "~/../public/img/ads/textads.png";
 import newsads from "~/../public/img/ads/quickads.png";
@@ -22,8 +23,8 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ of the world's most ambitious people</h1>
-            <p>We're the daily newsletter helping businesses do more 🚀</p>
+            <h1>Reach 12K+ Canadians.</h1>
+            <p>We're the daily newsletter helping businesses win more 🍁</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/ads/ad-form">Request quote</Link>
@@ -35,7 +36,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>The Poast</span></h2>
-          <Link className="text" to="/ads/ad-form">Our audience is bold, ambitious, and always looking for what's new. So whether you want to use videos, images, or words, there's a The Poast ad format that'll help you reach our audience.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a The Poast ad format that'll help you reach our audience.</Link>
       </div>
         <div className="floatimg">
             <img src={imageads} alt="The Poast newsletter image" />
@@ -138,8 +139,8 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ of the world's most ambitious people</h1>
-            <p>We're the daily newsletter helping businesses do more.</p>
+            <h1>Reach 12K+ Canadians across the world</h1>
+            <p>We're the daily newsletter helping businesses win more.</p>
           </div>
         <div className="inner-content">
               <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -154,7 +155,7 @@ export default function Index() {
                 <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
                 <input type="hidden" name="nonce" />
             </form>
-            <img src={header} alt="The Poast newsletter image" />
+            <img src={imageads} alt="The Poast newsletter image" />
         </div>
       </div>
         </div>

@@ -1,72 +1,65 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../components/altcha";
 
-import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ads/recads.png";
 import header3 from "~/../public/img/ja7.png";
-import to1 from "~/../public/img/nyc1.jpg";
-import to2 from "~/../public/img/nyc2.jpg";
-import to3 from "~/../public/img/nyc3.jpg";
+import sama from "~/../public/img/ott1.png";
+import tobi from "~/../public/img/ott2.png";
+import jensen from "~/../public/img/ott3.png";
 import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {
   return (
     <div className="container">
-      <div className="logo">
-        <img src={logo} alt="The Poast Logo" />
-      </div>
       <div className="content">
         <div className="inner-content">
-          <div className="text">
-            <h4>1-MINUTE DAILY NEWSLETTER</h4>
-            <h1>Scroll Less. Know More.</h1>
-            <p>Subscribe for your daily dose of New York 🗽</p>
-          </div>
+            <img src={header3} alt="The Poast newsletter image" />
+          <div className="box">
+            <h1>Politics is our sport.</h1>
+            <p>Subscribe for your daily dose of winning 🍁</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Let's do it</button>
+          <button className="submit" type="submit">I'm in</button>
         </div>
         <Altcha />
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
-        </div>
-        <div className="inner-content1">
-            <img src={header3} alt="The Poast newsletter image" />
+          </div>
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Start your day with <span>The Poast</span></h2>
-        <Link className="text" to="/subscribe">Don't waste your time scrolling Toronto's latest news. The Poast is the <span>1 minute antidote that keeps 12,000+ people in the loop</span> about what matters in the most ambitious city in the world.</Link>
+      <h2>Stay informed with <span>The Poast</span></h2>
+        <Link className="text" to="/subscribe">Start every day knowing what matters in Canada. <span>The Poast is the one minute newsletter that keeps 12,000+ Canadians in the loop every day of the week.</span></Link>
       </div>
       <div className="floatimg">
-          <img src={to1} alt="The Poast newsletter image" />
+          <img src={sama} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Stay informed</span></h2>
-          <Link className="text" to="/subscribe">Get the biggest stories happening every day of the week.</Link>
+       <h2><span>Know more</span></h2>
+          <Link className="text" to="/subscribe">Know what's really going on in Ottawa</Link>
       </div>
       <div className="floatimg">
-            <img src={to2} alt="The Poast newsletter image" />
+            <img src={tobi} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>1 min or less</span></h2>
-             <Link className="text" to="/subscribe">Enjoy a quick update that's all things Toronto.</Link>
+             <Link className="text" to="/subscribe">Get every story that matters</Link>
       </div>
       <div className="floatimg">
-          <img src={to3} alt="The Poast newsletter image" />
+          <img src={jensen} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Always here</span></h2>
-      <Link className="text" to="/subscribe">We're putting the the city in the palm of your hands.</Link>
+       <h2><span>Always free</span></h2>
+      <Link className="text" to="/subscribe">Read it for free</Link>
       </div>
       <div className="floatimg">
           <img src={header} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>The Poast</span></h2>
-            <Link className="text" to="/subscribe">The Poast is a quick and insightful daily newsletter that helps you know what matters in the most ambitious city in the world.</Link>
+            <Link className="text" to="/subscribe">The Poast a daily signal from proud Canadians in the arena.</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -85,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the one thing that lets me know what matters in New York.</Link>
+          <Link className="text" to="/about">" It's the one thing that lets me know what matters in Canada.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE

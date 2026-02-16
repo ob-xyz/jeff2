@@ -5,6 +5,8 @@
 '../scss/about.scss',
 '../scss/subscribe.scss',
 '../scss/ads/ad-form.scss',
+'../scss/ads/advertise.scss',
+'../scss/ads/oldad-formats.scss',
 '../scss/ads/ad-formats.scss',
 '../scss/ads/advertise-with-us.scss',
 '../scss/policies/privacy.scss',
@@ -21,7 +23,7 @@ body {
   margin: auto;
   width:100%;
   height: 100vh;
-  background-color: #F8F7F5;
+  background-color: #fff7ed;
 }
 body {
   overflow-y: scroll;
@@ -30,7 +32,7 @@ body {
 main{
   padding:0;
   margin:0 auto;
-  background:#F8F7F5;
+  background:#fff7ed;
 }
 img {
   display: block;
