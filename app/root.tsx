@@ -29,7 +29,7 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Jeffamazon : One Minute Daily Newsletter",
+  title: "The Poast : Ottawa News, Politics, Business, People",
   description: "Subscribe to the free, one minute daily newsletter keeping 12K+ Canadians in the loop about what matters right now.",
   viewport: "width=device-width,initial-scale=1"
 });

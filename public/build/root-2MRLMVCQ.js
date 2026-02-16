@@ -194,7 +194,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-F6KIL2IV.css";
+var global_default = "/build/_assets/global-6ODD3AYV.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -213,7 +213,7 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Jeffamazon : One Minute Daily Newsletter",
+  title: "The Poast : Ottawa News, Politics, Business, People",
   description: "Subscribe to the free, one minute daily newsletter keeping 12K+ Canadians in the loop about what matters right now.",
   viewport: "width=device-width,initial-scale=1"
 });
@@ -277,4 +277,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-LRKU2LBB.js.map
+//# sourceMappingURL=/build/root-2MRLMVCQ.js.map

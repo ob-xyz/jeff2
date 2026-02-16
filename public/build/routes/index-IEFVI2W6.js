@@ -40,12 +40,12 @@ function Index() {
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Politics is our sport." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "The best morning read in Ottawa, by far." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 18,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of winning \u{1F341}" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of the nations capital \u{1F341}" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 19,
           columnNumber: 13
@@ -115,8 +115,8 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
-        "Start every day knowing what matters in Canada. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "The Poast is the one minute newsletter that keeps 12,000+ Canadians in the loop every day of the week." }, void 0, false, {
+        "Start every day knowing what matters in Ottawa. ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "The Poast is the one minute newsletter that keeps 12,000+ Ottawan's in the loop every day of the week." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 34,
           columnNumber: 96
@@ -237,7 +237,7 @@ function Index() {
         lineNumber: 61,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "The Poast a daily signal from proud Canadians in the arena." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "The Poast a daily signal from proud Ottawan's in the nations capital." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 62,
         columnNumber: 13
@@ -306,7 +306,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2555", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/about", children: `" It's the one thing that lets me know what matters in Canada.` }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/about", children: `" It's the one thing that lets me know what matters in my hometown.` }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 81,
         columnNumber: 11
@@ -393,4 +393,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-IPELDGG6.js.map
+//# sourceMappingURL=/build/routes/index-IEFVI2W6.js.map

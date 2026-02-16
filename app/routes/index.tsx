@@ -15,8 +15,8 @@ export default function Index() {
         <div className="inner-content">
             <img src={header3} alt="The Poast newsletter image" />
           <div className="box">
-            <h1>Politics is our sport.</h1>
-            <p>Subscribe for your daily dose of winning 🍁</p>
+            <h1>The best morning read in Ottawa, by far.</h1>
+            <p>Subscribe for your daily dose of the nations capital 🍁</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -31,7 +31,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Stay informed with <span>The Poast</span></h2>
-        <Link className="text" to="/subscribe">Start every day knowing what matters in Canada. <span>The Poast is the one minute newsletter that keeps 12,000+ Canadians in the loop every day of the week.</span></Link>
+        <Link className="text" to="/subscribe">Start every day knowing what matters in Ottawa. <span>The Poast is the one minute newsletter that keeps 12,000+ Ottawan's in the loop every day of the week.</span></Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="The Poast newsletter image" />
@@ -59,7 +59,7 @@ export default function Index() {
       </div>
       <div className="inner-content25">
        <h2><span>The Poast</span></h2>
-            <Link className="text" to="/subscribe">The Poast a daily signal from proud Canadians in the arena.</Link>
+            <Link className="text" to="/subscribe">The Poast a daily signal from proud Ottawan's in the nations capital.</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -78,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the one thing that lets me know what matters in Canada.</Link>
+          <Link className="text" to="/about">" It's the one thing that lets me know what matters in my hometown.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
