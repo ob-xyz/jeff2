@@ -214,7 +214,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Jeffamazon : One Minute Daily Newsletter",
-  description: "Subscribe to the free, one minute daily newsletter keeping 42K+ people in the loop about what matters in the business world.",
+  description: "Subscribe to the free, one minute daily newsletter keeping 12K+ Canadians in the loop about what matters right now.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -277,4 +277,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-7FJ35JWV.js.map
+//# sourceMappingURL=/build/root-LRKU2LBB.js.map
