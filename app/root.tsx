@@ -29,8 +29,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "The Poast : Ottawa News, Politics, Business, People",
-  description: "Subscribe to the free, one minute daily newsletter keeping 12K+ Canadians in the loop about what matters right now.",
+  title: "The Poast",
+  description: "Subscribe to the free, 1-minute daily dose of stories shaping the future of Canada.",
   viewport: "width=device-width,initial-scale=1"
 });
 

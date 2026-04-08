@@ -19,8 +19,8 @@ export default function Index() {
               <div className="inner-content">
                   <img src={header2} alt="The Poast newsletter image" />
                 <div className="box">
-                  <h1>Reach 12K+ Canadians.</h1>
-                  <p>We're the daily newsletter helping businesses win more 🍁</p>
+                  <h1>Reach 12k+ Canadians</h1>
+                  <p>Every day The Poast helps businesses win more 🚀</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
                 <input className="email" type="text" name="firstName" placeholder="First Name *" />
@@ -39,7 +39,7 @@ export default function Index() {
             </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>The Poast</span></h2>
-          <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a The Poast ad format that'll help you reach our audience.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is influential, bold, and always on the look out for something new. So whether you want to use videos, images, or words - there's a The Poast ad format that will help you reach your goals.</Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
@@ -55,13 +55,13 @@ export default function Index() {
       </div>
       </div>
       </div>
-            <div className="boxmat">
+           <div className="boxmat">
         <div className="floatimg">
-            <img src={videoads} alt="The Poast newsletter image" />
+            <img src={textads} alt="The Poast newsletter image" />
         </div>
-      <div className="box">
-        <h1>Video Ads</h1>
-        <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
+        <div className="box">
+        <h1>Text Ads</h1>
+        <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
       <div className="btn">
           <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
@@ -83,13 +83,13 @@ export default function Index() {
       </div>
       </div>
       </div>
-     <div className="boxmat">
+            <div className="boxmat">
         <div className="floatimg">
-            <img src={textads} alt="The Poast newsletter image" />
+            <img src={videoads} alt="The Poast newsletter image" />
         </div>
-        <div className="box">
-        <h1>Text Ads</h1>
-        <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
+      <div className="box">
+        <h1>Video Ads</h1>
+        <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
       <div className="btn">
           <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
@@ -173,7 +173,7 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 12K+ Canadians across the world</h1>
+            <h1>Reach Canada's most influential people</h1>
             <p>We're the daily newsletter helping businesses win more.</p>
           </div>
         <div className="inner-content">

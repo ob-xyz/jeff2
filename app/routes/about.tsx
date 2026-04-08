@@ -13,12 +13,12 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Hey, I'm Chris</h4>
+            <h4>Hi, I'm Chris</h4>
             <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
             <p>But I'm best known for my newsletter Jeffamazon 🚀</p>
           </div>
       <div className="btn">
-            <Link className="pricebtn" to="/subscribe">Subscribe</Link>
+            <Link className="pricebtn" to="/subscribe">Check it out</Link>
       </div>
         </div>
         <div className="inner-content1">
@@ -26,12 +26,12 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Time to spill the beans?</h2>
-          <Link className="text" to="/about">I'm best known for my newsletter Jeffamazon.</Link>
+      <h2><span>Here's the low</span></h2>
+          <Link className="text" to="/about">I'm best known for my newsletter The Poast.</Link>
           <br /><br /><br />
-          <Link className="text" to="/about">But I'm actually a bootstrapped entrepreneur just trying to build something in the world.</Link>
+          <Link className="text" to="/about">But I'm actually just a bootstrapped founder trying to build something real in the world.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@jeffamazon.com</span></Link>
+          <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@thepoast.com</span></Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
@@ -40,8 +40,8 @@ export default function Index() {
           <img src={header4} alt="Jeffamazon newsletter image" />
       </div>
       <div className="box">
-        <h1>Jeffamazon</h1>
-        <p>Daily business news</p>
+        <h1>The Poast</h1>
+        <Link className="text" to="/subscribe">The Poast is the one minute newsletter that keeps you ahead of the Canadian curve</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -50,13 +50,13 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" It's the one thing that lets me know what matters.</Link>
+          <Link className="text" to="/about">" It's designed to be scrolled, but not doomscrolled.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
       </p>
       <p>
-        Founder
+        Author
       </p>
       </div>
       </div>

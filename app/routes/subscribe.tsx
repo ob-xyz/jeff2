@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../components/altcha";
-import header from "~/../public/img/ja5.png";
+import header from "~/../public/img/ja7.png";
 
 export default function Index() {
   return (
@@ -8,9 +8,9 @@ export default function Index() {
             <div className="content">
               <div className="inner-content">
                   <img src={header} alt="Jeffamazon newsletter image" />
-                <div className="box">
-                  <h1>Politics is our sport.</h1>
-                  <p>Subscribe for your daily dose of winning 🍁</p>
+              <div className="box">
+              <h1>Shaping the future of Canada</h1>
+              <p>Subscribe for your 1-minute daily dose of Canada 🇨🇦</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
                 <input className="email" type="text" name="firstName" placeholder="First Name *" />
@@ -28,8 +28,8 @@ export default function Index() {
               </div>
             </div>
       <div className="inner-content2">
-      <h2>Stay informed with <span>The Poast</span></h2>
-        <Link className="text" to="/subscribe">Start every day knowing what matters in Canada. <span>The Poast is the one minute newsletter that keeps 12,000+ Canadians in the loop every day of the week.</span></Link>
+        <h2><span>Join 12k+ Canadian</span> builders like me and you</h2>
+        <Link className="text" to="/subscribe">The Poast is a one minute daily newsletter for entrepreneurs, leaders, and unconventional citizens shaping the future of Canada</Link>
       </div>
     </div>
   );

@@ -44,16 +44,16 @@ export default function Footer() {
   </a>
   </div>
   <div className="footer-social">
-  <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
+  <a href="https://instagram.com/thepoast" target="_blank" rel="noopener noreferrer">
     <img src={ig} alt="Instagram" />
   </a>
-  <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
+  <a href="https://x.com/thepoast" target="_blank" rel="noopener noreferrer">
     <img src={x} alt="X (formerly Twitter)" />
   </a>
-  <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+  <a href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:chris@jeffamazon.com">
+  <a href="mailto:chris@thepoast.com">
     <img src={email} alt="Email us" />
   </a>
   </div>
