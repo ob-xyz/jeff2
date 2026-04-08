@@ -38,7 +38,7 @@ export default function Index() {
               </div>
             </div>
       <div className="inner-content2">
-      <h2>Connect with your next customers on <span>The Poast</span></h2>
+          <h2>Connect with your next customers on <span>The Poast</span></h2>
           <Link className="text" to="/ads/ad-form">Our audience is influential, bold, and always on the look out for something new. So whether you want to use videos, images, or words - there's a The Poast ad format that will help you reach your goals.</Link>
       </div>
       <div className="inner-content3sm">
