@@ -78,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" I just want to see Canada grow faster.</Link>
+          <Link className="text" to="/about">" I just want to see Canada grow.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
