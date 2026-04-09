@@ -7,9 +7,10 @@
   port = 3000
 
 [[redirects]]
-  from = "/sample-issue"
+  from = "/sample"
   to = "https://app.thepoast.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2"
-  status = 301
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
