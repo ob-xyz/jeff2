@@ -272,7 +272,7 @@ function Footer() {
 var import_react4 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-UYZCQ5IF.css";
+var global_default = "/build/_assets/global-FNLXMIMP.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), links = () => [
@@ -355,7 +355,7 @@ __export(advertise_with_us_exports, {
 var import_react5 = require("@remix-run/react");
 
 // public/img/ja7.png
-var ja7_default = "/build/_assets/ja7-OMUUFOKX.png";
+var ja7_default = "/build/_assets/ja7-652YJRNW.png";
 
 // public/img/ads/carouselads.gif
 var carouselads_default = "/build/_assets/carouselads-GIX3N5J7.gif";
@@ -364,16 +364,16 @@ var carouselads_default = "/build/_assets/carouselads-GIX3N5J7.gif";
 var videoads_default = "/build/_assets/videoads-O4Q3PNS5.gif";
 
 // public/img/ads/imageads.png
-var imageads_default = "/build/_assets/imageads-H63HJB6E.png";
+var imageads_default = "/build/_assets/imageads-7EPDDIKA.png";
 
 // public/img/ads/textads.png
-var textads_default = "/build/_assets/textads-7IOLDHXE.png";
+var textads_default = "/build/_assets/textads-RSBJ7YT7.png";
 
 // public/img/ads/quickads.png
-var quickads_default = "/build/_assets/quickads-Y5RJYHZ5.png";
+var quickads_default = "/build/_assets/quickads-I4LLYBUT.png";
 
 // public/img/ads/recads.png
-var recads_default = "/build/_assets/recads-IIEUCB4Y.png";
+var recads_default = "/build/_assets/recads-7RBPBCC7.png";
 
 // public/img/ads/takeoverads.png
 var takeoverads_default = "/build/_assets/takeoverads-A4QXKXOG.png";
@@ -2719,7 +2719,7 @@ function Index7() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-7VPN2UI5.js", imports: ["/build/_shared/chunk-4RXSKUQF.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-A4GA4XFB.js", imports: ["/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-F3QQYTI4.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-VTMYO4HS.js", "/build/_shared/chunk-6TIKCEI5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-QJUW5SRZ.js", imports: ["/build/_shared/chunk-NHFUBBCE.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-TDSLZTXZ.js", imports: ["/build/_shared/chunk-3HQ3JCXU.js", "/build/_shared/chunk-NHFUBBCE.js", "/build/_shared/chunk-6TIKCEI5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-XN3GWNKC.js", imports: ["/build/_shared/chunk-3HQ3JCXU.js", "/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-6TIKCEI5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-LH6A2L4Z.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-AOAFNEDK.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-RSMYCOJL.js", imports: ["/build/_shared/chunk-6TIKCEI5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "85be08cc", hmr: void 0, url: "/build/manifest-85BE08CC.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-7VPN2UI5.js", imports: ["/build/_shared/chunk-4RXSKUQF.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-JZEQZMOA.js", imports: ["/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-N7BMUAGN.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-VTMYO4HS.js", "/build/_shared/chunk-IDOTHHRL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-JMNU6VVH.js", imports: ["/build/_shared/chunk-WEREGSUV.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-7KEFBMUI.js", imports: ["/build/_shared/chunk-EG2INDCR.js", "/build/_shared/chunk-WEREGSUV.js", "/build/_shared/chunk-IDOTHHRL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-6I2VOOJB.js", imports: ["/build/_shared/chunk-EG2INDCR.js", "/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-IDOTHHRL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-LH6A2L4Z.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-AOAFNEDK.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-RT2MMPKV.js", imports: ["/build/_shared/chunk-IDOTHHRL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "460b333b", hmr: void 0, url: "/build/manifest-460B333B.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
