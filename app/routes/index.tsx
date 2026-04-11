@@ -15,8 +15,8 @@ export default function Index() {
         <div className="inner-content">
             <img src={header3} alt="The Poast newsletter image" />
           <div className="box">
-              <h1>Shaping the future of Canada</h1>
-              <p>Subscribe for your 1-minute daily dose of Canada 🇨🇦</p>
+              <h1>Stay informed in just 1 minute</h1>
+              <p>Subscribe for your daily dose of unconventional Canadian news 🇨🇦</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -30,8 +30,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2><span>Join 12k+ Canadian</span> builders like me and you</h2>
-        <Link className="text" to="/subscribe">The Poast is a one minute daily newsletter for entrepreneurs, leaders, and unconventional citizens shaping the future of Canada</Link>
+        <h2><span>Join 12k+ Canadian builders</span> shaping the future of Canada</h2>
+        <Link className="text" to="/subscribe">The Poast is the fastest way for entrepreneurs, leaders, and unconventional citizens to stay informed about business, policy, and frontier ideas shaping the future of Canada</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="The Poast newsletter image" />
@@ -59,7 +59,7 @@ export default function Index() {
       </div>
       <div className="inner-content25">
        <h2><span>The Poast</span></h2>
-            <Link className="text" to="/subscribe">The Poast is the one minute newsletter that keeps you ahead of the Canadian curve</Link>
+            <Link className="text" to="/subscribe">Every day The Poast emails you a quick and curated one minute newsfeed that helps you stay informed</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -78,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" I just want to see Canada grow.</Link>
+          <Link className="text" to="/about">" I just want to see Canada win more.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
