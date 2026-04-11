@@ -31,7 +31,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2><span>Join 12k+ Canadian builders</span> shaping the future</h2>
-        <Link className="text" to="/subscribe">The Poast is the fastest way for entrepreneurs, leaders, and unconventional citizens to stay informed about business, policy, and frontier ideas shaping the future of Canada</Link>
+        <Link className="text" to="/subscribe">The Poast is the fastest way for entrepreneurs, leaders, and unconventional citizens to understand business, policy, and ideas shaping the future of Canada</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="The Poast newsletter image" />
