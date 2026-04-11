@@ -37,8 +37,8 @@ export default function Index() {
           <img src={sama} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Stories shaping Canada</span></h2>
-             <Link className="text" to="/subscribe">We share Canadians stories that shape how we live</Link>
+       <h2><span>Ideas shaping Canada</span></h2>
+             <Link className="text" to="/subscribe">We share interesting ideas shaping how we live</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="The Poast newsletter image" />
@@ -51,7 +51,7 @@ export default function Index() {
           <img src={jensen} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Posts from Canadians</span></h2>
+       <h2><span>Stories from Canadians</span></h2>
       <Link className="text" to="/subscribe">Enjoy unconventional ideas, research, and stories from Canadians across the country</Link>
       </div>
       <div className="floatimg">
