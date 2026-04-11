@@ -38,7 +38,7 @@ export default function Index() {
       </div>
       <div className="inner-content25sm">
        <h2><span>Ideas shaping Canada</span></h2>
-             <Link className="text" to="/subscribe">We share interesting ideas shaping how we live</Link>
+             <Link className="text" to="/subscribe">We share unconventional ideas shaping how we live tomorrow</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="The Poast newsletter image" />
