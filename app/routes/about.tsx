@@ -41,7 +41,7 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>The Poast</h1>
-        <Link className="text" to="/subscribe">The Poast is the one minute newsletter that keeps you ahead of the Canadian curve</Link>
+            <p>Every day The Poast emails you a quick and curated one minute newsfeed that helps you stay informed</p>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -50,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/about">" I just want to see Canada grow.</Link>
+          <Link className="text" to="/about">" I just want to see Canada win more.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
