@@ -30,36 +30,36 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2><span>Join 12k+ Canadian builders</span> shaping the future</h2>
-        <Link className="text" to="/subscribe">The Poast is the fastest way for entrepreneurs, leaders, and unconventional citizens to understand business, policy, and ideas shaping the future of Canada</Link>
+        <h2><span>Join 12k+ Canadians</span> shaping the future of Canada</h2>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay informed. The Poast is the fastest way for entrepreneurs, leaders, and unconventional citizens to get the latest stories and insights from Canadians on the front lines of business, tech, and policy</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Ideas shaping Canada</span></h2>
-             <Link className="text" to="/subscribe">We share unconventional ideas shaping how we live tomorrow</Link>
+       <h2><span>Ideas that grow</span></h2>
+          <Link className="text" to="/subscribe">Understand how unconventional ideas grow the future of Canada.</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25sm">
-       <h2><span>Policies growing Canada</span></h2>
-             <Link className="text" to="/subscribe">We help Canadians grow a brighter future in Canada</Link>
+       <h2><span>Policies that build</span></h2>
+             <Link className="text" to="/subscribe">We help Canada develop policies that build a bigger tomorrow.</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Stories from Canadians</span></h2>
-      <Link className="text" to="/subscribe">Enjoy unconventional ideas, research, and stories from Canadians across the country</Link>
+       <h2><span>Stories that matter</span></h2>
+      <Link className="text" to="/subscribe">Enjoy stories and insights from Canadians across business, tech, and policy</Link>
       </div>
       <div className="floatimg">
           <img src={header} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>The Poast</span></h2>
-            <Link className="text" to="/subscribe">Every day The Poast emails you a quick and curated one minute newsfeed that helps you stay informed</Link>
+            <Link className="text" to="/subscribe">Every day The Poast delivers a one minute news feed that keeps you in the loop about business, technology, and economic trends shaping Canada</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -78,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" I just want to see Canada prosper.</Link>
+          <Link className="text" to="/about">" It's the fastest way to stay informed.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
