@@ -59,7 +59,7 @@ export default function Index() {
       </div>
       <div className="inner-content25">
        <h2><span>The Poast</span></h2>
-            <Link className="text" to="/subscribe">Every day The Poast delivers a one minute news feed that keeps you in the loop about business, technology, and economic trends shaping Canada</Link>
+            <Link className="text" to="/subscribe">Every day The Poast delivers a one minute news feed that keeps you in the loop about business, technology, and economic trends that matter</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
