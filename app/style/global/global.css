@@ -1380,6 +1380,7 @@
 }
 .subscribe-container .content .inner-content .box form .input-wrapper {
   position: relative;
+  width: 25rem;
 }
 .subscribe-container .content .inner-content .box form input.email {
   width: 100%;
@@ -2393,7 +2394,7 @@
 .ads-container .content .inner-content .box form .input-wrapper,
 .ads-container .content .inner-content .box form .input-wrapper1 {
   position: relative;
-  width: 32.5rem;
+  width: 25rem;
 }
 .ads-container .content .inner-content .box form input.email {
   width: 100%;

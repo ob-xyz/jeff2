@@ -18,7 +18,7 @@ export default function Index() {
               <h1>Join 12k+ builders in Canada</h1>
               <p>Subscribe for your weekly dose of Canadian business, policy, and tech news 🇨🇦</p>
             <form method="post" action="https://app.thepoast.com/subscription/form">
-              <div className="input-wrapper1">
+              <div className="input-wrapper">
                 <input className="email" type="text" name="firstName" placeholder="Your Name *" />
               </div>
               <div className="input-wrapper">

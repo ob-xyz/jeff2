@@ -571,40 +571,35 @@ function Index() {
             lineNumber: 178,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "company", required: true, placeholder: "Company *" }, void 0, false, {
-            fileName: "app/routes/ads/advertise-with-us.tsx",
-            lineNumber: 179,
-            columnNumber: 19
-          }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "input-wrapper", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "email", name: "email", required: true, placeholder: "Business Email Address *" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
-              lineNumber: 181,
+              lineNumber: 180,
               columnNumber: 19
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Submit" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
-              lineNumber: 182,
+              lineNumber: 181,
               columnNumber: 19
             }, this)
           ] }, void 0, true, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
-            lineNumber: 180,
+            lineNumber: 179,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(AltchaWrapper, {}, void 0, false, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
-            lineNumber: 184,
+            lineNumber: 183,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { id: "82687", type: "hidden", name: "l", checked: true, value: "82687238-ae68-46c7-98ad-183fbf4cfea0" }, void 0, false, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
-            lineNumber: 185,
+            lineNumber: 184,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, false, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
-            lineNumber: 186,
+            lineNumber: 185,
             columnNumber: 17
           }, this)
         ] }, void 0, true, {
@@ -614,7 +609,7 @@ function Index() {
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: imageads_default, alt: "The Poast newsletter image" }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
-          lineNumber: 188,
+          lineNumber: 187,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
@@ -640,4 +635,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-4BXETNVI.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-736EEMSJ.js.map
