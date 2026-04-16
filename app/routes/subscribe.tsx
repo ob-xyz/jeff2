@@ -9,8 +9,8 @@ export default function Index() {
               <div className="inner-content">
                   <img src={header} alt="Jeffamazon newsletter image" />
               <div className="box">
-              <h1>Shaping the future of Canada</h1>
-              <p>Subscribe for your 1-minute weekly dose of Canada 🇨🇦</p>
+              <h1>Join 12k+ builders in Canada</h1>
+              <p>Subscribe for your weekly dose of Canadian business, policy, and tech news 🇨🇦</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
                 <input className="email" type="text" name="firstName" placeholder="First Name *" />
@@ -28,8 +28,8 @@ export default function Index() {
               </div>
             </div>
       <div className="inner-content2">
-        <h2><span>Join 12k+ Canadians</span> shaping the future of Canada</h2>
-        <Link className="text" to="/subscribe">Quit doomscrolling to stay informed. The Poast is a one minute news feed for entrepreneurs, leaders, and unconventional citizens who want to hear from Canadians on the front lines of business, policy, and tech</Link>
+        <h2><span>Join 12k+ builders</span> shaping the future of Canada</h2>
+        <Link className="text" to="/subscribe">Skip the noise. The Poast is a one minute news feed for entrepreneurs, leaders, and Canadian builders who want the business, policy, and tech posts that actually matter</Link>
       </div>
     </div>
   );

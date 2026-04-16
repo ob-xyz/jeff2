@@ -142,7 +142,7 @@ function Footer() {
             lineNumber: 23,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
             lineNumber: 24,
             columnNumber: 9
@@ -288,7 +288,7 @@ var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), links = () => [
 ], meta = () => ({
   charset: "utf-8",
   title: "The Poast",
-  description: "Subscribe to the free, 1-minute daily dose of stories shaping the future of Canada.",
+  description: "Subscribe to the free, 1-minute news feed keeping 12k+ Canadians in the loop about business, policy, and tech trends that matter.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -437,7 +437,7 @@ function Index() {
             lineNumber: 33,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, !1, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
             lineNumber: 34,
             columnNumber: 15
@@ -531,7 +531,7 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "boxmat", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: textads_default, alt: "The Poast newsletter image" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: videoads_default, alt: "The Poast newsletter image" }, void 0, !1, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 60,
           columnNumber: 13
@@ -541,12 +541,12 @@ function Index() {
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "box", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "Text Ads" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "Video Ads" }, void 0, !1, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
             lineNumber: 63,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Text ads are the most simple and frictionless way to get your brands message across our audience." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Video ads are short clips that turn your offer into content people are more likely to engage in." }, void 0, !1, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
             lineNumber: 64,
             columnNumber: 9
@@ -563,12 +563,12 @@ function Index() {
         ] }, void 0, !0, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 62,
-          columnNumber: 9
+          columnNumber: 7
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/ads/advertise-with-us.tsx",
         lineNumber: 58,
-        columnNumber: 12
+        columnNumber: 19
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/ads/advertise-with-us.tsx",
@@ -621,7 +621,7 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "boxmat", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: videoads_default, alt: "The Poast newsletter image" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: textads_default, alt: "The Poast newsletter image" }, void 0, !1, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 88,
           columnNumber: 13
@@ -631,12 +631,12 @@ function Index() {
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "box", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "Video Ads" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "Text Ads" }, void 0, !1, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
             lineNumber: 91,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Video ads are short clips that turn your offer into content people are more likely to engage in." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Text ads are the most simple and frictionless way to get your brands message across our audience." }, void 0, !1, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
             lineNumber: 92,
             columnNumber: 9
@@ -653,12 +653,12 @@ function Index() {
         ] }, void 0, !0, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 90,
-          columnNumber: 7
+          columnNumber: 9
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/ads/advertise-with-us.tsx",
         lineNumber: 86,
-        columnNumber: 13
+        columnNumber: 12
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/ads/advertise-with-us.tsx",
@@ -952,7 +952,7 @@ function Index() {
             lineNumber: 188,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("input", { id: "82687", type: "hidden", name: "l", value: "82687238-ae68-46c7-98ad-183fbf4cfea0" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, !1, {
             fileName: "app/routes/ads/advertise-with-us.tsx",
             lineNumber: 189,
             columnNumber: 17
@@ -1923,7 +1923,7 @@ function Index4() {
             lineNumber: 28,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("input", { id: "82687", type: "hidden", name: "l", value: "82687238-ae68-46c7-98ad-183fbf4cfea0" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, !1, {
             fileName: "app/routes/ads/ad-form.tsx",
             lineNumber: 29,
             columnNumber: 25
@@ -2003,12 +2003,12 @@ function Index5() {
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { children: "Shaping the future of Canada" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { children: "Join 12k+ builders in Canada" }, void 0, !1, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 12,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Subscribe for your 1-minute daily dose of Canada \u{1F1E8}\u{1F1E6}" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Subscribe for your weekly dose of Canadian business, policy, and tech news \u{1F1E8}\u{1F1E6}" }, void 0, !1, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 13,
           columnNumber: 15
@@ -2051,7 +2051,7 @@ function Index5() {
             lineNumber: 23,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, !1, {
             fileName: "app/routes/subscribe.tsx",
             lineNumber: 24,
             columnNumber: 15
@@ -2082,18 +2082,18 @@ function Index5() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h2", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { children: "Join 12k+ Canadian" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { children: "Join 12k+ builders" }, void 0, !1, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 31,
           columnNumber: 13
         }, this),
-        " builders like me and you"
+        " shaping the future of Canada"
       ] }, void 0, !0, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 31,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react7.Link, { className: "text", to: "/subscribe", children: "The Poast is a one minute daily newsletter for entrepreneurs, leaders, and unconventional citizens shaping the future of Canada" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react7.Link, { className: "text", to: "/subscribe", children: "Skip the noise. The Poast is a one minute news feed for entrepreneurs, leaders, and Canadian builders who want the business, policy, and tech posts that actually matter" }, void 0, !1, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 32,
         columnNumber: 9
@@ -2281,7 +2281,7 @@ function Index6() {
           lineNumber: 43,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Every day The Poast emails you a quick and curated one minute newsfeed that helps you stay informed" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Every day The Poast delivers a one minute news feed that keeps you in the loop about business, technology, and economic trends shaping Canada" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 44,
           columnNumber: 13
@@ -2314,7 +2314,7 @@ function Index6() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "inner-content25", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react8.Link, { className: "text", to: "/about", children: '" I just want to see Canada win more.' }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react8.Link, { className: "text", to: "/about", children: '" I just want to see Canada prosper.' }, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 53,
         columnNumber: 11
@@ -2374,12 +2374,12 @@ function Index7() {
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h1", { children: "Stay informed in just 1 minute" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h1", { children: "Join 12k+ builders in Canada" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 18,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "Subscribe for your daily dose of unconventional Canadian news \u{1F1E8}\u{1F1E6}" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "Subscribe for your weekly dose of Canadian business, policy, and tech news \u{1F1E8}\u{1F1E6}" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 19,
           columnNumber: 15
@@ -2437,18 +2437,18 @@ function Index7() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Join 12k+ Canadian builders" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Join 12k+ builders" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 13
         }, this),
-        " shaping the future"
+        " shaping the future of Canada"
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
         lineNumber: 33,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "The Poast is the fastest way for entrepreneurs, leaders, and unconventional citizens to understand business, policy, and ideas shaping the future of Canada" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "Skip the noise. The Poast is a one minute news feed for entrepreneurs, leaders, and Canadian builders who want the business, policy, and tech posts that actually matter" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 34,
         columnNumber: 9
@@ -2468,7 +2468,7 @@ function Index7() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Ideas shaping Canada" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Ideas that grow" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 40,
         columnNumber: 12
@@ -2477,10 +2477,10 @@ function Index7() {
         lineNumber: 40,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "We share unconventional ideas shaping how we live tomorrow" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "Understand what ideas are shaping and growing the future of Canada" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 41,
-        columnNumber: 14
+        columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
@@ -2497,7 +2497,7 @@ function Index7() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Policies growing Canada" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Policies that build" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 47,
         columnNumber: 12
@@ -2506,7 +2506,7 @@ function Index7() {
         lineNumber: 47,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "We help Canadians grow a brighter future in Canada" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "Stay informed about policies and insights building a better tomorrow" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 48,
         columnNumber: 14
@@ -2526,7 +2526,7 @@ function Index7() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Stories from Canadians" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Posts that matter" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 12
@@ -2535,7 +2535,7 @@ function Index7() {
         lineNumber: 54,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "Enjoy unconventional ideas, research, and stories from Canadians across the country" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "Get real posts from Canadian builders across business, policy, and tech" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 55,
         columnNumber: 7
@@ -2564,7 +2564,7 @@ function Index7() {
         lineNumber: 61,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "Every day The Poast emails you a quick and curated one minute newsfeed that helps you stay informed" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/subscribe", children: "Every week The Poast delivers a one minute news feed that keeps you in the loop about business, technology, and economic trends that matter" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 62,
         columnNumber: 13
@@ -2633,7 +2633,7 @@ function Index7() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "inner-content2555", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/about", children: '" I just want to see Canada win more.' }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react9.Link, { className: "text", to: "/about", children: `" It's the fastest way to stay informed.` }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 81,
         columnNumber: 11
@@ -2719,7 +2719,7 @@ function Index7() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-7VPN2UI5.js", imports: ["/build/_shared/chunk-4RXSKUQF.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-THJP6AF2.js", imports: ["/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-RDLTO4VL.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-CB6L4G7T.js", "/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-PSM4Z7RB.js", imports: ["/build/_shared/chunk-27F4L5UE.js", "/build/_shared/chunk-CB6L4G7T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-3GC3WDZK.js", imports: ["/build/_shared/chunk-FDRJOGEK.js", "/build/_shared/chunk-27F4L5UE.js", "/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-CAMG4MUP.js", imports: ["/build/_shared/chunk-FDRJOGEK.js", "/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-2AGR4GPS.js", imports: ["/build/_shared/chunk-CB6L4G7T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-7PXOLGQL.js", imports: ["/build/_shared/chunk-CB6L4G7T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-FD7DFIPA.js", imports: ["/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "c8a25ec6", hmr: void 0, url: "/build/manifest-C8A25EC6.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-7VPN2UI5.js", imports: ["/build/_shared/chunk-4RXSKUQF.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Y5WVPVF6.js", imports: ["/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P7TF67GB.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-CB6L4G7T.js", "/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-JHD7KH2U.js", imports: ["/build/_shared/chunk-27F4L5UE.js", "/build/_shared/chunk-CB6L4G7T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-LCDKCXFQ.js", imports: ["/build/_shared/chunk-FDRJOGEK.js", "/build/_shared/chunk-27F4L5UE.js", "/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-2YMS6C5J.js", imports: ["/build/_shared/chunk-FDRJOGEK.js", "/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-2AGR4GPS.js", imports: ["/build/_shared/chunk-CB6L4G7T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-7PXOLGQL.js", imports: ["/build/_shared/chunk-CB6L4G7T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-DPGSC4OF.js", imports: ["/build/_shared/chunk-QOUKBAAY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "6bc6de48", hmr: void 0, url: "/build/manifest-6BC6DE48.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

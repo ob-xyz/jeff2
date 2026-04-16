@@ -15,8 +15,8 @@ export default function Index() {
         <div className="inner-content">
             <img src={header3} alt="The Poast newsletter image" />
           <div className="box">
-              <h1>Get the scoop in just 1 minute</h1>
-              <p>Subscribe for your weekly dose of Canada 🇨🇦</p>
+              <h1>Join 12k+ builders in Canada</h1>
+              <p>Subscribe for your weekly dose of Canadian business, policy, and tech news 🇨🇦</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -30,29 +30,29 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2><span>Join 12k+ Canadians</span> shaping the future of Canada</h2>
-        <Link className="text" to="/subscribe">Skip the noise. The Poast is a one minute news feed for entrepreneurs, leaders, and Canadian citizens who want the few business, policy, and tech posts that actually matter</Link>
+        <h2><span>Join 12k+ builders</span> shaping the future of Canada</h2>
+        <Link className="text" to="/subscribe">Skip the noise. The Poast is a one minute news feed for entrepreneurs, leaders, and Canadian builders who want the business, policy, and tech posts that actually matter</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Ideas that grow</span></h2>
-          <Link className="text" to="/subscribe">Understand how unconventional ideas grow the future of Canada.</Link>
+          <Link className="text" to="/subscribe">Understand what ideas are shaping and growing the future of Canada</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="The Poast newsletter image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>Policies that build</span></h2>
-             <Link className="text" to="/subscribe">We help Canadians stay informed about policies that build tomorrow.</Link>
+             <Link className="text" to="/subscribe">Stay informed about policies and insights building a better tomorrow</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="The Poast newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Posts that matter</span></h2>
-      <Link className="text" to="/subscribe">Enjoy real posts from Canadians across business, tech, and policy</Link>
+      <Link className="text" to="/subscribe">Get real posts from Canadian builders across business, policy, and tech</Link>
       </div>
       <div className="floatimg">
           <img src={header} alt="The Poast newsletter image" />
