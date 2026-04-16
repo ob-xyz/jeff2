@@ -17,15 +17,18 @@ export default function Index() {
           <div className="box">
               <h1>Join 12k+ builders in Canada</h1>
               <p>Subscribe for your weekly dose of Canadian business, policy, and tech news 🇨🇦</p>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">I'm in</button>
-        </div>
-        <Altcha />
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-        <input type="hidden" name="nonce" />
-      </form>
+            <form method="post" action="https://app.thepoast.com/subscription/form">
+              <div className="input-wrapper1">
+                <input className="email" type="text" name="firstName" placeholder="Your Name *" />
+              </div>
+              <div className="input-wrapper">
+                <input className="email" type="email" name="email" required placeholder="Email Address *" />
+                <button className="submit" type="submit">I'm in</button>
+              </div>
+              <Altcha />
+              <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+              <input type="hidden" name="nonce" />
+            </form>
           </div>
         </div>
       </div>
@@ -132,10 +135,10 @@ export default function Index() {
   <ul className="grid">
     <li className="box">
       <a
-        href="http://app.jeffamzn.com/campaign/ba97f2f9-a8c7-46a7-b183-ccffbc3b6891/6716369b-5785-4c74-be76-73af2558eebb"
+        href="http://app.thepoast.com/campaign/ba97f2f9-a8c7-46a7-b183-ccffbc3b6891/6716369b-5785-4c74-be76-73af2558eebb"
         rel="noopener noreferrer"
       >
-        <img src="https://jeffamazn.com/Screen-Shot-2025-06-03-at-5.09.08-PM.png" alt="Test Campaign Preview" />
+        <img src="https://jeffamzn.com/Screen-Shot-2025-06-03-at-5.09.08-PM.png" alt="Test Campaign Preview" />
         <h2>Test Campaign — Preview</h2>
         <p>June 29, 2025</p>
       </a>

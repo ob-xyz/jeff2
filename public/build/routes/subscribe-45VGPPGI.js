@@ -35,19 +35,12 @@ function Index() {
           lineNumber: 13,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "input-wrapper1", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "firstName", placeholder: "First Name *" }, void 0, false, {
-              fileName: "app/routes/subscribe.tsx",
-              lineNumber: 16,
-              columnNumber: 17
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "lastName", placeholder: "Last Name *" }, void 0, false, {
-              fileName: "app/routes/subscribe.tsx",
-              lineNumber: 17,
-              columnNumber: 17
-            }, this)
-          ] }, void 0, true, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("form", { method: "post", action: "https://app.thepoast.com/subscription/form", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "input-wrapper1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "firstName", placeholder: "Your Name *" }, void 0, false, {
+            fileName: "app/routes/subscribe.tsx",
+            lineNumber: 16,
+            columnNumber: 17
+          }, this) }, void 0, false, {
             fileName: "app/routes/subscribe.tsx",
             lineNumber: 15,
             columnNumber: 15
@@ -55,32 +48,32 @@ function Index() {
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "input-wrapper", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "email", name: "email", required: true, placeholder: "Email Address *" }, void 0, false, {
               fileName: "app/routes/subscribe.tsx",
-              lineNumber: 20,
+              lineNumber: 19,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "I'm in" }, void 0, false, {
               fileName: "app/routes/subscribe.tsx",
-              lineNumber: 21,
+              lineNumber: 20,
               columnNumber: 17
             }, this)
           ] }, void 0, true, {
             fileName: "app/routes/subscribe.tsx",
-            lineNumber: 19,
+            lineNumber: 18,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(AltchaWrapper, {}, void 0, false, {
             fileName: "app/routes/subscribe.tsx",
-            lineNumber: 23,
+            lineNumber: 22,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { id: "bcd05", type: "hidden", name: "l", value: "bcd05274-b4b9-4a90-a8b5-1fdee92637fa" }, void 0, false, {
             fileName: "app/routes/subscribe.tsx",
-            lineNumber: 24,
+            lineNumber: 23,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, false, {
             fileName: "app/routes/subscribe.tsx",
-            lineNumber: 25,
+            lineNumber: 24,
             columnNumber: 15
           }, this)
         ] }, void 0, true, {
@@ -106,23 +99,23 @@ function Index() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Join 12k+ builders" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
-          lineNumber: 31,
+          lineNumber: 30,
           columnNumber: 13
         }, this),
         " shaping the future of Canada"
       ] }, void 0, true, {
         fileName: "app/routes/subscribe.tsx",
-        lineNumber: 31,
+        lineNumber: 30,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Skip the noise. The Poast is a one minute news feed for entrepreneurs, leaders, and Canadian builders who want the business, policy, and tech posts that actually matter" }, void 0, false, {
         fileName: "app/routes/subscribe.tsx",
-        lineNumber: 32,
+        lineNumber: 31,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/subscribe.tsx",
-      lineNumber: 30,
+      lineNumber: 29,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -134,4 +127,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-DPGSC4OF.js.map
+//# sourceMappingURL=/build/routes/subscribe-45VGPPGI.js.map

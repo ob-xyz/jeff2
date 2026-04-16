@@ -19,17 +19,16 @@ export default function Index() {
                 <div className="box">
                   <h1>Reach 12k+ builders in Canada</h1>
                   <p>Every day The Poast helps Canadian businesses win more 🚀</p>
-            <form method="post" action="https://app.jeffamzn.com/subscription/form">
+            <form method="post" action="https://app.thepoast.com/subscription/form">
               <div className="input-wrapper1">
-                <input className="email" type="text" name="firstName" placeholder="First Name *" />
-                <input className="email" type="text" name="lastName" placeholder="Last Name *" />
+                <input className="email" type="text" name="firstName" placeholder="Your Name *" />
               </div>
               <div className="input-wrapper">
-                <input className="email" type="email" name="email" required placeholder="Email Address *" />
-                <button className="submit" type="submit">Let's do it</button>
+                <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
+                <button className="submit" type="submit">Submit</button>
               </div>
               <Altcha />
-              <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+              <input id="82687" type="hidden" name="l" checked value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
               <input type="hidden" name="nonce" />
             </form>
                 </div>
@@ -175,16 +174,15 @@ export default function Index() {
             <p>We're the daily newsletter helping businesses win more.</p>
           </div>
         <div className="inner-content">
-              <form method="post" action="https://app.jeffamzn.com/subscription/form">
-                  <input className="email" type="text" name="firstName" required placeholder="First Name *" />
-                  <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
+              <form method="post" action="https://app.thepoast.com/subscription/form">
+                  <input className="email" type="text" name="firstName" required placeholder="Your Name *" />
                   <input className="email" type="text" name="company" required placeholder="Company *" />
                 <div className="input-wrapper">
                   <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
-                  <button className="submit" type="submit">Let's do it</button>
+                  <button className="submit" type="submit">Submit</button>
                 </div>
                 <Altcha />
-                <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+                <input id="82687" type="hidden" name="l" checked value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
                 <input type="hidden" name="nonce" />
             </form>
             <img src={imageads} alt="The Poast newsletter image" />
