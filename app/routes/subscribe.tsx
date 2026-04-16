@@ -10,7 +10,7 @@ export default function Index() {
                   <img src={header} alt="Jeffamazon newsletter image" />
               <div className="box">
               <h1>Shaping the future of Canada</h1>
-              <p>Subscribe for your 1-minute daily dose of Canada 🇨🇦</p>
+              <p>Subscribe for your 1-minute weekly dose of Canada 🇨🇦</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
                 <input className="email" type="text" name="firstName" placeholder="First Name *" />
