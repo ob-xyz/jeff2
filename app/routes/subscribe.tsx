@@ -28,8 +28,8 @@ export default function Index() {
               </div>
             </div>
       <div className="inner-content2">
-        <h2><span>Join 12k+ Canadian</span> builders like me and you</h2>
-        <Link className="text" to="/subscribe">The Poast is the fastest way for entrepreneurs, leaders, and unconventional citizens to understand business, policy, and ideas shaping the future of Canada</Link>
+        <h2><span>Join 12k+ Canadians</span> shaping the future of Canada</h2>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay informed. The Poast is a one minute news feed for entrepreneurs, leaders, and unconventional citizens who want to hear from Canadians on the front lines of business, policy, and tech</Link>
       </div>
     </div>
   );
