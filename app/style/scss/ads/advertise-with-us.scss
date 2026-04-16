@@ -443,7 +443,8 @@
           flex-direction: column;
           margin-left: 0;
           margin-top: 0.45rem;
-          .input-wrapper {
+          .input-wrapper,
+          .input-wrapper1 {
             position: relative;
             width: 34rem;
           }
@@ -690,7 +691,8 @@
         }
         .inner-content {
           form {
-            .input-wrapper {
+            .input-wrapper,
+            .input-wrapper1 {
               width: 35rem;
             }
           }
@@ -871,7 +873,8 @@
           margin-left: 0;
 
           form {
-            .input-wrapper {
+            .input-wrapper,
+            .input-wrapper1 {
               margin-left: 0;
               width: 17.5rem;
             }
