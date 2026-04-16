@@ -183,7 +183,7 @@
 }
 .container .floatimg img {
   margin: 0 auto;
-  width: 55%;
+  width: 65%;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
 }
@@ -3283,7 +3283,7 @@ altcha-widget {
   box-sizing: border-box;
 }
 .footer h1 {
-  font-size: 13.65rem;
+  font-size: 12.25rem;
   font-family: ku;
 }
 .footer p {
