@@ -36,7 +36,7 @@ function Index() {
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("form", { method: "post", action: "https://app.thepoast.com/subscription/form", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "input-wrapper1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "firstName", placeholder: "Your Name *" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "input-wrapper", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "firstName", placeholder: "Your Name *" }, void 0, false, {
             fileName: "app/routes/subscribe.tsx",
             lineNumber: 16,
             columnNumber: 17
@@ -127,4 +127,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-45VGPPGI.js.map
+//# sourceMappingURL=/build/routes/subscribe-2O7ASWXG.js.map
