@@ -19,8 +19,8 @@ export default function Index() {
               <div className="inner-content">
                   <img src={header2} alt="The Poast newsletter image" />
                 <div className="box">
-                  <h1>Reach 12k+ Canadians</h1>
-                  <p>Every day The Poast helps businesses win more 🚀</p>
+                  <h1>Reach 12k+ builders in Canada</h1>
+                  <p>Every day The Poast helps Canadian businesses win more 🚀</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
                 <input className="email" type="text" name="firstName" placeholder="First Name *" />

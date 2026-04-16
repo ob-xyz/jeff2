@@ -46,12 +46,12 @@ function Index() {
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 12k+ Canadians" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 12k+ builders in Canada" }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 22,
           columnNumber: 19
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day The Poast helps businesses win more \u{1F680}" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day The Poast helps Canadian businesses win more \u{1F680}" }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 23,
           columnNumber: 19
@@ -652,4 +652,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-LCDKCXFQ.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-TC7D7Y2O.js.map
