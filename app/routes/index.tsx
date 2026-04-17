@@ -1,150 +1,40 @@
 import { Link } from "@remix-run/react";
-import Altcha from "../components/altcha";
 
-import header from "~/../public/img/ads/recads.png";
-import header3 from "~/../public/img/ja7.png";
-import sama from "~/../public/img/ott1.png";
-import tobi from "~/../public/img/ott2.png";
-import jensen from "~/../public/img/ott3.png";
-import cs from "~/../public/img/cs.jpg";
+import li from "~/../public/img/social/linkedin.png";
+import x from "~/../public/img/social/x.png";
+import ig from "~/../public/img/social/instagram.png";
+import yt from "~/../public/img/social/youtube.png";
+import j from "~/../public/img/ja7.png";
 
 export default function Index() {
   return (
     <div className="container">
-      <div className="content">
-        <div className="inner-content">
-            <img src={header3} alt="The Poast newsletter image" />
-          <div className="box">
-              <h1>Join 12k+ builders in Canada</h1>
-              <p>Subscribe for your weekly dose of Canadian business, policy, and tech news 🇨🇦</p>
-            <form method="post" action="https://app.thepoast.com/subscription/form">
-              <div className="input-wrapper">
-                <input className="email" type="text" name="firstName" placeholder="Your Name *" />
-              </div>
-              <div className="input-wrapper">
-                <input className="email" type="email" name="email" required placeholder="Email Address *" />
-                <button className="submit" type="submit">I'm in</button>
-              </div>
-              <Altcha />
-              <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
-              <input type="hidden" name="nonce" />
-            </form>
+      <div className="header">
+        <h1>The Poast</h1>
+        <p>Canadian news in 1-minute</p>
+        <div className="outer-header">
+          <div className="inner-header">
+            <div className="social">
+                <a className="x" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+                <img src={x} alt="X (Twitter)" />
+              </a>
+                <a className="ig" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+                <img src={ig} alt="Instagram" />
+              </a>
+              <a className="yt" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+                <img src={yt} alt="YouTube" />
+              </a>
+              <a className="li" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+                <img src={li} alt="LinkedIn" />
+              </a>
+            </div>
+          </div>
+          <div className="inner-header2">
+             <Link to="/subscribe">Subscribe</Link>
           </div>
         </div>
+          <img className="headerimg" src={j} alt="Instagram" />
       </div>
-      <div className="inner-content2">
-        <h2><span>Join 12k+ builders</span> shaping the future of Canada</h2>
-        <Link className="text" to="/subscribe">Skip the noise. The Poast is a one minute news feed for entrepreneurs, leaders, and Canadian builders who want the business, policy, and tech posts that actually matter</Link>
-      </div>
-      <div className="floatimg">
-          <img src={sama} alt="The Poast newsletter image" />
-      </div>
-      <div className="inner-content25sm">
-       <h2><span>Ideas that grow</span></h2>
-          <Link className="text" to="/subscribe">Understand what ideas are shaping and growing the future of Canada</Link>
-      </div>
-      <div className="floatimg">
-            <img src={tobi} alt="The Poast newsletter image" />
-        </div>
-      <div className="inner-content25sm">
-       <h2><span>Policies that build</span></h2>
-             <Link className="text" to="/subscribe">Stay informed about policies and insights building a better tomorrow</Link>
-      </div>
-      <div className="floatimg">
-          <img src={jensen} alt="The Poast newsletter image" />
-      </div>
-      <div className="inner-content25sm">
-       <h2><span>Posts that matter</span></h2>
-      <Link className="text" to="/subscribe">Get real posts from Canadian builders across business, policy, and tech</Link>
-      </div>
-      <div className="floatimg">
-          <img src={header} alt="The Poast newsletter image" />
-      </div>
-      <div className="inner-content25">
-       <h2><span>The Poast</span></h2>
-            <Link className="text" to="/subscribe">Every week The Poast delivers a one minute news feed that keeps you in the loop about business, technology, and economic trends that matter</Link>
-      <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
-      </div>
-      </div>
-      <div className="inner-content255">
-        <div className="side1">
-       <h2><span>LEADERSHIP</span></h2>
-      <p className="noclick">Author</p>
-      <p className="noclick">Chris Signore</p>
-      <div className="btn">
-          <Link className="pricebtn" to="/about">About</Link>
-      </div>
-        </div>
-        <div className="side2">
-          <img src={cs} alt="Author image" />
-        </div>
-      </div>
-      <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the fastest way to stay informed.</Link>
-      <div className="tag">
-      <p>
-        CHRIS SIGNORE
-      </p>
-      <p>
-        Author
-      </p>
-      </div>
-      </div>
-       <div className="inner-content3">
-      <div className="grid">
-      <div className="box">
-        <h1>Subscribe</h1>
-        <p>Get The Poast delivered to your inbox</p>
-          <Link className="text" to="/subscribe">Subscribe →</Link>
-      </div>
-      <div className="box">
-        <h1>Advertise</h1>
-        <p>Become an advertiser in The Poast</p>
-          <Link className="text" to="/ads/ad-form">Get in touch →</Link>
-      </div>
-      </div>
-    </div>
-{/* <div className="inner-blog">
-    <div className="header">
-          <h4>JEFFAMAZON NEWS</h4>
-          <h3>The latest and greatest.</h3>
-    </div>
-    <ul className="grid">
-    {campaigns.length === 0 ? (
-      <li>No campaigns available yet.</li>
-    ) : (
-      campaigns.slice(0, 6).map((c) => (
-        <li key={c.id} className="box">
-          <a href={c.url} target="_blank" rel="noopener noreferrer">
-            <img src="https://jeffamazn.com/GsidegWXwAECEUs.jpeg" alt="You gotta see this" />
-            <h2>{c.subject}</h2>
-            <p>{new Date(c.send_at).toLocaleDateString()}</p> 
-          </a>
-        </li>
-      ))
-    )}
-  </ul>
-</div> */}
-{/* 
-<div className="inner-blog">
-      <div className="header">
-          <h4>JEFFAMAZON NEWS</h4>
-          <h3>The latest and greatest.</h3>
-      </div>
-  <ul className="grid">
-    <li className="box">
-      <a
-        href="http://app.thepoast.com/campaign/ba97f2f9-a8c7-46a7-b183-ccffbc3b6891/6716369b-5785-4c74-be76-73af2558eebb"
-        rel="noopener noreferrer"
-      >
-        <img src="https://jeffamzn.com/Screen-Shot-2025-06-03-at-5.09.08-PM.png" alt="Test Campaign Preview" />
-        <h2>Test Campaign — Preview</h2>
-        <p>June 29, 2025</p>
-      </a>
-    </li>
-  </ul>
-</div> */}
     </div>
   );
 }

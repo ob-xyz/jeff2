@@ -2,7 +2,6 @@
 '../global/Colors.scss',
 '../global/Buttons.scss',
 '../scss/index.scss',
-'../scss/about.scss',
 '../scss/subscribe.scss',
 '../scss/ads/ad-form.scss',
 '../scss/ads/advertise-with-us.scss',
@@ -22,7 +21,7 @@ body {
   background-color: #fff7ed;
 }
 body {
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }   
 main{
