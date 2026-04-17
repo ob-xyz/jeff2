@@ -12,7 +12,7 @@ export default function Index() {
     <div className="subscribe-container">
       <div className="header">
         <h1>The Poast</h1>
-        <p>Canadian news in 1-minute</p>
+        <p>Canadian business news in 1-minute</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
