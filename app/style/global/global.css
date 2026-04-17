@@ -565,7 +565,7 @@
     font-size: 2.5rem;
   }
   .container .floatimg img {
-    width: 65%;
+    width: 55%;
   }
   .container .inner-content25 {
     margin-left: 1.5rem;
@@ -1497,7 +1497,7 @@
     font-size: 2.75rem;
   }
   .subscribe-container .content .inner-content img {
-    width: 65%;
+    width: 55%;
   }
   .subscribe-container .content .inner-content .box {
     padding: 2rem 0;
@@ -2888,7 +2888,7 @@
     font-size: 2.75rem;
   }
   .ads-container .content .inner-content img {
-    width: 65%;
+    width: 45%;
   }
   .ads-container .content .inner-content .box {
     padding: 2rem 0;
@@ -2928,7 +2928,7 @@
     font-size: 2.5rem;
   }
   .ads-container .floatimg img {
-    width: 65%;
+    width: 50%;
   }
   .ads-container .floatimg2 {
     display: flex;
