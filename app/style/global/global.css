@@ -82,7 +82,7 @@
   margin: 0;
   margin-top: 1.5rem;
   margin-bottom: -0.5rem;
-  background: linear-gradient(0deg, #FF4D4D 10%, rgb(255, 255, 255) 62.5%);
+  background: linear-gradient(0deg, #000 11%, rgb(255, 255, 255) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -137,7 +137,7 @@
   align-items: center;
   width: 4rem;
   height: 4rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   transition: all 0.3s ease;
   background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgb(255, 255, 255) 100%);
 }
@@ -174,9 +174,9 @@
   font-size: 2.5rem;
   font-family: ku;
   font-weight: 100;
-  color: #000;
+  color: #fff;
   transition: all 0.3s ease;
-  background: linear-gradient(0deg, #FF4D4D 5%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
 }
 .container .header .outer-header .inner-header2 a:hover {
   transform: none;
@@ -259,7 +259,7 @@
   color: #fff;
   margin: 0;
   margin-top: 1.5rem;
-  background: linear-gradient(0deg, #FF4D4D 10%, rgb(255, 255, 255) 62.5%);
+  background: linear-gradient(0deg, #000 11%, rgb(255, 255, 255) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -316,7 +316,7 @@
   align-items: center;
   width: 4rem;
   height: 4rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   transition: all 0.3s ease;
   background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgb(255, 255, 255) 100%);
 }
@@ -353,9 +353,9 @@
   font-size: 2.5rem;
   font-family: ku;
   font-weight: 100;
-  color: #000;
+  color: #fff;
   transition: all 0.3s ease;
-  background: linear-gradient(0deg, #FF4D4D 21%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
 }
 .subscribe-container .header .outer-header .inner-header2 a:hover {
   transform: none;
@@ -372,13 +372,14 @@
 .subscribe-container .header form input.email {
   width: 100%;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: 0.15rem solid #212121;
   border-radius: 0.75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
-  padding: 1.25rem;
+  padding: 1.5rem;
   font-family: ku;
   font-weight: 100;
+  background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgb(255, 255, 255) 120%);
 }
 .subscribe-container .header form input.email:focus {
   outline: none;
@@ -396,14 +397,14 @@
   bottom: 0px;
   padding: 0 2.65rem;
   margin: 0.35rem;
-  background-color: #02090A;
-  color: #fafafa;
+  color: #fff;
   border: none;
   border-radius: 0.75rem;
   font-size: 1.5rem;
   font-family: ku;
   font-weight: 100;
   transition: all 0.3s ease;
+  background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
 }
 .subscribe-container .header form button.submit:hover {
   transform: none;
@@ -440,9 +441,12 @@
     position: relative;
     width: 22rem;
   }
+  .subscribe-container .header form input.email {
+    font-size: 1.25rem;
+  }
   .subscribe-container .header form button.submit {
-    padding: 0 1.25rem;
-    font-size: 1rem;
+    padding: 0 1rem;
+    font-size: 1.25rem;
   }
 }
 .adform-container {

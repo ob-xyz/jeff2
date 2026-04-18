@@ -58,7 +58,7 @@ $orange-bottom: #f2e2ca;
         margin: 0;
         margin-top:1.5rem;
         margin-bottom:-.5rem;
-        background: linear-gradient(0deg,#FF4D4D 10%, rgb(255, 255, 255) 62.5%);
+        background: linear-gradient(0deg,#000 11%, rgba(255, 255, 255, 1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -113,7 +113,7 @@ a {
   align-items: center;
   width: 4rem;
   height: 4rem;
-  border-radius: .5rem;
+  border-radius: .75rem;
   transition: all 0.3s ease;
   background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgba(255, 255, 255, 1) 100%);
 
@@ -161,9 +161,9 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
       font-size: 2.5rem;
       font-family: ku;
       font-weight: 100;
-      color:#000;
+      color:#fff;
       transition: all 0.3s ease;
-      background: linear-gradient(0deg,#FF4D4D 5%, rgba(255, 255, 255, 1) 100%);
+      background: linear-gradient(0deg,#000 21%, rgba(255, 255, 255, 1) 100%);
 
       &:hover {
           transform: none;
