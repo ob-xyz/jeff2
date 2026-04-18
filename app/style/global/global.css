@@ -194,6 +194,10 @@
   .container .header .outer-header {
     flex-direction: column;
   }
+  .container .header .outer-header .inner-header .social {
+    margin-right: auto;
+    margin-right: auto;
+  }
   .container .header .outer-header .inner-header2 {
     margin-left: auto;
     margin-top: 0.75rem;
@@ -361,7 +365,8 @@
 }
 .subscribe-container .header form .input-wrapper {
   position: relative;
-  width: 36.25rem;
+  width: 32rem;
+  margin-bottom: 0.25rem;
 }
 .subscribe-container .header form input.email {
   width: 100%;
@@ -420,6 +425,10 @@
   .subscribe-container .header .outer-header {
     flex-direction: column;
     margin-top: -3.5rem;
+  }
+  .subscribe-container .header .outer-header .inner-header .social {
+    margin-right: auto;
+    margin-right: auto;
   }
   .subscribe-container .header .outer-header .inner-header2 {
     margin-left: auto;

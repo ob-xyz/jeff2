@@ -22,9 +22,6 @@ export default function Index() {
                 <a className="ig" href="https://instagram.com/thepoast" target="_blank" rel="noopener noreferrer">
                 <img src={ig} alt="Instagram" />
               </a>
-              <a className="yt" href="https://youtube.com/@thepoast" target="_blank" rel="noopener noreferrer">
-                <img src={yt} alt="YouTube" />
-              </a>
               <a className="li" href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
                 <img src={li} alt="LinkedIn" />
               </a>

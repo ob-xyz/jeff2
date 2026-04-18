@@ -174,7 +174,8 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
   margin-top:.5rem;
   .input-wrapper {
     position: relative;
-    width: 36.25rem;
+    width: 32rem;
+    margin-bottom:.25rem;
   }
   input.email {
     width: 100%;
@@ -240,6 +241,12 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
     .outer-header{
       flex-direction: column;
       margin-top:-3.5rem;
+    .inner-header {
+        .social {
+          margin-right: auto; 
+          margin-right: auto;
+        }
+      }
   .inner-header2{
     margin-left: auto;
     margin-top:.75rem;
