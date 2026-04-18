@@ -179,8 +179,14 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 @media (max-width: 720px) {
 .container{
     .header{
+     h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
       .headerimg{
-        width: 75%;
+        width: 100%;
       }
     .outer-header{
       flex-direction: column;
