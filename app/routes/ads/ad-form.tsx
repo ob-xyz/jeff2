@@ -17,7 +17,7 @@ export default function Index() {
             <h4>ADVERTISE WITH US</h4>
             <h1>Reach 12k+</h1>
           </div>
-                      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+                      <form method="post" action="https://app.thepoast.com/subscription/form">
                         <input className="email mb" type="text" name="firstName" required placeholder="First Name *" />
                         <input className="email mb" type="text" name="lastName" required placeholder="Last Name *" />
                         <input className="email mb" type="text" name="company" required placeholder="Company *" />
