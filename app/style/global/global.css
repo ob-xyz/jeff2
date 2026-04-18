@@ -76,18 +76,15 @@
   -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
 }
-.container .header h1 {
-  font-size: 6rem;
+.container .header .logo {
+  width: 36.5rem;
   color: #fff;
   margin: 0;
-  margin-top: 1.5rem;
-  margin-bottom: -0.5rem;
-  background: linear-gradient(0deg, #000 11%, rgb(255, 255, 255) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .container .header p {
+  margin-top: 0.35rem;
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
@@ -185,8 +182,8 @@
 }
 
 @media (max-width: 720px) {
-  .container .header h1 {
-    font-size: 3rem;
+  .container .header .logo {
+    width: 20rem;
   }
   .container .header p {
     font-size: 1.1rem;
@@ -254,18 +251,15 @@
   -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
 }
-.subscribe-container .header h1 {
-  font-size: 6rem;
+.subscribe-container .header .logo {
+  width: 36.5rem;
   color: #fff;
   margin: 0;
-  margin-top: 1.5rem;
-  background: linear-gradient(0deg, #000 11%, rgb(255, 255, 255) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .subscribe-container .header p {
-  margin-top: -0.5rem;
+  margin-top: 0.35rem;
   margin-bottom: 5rem;
   font-size: 2rem;
   font-weight: 100;
@@ -413,8 +407,8 @@
 }
 
 @media (max-width: 720px) {
-  .subscribe-container .header h1 {
-    font-size: 3rem;
+  .subscribe-container .header .logo {
+    width: 20rem;
   }
   .subscribe-container .header p {
     font-size: 1.1rem;

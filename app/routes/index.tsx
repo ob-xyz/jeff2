@@ -5,12 +5,12 @@ import x from "~/../public/img/social/x.png";
 import ig from "~/../public/img/social/instagram.png";
 import yt from "~/../public/img/social/youtube.png";
 import j from "~/../public/img/ja7.png";
-
+import tp from "~/../public/img/ja2.png";
 export default function Index() {
   return (
     <div className="container">
       <div className="header">
-        <h1>The Poast</h1>
+        <img className="logo" src={tp} alt="The Poast Logo" />
         <p>Canadian business news in 1-minute</p>
         <p>Join 12k+ weekly readers</p>
         <div className="outer-header">
@@ -34,7 +34,7 @@ export default function Index() {
              <Link to="/subscribe">Subscribe</Link>
           </div>
         </div>
-          <img className="headerimg" src={j} alt="Instagram" />
+          <img className="headerimg" src={j} alt="The Poast" />
       </div>
     </div>
   );
