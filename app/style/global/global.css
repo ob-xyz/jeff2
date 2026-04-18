@@ -191,6 +191,7 @@
   }
   .container .header .headerimg {
     width: 100%;
+    margin-top: 3rem;
   }
   .container .header .outer-header {
     flex-direction: column;
