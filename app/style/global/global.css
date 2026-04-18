@@ -412,10 +412,10 @@
 }
 
 @media (max-width: 720px) {
-  .subscribe-container h1 {
+  .subscribe-container .header h1 {
     font-size: 3rem;
   }
-  .subscribe-container p {
+  .subscribe-container .header p {
     font-size: 1.25rem;
   }
   .subscribe-container .header .headerimg {
