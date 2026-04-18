@@ -57,14 +57,13 @@ $orange-bottom: #f2e2ca;
         color: #fff;
         margin: 0;
         margin-top:1.5rem;
+        margin-bottom:-.5rem;
         background: linear-gradient(0deg,#FF4D4D 10%, rgb(255, 255, 255) 62.5%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
       }
       p {
-        margin-top: -.5rem;
-        margin-bottom: 5rem;
         font-size: 2rem;
         font-weight: 100;
         font-family: ku;
@@ -75,7 +74,6 @@ $orange-bottom: #f2e2ca;
       }
 
       .headerimg{
-        position: relative;
         margin: 0 auto;
         width: 47.5%;
         margin-top: 3.75rem;
@@ -83,7 +81,8 @@ $orange-bottom: #f2e2ca;
     .outer-header{
       display: flex; 
       position: sticky;
-      margin-top:-2rem;
+      margin-top:2.75rem; 
+
       .inner-header {
         display: flex;
         align-items: center;

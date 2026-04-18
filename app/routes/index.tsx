@@ -12,6 +12,7 @@ export default function Index() {
       <div className="header">
         <h1>The Poast</h1>
         <p>Canadian business news in 1-minute</p>
+        <p>Join 12k+ weekly readers</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
