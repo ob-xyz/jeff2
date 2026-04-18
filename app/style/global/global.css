@@ -184,6 +184,7 @@
 @media (max-width: 720px) {
   .container .header .logo {
     width: 20rem;
+    margin-bottom: 0.35rem;
   }
   .container .header p {
     font-size: 1.1rem;
@@ -414,6 +415,7 @@
 @media (max-width: 720px) {
   .subscribe-container .header .logo {
     width: 20rem;
+    margin-bottom: 0.35rem;
   }
   .subscribe-container .header p {
     font-size: 1.1rem;
