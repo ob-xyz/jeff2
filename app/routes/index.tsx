@@ -3,7 +3,7 @@ import { Link } from "@remix-run/react";
 import li from "~/../public/img/social/linkedin.png";
 import x from "~/../public/img/social/x.png";
 import ig from "~/../public/img/social/instagram.png";
-import yt from "~/../public/img/social/youtube.png";
+import info from "~/../public/img/social/info.png";
 import j from "~/../public/img/ja7.png";
 import tp from "~/../public/img/ja2.png";
 export default function Index() {
@@ -25,6 +25,9 @@ export default function Index() {
               <a className="li" href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
                 <img src={li} alt="LinkedIn" />
               </a>
+              <Link className="info" to="/info">
+                <img src={info} alt="More Info" />
+              </Link>
             </div>
           </div>
           <div className="inner-header2">

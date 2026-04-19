@@ -3,6 +3,7 @@
 '../global/Buttons.scss',
 '../scss/index.scss',
 '../scss/subscribe.scss',
+'../scss/info.scss',
 '../scss/ads/ad-form.scss',
 '../scss/ads/advertise-with-us.scss',
 '../scss/policies/privacy.scss',
@@ -21,7 +22,6 @@ body {
   background-color: #fff7ed;
 }
 body {
-  overflow-y: hidden;
   overflow-x: hidden;
 }   
 main{

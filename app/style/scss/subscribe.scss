@@ -4,6 +4,10 @@ $icon-bg:  linear-gradient(0deg,rgba(242, 209, 159, 1) 21%, rgba(255, 255, 255, 
 $orange-top: #f5f0e8; 
 $orange-bottom: #f2e2ca;
 
+body{
+    overflow-y:hidden;
+}
+
 .subscribe-container{
     display:flex;
     flex-direction: column;
@@ -136,7 +140,7 @@ a {
     background: #1E66C2; 
   }
 }
-.yt{
+.info{
   &:hover {
     background: #FF0034; 
   }
