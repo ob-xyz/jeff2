@@ -62,7 +62,7 @@ export default function Index() {
                 </a>
             </div>
             <div className="subscribe">
-                <h1>Get Jeffamazon</h1>
+                <h1>Get The Poast</h1>
                 <div className="logo-grid">
                     <form method="post" action="https://app.jeffamzn.com/subscription/form">
                     <div className="input-wrapper">
@@ -73,7 +73,7 @@ export default function Index() {
                         <button className="submit" type="submit">Subscribe</button>
                     </div>
                     <Altcha />
-                    <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+                    <input id="bcd05" type="hidden" name="l" value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
                     <input type="hidden" name="nonce" />
                     </form>
                 </div>
