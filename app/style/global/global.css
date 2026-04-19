@@ -375,7 +375,7 @@ body {
 }
 .subscribe-container .header form .input-wrapper {
   position: relative;
-  width: 32rem;
+  width: 36.25rem;
   margin-bottom: 0.25rem;
 }
 .subscribe-container .header form input.email {
