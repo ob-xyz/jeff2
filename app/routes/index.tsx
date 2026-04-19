@@ -5,7 +5,7 @@ import x from "~/../public/img/social/x.png";
 import ig from "~/../public/img/social/instagram.png";
 import info from "~/../public/img/social/info.png";
 import j from "~/../public/img/ja7.png";
-import tp from "~/../public/img/ja2.png";
+import tp from "~/../public/img/ja1.png";
 export default function Index() {
   return (
     <div className="container">

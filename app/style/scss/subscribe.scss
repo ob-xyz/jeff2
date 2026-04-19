@@ -49,16 +49,13 @@ body{
       display: flex;
       flex-direction: column;
       align-items: center;
-      background: linear-gradient(180deg,rgb(0, 0, 0) 21%, rgb(91, 91, 91) 120%);
+      background: linear-gradient(180deg,#fff 82.5%, #000000 100%);
       width: 100%;
       height: 100vh;
-      padding-left:1.5rem;
-      padding-right:1.5rem;
       -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
       mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
       .logo {
-        width: 36.5rem;
-        color: #fff;
+        width: 20rem;
         margin: 0;
         margin-top:2rem;
         margin-bottom: 1rem;
@@ -69,7 +66,7 @@ body{
         font-size: 2rem;
         font-weight: 100;
         font-family: ku;
-        background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgba(255, 255, 255, 1) 100%);
+        background: #000;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -106,8 +103,6 @@ body{
 .social {
   display: flex;
   gap: .75rem;
-  margin-right: auto; 
-  margin-right: 0;
 a {
   display: flex;
   justify-content: center;
@@ -158,18 +153,17 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
     margin-left: 1.5rem;
       a {
       border-radius: .75rem;
-      padding: 1.2rem 3rem;
+      padding: 1.2rem 6rem;
       font-size: 2.5rem;
       font-family: ku;
       font-weight: 100;
       color:#fff;
       transition: all 0.3s ease;
-    background: linear-gradient(0deg,#000 21%, rgba(255, 255, 255, 1) 100%);
+      background: linear-gradient(0deg,#000 21%, rgba(255, 255, 255, 1) 100%);
 
       &:hover {
           transform: none;
-          box-shadow: 0 0 20px 8px rgba(242, 159, 159, 0.7);
-          filter: brightness(1.1);
+          box-shadow: 0 0 20px 8px rgb(255, 113, 113);
         }
   }
 }
@@ -178,7 +172,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
   margin-top:.5rem;
   .input-wrapper {
     position: relative;
-    width: 36.25rem;
+    width: 42.25rem;
     margin-bottom:.25rem;
   }
   input.email {
@@ -201,7 +195,10 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
     }
   }
   altcha-widget {
-      color:#fafafa;
+      color:#fff;
+      --altcha-color-base: linear-gradient(0deg,#000 21%, rgba(255, 255, 255, 1) 100%);
+      --altcha-border-radius: .75rem;
+      --altcha-caret-color: #000;
   }
   button.submit {
     position: absolute;
@@ -221,8 +218,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 
       &:hover {
           transform: none;
-          box-shadow: 0 0 20px 8px rgba(242, 159, 159, 0.7);
-          filter: brightness(1.1);
+          box-shadow: 0 0 20px 8px rgb(255, 113, 113);
         }
   }
 }
