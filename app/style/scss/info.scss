@@ -40,7 +40,7 @@
         align-items: center;
         width: 100%;
         background: $dock-bg;
-        border: 1px solid #444;
+        border: 1px solid #212121;
         border-radius: .75rem;
         padding: .75rem 1.5rem .75rem 1.5rem;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -204,7 +204,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
     }
 
     .logo-grid {
-      border: .25rem solid #fff;
+      border: 2px solid #212121;
       border-radius: .75rem;
       margin:0 auto;
     form {
@@ -223,7 +223,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         font-family: ku;
         font-weight: 100;       
         background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgba(255, 255, 255, 1) 120%);
-
+        
         &:focus {
           outline: none;
           box-shadow: 0 0 1px 1px #02090A;
