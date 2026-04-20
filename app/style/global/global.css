@@ -644,8 +644,9 @@ body {
   font-weight: 100;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid {
-  border: 2px solid #1a1a1a;
+  border: 0.25rem solid #fff;
   border-radius: 0.75rem;
+  margin: 0 auto;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form .input-wrapper {
   position: relative;
