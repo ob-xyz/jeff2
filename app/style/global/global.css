@@ -93,7 +93,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  width: 65%;
+  width: 55%;
 }
 .container .modal-overlay p:nth-child(3),
 .container .modal-overlay p:nth-child(5) {
@@ -101,7 +101,7 @@ body {
   font-weight: 700;
   font-size: 1.15rem;
   margin: 1rem auto;
-  width: 75%;
+  width: 60%;
 }
 .container .modal-content {
   background: #000;
@@ -281,11 +281,12 @@ body {
   }
   .container .modal-overlay p {
     font-size: 1.4rem;
+    width: 85%;
   }
   .container .modal-overlay p:nth-child(4),
   .container .modal-overlay p:nth-child(6) {
     font-size: 1.4rem;
-    width: 85%;
+    width: 100%;
   }
   .container .modal-content {
     margin: 0 1.5rem;
