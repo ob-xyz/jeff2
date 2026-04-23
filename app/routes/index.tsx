@@ -62,7 +62,7 @@ export default function Index() {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img className="logo" src={tp} alt="The Poast Logo" />
             <p>Subscribe to The Poast's free newsletter</p>
-            <p>Get the current thing in Canada every morning, plus top interviews and exclusive subscriber-only news</p>
+            <p>Get the latest thing in Canada every morning, plus top interviews and exclusive subscriber-only news</p>
             
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper">
