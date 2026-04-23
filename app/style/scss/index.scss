@@ -78,6 +78,9 @@ body{
         margin:1rem auto;
         width:52.5%;
       }
+      p:nth-child(5){
+        cursor: pointer;
+      }
 }
 
 .modal-content {
@@ -131,7 +134,7 @@ body{
     font-family: ku;
     font-weight: 100;
     background: linear-gradient(0deg,#000 21%, rgba(255, 255, 255, 1) 100%);
-
+    cursor: pointer;
       &:hover {
           transform: none;          
           background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
