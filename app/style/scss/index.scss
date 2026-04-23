@@ -44,6 +44,102 @@ body{
     a{
       font-family: kl;
     }
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+      .logo {
+        width: 15rem;
+        margin-top:2rem;
+        margin-bottom: 1rem;
+        filter: invert(1);
+      }
+      p {
+        font-size: 2rem;
+        font-weight: 100;
+        font-family: ku;
+        background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgba(255, 255, 255, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        width:65%;
+      }
+      p:nth-child(3),
+      p:nth-child(5){
+        font-family: kl;
+        font-weight: 700;
+        font-size:1.15rem;
+        margin:1rem auto;
+        width:75%;
+      }
+}
+
+.modal-content {
+  background: #000;
+  margin:0 17.5rem;
+  padding:0rem 1.5rem;
+  padding-bottom:1.5rem;
+  border-radius: .75rem;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+
+  form {
+  .input-wrapper {
+    position: relative;
+    width: 36.25rem;
+  }
+  input.email {
+    width: 100%;
+    border: .15rem solid #212121;
+    border-radius: .75rem;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    padding:1rem 1.5rem;
+    font-family: ku;
+    font-weight: 100;       
+    background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgba(255, 255, 255, 1) 120%);
+    color: #fff;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 1px 1px #02090A;
+      border-color: #02090A;
+      caret-color: #02090A;
+    }
+  }
+  altcha-widget {
+      color:#fafafa;
+  }
+  button.submit {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0 2.65rem;
+    margin: .35rem; 
+    color: #fff;
+    border: none;
+    border-radius: .75rem;
+    font-size: 1.5rem;
+    font-family: ku;
+    font-weight: 100;
+    background: linear-gradient(0deg,#000 21%, rgba(255, 255, 255, 1) 100%);
+
+      &:hover {
+          transform: none;          
+          background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
+          box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+        }
+  }
+}
+}
 
     .header{
       display: flex;
@@ -178,6 +274,39 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 
 @media (max-width: 720px) {
 .container{
+    .modal-overlay {        
+      .logo {
+        width:12.5rem;
+        margin-bottom:.35rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+      p:nth-child(4),
+      p:nth-child(6){
+        font-size:1.4rem;
+        width:85%;
+      }
+}
+
+.modal-content {
+    margin:0 1.5rem;
+
+  form {
+  margin-top:.75rem;
+  .input-wrapper {
+    position: relative;
+    width: 22rem;
+  }
+    input.email{
+      font-size: 1.25rem;
+    }
+    button.submit {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+  }
+}
+}
     .header{
       .logo {
         width:20rem;

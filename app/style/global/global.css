@@ -68,6 +68,96 @@ body {
 .container a {
   font-family: kl;
 }
+.container .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.container .modal-overlay .logo {
+  width: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  filter: invert(1);
+}
+.container .modal-overlay p {
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: ku;
+  background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgb(255, 255, 255) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 65%;
+}
+.container .modal-overlay p:nth-child(3),
+.container .modal-overlay p:nth-child(5) {
+  font-family: kl;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 1rem auto;
+  width: 75%;
+}
+.container .modal-content {
+  background: #000;
+  margin: 0 17.5rem;
+  padding: 0rem 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.container .modal-content form .input-wrapper {
+  position: relative;
+  width: 36.25rem;
+}
+.container .modal-content form input.email {
+  width: 100%;
+  border: 0.15rem solid #212121;
+  border-radius: 0.75rem;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem;
+  font-family: ku;
+  font-weight: 100;
+  background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgb(255, 255, 255) 120%);
+  color: #fff;
+}
+.container .modal-content form input.email:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #02090A;
+  border-color: #02090A;
+  caret-color: #02090A;
+}
+.container .modal-content form altcha-widget {
+  color: #fafafa;
+}
+.container .modal-content form button.submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0 2.65rem;
+  margin: 0.35rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.5rem;
+  font-family: ku;
+  font-weight: 100;
+  background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
+}
+.container .modal-content form button.submit:hover {
+  transform: none;
+  background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
+  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+}
 .container .header {
   display: flex;
   flex-direction: column;
@@ -185,6 +275,35 @@ body {
 }
 
 @media (max-width: 720px) {
+  .container .modal-overlay .logo {
+    width: 12.5rem;
+    margin-bottom: 0.35rem;
+  }
+  .container .modal-overlay p {
+    font-size: 1.4rem;
+  }
+  .container .modal-overlay p:nth-child(4),
+  .container .modal-overlay p:nth-child(6) {
+    font-size: 1.4rem;
+    width: 85%;
+  }
+  .container .modal-content {
+    margin: 0 1.5rem;
+  }
+  .container .modal-content form {
+    margin-top: 0.75rem;
+  }
+  .container .modal-content form .input-wrapper {
+    position: relative;
+    width: 22rem;
+  }
+  .container .modal-content form input.email {
+    font-size: 1.25rem;
+  }
+  .container .modal-content form button.submit {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+  }
   .container .header .logo {
     width: 20rem;
     margin-bottom: 0.35rem;
@@ -373,7 +492,6 @@ body {
 }
 .subscribe-container .header form input.email {
   width: 100%;
-  color: #000;
   border: 0.15rem solid #212121;
   border-radius: 0.75rem;
   font-size: 1.5rem;
@@ -382,6 +500,7 @@ body {
   font-family: ku;
   font-weight: 100;
   background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgb(255, 255, 255) 120%);
+  color: #fff;
 }
 .subscribe-container .header form input.email:focus {
   outline: none;
@@ -655,7 +774,6 @@ body {
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email {
   width: 100%;
-  color: #000;
   border: 0.15rem solid #212121;
   border-radius: 0.75rem;
   font-size: 1.5rem;
@@ -664,6 +782,7 @@ body {
   font-family: ku;
   font-weight: 100;
   background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgb(255, 255, 255) 120%);
+  color: #fff;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email:focus {
   outline: none;
