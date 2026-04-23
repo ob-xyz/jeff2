@@ -68,15 +68,15 @@ body{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        width:45%;
+        width:55%;
       }
       p:nth-child(3),
       p:nth-child(5){
         font-family: kl;
-        font-weight: 700;
+        font-weight: 700; 
         font-size:1.15rem;
         margin:1rem auto;
-        width:55%;
+        width:60%;
       }
 }
 
@@ -280,12 +280,12 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         margin-bottom:.35rem;
       }
       p {
-        font-size: 1.4rem;
-        width:100%;
+        font-size: 1.1rem;
+        width:50%;
       }
-      p:nth-child(4),
-      p:nth-child(6){
-        font-size:1.4rem;
+      p:nth-child(3),
+      p:nth-child(5){
+        font-size: 1.1rem;
         width:100%;
       }
 }
