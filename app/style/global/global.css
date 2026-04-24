@@ -178,10 +178,10 @@ body {
   width: 21.75rem;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .container .header p {
-  margin-top: 0.35rem;
+  margin-top: 0.15rem;
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
@@ -390,10 +390,10 @@ body {
   width: 21.75rem;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .subscribe-container .header p {
-  margin-top: 0.35rem;
+  margin-top: 0.15rem;
   margin-bottom: 5rem;
   font-size: 2rem;
   font-weight: 100;
@@ -601,11 +601,11 @@ body {
   width: 21.75rem;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .moreinfo-container .header p {
   margin: 0;
-  margin-top: 0.35rem;
+  margin-top: 0.15rem;
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
