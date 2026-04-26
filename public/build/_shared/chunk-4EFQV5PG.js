@@ -11,7 +11,7 @@ var instagram_default = "/build/_assets/instagram-NEV5BMHS.png";
 var info_default = "/build/_assets/info-FQKLT5OI.png";
 
 // public/img/ja1.png
-var ja1_default = "/build/_assets/ja1-YVLNDM6P.png";
+var ja1_default = "/build/_assets/ja1-ILYKMVYL.png";
 
 export {
   linkedin_default,
@@ -20,4 +20,4 @@ export {
   info_default,
   ja1_default
 };
-//# sourceMappingURL=/build/_shared/chunk-LDFAMEKQ.js.map
+//# sourceMappingURL=/build/_shared/chunk-4EFQV5PG.js.map

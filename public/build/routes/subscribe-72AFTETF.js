@@ -10,7 +10,7 @@ import {
   ja1_default,
   linkedin_default,
   x_default
-} from "/build/_shared/chunk-LDFAMEKQ.js";
+} from "/build/_shared/chunk-4EFQV5PG.js";
 import {
   Link
 } from "/build/_shared/chunk-ROHSLC5J.js";
@@ -160,4 +160,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-SP36QSAK.js.map
+//# sourceMappingURL=/build/routes/subscribe-72AFTETF.js.map
