@@ -98,7 +98,6 @@ body {
   width: 15rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  filter: invert(1);
 }
 .container .modal-overlay p {
   font-size: 2rem;
@@ -190,7 +189,7 @@ body {
   mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
 }
 .container .header .logo {
-  width: 21.75rem;
+  width: 4rem;
   margin: 0;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -295,7 +294,7 @@ body {
 
 @media (max-width: 720px) {
   .container .modal-overlay .logo {
-    width: 12.5rem;
+    width: 3.25rem;
     margin-bottom: 0.35rem;
   }
   .container .modal-overlay p {
@@ -325,7 +324,7 @@ body {
     font-size: 1.25rem;
   }
   .container .header .logo {
-    width: 20rem;
+    width: 3.25rem;
     margin-bottom: 0.35rem;
   }
   .container .header p {
@@ -402,7 +401,7 @@ body {
   mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
 }
 .subscribe-container .header .logo {
-  width: 21.75rem;
+  width: 4rem;
   margin: 0;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -558,7 +557,7 @@ body {
 
 @media (max-width: 720px) {
   .subscribe-container .header .logo {
-    width: 20rem;
+    width: 3.25rem;
     margin-bottom: 0.35rem;
   }
   .subscribe-container .header p {
@@ -613,7 +612,7 @@ body {
   mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
 }
 .moreinfo-container .header .logo {
-  width: 21.75rem;
+  width: 4rem;
   margin: 0;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -841,7 +840,7 @@ body {
 
 @media (min-width: 751px) and (max-width: 950px) {
   .moreinfo-container .header .logo {
-    width: 20rem;
+    width: 3.25rem;
     margin-bottom: 0.35rem;
   }
   .moreinfo-container .header p {
@@ -902,7 +901,7 @@ body {
 }
 @media (max-width: 750px) {
   .moreinfo-container .header .logo {
-    width: 20rem;
+    width: 3.25rem;
     margin-bottom: 0.35rem;
   }
   .moreinfo-container .header p {

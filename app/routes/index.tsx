@@ -9,6 +9,7 @@ import ig from "~/../public/img/social/instagram.png";
 import info from "~/../public/img/social/info.png";
 import j from "~/../public/img/ja7.png";
 import tp from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja.png";
 
 export async function action({ request }: ActionFunctionArgs) {
   const formData = await request.formData();
@@ -84,9 +85,9 @@ export default function Index() {
 
       {/* HEADER SECTION */}
       <div className="header">
-        <img className="logo" src={tp} alt="The Poast Logo" />
+        <img className="logo" src={logo} alt="The Poast Logo" />
         <p>Tech news in 1-minute</p>
-        <p>Join 33k+ weekly readers</p>
+        <p>Join 12k+ daily readers</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">

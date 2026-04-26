@@ -9,7 +9,7 @@ import li from "~/../public/img/social/linkedin.png";
 import x from "~/../public/img/social/x.png";
 import ig from "~/../public/img/social/instagram.png";
 import info from "~/../public/img/social/info.png";
-import tp from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja.png";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: scroll },
@@ -18,7 +18,7 @@ export default function Index() {
   return (
     <div className="moreinfo-container">
       <div className="header">
-        <img className="logo" src={tp} alt="The Poast Logo" />
+        <img className="logo" src={logo} alt="The Poast Logo" />
         <p>Tech news in 1-minute</p>
         <div className="outer-header">
           <div className="inner-header">
