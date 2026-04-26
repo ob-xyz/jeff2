@@ -62,7 +62,6 @@ body{
       }
       p {
         margin-top:.15rem;
-        margin-bottom: 5rem;
         font-size: 2rem;
         font-weight: 100;
         font-family: ku;
@@ -75,12 +74,12 @@ body{
       .headerimg{
         margin: 0 auto;
         width: 47.5%;
-        margin-top:2rem;
+        margin-top:-2rem;
       }
     .outer-header{
       display: flex; 
       position: sticky;
-      margin-top:-2rem;
+      margin-top:2rem;
       .inner-header {
         display: flex;
         align-items: center;
