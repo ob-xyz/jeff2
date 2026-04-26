@@ -126,7 +126,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 .inner-container {
   background: #000;
   border-radius: 2.5rem;
-  margin:0rem 15rem;
+  margin:0rem 10rem;
   box-shadow: 0px 0px 50px 0px rgba($light-red, 0.9);
   margin-bottom: 10rem;
   padding-bottom:2.5rem;
@@ -139,7 +139,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
   display: flex;
   justify-content: space-between;
   padding: 0 2rem;
-  margin:2.5rem auto;
+  margin:1rem auto;
   gap: 2rem;
   
 .profile {
@@ -268,28 +268,21 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 @media (min-width: 751px) and (max-width: 950px) {
 .moreinfo-container{
     .header{
-      .logo {
-        width:3.25rem;
-        margin-bottom:.35rem;
+     h1 {
+        font-size: 3rem;
       }
       p {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
       }
-      .headerimg{
-        width: 100%;
-        margin-top: 3rem;
-      }
+
     .outer-header{
       flex-direction: column;
-      .inner-header {
-        .social {
-          margin-right: auto; 
-          margin-right: auto;
-        }
-      }
   .inner-header2{
     margin-left: auto;
     margin-top:.75rem;
+      a {
+      padding: 1.2rem 7rem;
+  }
 }
 }
 }
@@ -300,9 +293,9 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 
 .profile-outside{
   flex-direction: column;
-  margin-top:1.5rem;
-
+  margin-top:-1rem;
 .profile {
+  margin-top:2rem;
   margin-left:0; 
   img {
     margin-left:0; 
@@ -349,36 +342,35 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         width:3.25rem;
         margin-bottom:.35rem;
       }
-      p {
-        font-size: 1.1rem;
+     h1 {
+        font-size: 3rem;
       }
+      p {
+        font-size: 1.4rem;
+      }
+
     .outer-header{
       flex-direction: column;
-      .inner-header {
-        .social {
-          margin-right: auto; 
-          margin-right: auto;
-        }
-      }
   .inner-header2{
     margin-left: auto;
     margin-top:.75rem;
-   a {
-    padding: 1.2rem 7rem;
-   }
+      a {
+      padding: 1.2rem 7rem;
+  }
 }
 }
 }
 .inner-container {
   margin:0rem .5rem;
   margin-bottom: 20rem;
-  padding-bottom:5rem;
+  padding-bottom:2rem;
 
 .profile-outside{
   flex-direction: column;
-  margin-top:1.5rem;
+  margin-top:-1rem;
 .profile {
-  margin-left:0; 
+  margin: 0 auto; 
+  margin-top:2rem;
   img {
     margin-left:0; 
     }
@@ -390,7 +382,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
   }
 }
 .subscribe {
-    padding-top:2rem;
+    padding-top:2.5rem;
     border-top: 2px solid #1a1a1a;
     margin-top: 0;
     h1 {

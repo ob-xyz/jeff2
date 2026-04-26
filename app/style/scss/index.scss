@@ -292,10 +292,6 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 @media (max-width: 720px) {
 .container{
     .modal-overlay {        
-      .logo {
-        width:3.25rem;
-        margin-bottom:.35rem;
-      }
       p {
         font-size: 1.1rem;
         width:75%;
@@ -331,7 +327,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         margin-bottom:.35rem;
       }
       p {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
       }
       .headerimg{
         width: 100%;
