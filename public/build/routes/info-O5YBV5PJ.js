@@ -10,7 +10,7 @@ import {
   ja1_default,
   linkedin_default,
   x_default
-} from "/build/_shared/chunk-IQUXFZ5V.js";
+} from "/build/_shared/chunk-LDFAMEKQ.js";
 import {
   Link
 } from "/build/_shared/chunk-ROHSLC5J.js";
@@ -22,7 +22,7 @@ import {
 } from "/build/_shared/chunk-IU43IUTG.js";
 
 // public/img/tpbg.png
-var tpbg_default = "/build/_assets/tpbg-QOAUNQDE.png";
+var tpbg_default = "/build/_assets/tpbg-NEHNHT5S.png";
 
 // public/img/cs.jpg
 var cs_default = "/build/_assets/cs-3THKTAXS.jpg";
@@ -40,7 +40,7 @@ function Index() {
         lineNumber: 21,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Canada's national news feed" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Tech news in 1-minute" }, void 0, false, {
         fileName: "app/routes/info.tsx",
         lineNumber: 22,
         columnNumber: 9
@@ -249,4 +249,4 @@ export {
   Index as default,
   links
 };
-//# sourceMappingURL=/build/routes/info-KZSQLQQX.js.map
+//# sourceMappingURL=/build/routes/info-O5YBV5PJ.js.map

@@ -1,13 +1,13 @@
 import {
   ja7_default
-} from "/build/_shared/chunk-RCFUYL7B.js";
+} from "/build/_shared/chunk-QHE6RA35.js";
 import {
   info_default,
   instagram_default,
   ja1_default,
   linkedin_default,
   x_default
-} from "/build/_shared/chunk-IQUXFZ5V.js";
+} from "/build/_shared/chunk-LDFAMEKQ.js";
 import {
   Link
 } from "/build/_shared/chunk-ROHSLC5J.js";
@@ -32,7 +32,7 @@ function Index() {
       lineNumber: 15,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 33k+ weekly readers" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 12k+ daily readers" }, void 0, false, {
       fileName: "app/routes/$.tsx",
       lineNumber: 16,
       columnNumber: 9
@@ -125,4 +125,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/$-MZAHDUS3.js.map
+//# sourceMappingURL=/build/routes/$-4VD5S2UN.js.map

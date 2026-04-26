@@ -33,8 +33,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "The Poast \u2014 Canadian, Tech, Policy and Business News",
-  description: "Subscribe to The Poast. Canada's Free Newsletter. Get today's tech, policy and business news, plus one trending podcast and exclusive subscriber-only insights.",
+  title: "The Poast \u2014 Tech News",
+  description: "Subscribe to The Poast. Free Tech Newsletter. Get today's tech news, plus one trending podcast and exclusive subscriber-only insights.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -92,4 +92,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-NJS64JJK.js.map
+//# sourceMappingURL=/build/root-UBEP42XS.js.map

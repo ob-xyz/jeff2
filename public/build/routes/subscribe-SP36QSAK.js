@@ -3,14 +3,14 @@ import {
 } from "/build/_shared/chunk-552RS725.js";
 import {
   ja7_default
-} from "/build/_shared/chunk-RCFUYL7B.js";
+} from "/build/_shared/chunk-QHE6RA35.js";
 import {
   info_default,
   instagram_default,
   ja1_default,
   linkedin_default,
   x_default
-} from "/build/_shared/chunk-IQUXFZ5V.js";
+} from "/build/_shared/chunk-LDFAMEKQ.js";
 import {
   Link
 } from "/build/_shared/chunk-ROHSLC5J.js";
@@ -30,7 +30,7 @@ function Index() {
       lineNumber: 14,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Canada's national news feed" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Tech news in 1-minute" }, void 0, false, {
       fileName: "app/routes/subscribe.tsx",
       lineNumber: 15,
       columnNumber: 9
@@ -160,4 +160,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-LQTGAZBV.js.map
+//# sourceMappingURL=/build/routes/subscribe-SP36QSAK.js.map
