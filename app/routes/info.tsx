@@ -19,7 +19,7 @@ export default function Index() {
     <div className="moreinfo-container">
       <div className="header">
         <img className="logo" src={tp} alt="The Poast Logo" />
-        <p>Canada's national news feed</p>
+        <p>Tech news in 1-minute</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
