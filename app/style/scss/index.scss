@@ -325,6 +325,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
       .logo {
         width:3.25rem;
         margin-bottom:.35rem;
+        margin-top: .75rem;
       }
       p {
         font-size: 1.4rem;
@@ -335,6 +336,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
       }
     .outer-header{
       flex-direction: column;
+      margin-top: 2.25rem;
       .inner-header {
         .social {
           margin-right: auto; 
