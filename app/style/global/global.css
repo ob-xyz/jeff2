@@ -199,10 +199,13 @@ body {
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
-  background: #000;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+}
+.container .header p a,
+.container .header p a:link,
+.container .header p a:visited {
+  font-weight: 700;
+  text-decoration: underline !important;
+  color: #000;
 }
 .container .header .headerimg {
   margin: 0 auto;

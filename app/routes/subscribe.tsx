@@ -12,7 +12,7 @@ export default function Index() {
     <div className="subscribe-container">
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
-        <p>Tech news in 1-minute</p>
+        <p>Understand tech in 1-minute</p>
         <p>Subscribe for free</p>
         <div className="outer-header">
           <div className="inner-header">

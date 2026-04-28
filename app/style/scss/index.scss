@@ -180,10 +180,13 @@ body{
         font-size: 2rem;
         font-weight: 100;
         font-family: ku;
-        background: #000;
-        -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+      }
+      p a, 
+      p a:link, 
+      p a:visited {
+          font-weight: 700;
+          text-decoration: underline !important;
+          color: #000;
       }
 
       .headerimg{

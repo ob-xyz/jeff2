@@ -86,8 +86,9 @@ export default function Index() {
       {/* HEADER SECTION */}
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
-        <p>Tech news in 1-minute</p>
-        <p>Join 38k+ daily readers</p>
+        <p>Understand tech in 1-minute</p>
+        <p>Join 38,000 daily readers</p>
+        <p>Get our <Link to="/today">one daily email</Link></p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
