@@ -12,7 +12,7 @@ return (
         <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content-privacy2">
-        <h2><span>Privacy Policy.</span><br />Effective: September 1, 2025.</h2>
+        <h2><span>Terms and Conditions.</span><br />Effective: April 5, 2025.</h2>
         <p>The Poast respects your privacy and values your trust. This Privacy Policy (“Policy”) describes how we collect and use your information and explains your rights and options. This Policy applies to these services (which we call the “Services” in this Policy):</p>
         <ul>
           <li>websites, the The Poast Store, paid products</li>
