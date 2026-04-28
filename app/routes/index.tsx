@@ -100,7 +100,7 @@ export default function Index() {
               <a className="li" href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
                 <img src={li} alt="LinkedIn" />
               </a>
-              <Link className="info" to="/info">
+              <Link className="info" to="/p/chrissignore">
                 <img src={info} alt="More Info" />
               </Link>
             </div>
