@@ -24,12 +24,12 @@
         font-size: 2rem;
         font-weight: 100;
         font-family: ku;
-        background: #000;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
       }
-
+      p a {
+          font-weight: 700;
+          text-decoration: underline !important;
+          color: #000;
+      }
     .outer-header{
       display: flex; 
       position: sticky;

@@ -200,9 +200,7 @@ body {
   font-weight: 100;
   font-family: ku;
 }
-.container .header p a,
-.container .header p a:link,
-.container .header p a:visited {
+.container .header p a {
   font-weight: 700;
   text-decoration: underline !important;
   color: #000;
@@ -623,10 +621,11 @@ body {
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
-  background: #000;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+}
+.moreinfo-container .header p a {
+  font-weight: 700;
+  text-decoration: underline !important;
+  color: #000;
 }
 .moreinfo-container .header .outer-header {
   display: flex;

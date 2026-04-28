@@ -62,8 +62,8 @@ export default function Index() {
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img className="logo" src={tp} alt="The Poast Logo" />
-            <p>Subscribe to The Poast's free newsletter</p>
-            <p>Get today's tech news, plus one quick pod, and exclusive subscriber-only insights</p>
+            <p>Subscribe to The Poast's free daily email</p>
+            <p>Understand the current thing in tech in 1-minute, plus get one top podcast, and exclusive subscriber-only insights</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper">
                 <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -87,8 +87,7 @@ export default function Index() {
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
         <p>Understand tech in 1-minute</p>
-        <p>Join 38,000 daily readers</p>
-        <p>Get our <Link to="/today">one daily email</Link></p>
+        <p>Join 38k+ who read this <Link to="/today">one daily email</Link></p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
