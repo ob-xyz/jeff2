@@ -9,11 +9,11 @@ import j from "~/../public/img/ja7.png";
 import logo from "~/../public/img/ja.png";
 export default function Index() {
   return (
-    <div className="subscribe-container">
+    <div className="ads-container">
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
-        <p>Tech news in 1-minute</p>
-        <p>Subscribe for free</p>
+        <p>Advertise with us</p>
+        <p>Reach 38k daily readers</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
@@ -40,11 +40,11 @@ export default function Index() {
             <input className="email" type="text" name="firstName" placeholder="Your Name *" />
           </div>
           <div className="input-wrapper">
-            <input className="email" type="email" name="email" required placeholder="Email Address *" />
-            <button className="submit" type="submit">Subscribe</button>
+            <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
+            <button className="submit" type="submit">Submit</button>
           </div>
           <Altcha />
-          <input id="6d48f" type="hidden" name="l" checked value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+          <input id="bcd05" type="hidden" name="l" checked value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
           <input type="hidden" name="nonce" />
         </form>
           <img className="headerimg" src={j} alt="Instagram" />
