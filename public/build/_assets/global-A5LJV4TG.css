@@ -1,44 +1,43 @@
-/* FONTS */
+/* app/style/global/global.css */
 @font-face {
-  font-family: "book";
-  src: url("../global/fonts/bal-book.woff2") format("woff2");
-}
-@font-face {
-  font-family: "medium";
-  src: url("../global/fonts/bal-medium.woff2") format("woff2");
+  font-family: book;
+  src: url(/build/_assets/bal-book-RPKGHEBY.woff2) format("woff2");
 }
 @font-face {
-  font-family: "bold";
-  src: url("../global/fonts/bal-bold.woff2") format("woff2");
+  font-family: medium;
+  src: url(/build/_assets/bal-medium-X4OF47SR.woff2) format("woff2");
 }
 @font-face {
-  font-family: "arial";
-  src: url("../global/fonts/bal-arial.woff2") format("woff2");
+  font-family: bold;
+  src: url(/build/_assets/bal-bold-MFTBU4WP.woff2) format("woff2");
 }
 @font-face {
-  font-family: "bw";
-  src: url("../global/fonts/BroadwayD.woff2") format("woff2");
+  font-family: arial;
+  src: url(/build/_assets/bal-arial-AQMYFA4H.woff2) format("woff2");
 }
 @font-face {
-  font-family: "kl";
-  src: url("../global/fonts/Kinetika-Light.woff2") format("woff2");
+  font-family: bw;
+  src: url(/build/_assets/BroadwayD-OO56KZYB.woff2) format("woff2");
 }
 @font-face {
-  font-family: "ku";
-  src: url("../global/fonts/Kinetika-Ultra.woff2") format("woff2");
+  font-family: kl;
+  src: url(/build/_assets/Kinetika-Light-7UIUEB2Z.woff2) format("woff2");
 }
-body {
-  overflow-y: hidden;
+@font-face {
+  font-family: ku;
+  src: url(/build/_assets/Kinetika-Ultra-D4N5IGMQ.woff2) format("woff2");
 }
-
 .container {
   display: flex;
   flex-direction: column;
 }
 .container b {
-  font-family: "bold";
+  font-family: bold;
 }
-.container h1, .container h2, .container h3, .container span {
+.container h1,
+.container h2,
+.container h3,
+.container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -61,7 +60,8 @@ body {
   font-size: 1.35rem;
   color: #670000;
 }
-.container p, .container .text {
+.container p,
+.container .text {
   font-family: kl;
   font-size: 1.25rem;
 }
@@ -74,7 +74,7 @@ body {
   z-index: 111111;
   background: #000;
   padding: 1rem 2rem;
-  border-radius: 0.75rem;
+  border-radius: .75rem;
 }
 .container .err h1 {
   font-family: kl;
@@ -123,12 +123,12 @@ body {
 .container .modal-content {
   background: #000;
   margin: 0 17.5rem;
-  padding: 1.5rem 1.5rem;
-  border-radius: 0.75rem;
+  padding: 1.5rem;
+  border-radius: .75rem;
   text-align: center;
   width: 100%;
   color: #fff;
-  box-shadow: 0px 0px 50px 0px rgba(247, 4, 4, 0.9);
+  box-shadow: 0 0 50px #f70404e6;
 }
 .container .modal-content form .input-wrapper {
   position: relative;
@@ -136,8 +136,8 @@ body {
 }
 .container .modal-content form input.email {
   width: 100%;
-  border: 0.15rem solid #212121;
-  border-radius: 0.75rem;
+  border: .15rem solid #212121;
+  border-radius: .75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
   padding: 1rem 1.5rem;
@@ -148,23 +148,23 @@ body {
 }
 .container .modal-content form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .container .modal-content form altcha-widget {
   color: #fafafa;
 }
 .container .modal-content form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2.65rem;
-  margin: 0.35rem;
+  margin: .35rem;
   color: #fff;
   border: none;
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   font-size: 1.5rem;
   font-family: ku;
   font-weight: 100;
@@ -174,7 +174,7 @@ body {
 .container .modal-content form button.submit:hover {
   transform: none;
   background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
 .container .header {
   display: flex;
@@ -192,10 +192,10 @@ body {
   width: 4rem;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
 .container .header p {
-  margin-top: 0.15rem;
+  margin-top: .15rem;
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
@@ -221,9 +221,9 @@ body {
   width: 100%;
   background: linear-gradient(180deg, #3a3d45 0%, #000000 100%);
   border: 1px solid #444;
-  border-radius: 0.75rem;
-  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: .75rem;
+  padding: .75rem 1.5rem;
+  box-shadow: 0 10px 30px #00000080;
   justify-content: space-between;
 }
 .container .header .outer-header .inner-header h2 {
@@ -236,8 +236,7 @@ body {
 }
 .container .header .outer-header .inner-header .social {
   display: flex;
-  gap: 0.75rem;
-  margin-right: auto;
+  gap: .75rem;
   margin-right: 0;
 }
 .container .header .outer-header .inner-header .social a {
@@ -246,13 +245,13 @@ body {
   align-items: center;
   width: 4rem;
   height: 4rem;
-  border-radius: 0.75rem;
-  transition: all 0.3s ease;
+  border-radius: .75rem;
+  transition: all .3s ease;
   background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgb(255, 255, 255) 100%);
 }
 .container .header .outer-header .inner-header .social a img {
   width: 3rem;
-  transition: filter 0.3s ease;
+  transition: filter .3s ease;
   filter: invert(1);
 }
 .container .header .outer-header .inner-header .social a:hover {
@@ -278,21 +277,20 @@ body {
   margin-left: 1.5rem;
 }
 .container .header .outer-header .inner-header2 a {
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   padding: 1.2rem 3rem;
   font-size: 2.5rem;
   font-family: ku;
   font-weight: 100;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
 }
 .container .header .outer-header .inner-header2 a:hover {
   transform: none;
   background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
-
 @media (max-width: 720px) {
   .container .modal-overlay p {
     font-size: 1.1rem;
@@ -307,7 +305,7 @@ body {
     margin: 0 1.5rem;
   }
   .container .modal-content form {
-    margin-top: 0.75rem;
+    margin-top: .75rem;
   }
   .container .modal-content form .input-wrapper {
     position: relative;
@@ -322,8 +320,8 @@ body {
   }
   .container .header .logo {
     width: 3.25rem;
-    margin-bottom: 0.35rem;
-    margin-top: 0.75rem;
+    margin-bottom: .35rem;
+    margin-top: .75rem;
   }
   .container .header p {
     font-size: 1.4rem;
@@ -338,28 +336,26 @@ body {
   }
   .container .header .outer-header .inner-header .social {
     margin-right: auto;
-    margin-right: auto;
   }
   .container .header .outer-header .inner-header2 {
     margin-left: auto;
-    margin-top: 0.75rem;
+    margin-top: .75rem;
   }
   .container .header .outer-header .inner-header2 a {
     padding: 1.2rem 4.15rem;
   }
 }
-body {
-  overflow-y: hidden;
-}
-
 .subscribe-container {
   display: flex;
   flex-direction: column;
 }
 .subscribe-container b {
-  font-family: "bold";
+  font-family: bold;
 }
-.subscribe-container h1, .subscribe-container h2, .subscribe-container h3, .subscribe-container span {
+.subscribe-container h1,
+.subscribe-container h2,
+.subscribe-container h3,
+.subscribe-container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -382,7 +378,8 @@ body {
   font-size: 1.35rem;
   color: #670000;
 }
-.subscribe-container p, .subscribe-container .text {
+.subscribe-container p,
+.subscribe-container .text {
   font-family: kl;
   font-size: 1.25rem;
 }
@@ -403,10 +400,10 @@ body {
   width: 4rem;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
 .subscribe-container .header p {
-  margin-top: 0.15rem;
+  margin-top: .15rem;
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
@@ -431,9 +428,9 @@ body {
   width: 100%;
   background: linear-gradient(180deg, #3a3d45 0%, #000000 100%);
   border: 1px solid #444;
-  border-radius: 0.75rem;
-  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: .75rem;
+  padding: .75rem 1.5rem;
+  box-shadow: 0 10px 30px #00000080;
   justify-content: space-between;
 }
 .subscribe-container .header .outer-header .inner-header h2 {
@@ -446,7 +443,7 @@ body {
 }
 .subscribe-container .header .outer-header .inner-header .social {
   display: flex;
-  gap: 0.75rem;
+  gap: .75rem;
 }
 .subscribe-container .header .outer-header .inner-header .social a {
   display: flex;
@@ -454,13 +451,13 @@ body {
   align-items: center;
   width: 4rem;
   height: 4rem;
-  border-radius: 0.75rem;
-  transition: all 0.3s ease;
+  border-radius: .75rem;
+  transition: all .3s ease;
   background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgb(255, 255, 255) 100%);
 }
 .subscribe-container .header .outer-header .inner-header .social a img {
   width: 3rem;
-  transition: filter 0.3s ease;
+  transition: filter .3s ease;
   filter: invert(1);
 }
 .subscribe-container .header .outer-header .inner-header .social a:hover {
@@ -486,31 +483,31 @@ body {
   margin-left: 1.5rem;
 }
 .subscribe-container .header .outer-header .inner-header2 a {
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   padding: 1.2rem 6rem;
   font-size: 2.5rem;
   font-family: ku;
   font-weight: 100;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
 }
 .subscribe-container .header .outer-header .inner-header2 a:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
 .subscribe-container .header form {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 .subscribe-container .header form .input-wrapper {
   position: relative;
   width: 42.25rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: .25rem;
 }
 .subscribe-container .header form input.email {
   width: 100%;
-  border: 0.15rem solid #212121;
-  border-radius: 0.75rem;
+  border: .15rem solid #212121;
+  border-radius: .75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
   padding: 1.5rem;
@@ -521,9 +518,9 @@ body {
 }
 .subscribe-container .header form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .subscribe-container .header form altcha-widget {
   color: #fff;
@@ -533,67 +530,24 @@ body {
 }
 .subscribe-container .header form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2.65rem;
-  margin: 0.35rem;
+  margin: .35rem;
   color: #fff;
   border: none;
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   font-size: 1.5rem;
   font-family: ku;
   font-weight: 100;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
   cursor: pointer;
 }
 .subscribe-container .header form button.submit:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
-}
-
-@media (max-width: 720px) {
-  .subscribe-container .header .logo {
-    width: 3.25rem;
-    margin-bottom: 0.35rem;
-    margin-top: 0.75rem;
-  }
-  .subscribe-container .header p {
-    font-size: 1.4rem;
-  }
-  .subscribe-container .header .headerimg {
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .subscribe-container .header .outer-header {
-    flex-direction: column;
-  }
-  .subscribe-container .header .outer-header .inner-header .social {
-    margin-right: auto;
-    margin-right: auto;
-  }
-  .subscribe-container .header .outer-header .inner-header2 {
-    margin-left: auto;
-    margin-top: 0.75rem;
-  }
-  .subscribe-container .header .outer-header .inner-header2 a {
-    padding: 1.2rem 7rem;
-  }
-  .subscribe-container .header form {
-    margin-top: 0.75rem;
-  }
-  .subscribe-container .header form .input-wrapper {
-    position: relative;
-    width: 22rem;
-  }
-  .subscribe-container .header form input.email {
-    font-size: 1.25rem;
-  }
-  .subscribe-container .header form button.submit {
-    padding: 0 1rem;
-    font-size: 1.25rem;
-  }
+  box-shadow: 0 0 20px 8px #ff7171;
 }
 .moreinfo-container {
   display: flex;
@@ -613,11 +567,11 @@ body {
   width: 4rem;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
 .moreinfo-container .header p {
   margin: 0;
-  margin-top: 0.15rem;
+  margin-top: .15rem;
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
@@ -639,9 +593,9 @@ body {
   width: 100%;
   background: linear-gradient(180deg, #3a3d45 0%, #000000 100%);
   border: 1px solid #212121;
-  border-radius: 0.75rem;
-  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: .75rem;
+  padding: .75rem 1.5rem;
+  box-shadow: 0 10px 30px #00000080;
   justify-content: space-between;
 }
 .moreinfo-container .header .outer-header .inner-header h2 {
@@ -654,7 +608,7 @@ body {
 }
 .moreinfo-container .header .outer-header .inner-header .social {
   display: flex;
-  gap: 0.75rem;
+  gap: .75rem;
 }
 .moreinfo-container .header .outer-header .inner-header .social a {
   display: flex;
@@ -662,13 +616,13 @@ body {
   align-items: center;
   width: 4rem;
   height: 4rem;
-  border-radius: 0.75rem;
-  transition: all 0.3s ease;
+  border-radius: .75rem;
+  transition: all .3s ease;
   background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgb(255, 255, 255) 100%);
 }
 .moreinfo-container .header .outer-header .inner-header .social a img {
   width: 3rem;
-  transition: filter 0.3s ease;
+  transition: filter .3s ease;
   filter: invert(1);
 }
 .moreinfo-container .header .outer-header .inner-header .social a:hover {
@@ -694,31 +648,30 @@ body {
   margin-left: 1.5rem;
 }
 .moreinfo-container .header .outer-header .inner-header2 a {
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   padding: 1.2rem 6rem;
   font-size: 2.5rem;
   font-family: ku;
   font-weight: 100;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
 }
 .moreinfo-container .header .outer-header .inner-header2 a:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
 .moreinfo-container .inner-container {
   background: #000;
   border-radius: 2.5rem;
-  margin: 0rem 10rem;
-  box-shadow: 0px 0px 50px 0px rgba(247, 4, 4, 0.9);
-  margin-bottom: 10rem;
+  margin: 0rem 10rem 10rem;
+  box-shadow: 0 0 50px #f70404e6;
   padding-bottom: 2.5rem;
 }
 .moreinfo-container .inner-container .headerimg {
   border-top-right-radius: 2.5rem;
   border-top-left-radius: 2.5rem;
-  margin-top: 0.25rem;
+  margin-top: .25rem;
 }
 .moreinfo-container .inner-container .profile-outside {
   display: flex;
@@ -737,12 +690,12 @@ body {
 .moreinfo-container .inner-container .profile-outside .profile img {
   border-radius: 0rem;
   margin-left: 0;
-  transition: all 0.3s ease;
-  border-radius: 0.25rem;
+  transition: all .3s ease;
+  border-radius: .25rem;
 }
 .moreinfo-container .inner-container .profile-outside .profile img:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
 .moreinfo-container .inner-container .profile-outside .profile .inner-profile {
   display: flex;
@@ -754,7 +707,7 @@ body {
   color: #fff;
   font-family: ku;
   font-weight: 100;
-  margin: 1rem 0 0.5rem 0;
+  margin: 1rem 0 .5rem;
   text-align: left;
   font-size: 2rem;
 }
@@ -787,7 +740,7 @@ body {
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid {
   border: 2px solid #212121;
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   margin: 0 auto;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form .input-wrapper {
@@ -796,8 +749,8 @@ body {
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email {
   width: 100%;
-  border: 0.15rem solid #212121;
-  border-radius: 0.75rem;
+  border: .15rem solid #212121;
+  border-radius: .75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
   padding: 1.5rem;
@@ -808,35 +761,34 @@ body {
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form altcha-widget {
   color: #fff;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2.65rem;
-  margin: 0.35rem;
+  margin: .35rem;
   color: #fff;
   border: none;
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   font-size: 1.5rem;
   font-family: ku;
   font-weight: 100;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
   cursor: pointer;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form button.submit:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
-
 @media (min-width: 751px) and (max-width: 950px) {
   .moreinfo-container .header h1 {
     font-size: 3rem;
@@ -849,14 +801,13 @@ body {
   }
   .moreinfo-container .header .outer-header .inner-header2 {
     margin-left: auto;
-    margin-top: 0.75rem;
+    margin-top: .75rem;
   }
   .moreinfo-container .header .outer-header .inner-header2 a {
     padding: 1.2rem 7rem;
   }
   .moreinfo-container .inner-container {
-    margin: 0rem 3.5rem;
-    margin-bottom: 5rem;
+    margin: 0rem 3.5rem 5rem;
     padding-bottom: 5rem;
   }
   .moreinfo-container .inner-container .profile-outside {
@@ -896,8 +847,8 @@ body {
 @media (max-width: 750px) {
   .moreinfo-container .header .logo {
     width: 3.25rem;
-    margin-bottom: 0.35rem;
-    margin-top: 0.75rem;
+    margin-bottom: .35rem;
+    margin-top: .75rem;
   }
   .moreinfo-container .header h1 {
     font-size: 3rem;
@@ -910,14 +861,13 @@ body {
   }
   .moreinfo-container .header .outer-header .inner-header2 {
     margin-left: auto;
-    margin-top: 0.75rem;
+    margin-top: .75rem;
   }
   .moreinfo-container .header .outer-header .inner-header2 a {
     padding: 1.2rem 7rem;
   }
   .moreinfo-container .inner-container {
-    margin: 0rem 0.5rem;
-    margin-bottom: 20rem;
+    margin: 0rem .5rem 20rem;
     padding-bottom: 2rem;
   }
   .moreinfo-container .inner-container .profile-outside {
@@ -957,15 +907,17 @@ body {
 body {
   overflow-y: hidden;
 }
-
 .ads-container {
   display: flex;
   flex-direction: column;
 }
 .ads-container b {
-  font-family: "bold";
+  font-family: bold;
 }
-.ads-container h1, .ads-container h2, .ads-container h3, .ads-container span {
+.ads-container h1,
+.ads-container h2,
+.ads-container h3,
+.ads-container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -988,7 +940,8 @@ body {
   font-size: 1.35rem;
   color: #670000;
 }
-.ads-container p, .ads-container .text {
+.ads-container p,
+.ads-container .text {
   font-family: kl;
   font-size: 1.25rem;
 }
@@ -1009,10 +962,10 @@ body {
   width: 4rem;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
 .ads-container .header p {
-  margin-top: 0.15rem;
+  margin-top: .15rem;
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
@@ -1037,9 +990,9 @@ body {
   width: 100%;
   background: linear-gradient(180deg, #3a3d45 0%, #000000 100%);
   border: 1px solid #444;
-  border-radius: 0.75rem;
-  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: .75rem;
+  padding: .75rem 1.5rem;
+  box-shadow: 0 10px 30px #00000080;
   justify-content: space-between;
 }
 .ads-container .header .outer-header .inner-header h2 {
@@ -1052,7 +1005,7 @@ body {
 }
 .ads-container .header .outer-header .inner-header .social {
   display: flex;
-  gap: 0.75rem;
+  gap: .75rem;
 }
 .ads-container .header .outer-header .inner-header .social a {
   display: flex;
@@ -1060,13 +1013,13 @@ body {
   align-items: center;
   width: 4rem;
   height: 4rem;
-  border-radius: 0.75rem;
-  transition: all 0.3s ease;
+  border-radius: .75rem;
+  transition: all .3s ease;
   background: linear-gradient(0deg, rgb(163, 163, 163) 21%, rgb(255, 255, 255) 100%);
 }
 .ads-container .header .outer-header .inner-header .social a img {
   width: 3rem;
-  transition: filter 0.3s ease;
+  transition: filter .3s ease;
   filter: invert(1);
 }
 .ads-container .header .outer-header .inner-header .social a:hover {
@@ -1092,31 +1045,31 @@ body {
   margin-left: 1.5rem;
 }
 .ads-container .header .outer-header .inner-header2 a {
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   padding: 1.2rem 6rem;
   font-size: 2.5rem;
   font-family: ku;
   font-weight: 100;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
 }
 .ads-container .header .outer-header .inner-header2 a:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
 .ads-container .header form {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 .ads-container .header form .input-wrapper {
   position: relative;
   width: 42.25rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: .25rem;
 }
 .ads-container .header form input.email {
   width: 100%;
-  border: 0.15rem solid #212121;
-  border-radius: 0.75rem;
+  border: .15rem solid #212121;
+  border-radius: .75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
   padding: 1.5rem;
@@ -1127,9 +1080,9 @@ body {
 }
 .ads-container .header form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .ads-container .header form altcha-widget {
   color: #fff;
@@ -1139,31 +1092,30 @@ body {
 }
 .ads-container .header form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2.65rem;
-  margin: 0.35rem;
+  margin: .35rem;
   color: #fff;
   border: none;
-  border-radius: 0.75rem;
+  border-radius: .75rem;
   font-size: 1.5rem;
   font-family: ku;
   font-weight: 100;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background: linear-gradient(0deg, #000 21%, rgb(255, 255, 255) 100%);
   cursor: pointer;
 }
 .ads-container .header form button.submit:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
-
 @media (max-width: 720px) {
   .subscribe-container .header .logo {
     width: 3.25rem;
-    margin-bottom: 0.35rem;
-    margin-top: 0.75rem;
+    margin-bottom: .35rem;
+    margin-top: .75rem;
   }
   .subscribe-container .header p {
     font-size: 1.4rem;
@@ -1177,17 +1129,16 @@ body {
   }
   .subscribe-container .header .outer-header .inner-header .social {
     margin-right: auto;
-    margin-right: auto;
   }
   .subscribe-container .header .outer-header .inner-header2 {
     margin-left: auto;
-    margin-top: 0.75rem;
+    margin-top: .75rem;
   }
   .subscribe-container .header .outer-header .inner-header2 a {
     padding: 1.2rem 7rem;
   }
   .subscribe-container .header form {
-    margin-top: 0.75rem;
+    margin-top: .75rem;
   }
   .subscribe-container .header form .input-wrapper {
     position: relative;
@@ -1207,17 +1158,20 @@ body {
   align-items: center;
 }
 .content-privacy b {
-  font-family: "bold";
+  font-family: bold;
 }
 .content-privacy .logo {
   background: none;
-  margin: 1.25rem 0 0 0;
+  margin: 1.25rem 0 0;
   width: 3.5rem;
 }
 .content-privacy .logo img {
   border-radius: 10rem;
 }
-.content-privacy h1, .content-privacy h2, .content-privacy h3, .content-privacy span {
+.content-privacy h1,
+.content-privacy h2,
+.content-privacy h3,
+.content-privacy span {
   text-align: left;
   font-family: ku;
   font-size: 4rem;
@@ -1233,7 +1187,8 @@ body {
   font-family: kl;
   font-size: 1.4rem;
 }
-.content-privacy p, .content-privacy li {
+.content-privacy p,
+.content-privacy li {
   font-family: kl;
   font-size: 1.2rem;
 }
@@ -1242,10 +1197,10 @@ body {
   background: #02090A;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
-  padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding: 0 5rem 5rem;
 }
-.content-privacy .content-privacy2 h2, .content-privacy .content-privacy2 span {
+.content-privacy .content-privacy2 h2,
+.content-privacy .content-privacy2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
@@ -1267,18 +1222,17 @@ body {
   font-size: 1.2rem;
   text-decoration: underline;
   color: #0ccdf4;
-  font-weight: bold;
+  font-weight: 700;
 }
 .content-privacy .content-privacy2 ul {
   padding-top: 1.5rem;
 }
 .content-privacy .content-privacy2 ul li {
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   font-size: 1.2rem;
   margin-left: 0;
   color: #fafafa;
 }
-
 @media (min-width: 660px) and (max-width: 874px) {
   .content-privacy .logo {
     margin-left: 1rem;
@@ -1308,7 +1262,7 @@ body {
 altcha-widget {
   position: relative;
   margin-left: 0;
-  margin-top: 0.1rem;
+  margin-top: .1rem;
   max-width: 200px;
   --altcha-max-width: 300px;
   --altcha-border-width: 0;
@@ -1316,10 +1270,9 @@ altcha-widget {
   font-family: ku;
   font-weight: 100;
 }
-
 .footer {
   width: 100%;
-  padding: 10rem 5rem 3rem 5rem;
+  padding: 10rem 5rem 3rem;
   box-sizing: border-box;
 }
 .footer h1 {
@@ -1348,15 +1301,15 @@ altcha-widget {
 .footer .footer-top .footer-signup h1 {
   margin: 0;
   padding-top: 2rem;
-  padding-bottom: 0.5rem;
-  font-family: "ku";
+  padding-bottom: .5rem;
+  font-family: ku;
   font-size: 2.5rem;
 }
 .footer .footer-top .footer-signup form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
 .footer .footer-top .footer-signup form .input-wrapper {
   position: relative;
@@ -1364,9 +1317,9 @@ altcha-widget {
 }
 .footer .footer-top .footer-signup form input.email {
   width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
+  padding: .85rem 6rem .85rem .75rem;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -1374,30 +1327,30 @@ altcha-widget {
 }
 .footer .footer-top .footer-signup form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .footer .footer-top .footer-signup form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .footer .footer-top .footer-signup form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .footer .footer-top .footer-links {
   display: flex;
-  margin: 0 0;
+  margin: 0;
   padding-top: 3.75rem;
 }
 .footer .footer-top .footer-links .column {
@@ -1416,13 +1369,13 @@ altcha-widget {
 .footer .footer-top .footer-links .column h4 {
   font-family: bold;
   margin-bottom: 1rem;
-  font-size: 0.85rem;
+  font-size: .85rem;
 }
 .footer .footer-top .footer-links .column a {
   color: #000;
   text-decoration: none;
-  margin-bottom: 0.75rem;
-  font-size: 0.825rem;
+  margin-bottom: .75rem;
+  font-size: .825rem;
 }
 .footer .footer-top .footer-links .column a:hover {
   color: #808182;
@@ -1439,7 +1392,7 @@ altcha-widget {
   margin-top: 0;
 }
 .footer .footer-bottom .footer-meta a {
-  font-size: 0.825rem;
+  font-size: .825rem;
   color: #000;
 }
 .footer .footer-bottom .footer-meta a:hover {
@@ -1457,7 +1410,6 @@ altcha-widget {
   border-radius: 0;
   margin-left: 0;
 }
-
 @media (min-width: 875px) and (max-width: 1162px) {
   .footer h1 {
     font-size: 8.5rem;
@@ -1484,20 +1436,20 @@ altcha-widget {
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
-    padding-top: 0.75rem;
+    padding-top: .75rem;
   }
   .footer .footer-top .footer-links .column {
     margin: 0;
     padding: 0;
   }
   .footer .footer-top .footer-links .column:nth-child(2) {
-    padding-top: 0.75rem;
+    padding-top: .75rem;
   }
   .footer .footer-top .footer-bottom {
     padding-bottom: 1.25rem;
   }
   .footer .footer-top .footer-bottom .footer-meta {
-    gap: 0.75rem;
+    gap: .75rem;
   }
   .footer .footer-top .footer-bottom .footer-social {
     gap: 1.25rem;
@@ -1508,7 +1460,7 @@ altcha-widget {
 }
 @media (max-width: 659px) {
   .footer {
-    padding: 1.25rem 0.5rem 1.25rem 0.5rem;
+    padding: 1.25rem .5rem;
   }
   .footer h1 {
     font-size: 3.65rem;
@@ -1538,13 +1490,13 @@ altcha-widget {
     padding: 0;
   }
   .footer .footer-top .footer-links .column:nth-child(2) {
-    padding-top: 0.5rem;
+    padding-top: .5rem;
   }
   .footer .footer-bottom {
     padding-bottom: 1.25rem;
   }
   .footer .footer-bottom .footer-meta {
-    gap: 0.5rem;
+    gap: .5rem;
   }
   .footer .footer-bottom .footer-social {
     gap: 1.25rem;
@@ -1557,7 +1509,6 @@ altcha-widget {
   box-sizing: border-box;
   margin: auto;
 }
-
 html,
 body {
   margin: auto;
@@ -1565,17 +1516,14 @@ body {
   height: 100vh;
   background-color: #fff7ed;
 }
-
 body {
   overflow-x: hidden;
 }
-
 main {
   padding: 0;
   margin: 0 auto;
   background: #fff7ed;
 }
-
 img {
   display: block;
   width: 100%;
@@ -1583,64 +1531,49 @@ img {
   outline: none;
   border: none;
 }
-
 a {
   text-decoration: none;
-  font-family: "book";
+  font-family: book;
 }
-
 h1 {
   font-size: 1.35rem;
-  font-family: "book";
+  font-family: book;
   font-weight: 100;
   color: #121212;
   text-decoration: none;
   line-height: normal;
 }
-
 h2 {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-family: medium;
   font-weight: 100;
   color: #121212;
   text-decoration: none;
   line-height: normal;
 }
-
 h3,
 h4,
 h5,
 h6 {
-  font-family: "medium";
+  font-family: medium;
   color: #121212;
   line-height: normal;
 }
-
-p {
-  font-family: "book";
-  font-size: 1.1rem;
-  color: #121212;
-  line-height: normal;
-}
-
+p,
 li {
-  font-family: "book";
+  font-family: book;
   font-size: 1.1rem;
   color: #121212;
   line-height: normal;
 }
-
 span {
   font-family: bold;
   color: #121212;
   line-height: normal;
 }
-
 button {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-family: medium;
   font-weight: 100;
   line-height: normal;
 }
-
-/*# sourceMappingURL=global.css.map */
