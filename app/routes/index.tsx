@@ -62,7 +62,7 @@ export default function Index() {
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img className="logo" src={tp} alt="The Poast Logo" />
-            <p>Subscribe to The Poast's free daily email</p>
+            <p>Subscribe to The Poast's one daily email</p>
             <p>Understand the current thing in tech in 1-minute, plus get one top podcast, and exclusive subscriber-only insights</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper">
