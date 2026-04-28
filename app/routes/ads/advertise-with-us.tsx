@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import Altcha from "../components/altcha";
+import Altcha from "../../components/altcha";
 
 import li from "~/../public/img/social/linkedin.png";
 import x from "~/../public/img/social/x.png";
