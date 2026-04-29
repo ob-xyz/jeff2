@@ -47,16 +47,16 @@ export default function Index() {
             <img className="headerimg" src={bg} alt="Jeffamazon Background" />
             <div className="profile-outside">
             <div className="profile">
-                <a href="https://x.com/chrissignore" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/chrissignore" target="_blank" rel="noopener noreferrer">
                 <img className="headerimg" src={cs} alt="It's me (Chris Signore)" />
                 <div className="inner-profile">
                     <h1>Chris Signore</h1>
                     <div className="social">
-                        <a className="x" href="https://x.com/chrissignore" target="_blank" rel="noopener noreferrer">
-                            <img src={x} alt="X (Twitter)" />
-                        </a>
                         <a className="li" href="https://linkedin.com/in/chrissignore" target="_blank" rel="noopener noreferrer">
                             <img src={li} alt="LinkedIn" />
+                        </a>
+                        <a className="x" href="https://x.com/chrissignore" target="_blank" rel="noopener noreferrer">
+                            <img src={x} alt="X (Twitter)" />
                         </a>
                     </div>
                 </div>
