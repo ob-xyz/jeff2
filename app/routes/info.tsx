@@ -20,7 +20,7 @@ export default function Index() {
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
         <p>Keep up with tech in one minute</p>
-        <p>Join 38,000 readers for <Link to="/today">one daily email</Link></p>
+        <p>Join 38,000 readers for <a href="/today">one daily email</a></p>        
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
@@ -33,7 +33,7 @@ export default function Index() {
               <a className="li" href="https://linkedin.com/company/thepoast" target="_blank" rel="noopener noreferrer">
                 <img src={li} alt="LinkedIn" />
               </a>
-              <Link className="info" to="/chris">
+              <Link className="info" to="/info">
                 <img src={info} alt="More Info" />
               </Link>
             </div>
