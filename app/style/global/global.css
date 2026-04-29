@@ -327,7 +327,10 @@ body {
     margin-top: 0.75rem;
   }
   .container .header p {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
+  }
+  .container .header p:nth-child(3) {
+    font-size: 1.1rem;
   }
   .container .header .headerimg {
     width: 100%;
@@ -560,7 +563,10 @@ body {
     margin-top: 0.75rem;
   }
   .subscribe-container .header p {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
+  }
+  .subscribe-container .header p:nth-child(3) {
+    font-size: 1.1rem;
   }
   .subscribe-container .header .headerimg {
     width: 100%;
@@ -845,7 +851,7 @@ body {
     font-size: 3rem;
   }
   .moreinfo-container .header p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .moreinfo-container .header .outer-header {
     flex-direction: column;
@@ -906,7 +912,10 @@ body {
     font-size: 3rem;
   }
   .moreinfo-container .header p {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
+  }
+  .moreinfo-container .header p:nth-child(3) {
+    font-size: 1.1rem;
   }
   .moreinfo-container .header .outer-header {
     flex-direction: column;
@@ -1173,7 +1182,10 @@ body {
     margin-top: 0.75rem;
   }
   .subscribe-container .header p {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
+  }
+  .subscribe-container .header p:nth-child(3) {
+    font-size: 1.1rem;
   }
   .subscribe-container .header .headerimg {
     width: 100%;
