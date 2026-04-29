@@ -67,10 +67,7 @@ body{
         font-size: 2rem;
         font-weight: 100;
         font-family: ku;
-        background: #000;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        text-align: center;
       }
 
       .headerimg{
@@ -236,7 +233,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         margin-top: .75rem;
       }
       p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
       }
       .headerimg{
         width: 100%;

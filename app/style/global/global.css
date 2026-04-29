@@ -199,6 +199,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
+  text-align: center;
 }
 .container .header p a {
   font-family: kl;
@@ -326,7 +327,7 @@ body {
     margin-top: 0.75rem;
   }
   .container .header p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .container .header .headerimg {
     width: 100%;
@@ -412,10 +413,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
-  background: #000;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  text-align: center;
 }
 .subscribe-container .header .headerimg {
   margin: 0 auto;
@@ -562,7 +560,7 @@ body {
     margin-top: 0.75rem;
   }
   .subscribe-container .header p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .subscribe-container .header .headerimg {
     width: 100%;
@@ -625,6 +623,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
+  text-align: center;
 }
 .moreinfo-container .header p a {
   font-family: kl;
@@ -846,7 +845,7 @@ body {
     font-size: 3rem;
   }
   .moreinfo-container .header p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .moreinfo-container .header .outer-header {
     flex-direction: column;
@@ -1022,6 +1021,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   font-family: ku;
+  text-align: center;
 }
 .ads-container .header p a {
   font-family: kl;
@@ -1173,7 +1173,7 @@ body {
     margin-top: 0.75rem;
   }
   .subscribe-container .header p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .subscribe-container .header .headerimg {
     width: 100%;
