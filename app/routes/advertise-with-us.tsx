@@ -13,7 +13,7 @@ export default function Index() {
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
         <p>Advertise with us</p>
-        <p>Join 38k+ who read this <Link to="/today">one daily email</Link></p>
+        <p>Join 38,000 readers for <Link to="/today">one daily email</Link></p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">

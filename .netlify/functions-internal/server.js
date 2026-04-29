@@ -63,7 +63,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-Z5AV7AUK.css";
+var global_default = "/build/_assets/global-WRDW37TR.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -78,8 +78,8 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
   }
 ], meta = () => ({
   charset: "utf-8",
-  title: "The Poast \u2014 Technology's Daily Feed",
-  description: "Subscribe to The Poast. Free Daily Email. Understand the current thing in tech in 1-minute, plus get one top podcast, and exclusive subscriber-only insights.",
+  title: "The Poast \u2014 Technology's Daily Post",
+  description: "Subscribe to The Poast. Free newsletter. Keep up with tech in one minute, plus get one hand-picked podcast, and exclusive insights.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -201,7 +201,7 @@ function Index() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: [
-      "Join 38k+ who read this ",
+      "Join 38,000 readers for ",
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react4.Link, { to: "/today", children: "one daily email" }, void 0, !1, {
         fileName: "app/routes/advertise-with-us.tsx",
         lineNumber: 16,
@@ -375,7 +375,7 @@ function Index2() {
           lineNumber: 15,
           columnNumber: 41
         }, this),
-        "Effective: September 1, 2025."
+        "Effective: April 5, 2025."
       ] }, void 0, !0, {
         fileName: "app/routes/policies/privacy.tsx",
         lineNumber: 15,
@@ -1043,7 +1043,7 @@ function Index3() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "content-privacy2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "Privacy Policy." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "Terms and Conditions." }, void 0, !1, {
           fileName: "app/routes/policies/terms.tsx",
           lineNumber: 15,
           columnNumber: 13
@@ -1051,9 +1051,9 @@ function Index3() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/routes/policies/terms.tsx",
           lineNumber: 15,
-          columnNumber: 41
+          columnNumber: 47
         }, this),
-        "Effective: September 1, 2025."
+        "Effective: April 5, 2025."
       ] }, void 0, !0, {
         fileName: "app/routes/policies/terms.tsx",
         lineNumber: 15,
@@ -1713,12 +1713,12 @@ function Index4() {
       lineNumber: 14,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Understand tech in 1-minute" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Keep up with tech in one minute" }, void 0, !1, {
       fileName: "app/routes/subscribe.tsx",
       lineNumber: 15,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Subscribe for free" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Get The Poast for free" }, void 0, !1, {
       fileName: "app/routes/subscribe.tsx",
       lineNumber: 16,
       columnNumber: 9
@@ -1872,13 +1872,13 @@ function Index5() {
         lineNumber: 21,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: "Understand tech in 1-minute" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: "Keep up with tech in one minute" }, void 0, !1, {
         fileName: "app/routes/chris.tsx",
         lineNumber: 22,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: [
-        "Join 38k+ who read this ",
+        "Join 38,000 readers for ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react6.Link, { to: "/today", children: "one daily email" }, void 0, !1, {
           fileName: "app/routes/chris.tsx",
           lineNumber: 23,
@@ -1918,7 +1918,7 @@ function Index5() {
             lineNumber: 33,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react6.Link, { className: "info", to: "/info", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: info_default, alt: "More Info" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react6.Link, { className: "info", to: "/chris", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: info_default, alt: "More Info" }, void 0, !1, {
             fileName: "app/routes/chris.tsx",
             lineNumber: 37,
             columnNumber: 17
@@ -2131,12 +2131,12 @@ function Index6() {
         lineNumber: 64,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Subscribe to The Poast's one daily email" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Subscribe to The Poast's free newsletter" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 65,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Understand the current thing in tech in 1-minute, plus get one top podcast, and exclusive subscriber-only insights" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Keep up with the current thing in tech, plus get one hand-picked podcast, and exclusive insights" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 66,
         columnNumber: 13
@@ -2198,13 +2198,13 @@ function Index6() {
         lineNumber: 88,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Understand tech in 1-minute" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Keep up with tech in one minute" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 89,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: [
-        "Join 38k+ who read this ",
+        "Join 38,000 readers for ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react8.Link, { to: "/today", children: "one daily email" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 90,
@@ -2411,7 +2411,7 @@ function Index7() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-NBTJ7FAB.js", imports: ["/build/_shared/chunk-ROHSLC5J.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EGGZIH5D.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-WXUBOUOG.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/advertise-with-us": { id: "routes/advertise-with-us", parentId: "root", path: "advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/advertise-with-us-WFPO2EEI.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chris": { id: "routes/chris", parentId: "root", path: "chris", index: void 0, caseSensitive: void 0, module: "/build/routes/chris-4TG6PC3C.js", imports: ["/build/_shared/chunk-MG3UHPBD.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-4RBHHU6A.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-R2RAOQYI.js", imports: ["/build/_shared/chunk-6ZKK5MCN.js", "/build/_shared/chunk-MG3UHPBD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-CYHBVXBV.js", imports: ["/build/_shared/chunk-6ZKK5MCN.js", "/build/_shared/chunk-MG3UHPBD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-44EGOOKD.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "2887725e", hmr: void 0, url: "/build/manifest-2887725E.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-NBTJ7FAB.js", imports: ["/build/_shared/chunk-ROHSLC5J.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-T2NJKGZM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-WXUBOUOG.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/advertise-with-us": { id: "routes/advertise-with-us", parentId: "root", path: "advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/advertise-with-us-PTHHE3DQ.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chris": { id: "routes/chris", parentId: "root", path: "chris", index: void 0, caseSensitive: void 0, module: "/build/routes/chris-WCVFNC2Z.js", imports: ["/build/_shared/chunk-MG3UHPBD.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-XJ2BTXBT.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-IQ4ZHPTX.js", imports: ["/build/_shared/chunk-6ZKK5MCN.js", "/build/_shared/chunk-MG3UHPBD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-75HJJMEK.js", imports: ["/build/_shared/chunk-6ZKK5MCN.js", "/build/_shared/chunk-MG3UHPBD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-FUPXZABF.js", imports: ["/build/_shared/chunk-KTBU7SLB.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-NIP5C7XD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "95a1e36f", hmr: void 0, url: "/build/manifest-95A1E36F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

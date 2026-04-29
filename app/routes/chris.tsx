@@ -19,8 +19,8 @@ export default function Index() {
     <div className="moreinfo-container">
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
-        <p>Understand tech in 1-minute</p>
-        <p>Join 38k+ who read this <Link to="/today">one daily email</Link></p>
+        <p>Keep up with tech in one minute</p>
+        <p>Join 38,000 readers for <Link to="/today">one daily email</Link></p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
