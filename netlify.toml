@@ -5,6 +5,12 @@
 [dev]
   command = "remix watch"
   port = 3000
+  
+[[redirects]]
+  from = "/today"
+  to = "https://app.thepoast.com/campaign/08b22c17-a4e1-4374-92c8-a0b0593e33fb/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/media-kit"
@@ -21,12 +27,6 @@
 [[redirects]]
   from = "/sample"
   to = "https://app.thepoast.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/e0b14610-4448-4657-ae89-21598fe78de2"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/today"
-  to = "https://app.thepoast.com/campaign/611791e4-dfa1-4dae-ab0c-40a5e6fae402/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
   status = 200
   force = true
 
