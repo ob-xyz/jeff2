@@ -1645,25 +1645,25 @@
   force = true
 
 [[redirects]]
-  from = "/preview/aeropay"
+  from = "/aeropay"
   to = "https://app.thepoast.com/campaign/90e243cd-ca9a-44c9-9799-768e8220da34/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/preview/polymarket"
+  from = "/polymarket"
   to = "https://app.thepoast.com/campaign/03a91893-c866-45db-b507-9ee799ebb3a3/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/preview/kalshi"
+  from = "/kalshi"
   to = "https://app.thepoast.com/campaign/e142f718-420c-483e-9b4b-585eb334e28b/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/preview/mercedes-benz"
+  from = "/mercedes-benz"
   to = "https://app.thepoast.com/campaign/3d0e1311-ed88-4b79-b565-dd37d6f1e509/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
   force = true
@@ -1686,6 +1686,96 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/linear"
+  to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+  
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
