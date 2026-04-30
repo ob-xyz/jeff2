@@ -175,19 +175,19 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
   }
   input.email {
     width: 100%;
-    border: .15rem solid #212121;
+    border: .175rem solid #212121;
     border-radius: .75rem;
     font-size: 1.5rem;
     box-sizing: border-box;
     padding:1.5rem;
     font-family: ku;
     font-weight: 100;       
-    background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgba(255, 255, 255, 1) 120%);
-    color: #fff;
+    background: linear-gradient(0deg,#fff 21%, rgba(255, 255, 255, 1) 100%);
+    color: #000;
 
     &:focus {
       outline: none;
-      box-shadow: 0 0 1px 1px #02090A;
+      box-shadow: 0 0 2px 2px #ff7171;
       border-color: #02090A;
       caret-color: #02090A;
     }
@@ -213,6 +213,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
     font-weight: 100;
     transition: all 0.3s ease;
     background: linear-gradient(0deg,#000 21%, rgba(255, 255, 255, 1) 100%);
+
     cursor: pointer;
 
       &:hover {

@@ -12,8 +12,8 @@ export default function Index() {
     <div className="ads-container">
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
-        <p>Advertise with us</p>
-        <p>Reach 38,000 readers reading this <a href="/today">one daily email</a></p>        
+        <p>Interested in advertising with The Poast?</p>
+        <p>Contact us for information on setting up a campaign that helps you grow your business!</p>        
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">

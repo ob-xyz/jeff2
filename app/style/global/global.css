@@ -512,19 +512,19 @@ body {
 }
 .subscribe-container .header form input.email {
   width: 100%;
-  border: 0.15rem solid #212121;
+  border: 0.175rem solid #212121;
   border-radius: 0.75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
   padding: 1.5rem;
   font-family: ku;
   font-weight: 100;
-  background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgb(255, 255, 255) 120%);
-  color: #fff;
+  background: linear-gradient(0deg, #fff 21%, rgb(255, 255, 255) 100%);
+  color: #000;
 }
 .subscribe-container .header form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
+  box-shadow: 0 0 2px 2px #ff7171;
   border-color: #02090A;
   caret-color: #02090A;
 }
@@ -756,7 +756,6 @@ body {
 .moreinfo-container .inner-container .profile-outside .profile .inner-profile {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   margin-left: 0;
 }
 .moreinfo-container .inner-container .profile-outside .profile .inner-profile h1 {
@@ -770,7 +769,6 @@ body {
 .moreinfo-container .inner-container .profile-outside .profile .inner-profile .social {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   gap: 1rem;
   margin-left: 0;
 }
@@ -805,19 +803,19 @@ body {
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email {
   width: 100%;
-  border: 0.15rem solid #212121;
+  border: 0.175rem solid #212121;
   border-radius: 0.75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
   padding: 1.5rem;
   font-family: ku;
   font-weight: 100;
-  background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgb(255, 255, 255) 120%);
+  background: linear-gradient(0deg, rgb(13, 13, 13) 10%, rgb(255, 255, 255) 120%);
   color: #fff;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
+  box-shadow: 0 0 2px 2px #ff7171;
   border-color: #02090A;
   caret-color: #02090A;
 }
@@ -843,7 +841,7 @@ body {
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form button.submit:hover {
   transform: none;
-  box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+  box-shadow: 0 0 20px 8px #ff7171;
 }
 
 @media (min-width: 751px) and (max-width: 950px) {
@@ -1032,10 +1030,9 @@ body {
   font-family: ku;
   text-align: center;
 }
-.ads-container .header p a {
+.ads-container .header p:nth-child(3) {
   font-family: kl;
-  text-decoration: underline !important;
-  color: #000;
+  font-size: 1.25rem;
 }
 .ads-container .header .headerimg {
   margin: 0 auto;
@@ -1131,19 +1128,19 @@ body {
 }
 .ads-container .header form input.email {
   width: 100%;
-  border: 0.15rem solid #212121;
+  border: 0.175rem solid #212121;
   border-radius: 0.75rem;
   font-size: 1.5rem;
   box-sizing: border-box;
   padding: 1.5rem;
   font-family: ku;
   font-weight: 100;
-  background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgb(255, 255, 255) 120%);
-  color: #fff;
+  background: linear-gradient(0deg, #fff 21%, rgb(255, 255, 255) 100%);
+  color: #000;
 }
 .ads-container .header form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
+  box-shadow: 0 0 2px 2px #ff7171;
   border-color: #02090A;
   caret-color: #02090A;
 }

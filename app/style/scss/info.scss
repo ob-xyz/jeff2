@@ -165,9 +165,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
   .inner-profile {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-left:0; 
-
     h1 {
       color: #fff;
       font-family: ku;
@@ -180,10 +178,8 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
     .social {
       display: flex;
       flex-direction: row;
-      justify-content: flex-start;
       gap: 1rem;
-      margin-left:0;
-
+      margin-left:0;      
       a {
         display: flex;
         align-items: center;
@@ -219,19 +215,19 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
       }
       input.email {
         width: 100%;
-        border: .15rem solid #212121;
+        border: .175rem solid #212121;
         border-radius: .75rem;
         font-size: 1.5rem;
         box-sizing: border-box;
         padding:1.5rem;
         font-family: ku;
         font-weight: 100;       
-        background: linear-gradient(0deg, rgb(30, 30, 30) 10%, rgba(255, 255, 255, 1) 120%);
+        background: linear-gradient(0deg, rgb(13, 13, 13) 10%, rgba(255, 255, 255, 1) 120%);
         color: #fff;
         
         &:focus {
           outline: none;
-          box-shadow: 0 0 1px 1px #02090A;
+          box-shadow: 0 0 2px 2px #ff7171;
           border-color: #02090A;
           caret-color: #02090A;
         }
@@ -258,7 +254,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 
       &:hover {
           transform: none;
-          box-shadow: 0 0 20px 8px rgb(255, 113, 113);
+          box-shadow: 0 0 20px 8px #ff7171;
         }
       }
     }
