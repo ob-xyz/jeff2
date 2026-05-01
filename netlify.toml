@@ -1775,6 +1775,12 @@
   to = "https://app.thepoast.com/campaign/61141c98-3274-46c7-90d9-c4c63817cbbc/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/cognition"
+  to = "https://app.thepoast.com/campaign/99d1927c-9abb-4443-a6d1-377aef3e395a/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
   
 [[redirects]]
   from = "/*"
