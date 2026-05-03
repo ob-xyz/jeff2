@@ -68,10 +68,15 @@ body{
         font-weight: 100;
         font-family: ku;
         text-align: center;
+        &:nth-child(3){
+          font-size:1.75rem;
+        }
       }
-      p:nth-child(3){
-        font-family: kl;
-        font-size:1.25rem;
+      p a {          
+          font-family: kl;
+          text-decoration: underline !important;
+          color: #000;
+          font-size:1.75rem;
       }
 
       .headerimg{
@@ -239,9 +244,12 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
       }
       p {
         font-size: 1.3rem;
+        &:nth-child(3){
+          font-size:1.2rem;
+        }
       }
-      p:nth-child(3) {
-        font-size: 1.1rem;
+      p a {
+        font-size: 1.2rem;
       }
       .headerimg{
         width: 100%;

@@ -201,10 +201,14 @@ body {
   font-family: ku;
   text-align: center;
 }
+.container .header p:nth-child(3) {
+  font-size: 1.75rem;
+}
 .container .header p a {
   font-family: kl;
   text-decoration: underline !important;
   color: #000;
+  font-size: 1.75rem;
 }
 .container .header .headerimg {
   margin: 0 auto;
@@ -330,7 +334,10 @@ body {
     font-size: 1.3rem;
   }
   .container .header p:nth-child(3) {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .container .header p a {
+    font-size: 1.2rem;
   }
   .container .header .headerimg {
     width: 100%;
@@ -417,6 +424,15 @@ body {
   font-weight: 100;
   font-family: ku;
   text-align: center;
+}
+.subscribe-container .header p:nth-child(3) {
+  font-size: 1.75rem;
+}
+.subscribe-container .header p a {
+  font-family: kl;
+  text-decoration: underline !important;
+  color: #000;
+  font-size: 1.75rem;
 }
 .subscribe-container .header .headerimg {
   margin: 0 auto;
@@ -566,7 +582,10 @@ body {
     font-size: 1.3rem;
   }
   .subscribe-container .header p:nth-child(3) {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .subscribe-container .header p a {
+    font-size: 1.2rem;
   }
   .subscribe-container .header .headerimg {
     width: 100%;
@@ -631,10 +650,14 @@ body {
   font-family: ku;
   text-align: center;
 }
+.moreinfo-container .header p:nth-child(3) {
+  font-size: 1.75rem;
+}
 .moreinfo-container .header p a {
   font-family: kl;
   text-decoration: underline !important;
   color: #000;
+  font-size: 1.75rem;
 }
 .moreinfo-container .header .outer-header {
   display: flex;
@@ -844,12 +867,18 @@ body {
   box-shadow: 0 0 20px 8px #ff7171;
 }
 
-@media (min-width: 751px) and (max-width: 950px) {
+@media (min-width: 751px) and (max-width: 1110px) {
   .moreinfo-container .header h1 {
     font-size: 3rem;
   }
   .moreinfo-container .header p {
     font-size: 1.4rem;
+  }
+  .moreinfo-container .header p:nth-child(3) {
+    font-size: 1.3rem;
+  }
+  .moreinfo-container .header p a {
+    font-size: 1.3rem;
   }
   .moreinfo-container .header .outer-header {
     flex-direction: column;
@@ -913,7 +942,10 @@ body {
     font-size: 1.3rem;
   }
   .moreinfo-container .header p:nth-child(3) {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .moreinfo-container .header p a {
+    font-size: 1.2rem;
   }
   .moreinfo-container .header .outer-header {
     flex-direction: column;
@@ -1031,8 +1063,13 @@ body {
   text-align: center;
 }
 .ads-container .header p:nth-child(3) {
+  font-size: 1.75rem;
+}
+.ads-container .header p a {
   font-family: kl;
-  font-size: 1.25rem;
+  text-decoration: underline !important;
+  color: #000;
+  font-size: 1.75rem;
 }
 .ads-container .header .headerimg {
   margin: 0 auto;
@@ -1182,7 +1219,10 @@ body {
     font-size: 1.3rem;
   }
   .subscribe-container .header p:nth-child(3) {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .subscribe-container .header p a {
+    font-size: 1.2rem;
   }
   .subscribe-container .header .headerimg {
     width: 100%;
