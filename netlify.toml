@@ -1699,7 +1699,7 @@
   force = true
 
 [[redirects]]
-  from = "/outset"
+  from = "/figma"
   to = "https://app.thepoast.com/campaign/895ffca8-0abc-4bc4-ad17-4e4ee6ccf98f/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
   force = true
