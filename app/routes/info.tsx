@@ -19,7 +19,7 @@ export default function Index() {
     <div className="moreinfo-container">
       <div className="header">
         <img className="logo" src={logo} alt="The Poast Logo" />
-        <p>Gotta minute?</p>
+        <p>More info</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
