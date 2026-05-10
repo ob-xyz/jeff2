@@ -201,7 +201,7 @@ body {
   font-family: ku;
   text-align: center;
 }
-.container .header p:nth-child(3) {
+.container .header p:nth-child(3), .container .header p:nth-child(4) {
   font-size: 1.75rem;
 }
 .container .header p a {
@@ -331,9 +331,9 @@ body {
     margin-top: 0.75rem;
   }
   .container .header p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
-  .container .header p:nth-child(3) {
+  .container .header p:nth-child(3), .container .header p:nth-child(4) {
     font-size: 1rem;
   }
   .container .header p a {
@@ -425,7 +425,7 @@ body {
   font-family: ku;
   text-align: center;
 }
-.subscribe-container .header p:nth-child(3) {
+.subscribe-container .header p:nth-child(3), .subscribe-container .header p:nth-child(4) {
   font-size: 1.75rem;
 }
 .subscribe-container .header p a {
@@ -579,9 +579,9 @@ body {
     margin-top: 0.75rem;
   }
   .subscribe-container .header p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
-  .subscribe-container .header p:nth-child(3) {
+  .subscribe-container .header p:nth-child(3), .subscribe-container .header p:nth-child(4) {
     font-size: 1rem;
   }
   .subscribe-container .header p a {
@@ -650,7 +650,7 @@ body {
   font-family: ku;
   text-align: center;
 }
-.moreinfo-container .header p:nth-child(3) {
+.moreinfo-container .header p:nth-child(3), .moreinfo-container .header p:nth-child(4) {
   font-size: 1.75rem;
 }
 .moreinfo-container .header p a {
@@ -939,9 +939,9 @@ body {
     font-size: 3rem;
   }
   .moreinfo-container .header p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
-  .moreinfo-container .header p:nth-child(3) {
+  .moreinfo-container .header p:nth-child(3), .moreinfo-container .header p:nth-child(4) {
     font-size: 1rem;
   }
   .moreinfo-container .header p a {

@@ -27,7 +27,8 @@
         font-weight: 100;
         font-family: ku;
         text-align: center;
-        &:nth-child(3){
+        &:nth-child(3),
+        &:nth-child(4){
           font-size:1.75rem;
         }
       }
@@ -356,8 +357,9 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         font-size: 3rem;
       }
       p {
-        font-size: 1.1rem;
-        &:nth-child(3){
+        font-size: 1.4rem;
+        &:nth-child(3),
+        &:nth-child(4){
           font-size:1rem;
         }
       }
